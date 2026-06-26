@@ -44,6 +44,13 @@
   .sliders label { font-size: 0.78rem; color: #5a6475; display: flex; justify-content: space-between; }
   input[type=range] { width: 100%; accent-color: #1f6feb; height: 26px; }
   .buy input[type=range] { accent-color: #138a52; }
+  .beds { margin-top: 16px; }
+  .beds-label { font-size: 0.78rem; color: #5a6475; display: block; margin-bottom: 7px; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip { padding: 9px 16px; border: 1px solid #d8dce6; border-radius: 999px; background: #fff;
+    font-size: 0.92rem; font-weight: 600; color: #3a4252; cursor: pointer; transition: background .12s, border-color .12s, color .12s; }
+  .chip.on { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+  .buy .chip.on { background: #138a52; border-color: #138a52; }
   .ctl-actions { display: flex; gap: 10px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
   .btn {
     padding: 10px 16px; border: none; border-radius: 9px; font-size: 0.9rem; font-weight: 600;
@@ -138,6 +145,16 @@
         <label>Maximum <span id="rent-max-v"></span></label>
         <input type="range" id="rent-max">
       </div>
+      <div class="beds">
+        <span class="beds-label">Bedrooms</span>
+        <div class="chips" id="rent-beds">
+          <button class="chip" data-beds="any">Any</button>
+          <button class="chip" data-beds="1">1</button>
+          <button class="chip" data-beds="2">2</button>
+          <button class="chip" data-beds="3">3</button>
+          <button class="chip" data-beds="4">4+</button>
+        </div>
+      </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="rent">Save my budget</button>
         <button class="btn ghost" data-reset="rent">Reset</button>
@@ -161,6 +178,16 @@
         <input type="range" id="buy-min">
         <label>Maximum <span id="buy-max-v"></span></label>
         <input type="range" id="buy-max">
+      </div>
+      <div class="beds">
+        <span class="beds-label">Bedrooms</span>
+        <div class="chips" id="buy-beds">
+          <button class="chip" data-beds="any">Any</button>
+          <button class="chip" data-beds="1">1</button>
+          <button class="chip" data-beds="2">2</button>
+          <button class="chip" data-beds="3">3</button>
+          <button class="chip" data-beds="4">4+</button>
+        </div>
       </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="buy">Save my budget</button>
@@ -200,10 +227,12 @@
 
 <script>
 const LS_KEY = "mumPropertyRanges";       // saved budget ranges
+const BEDS_KEY = "mumPropertyBeds";        // saved bedroom filter
 const STATE_KEY = "mumPropertyState";      // local fallback for favourites/hidden
 const SUBURB_SLUGS = []; // filled from config
 let DATA = { rent: [], buy: [], config: null };
 let RANGES = {}; // {rent:{min,max}, buy:{min,max}}
+let BEDS = { rent: [], buy: [] }; // selected bedroom counts per tab ([] = Any)
 let STATE = { favourites: new Set(), hidden: new Set(), synced: false };
 
 function fmtRent(v){ return "$" + v.toLocaleString() + "/wk"; }
@@ -255,6 +284,34 @@ function paintLabels(kind){
   document.getElementById(kind+"-label").textContent = f(r.min) + " – " + f(r.max);
   document.getElementById(kind+"-min-v").textContent = f(r.min);
   document.getElementById(kind+"-max-v").textContent = f(r.max);
+}
+
+/* ---------- bedroom filter (per-device) ---------- */
+function loadBeds(){
+  try { const b = JSON.parse(localStorage.getItem(BEDS_KEY)) || {}; BEDS.rent = b.rent || []; BEDS.buy = b.buy || []; }
+  catch(e){ BEDS = { rent: [], buy: [] }; }
+}
+function saveBeds(){ localStorage.setItem(BEDS_KEY, JSON.stringify(BEDS)); }
+
+function setupBeds(kind){
+  const host = document.getElementById(kind+"-beds");
+  host.querySelectorAll('.chip').forEach(c => {
+    const v = c.dataset.beds;
+    const on = v === 'any' ? BEDS[kind].length === 0 : BEDS[kind].includes(+v);
+    c.classList.toggle('on', on);
+    c.onclick = () => {
+      if (v === 'any') { BEDS[kind] = []; }
+      else { const n = +v, i = BEDS[kind].indexOf(n); if (i >= 0) BEDS[kind].splice(i,1); else BEDS[kind].push(n); }
+      saveBeds(); setupBeds(kind); render(kind); paintTabCounts();
+    };
+  });
+}
+
+function bedsMatch(item, kind){
+  const sel = BEDS[kind];
+  if (!sel || sel.length === 0) return true;       // Any
+  if (item.beds == null) return false;             // unknown beds excluded when filtering
+  return sel.some(n => n >= 4 ? item.beds >= 4 : item.beds === n);
 }
 
 /* ---------- favourites / hidden state ---------- */
@@ -365,7 +422,7 @@ function card(item, context){
 
 function render(kind){
   const r = RANGES[kind];
-  const all = (DATA[kind] || []).filter(x => !isHidden(x._id));
+  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind));
   const inRange = all.filter(x => x.priceValue != null && x.priceValue >= r.min && x.priceValue <= r.max);
   const noPrice = all.filter(x => x.priceValue == null);
   const shown = inRange.concat(noPrice);
@@ -439,6 +496,8 @@ async function loadData(){
     SUBURB_SLUGS.push(l.suburb.toLowerCase().replace(/ /g,'-') + '-' + (l.state||'wa').toLowerCase() + '-' + l.postCode));
   paintUpdated();
   ['rent','buy'].forEach(setupSliders);
+  loadBeds();
+  ['rent','buy'].forEach(setupBeds);
   await loadState();
   renderAll();
 }
