@@ -1,0 +1,9 @@
+{
+  "name": "mum-property-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Photo dashboard for browsing rentals/homes around Mount Claremont, with Mum's favourites + hidden saved to Postgres (Neon).",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  }
+}
