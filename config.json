@@ -8,7 +8,9 @@
     { "suburb": "Cottesloe",       "postCode": "6011", "state": "WA" },
     { "suburb": "Floreat",         "postCode": "6014", "state": "WA" },
     { "suburb": "Nedlands",        "postCode": "6009", "state": "WA" },
-    { "suburb": "Dalkeith",        "postCode": "6009", "state": "WA" }
+    { "suburb": "Dalkeith",        "postCode": "6009", "state": "WA" },
+    { "suburb": "Subiaco",         "postCode": "6008", "state": "WA" },
+    { "suburb": "Wembley",         "postCode": "6014", "state": "WA" }
   ],
   "includeSurroundingSuburbs": false,
   "defaultRanges": {
