@@ -51,6 +51,7 @@
     font-size: 0.92rem; font-weight: 600; color: #3a4252; cursor: pointer; transition: background .12s, border-color .12s, color .12s; }
   .chip.on { background: #1f6feb; border-color: #1f6feb; color: #fff; }
   .buy .chip.on { background: #138a52; border-color: #138a52; }
+  .subs-hint { font-weight: 400; opacity: .65; }
   .ctl-actions { display: flex; gap: 10px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
   .btn {
     padding: 10px 16px; border: none; border-radius: 9px; font-size: 0.9rem; font-weight: 600;
@@ -155,6 +156,10 @@
           <button class="chip" data-beds="4">4+</button>
         </div>
       </div>
+      <div class="beds">
+        <span class="beds-label">Suburbs <span class="subs-hint">(tap to hide)</span></span>
+        <div class="chips" id="rent-subs"></div>
+      </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="rent">Save my budget</button>
         <button class="btn ghost" data-reset="rent">Reset</button>
@@ -188,6 +193,10 @@
           <button class="chip" data-beds="3">3</button>
           <button class="chip" data-beds="4">4+</button>
         </div>
+      </div>
+      <div class="beds">
+        <span class="beds-label">Suburbs <span class="subs-hint">(tap to hide)</span></span>
+        <div class="chips" id="buy-subs"></div>
       </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="buy">Save my budget</button>
@@ -228,11 +237,13 @@
 <script>
 const LS_KEY = "mumPropertyRanges";       // saved budget ranges
 const BEDS_KEY = "mumPropertyBeds";        // saved bedroom filter
+const SUBS_KEY = "mumPropertySubs";        // saved suburb filter (stores HIDDEN suburbs)
 const STATE_KEY = "mumPropertyState";      // local fallback for favourites/hidden
 const SUBURB_SLUGS = []; // filled from config
 let DATA = { rent: [], buy: [], config: null };
 let RANGES = {}; // {rent:{min,max}, buy:{min,max}}
 let BEDS = { rent: [], buy: [] }; // selected bedroom counts per tab ([] = Any)
+let SUBS = { rent: new Set(), buy: new Set() }; // HIDDEN suburbs per tab (empty = all shown)
 let STATE = { favourites: new Set(), hidden: new Set(), synced: false };
 
 function fmtRent(v){ return "$" + v.toLocaleString() + "/wk"; }
@@ -313,6 +324,39 @@ function bedsMatch(item, kind){
   if (item.beds == null) return false;             // unknown beds excluded when filtering
   return sel.some(n => n >= 4 ? item.beds >= 4 : item.beds === n);
 }
+
+/* ---------- suburb filter (per-device; stores HIDDEN suburbs so all default on) ---------- */
+function loadSubs(){
+  try { const s = JSON.parse(localStorage.getItem(SUBS_KEY)) || {}; SUBS.rent = new Set(s.rent || []); SUBS.buy = new Set(s.buy || []); }
+  catch(e){ SUBS = { rent: new Set(), buy: new Set() }; }
+}
+function saveSubs(){ localStorage.setItem(SUBS_KEY, JSON.stringify({ rent: [...SUBS.rent], buy: [...SUBS.buy] })); }
+
+function suburbsOf(kind){
+  const c = {};
+  (DATA[kind] || []).forEach(x => { const s = x.suburb || 'Other'; c[s] = (c[s] || 0) + 1; });
+  return Object.keys(c).sort((a,b) => c[b] - c[a] || a.localeCompare(b)); // most homes first
+}
+
+function setupSubs(kind){
+  const host = document.getElementById(kind+"-subs");
+  const list = suburbsOf(kind);
+  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  host.innerHTML = '<button class="chip" data-sub="__all__">All</button>'
+    + list.map(s => '<button class="chip" data-sub="'+esc(s)+'">'+esc(s)+'</button>').join('');
+  host.querySelectorAll('.chip').forEach(c => {
+    const v = c.dataset.sub;
+    const on = v === '__all__' ? SUBS[kind].size === 0 : !SUBS[kind].has(v);
+    c.classList.toggle('on', on);
+    c.onclick = () => {
+      if (v === '__all__') { SUBS[kind].clear(); }
+      else { if (SUBS[kind].has(v)) SUBS[kind].delete(v); else SUBS[kind].add(v); }
+      saveSubs(); setupSubs(kind); render(kind); paintTabCounts();
+    };
+  });
+}
+
+function subMatch(item, kind){ return !SUBS[kind].has(item.suburb || 'Other'); }
 
 /* ---------- favourites / hidden state ---------- */
 function lid(x){ return String(x.id || x.url || x.address || ""); }
@@ -422,7 +466,7 @@ function card(item, context){
 
 function render(kind){
   const r = RANGES[kind];
-  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind));
+  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind) && subMatch(x, kind));
   const inRange = all.filter(x => x.priceValue != null && x.priceValue >= r.min && x.priceValue <= r.max);
   const noPrice = all.filter(x => x.priceValue == null);
   const shown = inRange.concat(noPrice);
@@ -498,6 +542,8 @@ async function loadData(){
   ['rent','buy'].forEach(setupSliders);
   loadBeds();
   ['rent','buy'].forEach(setupBeds);
+  loadSubs();
+  ['rent','buy'].forEach(setupSubs);
   await loadState();
   renderAll();
 }
