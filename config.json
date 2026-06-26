@@ -1,6 +1,6 @@
 {
   "_comment": "Edit this to change the search. The scraper and the website both read it.",
-  "minBedrooms": 2,
+  "minBedrooms": 1,
   "locations": [
     { "suburb": "Mount Claremont", "postCode": "6010", "state": "WA" },
     { "suburb": "Claremont",       "postCode": "6010", "state": "WA" },

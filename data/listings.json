@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-26T09:32:22.367131+08:00",
+  "generatedAt": "2026-06-26T09:59:36.601754+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
-    "minBedrooms": 2,
+    "minBedrooms": 1,
     "locations": [
       {
         "suburb": "Mount Claremont",
@@ -60,19 +60,139 @@
   },
   "rent": [
     {
-      "id": 18180687,
-      "address": "72/20 Dean Street, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
+      "id": 15107172,
+      "address": "7/212 Hampden Road, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 1,
       "baths": 1,
       "cars": 1,
-      "area": 87,
+      "area": null,
       "propertyType": "Apartment / Unit / Flat",
-      "price": "$450 per week",
-      "priceValue": 450,
+      "price": "$460 per week",
+      "priceValue": 460,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/eZUW_VTmkkze83ZrAExtsL5eOsA=/720x540/filters:format(webp):quality(85)/16846576_12_1_240123_054054-w2350-h1568",
-      "url": "https://www.domain.com.au/72-20-dean-street-claremont-wa-6010-18180687"
+      "image": "https://rimh2.domainstatic.com.au/CdAGPYwYaPjn19S1hbNgfsRf7bc=/720x540/filters:format(webp):quality(85)/15107172_1_1_230611_051237-w3840-h2880",
+      "url": "https://www.domain.com.au/7-212-hampden-road-nedlands-wa-6009-15107172"
+    },
+    {
+      "id": 18184070,
+      "address": "14/63 Stanley Street, Scarborough WA 6019",
+      "suburb": "Scarborough",
+      "beds": 1,
+      "baths": 1,
+      "cars": null,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$500 per week",
+      "priceValue": 500,
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/gsqEiQqkTgWkYa_tWwH9QZtVo24=/720x540/filters:format(webp):quality(85)/18184070_1_1_260624_014511-w1620-h1080",
+      "url": "https://www.domain.com.au/14-63-stanley-street-scarborough-wa-6019-18184070"
+    },
+    {
+      "id": 18173751,
+      "address": "1/171-173 Stirling Highway, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 1,
+      "baths": 1,
+      "cars": null,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$565 per week",
+      "priceValue": 565,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/7ddkAql6COo0E-fXfC6erkasO9w=/720x540/filters:format(webp):quality(85)/18173751_1_1_260617_045909-w1200-h800",
+      "url": "https://www.domain.com.au/1-171-173-stirling-highway-nedlands-wa-6009-18173751"
+    },
+    {
+      "id": 18175563,
+      "address": "40/11 Stirling Road, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$570 per week",
+      "priceValue": 570,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/AcQJBXAmpAoNaEV7hCGM9_GPDS8=/720x540/filters:format(webp):quality(85)/18175563_1_1_260618_032751-w1200-h800",
+      "url": "https://www.domain.com.au/40-11-stirling-road-claremont-wa-6010-18175563"
+    },
+    {
+      "id": 14618586,
+      "address": "3/11 Stirling Road, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$575 per week",
+      "priceValue": 575,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/5iyEqaq7M7-hf4Vk-eJmZUjEQOY=/720x540/filters:format(webp):quality(85)/14618586_1_1_260106_045757-w1600-h1200",
+      "url": "https://www.domain.com.au/3-11-stirling-road-claremont-wa-6010-14618586"
+    },
+    {
+      "id": 13843511,
+      "address": "211/14 McNamara Way,, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$595 per week",
+      "priceValue": 595,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/IMDK5Y2NzDyB8yMDmonkUoceJoE=/720x540/filters:format(webp):quality(85)/13843511_2_1_191220_111524-w1920-h1440",
+      "url": "https://www.domain.com.au/211-14-mcnamara-way-cottesloe-wa-6011-13843511"
+    },
+    {
+      "id": 15369147,
+      "address": "14/303 Cambridge Street, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 1,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$600 per week",
+      "priceValue": 600,
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/pf7VLgqK0oamSTItPqbKy6at3LQ=/720x540/filters:format(webp):quality(85)/14509567_2_1_201006_100652-w640-h480",
+      "url": "https://www.domain.com.au/14-303-cambridge-street-wembley-wa-6014-15369147"
+    },
+    {
+      "id": 18180689,
+      "address": "5/4 Freshwater Parade, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$600 per week",
+      "priceValue": 600,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/OnW2qzTKZRxfG3LlVaz2wtiN8sw=/720x540/filters:format(webp):quality(85)/16006255_1_1_220726_040456-w2000-h1333",
+      "url": "https://www.domain.com.au/5-4-freshwater-parade-claremont-wa-6010-18180689"
+    },
+    {
+      "id": 18162613,
+      "address": "7/64 Servetus St, Swanbourne WA 6010",
+      "suburb": "Swanbourne",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$600 per week",
+      "priceValue": 600,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/_9RkoOhOeZlskdgBt0xy3_SQ1ws=/720x540/filters:format(webp):quality(85)/18162613_1_1_260624_053922-w2000-h1333",
+      "url": "https://www.domain.com.au/7-64-servetus-st-swanbourne-wa-6010-18162613"
     },
     {
       "id": 18155941,
@@ -90,6 +210,21 @@
       "url": "https://www.domain.com.au/6-72-hastings-street-scarborough-wa-6019-18155941"
     },
     {
+      "id": 18163865,
+      "address": "8/11 Stirling Road, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$620 per week",
+      "priceValue": 620,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/Mz8Tcbfmm6D8t3RmE3bzsvcQglo=/720x540/filters:format(webp):quality(85)/18163865_1_1_260626_010736-w1200-h800",
+      "url": "https://www.domain.com.au/8-11-stirling-road-claremont-wa-6010-18163865"
+    },
+    {
       "id": 18156540,
       "address": "W8/24 Pearson Street, Churchlands WA 6018",
       "suburb": "Churchlands",
@@ -103,21 +238,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/S7KExL-DxaFsQwaO8JMUYfCIUSw=/720x540/filters:format(webp):quality(85)/17255735_3_1_241016_033341-w900-h600",
       "url": "https://www.domain.com.au/w8-24-pearson-street-churchlands-wa-6018-18156540"
-    },
-    {
-      "id": 18149824,
-      "address": "81/34 Davies Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$625 per week",
-      "priceValue": 625,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/YAneeWxNC6aWcE4BAfB0axexbEY=/720x540/filters:format(webp):quality(85)/18149824_11_1_260603_055631-w640-h427",
-      "url": "https://www.domain.com.au/81-34-davies-road-claremont-wa-6010-18149824"
     },
     {
       "id": 18173312,
@@ -195,6 +315,21 @@
       "url": "https://www.domain.com.au/1-9-clark-street-nedlands-wa-6009-13875744"
     },
     {
+      "id": 18185452,
+      "address": "101/334 Cambridge Street, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": 88,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$695 per week",
+      "priceValue": 695,
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/3uFUifFuVoi1fJwVG0eG-AzeXIQ=/720x540/filters:format(webp):quality(85)/18185452_1_1_260624_120103-w1920-h1280",
+      "url": "https://www.domain.com.au/101-334-cambridge-street-wembley-wa-6014-18185452"
+    },
+    {
       "id": 18092729,
       "address": "3/4 Freshwater Parade, Claremont WA 6010",
       "suburb": "Claremont",
@@ -255,21 +390,6 @@
       "url": "https://www.domain.com.au/37-mengler-avenue-granny-flat-claremont-wa-6010-18155202"
     },
     {
-      "id": 18181947,
-      "address": "5/24 Freshwater Parade, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/VUb82eq0Oajw_SW6IaTteNVN9HY=/720x540/filters:format(webp):quality(85)/2020755240_12_1_260413_030014-w1200-h800",
-      "url": "https://www.domain.com.au/5-24-freshwater-parade-claremont-wa-6010-18181947"
-    },
-    {
       "id": 18182331,
       "address": "10/20 Shenton Road, Claremont WA 6010",
       "suburb": "Claremont",
@@ -285,6 +405,51 @@
       "url": "https://www.domain.com.au/10-20-shenton-road-claremont-wa-6010-18182331"
     },
     {
+      "id": 18141067,
+      "address": "109/1 Davies Road, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$750 per week",
+      "priceValue": 750,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/uP-vssnqlg91xFkchFaEFMKeP7w=/720x540/filters:format(webp):quality(85)/16544975_1_1_230703_053605-w1200-h800",
+      "url": "https://www.domain.com.au/109-1-davies-road-claremont-wa-6010-18141067"
+    },
+    {
+      "id": 18149041,
+      "address": "308/1 Kyle Way, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$750 per week",
+      "priceValue": 750,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/aegL5WWFeC0T6WgSVJKUEOk0F24=/720x540/filters:format(webp):quality(85)/18149041_1_1_260603_022344-w1200-h900",
+      "url": "https://www.domain.com.au/308-1-kyle-way-claremont-wa-6010-18149041"
+    },
+    {
+      "id": 18181947,
+      "address": "5/24 Freshwater Parade, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$750 per week",
+      "priceValue": 750,
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/VUb82eq0Oajw_SW6IaTteNVN9HY=/720x540/filters:format(webp):quality(85)/2020755240_12_1_260413_030014-w1200-h800",
+      "url": "https://www.domain.com.au/5-24-freshwater-parade-claremont-wa-6010-18181947"
+    },
+    {
       "id": 18181076,
       "address": "4/18 Avonmore Terrace, Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -298,21 +463,6 @@
       "isNew": true,
       "image": "https://rimh2.domainstatic.com.au/3E2psv3AaOJ3H-QZZm1nWIilif4=/720x540/filters:format(webp):quality(85)/18181076_1_1_260622_073936-w3024-h4032",
       "url": "https://www.domain.com.au/4-18-avonmore-terrace-cottesloe-wa-6011-18181076"
-    },
-    {
-      "id": 18050541,
-      "address": "4/28-30 Brighton Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Villa",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/rzFOBYtHLetfKHQQcsh_8bGooyo=/720x540/filters:format(webp):quality(85)/18050541_1_1_260410_075226-w1200-h796",
-      "url": "https://www.domain.com.au/4-28-30-brighton-street-cottesloe-wa-6011-18050541"
     },
     {
       "id": 18181162,
@@ -358,21 +508,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/Q9FUIjIftSJ74AkWKomcQToESuc=/720x540/filters:format(webp):quality(85)/16946128_1_1_240329_031118-w5184-h3456",
       "url": "https://www.domain.com.au/3-16-monash-avenue-nedlands-wa-6009-16946128"
-    },
-    {
-      "id": 15907712,
-      "address": "313/1 Wexford Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$780 per week",
-      "priceValue": 780,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/znJY_VigW4EDLMm0RRUaBE2-_wM=/720x540/filters:format(webp):quality(85)/15907712_1_1_220528_043953-w2880-h2160",
-      "url": "https://www.domain.com.au/313-1-wexford-street-subiaco-wa-6008-15907712"
     },
     {
       "id": 18168786,
@@ -435,6 +570,21 @@
       "url": "https://www.domain.com.au/8-39-broome-street-cottesloe-wa-6011-17630055"
     },
     {
+      "id": 18157757,
+      "address": "8/15 Eric Street, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/MDwXmm01GnGuivXr_wJKGxFprKo=/720x540/filters:format(webp):quality(85)/18157757_1_1_260606_054406-w1024-h683",
+      "url": "https://www.domain.com.au/8-15-eric-street-cottesloe-wa-6011-18157757"
+    },
+    {
       "id": 18182791,
       "address": "28 Duke Street, Karrinyup WA 6018",
       "suburb": "Karrinyup",
@@ -450,21 +600,6 @@
       "url": "https://www.domain.com.au/28-duke-street-karrinyup-wa-6018-18182791"
     },
     {
-      "id": 17633536,
-      "address": "10/14 Kyarra Street, Innaloo WA 6018",
-      "suburb": "Innaloo",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "House",
-      "price": "$820 per week",
-      "priceValue": 820,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/Gn2d6fdTRIcPUQwISZLezdMG_OI=/720x540/filters:format(webp):quality(85)/17633536_1_1_250623_034154-w1920-h1280",
-      "url": "https://www.domain.com.au/10-14-kyarra-street-innaloo-wa-6018-17633536"
-    },
-    {
       "id": 18120523,
       "address": "Unit 1/34 Margaret Street, Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -478,21 +613,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/LKiumhCLoblh_yD-yJ4qfAwWFP0=/720x540/filters:format(webp):quality(85)/18120523_1_1_260514_092638-w1920-h1440",
       "url": "https://www.domain.com.au/unit-1-34-margaret-street-cottesloe-wa-6011-18120523"
-    },
-    {
-      "id": 17422138,
-      "address": "22/2 Mayfair Street, West Perth WA 6005",
-      "suburb": "West Perth",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$825 per week",
-      "priceValue": 825,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/xhvzSlvYnVS-5L7p9FEJp9WX-uw=/720x540/filters:format(webp):quality(85)/17422138_1_1_260616_080700-w1024-h768",
-      "url": "https://www.domain.com.au/22-2-mayfair-street-west-perth-wa-6005-17422138"
     },
     {
       "id": 18179734,
@@ -538,21 +658,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/e5sVEJD9swqO7uiSx_wp_qupSuc=/720x540/filters:format(webp):quality(85)/18177636_1_1_260619_040030-w1600-h1047",
       "url": "https://www.domain.com.au/1-5-napier-street-cottesloe-wa-6011-18177636"
-    },
-    {
-      "id": 18180849,
-      "address": "15A Selina Street, Innaloo WA 6018",
-      "suburb": "Innaloo",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Townhouse",
-      "price": "$850 per week",
-      "priceValue": 850,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/Vt6YqE-20KN42lCnIW9unOD-_Bc=/720x540/filters:format(webp):quality(85)/18180849_1_1_260622_063330-w1799-h1200",
-      "url": "https://www.domain.com.au/15a-selina-street-innaloo-wa-6018-18180849"
     },
     {
       "id": 18184091,
@@ -615,34 +720,19 @@
       "url": "https://www.domain.com.au/9d-webster-street-nedlands-wa-6009-16498966"
     },
     {
-      "id": 14375905,
-      "address": "3d/25 Victoria Avenue, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
+      "id": 18113349,
+      "address": "12/1 Park Road, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 1,
       "baths": 1,
       "cars": 1,
       "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$895 per week",
-      "priceValue": 895,
+      "propertyType": "Townhouse",
+      "price": "$875 per week",
+      "priceValue": 875,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/A4-n-VaHaHQep11-Ynd3CNYl32Y=/720x540/filters:format(webp):quality(85)/16790102_6_1_231211_065835-w1920-h1280",
-      "url": "https://www.domain.com.au/3d-25-victoria-avenue-claremont-wa-6010-14375905"
-    },
-    {
-      "id": 18186004,
-      "address": "2C/25 Victoria Avenue, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": 86,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$900 per week",
-      "priceValue": 900,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/QxYNTIlfcjV8-y-l4bU4Gx_EwOY=/720x540/filters:format(webp):quality(85)/18186004_1_1_260625_012347-w1386-h922",
-      "url": "https://www.domain.com.au/2c-25-victoria-avenue-claremont-wa-6010-18186004"
+      "image": "https://rimh2.domainstatic.com.au/JCpeRSlmhzttNtkbsxLdfZaWr6g=/720x540/filters:format(webp):quality(85)/16381326_1_1_230320_042906-w1920-h1280",
+      "url": "https://www.domain.com.au/12-1-park-road-nedlands-wa-6009-18113349"
     },
     {
       "id": 14806712,
@@ -735,21 +825,6 @@
       "url": "https://www.domain.com.au/unit-16-5-7-park-avenue-crawley-wa-6009-18182936"
     },
     {
-      "id": 18161677,
-      "address": "Unit 407/2 Tiger Way, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$970 per week",
-      "priceValue": 970,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/naqNJkmuhprQrKKkWFFzolavCgY=/720x540/filters:format(webp):quality(85)/15108253_1_1_210507_085923-w949-h654",
-      "url": "https://www.domain.com.au/unit-407-2-tiger-way-claremont-wa-6010-18161677"
-    },
-    {
       "id": 15994852,
       "address": "7/219 Barker Road, Subiaco WA 6008",
       "suburb": "Subiaco",
@@ -780,21 +855,6 @@
       "url": "https://www.domain.com.au/147b-rochdale-rd-mount-claremont-wa-6010-11870383"
     },
     {
-      "id": 18078645,
-      "address": "407/5 Shenton Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$990 per week",
-      "priceValue": 990,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/xOdq2xHDdxLyLr5CF6fN3QxFavM=/720x540/filters:format(webp):quality(85)/18078645_1_1_260417_014011-w900-h675",
-      "url": "https://www.domain.com.au/407-5-shenton-road-claremont-wa-6010-18078645"
-    },
-    {
       "id": 18162807,
       "address": "7/9 Overton Gardens, Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -810,6 +870,21 @@
       "url": "https://www.domain.com.au/7-9-overton-gardens-cottesloe-wa-6011-18162807"
     },
     {
+      "id": 18140571,
+      "address": "101/1 Airlie Street, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$1000 per week",
+      "priceValue": 1000,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/yzTaqZJW6c_Pq_wOaBPCBzr77rg=/720x540/filters:format(webp):quality(85)/18140571_1_1_260528_030440-w1448-h1086",
+      "url": "https://www.domain.com.au/101-1-airlie-street-claremont-wa-6010-18140571"
+    },
+    {
       "id": 18147302,
       "address": "17B Mimosa Avenue, Mount Claremont WA 6010",
       "suburb": "Mount Claremont",
@@ -823,6 +898,21 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/ZqrqwKBlEJ9dG21xO4xUHcjmzmg=/720x540/filters:format(webp):quality(85)/17305509_1_1_241115_033034-w899-h600",
       "url": "https://www.domain.com.au/17b-mimosa-avenue-mount-claremont-wa-6010-18147302"
+    },
+    {
+      "id": 18161726,
+      "address": "601/1 Airlie Street, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$1000 per week",
+      "priceValue": 1000,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/fx9MA9DH5dsbVC5IYm8ripjT4c4=/720x540/filters:format(webp):quality(85)/18161726_1_1_260610_021942-w1200-h801",
+      "url": "https://www.domain.com.au/601-1-airlie-street-claremont-wa-6010-18161726"
     },
     {
       "id": 18152410,
@@ -1155,21 +1245,6 @@
       "url": "https://www.domain.com.au/42-2-milyarm-rise-swanbourne-wa-6010-18129256"
     },
     {
-      "id": 13713147,
-      "address": "118 Forrest Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$1475 per week",
-      "priceValue": 1475,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/DnjaO6xt6CR-22SYVho5HF0eIi8=/720x540/filters:format(webp):quality(85)/13713147_1_1_260622_031710-w1536-h1024",
-      "url": "https://www.domain.com.au/118-forrest-street-cottesloe-wa-6011-13713147"
-    },
-    {
       "id": 17973071,
       "address": "22 Rankin Road, Shenton Park WA 6008",
       "suburb": "Shenton Park",
@@ -1183,21 +1258,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/Flgag5sjk2zGBvPx4VEKHlYliEw=/720x540/filters:format(webp):quality(85)/17973071_1_1_260204_082322-w1920-h1280",
       "url": "https://www.domain.com.au/22-rankin-road-shenton-park-wa-6008-17973071"
-    },
-    {
-      "id": 18183219,
-      "address": "12 Bulimba Road, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$1500 per week",
-      "priceValue": 1500,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/N_Q4l5bfSiPI5U_yRHXBfNppoC4=/720x540/filters:format(webp):quality(85)/2020728452_3_1_260401_071231-w5943-h3962",
-      "url": "https://www.domain.com.au/12-bulimba-road-nedlands-wa-6009-18183219"
     },
     {
       "id": 18121765,
@@ -1228,6 +1288,21 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/oTXNjjjb4r8S0kVBgzvw14Pt22g=/720x540/filters:format(webp):quality(85)/14686250_1_1_201112_070905-w1920-h1282",
       "url": "https://www.domain.com.au/53c-brighton-road-scarborough-wa-6019-14686250"
+    },
+    {
+      "id": 18183219,
+      "address": "12 Bulimba Road, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1500 per week",
+      "priceValue": 1500,
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/N_Q4l5bfSiPI5U_yRHXBfNppoC4=/720x540/filters:format(webp):quality(85)/2020728452_3_1_260401_071231-w5943-h3962",
+      "url": "https://www.domain.com.au/12-bulimba-road-nedlands-wa-6009-18183219"
     },
     {
       "id": 18178805,
@@ -1300,7 +1375,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$1700 per week",
       "priceValue": 1700,
-      "isNew": true,
+      "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/lG0BDwN16xWcXcryfNp6mxKn2mo=/720x540/filters:format(webp):quality(85)/18181817_1_1_260623_012434-w1200-h800",
       "url": "https://www.domain.com.au/7-4-warnham-road-cottesloe-wa-6011-18181817"
     },
@@ -1502,21 +1577,6 @@
       "url": "https://www.domain.com.au/18-11-17-princes-street-cottesloe-wa-6011-2020851763"
     },
     {
-      "id": 2020842192,
-      "address": "21/34 Marine Parade, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$1,500,000",
-      "priceValue": 1500000,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/entW1hLmH0EeI5xoZx7sOnQv0GM=/720x540/filters:format(webp):quality(85)/2020842192_1_1_260514_044359-w1640-h922",
-      "url": "https://www.domain.com.au/21-34-marine-parade-cottesloe-wa-6011-2020842192"
-    },
-    {
       "id": 2020890014,
       "address": "424A Cambridge Street, Floreat WA 6014",
       "suburb": "Floreat",
@@ -1575,21 +1635,6 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/lx3NtscT11IOsSRgWY_e8MxANnc=/720x540/filters:format(webp):quality(85)/2020825009_1_1_260507_071051-w4000-h2667",
       "url": "https://www.domain.com.au/28-mimosa-avenue-mount-claremont-wa-6010-2020825009"
-    },
-    {
-      "id": 2020739901,
-      "address": "102/1 Airlie Street, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": 198,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "low to mid $2M's",
-      "priceValue": 2000000,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/hUsinnSsRwUKz8A9UsJ715LgeB8=/720x540/filters:format(webp):quality(85)/2020739901_3_1_260407_075225-w1920-h1280",
-      "url": "https://www.domain.com.au/102-1-airlie-street-claremont-wa-6010-2020739901"
     },
     {
       "id": 2020845772,
@@ -2087,21 +2132,6 @@
       "url": "https://www.domain.com.au/38-abbey-gardens-mount-claremont-wa-6010-2020909254"
     },
     {
-      "id": 2020944116,
-      "address": "30 St Vincents Avenue, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 4,
-      "baths": 3,
-      "cars": 2,
-      "area": 787,
-      "propertyType": "House",
-      "price": "UNDER CONTRACT",
-      "priceValue": null,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/UgITHwrHGaJ-tOr7DpRdIRmthUE=/720x540/filters:format(webp):quality(85)/2020944116_1_1_260625_052537-w1200-h800",
-      "url": "https://www.domain.com.au/30-st-vincents-avenue-wembley-wa-6014-2020944116"
-    },
-    {
       "id": 2020944128,
       "address": "34A Servetus Street, Swanbourne WA 6010",
       "suburb": "Swanbourne",
@@ -2132,34 +2162,19 @@
       "url": "https://www.domain.com.au/38a-nanson-street-wembley-wa-6014-2020944129"
     },
     {
-      "id": 2020714914,
-      "address": "1302/1 Airlie Street, Claremont WA 6010",
+      "id": 2020946403,
+      "address": "7A Elliott Road, Claremont WA 6010",
       "suburb": "Claremont",
       "beds": 4,
       "baths": 3,
-      "cars": 4,
+      "cars": 2,
       "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "UNDER OFFER By PETER ROBERTSON",
-      "priceValue": null,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/QIEUa4onloMv2FzpkLLIJETsFyc=/720x540/filters:format(webp):quality(85)/2020714914_4_1_260326_094614-w6000-h3999",
-      "url": "https://www.domain.com.au/1302-1-airlie-street-claremont-wa-6010-2020714914"
-    },
-    {
-      "id": 2020772036,
-      "address": "32 Melvista Avenue, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 6,
-      "baths": 4,
-      "cars": 3,
-      "area": 1012,
       "propertyType": "House",
-      "price": "OFFERS",
+      "price": "Offers by Monday 29th June",
       "priceValue": null,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/LusNnfTBuaiCLISkEdcWUqwY7vI=/720x540/filters:format(webp):quality(85)/2020772036_3_1_260417_061348-w1200-h730",
-      "url": "https://www.domain.com.au/32-melvista-avenue-claremont-wa-6010-2020772036"
+      "isNew": true,
+      "image": "https://rimh2.domainstatic.com.au/xAkc9qh_Tc0qhUIgpsxOUQSQ_dA=/720x540/filters:format(webp):quality(85)/2020946403_1_1_260626_014523-w7806-h5204",
+      "url": "https://www.domain.com.au/7a-elliott-road-claremont-wa-6010-2020946403"
     },
     {
       "id": 2020778895,
@@ -2312,6 +2327,21 @@
       "url": "https://www.domain.com.au/19-ashton-avenue-claremont-wa-6010-2020895118"
     },
     {
+      "id": 2020912253,
+      "address": "319/1 Kyle Way, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": 77,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "First Home Open Sat 27th June",
+      "priceValue": null,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/av0CE7xunek_-aDbiI6H5H77LJ0=/720x540/filters:format(webp):quality(85)/17178922_1_1_240826_084532-w1920-h1440",
+      "url": "https://www.domain.com.au/319-1-kyle-way-claremont-wa-6010-2020912253"
+    },
+    {
       "id": 2020926356,
       "address": "3 Freshwater Close, Claremont WA 6010",
       "suburb": "Claremont",
@@ -2325,6 +2355,21 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/OpFwE_QaY12KAj3qv7oyot-750I=/720x540/filters:format(webp):quality(85)/2020926356_1_1_260618_054452-w8256-h5504",
       "url": "https://www.domain.com.au/3-freshwater-close-claremont-wa-6010-2020926356"
+    },
+    {
+      "id": 2020926455,
+      "address": "231/3 Airlie Street, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "UNDER CONTRACT",
+      "priceValue": null,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/N74Xl35rahlJRIPKXf5ywai_6G8=/720x540/filters:format(webp):quality(85)/2020926455_1_1_260618_060315-w1920-h1280",
+      "url": "https://www.domain.com.au/231-3-airlie-street-claremont-wa-6010-2020926455"
     },
     {
       "id": 2020937687,
@@ -2640,6 +2685,21 @@
       "isNew": false,
       "image": "https://rimh2.domainstatic.com.au/Vhb2iAQ7mcDmI8rCVQj_07XAC9g=/720x540/filters:format(webp):quality(85)/2020713232_1_1_260326_034955-w4000-h2667",
       "url": "https://www.domain.com.au/1-91-forrest-street-cottesloe-wa-6011-2020713232"
+    },
+    {
+      "id": 2020778720,
+      "address": "94 Marine Parade, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Block of Units",
+      "price": "Expressions of Interest",
+      "priceValue": null,
+      "isNew": false,
+      "image": "https://rimh2.domainstatic.com.au/_TByDFXW_uD3NCmBDwSeOnM3vm4=/720x540/filters:format(webp):quality(85)/2020778720_1_1_260421_062803-w1200-h799",
+      "url": "https://www.domain.com.au/94-marine-parade-cottesloe-wa-6011-2020778720"
     },
     {
       "id": 2020786023,
