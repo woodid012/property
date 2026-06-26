@@ -1,0 +1,18 @@
+{
+  "_comment": "Edit this to change the search. The scraper and the website both read it.",
+  "minBedrooms": 2,
+  "locations": [
+    { "suburb": "Mount Claremont", "postCode": "6010", "state": "WA" },
+    { "suburb": "Claremont",       "postCode": "6010", "state": "WA" },
+    { "suburb": "Swanbourne",      "postCode": "6010", "state": "WA" },
+    { "suburb": "Cottesloe",       "postCode": "6011", "state": "WA" },
+    { "suburb": "Floreat",         "postCode": "6014", "state": "WA" },
+    { "suburb": "Nedlands",        "postCode": "6009", "state": "WA" },
+    { "suburb": "Dalkeith",        "postCode": "6009", "state": "WA" }
+  ],
+  "includeSurroundingSuburbs": false,
+  "defaultRanges": {
+    "rent": { "min": 400, "max": 1200, "absMin": 200, "absMax": 2000, "step": 25 },
+    "buy":  { "min": 600000, "max": 1400000, "absMin": 300000, "absMax": 3000000, "step": 25000 }
+  }
+}

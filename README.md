@@ -13,43 +13,34 @@ Dalkeith). Built to share with family.
 ## How it works
 
 ```
-Domain.com.au ──(Firecrawl renders + we parse embedded JSON)──> data/listings.json ──> index.html (the website)
-                         ▲                                              ▲                      │
-              scraper/scrape_domain.py                      build step (manual run)            ▼
-                                                                                  /api/state ──> Vercel KV
-                                                                          (Mum's ♥ favourites / ✕ hidden, table: picks)
+Domain.com.au ──(pulled through a real Chrome — see below)──> data/listings.json ──> index.html (the website)
+                                                                      │                       │
+                                                                      ▼                       ▼
+                                                          scraper/browser_pull.js   /api/state ──> Postgres (Neon)
+                                                                                  (Mum's ♥ favourites / ✕ hidden, table: picks)
 ```
 
 - `index.html` — the whole website (self-contained: inline CSS + JS, no build step). Reads `data/listings.json` and talks to `/api/state` for favourites/hidden.
-- `scraper/scrape_domain.py` — **the build script.** Python (standard library only). Uses [Firecrawl](https://firecrawl.dev) to fetch each Domain suburb search page (Domain blocks plain scrapers), then parses the listings (incl. lead photo) out of the page's embedded `__NEXT_DATA__` JSON. **1 Firecrawl credit per page.** Run it whenever you want to rebuild the dashboard data.
+- `data/listings.json` — the listings the website shows (each with a lead photo).
+- `scraper/browser_pull.js` + `scraper/receiver.py` — **how the listings are refreshed.** Domain sits behind Akamai bot protection, so *server-side* scraping does not work (plain HTTP → 403, headless browsers → "Access Denied", Firecrawl → timeouts). The only reliable method is a **real browser**, so the data is pulled through your actual Chrome. See **Refreshing the listings** below.
 - `api/state.js` — a small Vercel serverless function that stores Mum's favourites/hidden in **Postgres (Neon)** via `@neondatabase/serverless`. It auto-creates its `picks` table on first use. If no database URL is present it returns `configured:false` and the site falls back to per-device saving.
-- `config.json` — the search definition (suburbs, min bedrooms, default price ranges). Edit this to change what's searched; both the scraper and website read it.
-- `data/listings.json` — the scraper's output (what the website shows).
-- `.github/workflows/scrape.yml` — optional: can run the scraper on a schedule and commit refreshed data (not required for manual runs).
+- `config.json` — the search definition (suburbs, min bedrooms, default price ranges). Edit this to change what's searched; a copy is embedded into `data/listings.json` on each pull.
 
-## Setup
+## Refreshing the listings (no Firecrawl)
 
-### 1. Firecrawl key (required for scraping)
+The simplest way: **ask Claude (in Claude Code, with the Chrome extension) to "pull the latest listings."**
+It drives your real Chrome through the search pages for each suburb × {rent, sale},
+extracts the embedded listing JSON, dedupes/sorts, and rewrites `data/listings.json`.
+Commit + push it and Vercel redeploys with the fresh homes.
 
-Get a free key at <https://firecrawl.dev> (1,000 credits/month; a daily run uses ~400).
-
-**Local runs:** copy `scraper/.env.example` to `scraper/.env` and paste your key:
-```
-FIRECRAWL_API_KEY=fc-xxxxxxxx
-```
-(`scraper/.env` is gitignored — it never gets committed.)
-
-**The 6am GitHub Action:** add the key as a repository secret —
-GitHub repo → **Settings → Secrets and variables → Actions → New repository secret** →
-name `FIRECRAWL_API_KEY`, value your key.
-
-### 2. Build the dashboard data (run the scraper)
-This is the **build step** — run it whenever you want fresh listings + photos:
-```bash
-cd scraper
-python scrape_domain.py
-```
-Writes `data/listings.json`. Commit + push it and Vercel redeploys with the new homes.
+Under the hood (documented in `scraper/browser_pull.js`):
+1. For each Domain search page, run the extractor — results accumulate in
+   `localStorage._pull` (survives navigation).
+2. `assemble()` dedupes to 2+ beds, splits rent/buy, sorts (price-on-application last)
+   into `localStorage._final`.
+3. `scraper/receiver.py` (a localhost helper) receives `_final` past Domain's CSP and
+   writes it to disk; it's then merged with `config.json` + a timestamp into
+   `data/listings.json`.
 
 ## Mum's favourites / hidden (cloud sync)
 
@@ -83,5 +74,6 @@ Plain static HTML — no build step.
 1. <https://vercel.com/new> → import `woodid012/property`
 2. Framework preset: **Other** → **Deploy**
 
-Vercel serves `index.html` and redeploys on every push (including the 6am data commits).
-You'll get a URL like `https://property-woodid012.vercel.app` — that's the link to send Mum.
+Vercel serves `index.html` and redeploys on every push (including when you push a
+refreshed `data/listings.json`). You'll get a URL like
+`https://property-woodid012.vercel.app` — that's the link to send Mum.

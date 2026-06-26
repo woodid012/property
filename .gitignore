@@ -8,8 +8,8 @@ scraper/.env
 node_modules/
 .vercel/
 
-# firecrawl local cache
-.firecrawl/
+# browser-pull scratch output (scraper/receiver.py writes this)
+scraper/_pull_final.json
 
 # python
 __pycache__/
