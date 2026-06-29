@@ -51,10 +51,10 @@ function buildQueue(slugs) {
   const feats = ['furnished', 'petsallowed', 'gardencourtyard'];
   const rentJobs = [], buyJobs = [];
   for (const s of slugs) {
-    rentJobs.push({ kind: 'rent', slug: s, path: '/rent/' + s + '/?price=700-3000' });
+    rentJobs.push({ kind: 'rent', slug: s, path: '/rent/' + s + '/?price=500-3000' });
     for (const f of feats)
       rentJobs.push({ kind: 'rent', slug: s, feat: f, store: storeOf[f],
-                      path: '/rent/' + s + '/?price=700-3000&features=' + f });
+                      path: '/rent/' + s + '/?price=500-3000&features=' + f });
     buyJobs.push({ kind: 'buy', slug: s, path: '/sale/' + s + '/' });
   }
   const jobs = rentJobs.concat(buyJobs);

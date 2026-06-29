@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T14:35:01.401411+08:00",
+  "generatedAt": "2026-06-29T15:33:37.551593+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -62,13 +62,13 @@
       }
     ],
     "includeSurroundingSuburbs": false,
-    "minRent": 700,
+    "minRent": 500,
     "excludeFurnished": true,
     "defaultRanges": {
       "rent": {
         "min": 700,
         "max": 1200,
-        "absMin": 700,
+        "absMin": 500,
         "absMax": 2000,
         "step": 25
       },
@@ -82,6 +82,63 @@
     }
   },
   "rent": [
+    {
+      "id": 18185452,
+      "address": "101/334 Cambridge Street, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": 88,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$695 per week",
+      "priceValue": 695,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-02T16:00:00",
+        "close": "2026-07-02T16:20:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/3uFUifFuVoi1fJwVG0eG-AzeXIQ=/720x540/filters:format(webp):quality(85)/18185452_1_1_260624_120103-w1920-h1280",
+      "url": "https://www.domain.com.au/101-334-cambridge-street-wembley-wa-6014-18185452",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18092729,
+      "address": "3/4 Freshwater Parade, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$695 per week",
+      "priceValue": 695,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/uDrh_2tjjODfwesWEmj4eeUI2vc=/720x540/filters:format(webp):quality(85)/18092729_1_1_260428_020251-w2000-h1333",
+      "url": "https://www.domain.com.au/3-4-freshwater-parade-claremont-wa-6010-18092729",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 15412704,
+      "address": "14/602 Beaufort Street, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$695 per week",
+      "priceValue": 695,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/b8gNTAZ5-QvwxfAoBndblUPY1jo=/720x540/filters:format(webp):quality(85)/15412704_1_1_210928_055158-w780-h585",
+      "url": "https://www.domain.com.au/14-602-beaufort-street-mount-lawley-wa-6050-15412704",
+      "pets": false,
+      "courtyard": false
+    },
     {
       "id": 15224923,
       "address": "17/300 Stirling Street, Perth WA 6000",

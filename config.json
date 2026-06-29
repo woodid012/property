@@ -16,10 +16,10 @@
     { "suburb": "Mount Lawley",    "postCode": "6050", "state": "WA" }
   ],
   "includeSurroundingSuburbs": false,
-  "minRent": 700,
+  "minRent": 500,
   "excludeFurnished": true,
   "defaultRanges": {
-    "rent": { "min": 700, "max": 1200, "absMin": 700, "absMax": 2000, "step": 25 },
+    "rent": { "min": 700, "max": 1200, "absMin": 500, "absMax": 2000, "step": 25 },
     "buy":  { "min": 600000, "max": 1400000, "absMin": 300000, "absMax": 3000000, "step": 25000 }
   }
 }
