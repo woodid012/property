@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-26T11:17:54.982268+08:00",
+  "generatedAt": "2026-06-29T13:28:23.998695+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
+    "_locationsNote": "Focused on Lake Claremont / Mount Claremont (Lake Claremont sits inside Mount Claremont, postcode 6010) and surrounding suburbs.",
     "locations": [
       {
         "suburb": "Mount Claremont",
@@ -48,14 +49,26 @@
         "suburb": "Wembley",
         "postCode": "6014",
         "state": "WA"
+      },
+      {
+        "suburb": "Highgate",
+        "postCode": "6003",
+        "state": "WA"
+      },
+      {
+        "suburb": "Mount Lawley",
+        "postCode": "6050",
+        "state": "WA"
       }
     ],
     "includeSurroundingSuburbs": false,
+    "minRent": 700,
+    "excludeFurnished": true,
     "defaultRanges": {
       "rent": {
-        "min": 400,
+        "min": 700,
         "max": 1200,
-        "absMin": 200,
+        "absMin": 700,
         "absMax": 2000,
         "step": 25
       },
@@ -70,489 +83,9 @@
   },
   "rent": [
     {
-      "id": 15107172,
-      "address": "7/212 Hampden Road, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$460 per week",
-      "priceValue": 460,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/CdAGPYwYaPjn19S1hbNgfsRf7bc=/720x540/filters:format(webp):quality(85)/15107172_1_1_230611_051237-w3840-h2880",
-      "url": "https://www.domain.com.au/7-212-hampden-road-nedlands-wa-6009-15107172"
-    },
-    {
-      "id": 18116009,
-      "address": "15/281 Cambridge Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$475 per week",
-      "priceValue": 475,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/sDelhi76wfB2jeZ8qaN_s5ri5pA=/720x540/filters:format(webp):quality(85)/18116009_1_1_260512_063400-w800-h600",
-      "url": "https://www.domain.com.au/15-281-cambridge-street-wembley-wa-6014-18116009"
-    },
-    {
-      "id": 18184070,
-      "address": "14/63 Stanley Street, Scarborough WA 6019",
-      "suburb": "Scarborough",
-      "beds": 1,
-      "baths": 1,
-      "cars": null,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$500 per week",
-      "priceValue": 500,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/gsqEiQqkTgWkYa_tWwH9QZtVo24=/720x540/filters:format(webp):quality(85)/18184070_1_1_260624_014511-w1620-h1080",
-      "url": "https://www.domain.com.au/14-63-stanley-street-scarborough-wa-6019-18184070"
-    },
-    {
-      "id": 17934555,
-      "address": "14/55 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$500 per week",
-      "priceValue": 500,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/EMl8hrJcoa4fWhwBEQCtjchkmw0=/720x540/filters:format(webp):quality(85)/17934555_1_1_260112_071549-w1200-h900",
-      "url": "https://www.domain.com.au/14-55-herdsman-parade-wembley-wa-6014-17934555"
-    },
-    {
-      "id": 18172214,
-      "address": "28/85 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$520 per week",
-      "priceValue": 520,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/_8afd5xrpyCtNSh21KCrrB3SuRc=/720x540/filters:format(webp):quality(85)/16986388_1_1_240426_042001-w1920-h1280",
-      "url": "https://www.domain.com.au/28-85-herdsman-parade-wembley-wa-6014-18172214"
-    },
-    {
-      "id": 17124097,
-      "address": "1E/47 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$540 per week",
-      "priceValue": 540,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/fhMjvKHOMEqX1dMcxszK1xPHTEY=/720x540/filters:format(webp):quality(85)/17124097_1_1_240722_053822-w800-h600",
-      "url": "https://www.domain.com.au/1e-47-herdsman-parade-wembley-wa-6014-17124097"
-    },
-    {
-      "id": 18174278,
-      "address": "28/100 Subiaco Road, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$550 per week",
-      "priceValue": 550,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/Soz62KOHuP8c0uokcyTUnJ6yz7A=/720x540/filters:format(webp):quality(85)/17435869_1_1_250211_074741-w800-h533",
-      "url": "https://www.domain.com.au/28-100-subiaco-road-subiaco-wa-6008-18174278"
-    },
-    {
-      "id": 18178513,
-      "address": "40/93 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "House",
-      "price": "$550 per week",
-      "priceValue": 550,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/nS28FN024Ywt8Sg6-oXU7DRzLZU=/720x540/filters:format(webp):quality(85)/18178513_1_1_260619_072542-w6000-h4000",
-      "url": "https://www.domain.com.au/40-93-herdsman-parade-wembley-wa-6014-18178513"
-    },
-    {
-      "id": 18173751,
-      "address": "1/171-173 Stirling Highway, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 1,
-      "baths": 1,
-      "cars": null,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$565 per week",
-      "priceValue": 565,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/7ddkAql6COo0E-fXfC6erkasO9w=/720x540/filters:format(webp):quality(85)/18173751_1_1_260617_045909-w1200-h800",
-      "url": "https://www.domain.com.au/1-171-173-stirling-highway-nedlands-wa-6009-18173751"
-    },
-    {
-      "id": 18175563,
-      "address": "40/11 Stirling Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$570 per week",
-      "priceValue": 570,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/AcQJBXAmpAoNaEV7hCGM9_GPDS8=/720x540/filters:format(webp):quality(85)/18175563_1_1_260618_032751-w1200-h800",
-      "url": "https://www.domain.com.au/40-11-stirling-road-claremont-wa-6010-18175563"
-    },
-    {
-      "id": 14618586,
-      "address": "3/11 Stirling Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$575 per week",
-      "priceValue": 575,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/5iyEqaq7M7-hf4Vk-eJmZUjEQOY=/720x540/filters:format(webp):quality(85)/14618586_1_1_260106_045757-w1600-h1200",
-      "url": "https://www.domain.com.au/3-11-stirling-road-claremont-wa-6010-14618586"
-    },
-    {
-      "id": 18167466,
-      "address": "208/124 Subiaco Road, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$575 per week",
-      "priceValue": 575,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/je-Qd9E_ROM7BCXENbnzWHryrVk=/720x540/filters:format(webp):quality(85)/18167466_1_1_260612_083818-w1200-h800",
-      "url": "https://www.domain.com.au/208-124-subiaco-road-subiaco-wa-6008-18167466"
-    },
-    {
-      "id": 13843511,
-      "address": "211/14 McNamara Way,, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$595 per week",
-      "priceValue": 595,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/IMDK5Y2NzDyB8yMDmonkUoceJoE=/720x540/filters:format(webp):quality(85)/13843511_2_1_191220_111524-w1920-h1440",
-      "url": "https://www.domain.com.au/211-14-mcnamara-way-cottesloe-wa-6011-13843511"
-    },
-    {
-      "id": 15369147,
-      "address": "14/303 Cambridge Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$600 per week",
-      "priceValue": 600,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/pf7VLgqK0oamSTItPqbKy6at3LQ=/720x540/filters:format(webp):quality(85)/14509567_2_1_201006_100652-w640-h480",
-      "url": "https://www.domain.com.au/14-303-cambridge-street-wembley-wa-6014-15369147"
-    },
-    {
-      "id": 18180689,
-      "address": "5/4 Freshwater Parade, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$600 per week",
-      "priceValue": 600,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/OnW2qzTKZRxfG3LlVaz2wtiN8sw=/720x540/filters:format(webp):quality(85)/16006255_1_1_220726_040456-w2000-h1333",
-      "url": "https://www.domain.com.au/5-4-freshwater-parade-claremont-wa-6010-18180689"
-    },
-    {
-      "id": 18162613,
-      "address": "7/64 Servetus St, Swanbourne WA 6010",
-      "suburb": "Swanbourne",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$600 per week",
-      "priceValue": 600,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/_9RkoOhOeZlskdgBt0xy3_SQ1ws=/720x540/filters:format(webp):quality(85)/18162613_1_1_260624_053922-w2000-h1333",
-      "url": "https://www.domain.com.au/7-64-servetus-st-swanbourne-wa-6010-18162613"
-    },
-    {
-      "id": 18155941,
-      "address": "6/72 Hastings Street, Scarborough WA 6019",
-      "suburb": "Scarborough",
-      "beds": 2,
-      "baths": 1,
-      "cars": null,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$600 per week",
-      "priceValue": 600,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/gbfDLQO9Jw1aCW6pIyOt94kuT0E=/720x540/filters:format(webp):quality(85)/18155941_17_1_260612_111503-w1920-h1280",
-      "url": "https://www.domain.com.au/6-72-hastings-street-scarborough-wa-6019-18155941"
-    },
-    {
-      "id": 17652036,
-      "address": "17/115 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$600 per week",
-      "priceValue": 600,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/rZUV4TjdXZHdl0bOV18eIM4Qt20=/720x540/filters:format(webp):quality(85)/17652036_1_1_250703_060002-w2000-h1500",
-      "url": "https://www.domain.com.au/17-115-herdsman-parade-wembley-wa-6014-17652036"
-    },
-    {
-      "id": 18163865,
-      "address": "8/11 Stirling Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$620 per week",
-      "priceValue": 620,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/Mz8Tcbfmm6D8t3RmE3bzsvcQglo=/720x540/filters:format(webp):quality(85)/18163865_1_1_260626_010736-w1200-h800",
-      "url": "https://www.domain.com.au/8-11-stirling-road-claremont-wa-6010-18163865"
-    },
-    {
-      "id": 18156540,
-      "address": "W8/24 Pearson Street, Churchlands WA 6018",
-      "suburb": "Churchlands",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$620 per week",
-      "priceValue": 620,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/S7KExL-DxaFsQwaO8JMUYfCIUSw=/720x540/filters:format(webp):quality(85)/17255735_3_1_241016_033341-w900-h600",
-      "url": "https://www.domain.com.au/w8-24-pearson-street-churchlands-wa-6018-18156540"
-    },
-    {
-      "id": 18173312,
-      "address": "7/389 Stirling Highway, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$625 per week",
-      "priceValue": 625,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/Jmy5K3R9viSxc1LuWqd4ZancV8I=/720x540/filters:format(webp):quality(85)/18173312_1_1_260617_031028-w1200-h800",
-      "url": "https://www.domain.com.au/7-389-stirling-highway-claremont-wa-6010-18173312"
-    },
-    {
-      "id": 18175896,
-      "address": "206C/25 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "House",
-      "price": "$630 per week",
-      "priceValue": 630,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/XPsyeN9LiLyTAH97pbLm2a0TcRY=/720x540/filters:format(webp):quality(85)/18175896_1_1_260618_045952-w1537-h1023",
-      "url": "https://www.domain.com.au/206c-25-herdsman-parade-wembley-wa-6014-18175896"
-    },
-    {
-      "id": 18176319,
-      "address": "35/1 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$630 per week",
-      "priceValue": 630,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/LRvGuV17Cs_AfAel0if6_CFs2Ek=/720x540/filters:format(webp):quality(85)/16867749_1_1_240206_010714-w1024-h683",
-      "url": "https://www.domain.com.au/35-1-herdsman-parade-wembley-wa-6014-18176319"
-    },
-    {
-      "id": 18179595,
-      "address": "206D/25 Herdsman Parade, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$630 per week",
-      "priceValue": 630,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/9tV3x3clNPWNf6yLg9_jArsSkkE=/720x540/filters:format(webp):quality(85)/18179595_1_1_260622_015151-w2835-h1890",
-      "url": "https://www.domain.com.au/206d-25-herdsman-parade-wembley-wa-6014-18179595"
-    },
-    {
-      "id": 18174508,
-      "address": "3/21 Currie Street, Jolimont WA 6014",
-      "suburb": "Jolimont",
-      "beds": 2,
-      "baths": 1,
-      "cars": null,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$650 per week",
-      "priceValue": 650,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/zB31nMRfZxXL9XwT6IlXtgmFgBg=/720x540/filters:format(webp):quality(85)/18174508_1_1_260623_034113-w2640-h1760",
-      "url": "https://www.domain.com.au/3-21-currie-street-jolimont-wa-6014-18174508"
-    },
-    {
-      "id": 18183314,
-      "address": "Unit 46/85 Herdsman Pde, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$650 per week",
-      "priceValue": 650,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/90bqWHICbEe5WlanancCZLWrA9Y=/720x540/filters:format(webp):quality(85)/16118342_1_1_221005_121838-w1920-h1280",
-      "url": "https://www.domain.com.au/unit-46-85-herdsman-pde-wembley-wa-6014-18183314"
-    },
-    {
-      "id": 18188029,
-      "address": "17/237 Cambridge Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$650 per week",
-      "priceValue": 650,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/8P7KsVkQ8O15PIPhFuuGpILZPjM=/720x540/filters:format(webp):quality(85)/18188029_1_1_260626_014401-w1536-h1024",
-      "url": "https://www.domain.com.au/17-237-cambridge-street-wembley-wa-6014-18188029"
-    },
-    {
-      "id": 18187354,
-      "address": "1/3 Dodd Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 3,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$670 per week",
-      "priceValue": 670,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/hS5CVhSRmpQBbh4jJLVXx928Koo=/720x540/filters:format(webp):quality(85)/18187354_1_1_260625_080517-w800-h533",
-      "url": "https://www.domain.com.au/1-3-dodd-street-wembley-wa-6014-18187354"
-    },
-    {
-      "id": 13875744,
-      "address": "1/9 Clark Street, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 2,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$685 per week",
-      "priceValue": 685,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/IwGXtvE8rTMaqOSl8kPVeOh4Iq0=/720x540/filters:format(webp):quality(85)/13875744_1_1_260622_043129-w360-h640",
-      "url": "https://www.domain.com.au/1-9-clark-street-nedlands-wa-6009-13875744"
-    },
-    {
-      "id": 18185452,
-      "address": "101/334 Cambridge Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": 88,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$695 per week",
-      "priceValue": 695,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/3uFUifFuVoi1fJwVG0eG-AzeXIQ=/720x540/filters:format(webp):quality(85)/18185452_1_1_260624_120103-w1920-h1280",
-      "url": "https://www.domain.com.au/101-334-cambridge-street-wembley-wa-6014-18185452"
-    },
-    {
-      "id": 18092729,
-      "address": "3/4 Freshwater Parade, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$695 per week",
-      "priceValue": 695,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/uDrh_2tjjODfwesWEmj4eeUI2vc=/720x540/filters:format(webp):quality(85)/18092729_1_1_260428_020251-w2000-h1333",
-      "url": "https://www.domain.com.au/3-4-freshwater-parade-claremont-wa-6010-18092729"
-    },
-    {
-      "id": 15658710,
-      "address": "G03/2 Wembley Court, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$695 per week",
-      "priceValue": 695,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/XB4ZieEck7pxAgtaOLbjoxrF1Uc=/720x540/filters:format(webp):quality(85)/15658710_8_1_230207_044231-w1600-h1200",
-      "url": "https://www.domain.com.au/g03-2-wembley-court-subiaco-wa-6008-15658710"
-    },
-    {
-      "id": 18174842,
-      "address": "1/34 Davies Road, Claremont WA 6010",
-      "suburb": "Claremont",
+      "id": 15224923,
+      "address": "17/300 Stirling Street, Perth WA 6000",
+      "suburb": "Perth",
       "beds": 2,
       "baths": 1,
       "cars": 1,
@@ -560,9 +93,30 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$700 per week",
       "priceValue": 700,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/pUw8CIyGSKOHTgLgXvD23YR4tjQ=/720x540/filters:format(webp):quality(85)/18174842_1_1_260620_063205-w4032-h2268",
-      "url": "https://www.domain.com.au/1-34-davies-road-claremont-wa-6010-18174842"
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/3vyvhQwoMBKi-4udOtgwNk00xb0=/720x540/filters:format(webp):quality(85)/15224923_1_1_260629_013648-w2100-h1400",
+      "url": "https://www.domain.com.au/17-300-stirling-street-perth-wa-6000-15224923",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18184931,
+      "address": "4/18 Stuart Street, Maylands WA 6051",
+      "suburb": "Maylands",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$700 per week",
+      "priceValue": 700,
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/9x7_uthFB1y2o8YiJtP6pmtZNwg=/720x540/filters:format(webp):quality(85)/2017156154_13_1_210728_123439-w4000-h2667",
+      "url": "https://www.domain.com.au/4-18-stuart-street-maylands-wa-6051-18184931",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18176523,
@@ -576,8 +130,29 @@
       "price": "$725 per week",
       "priceValue": 725,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/rRgvnVveKJE5kowLXCtihjS_4EM=/720x540/filters:format(webp):quality(85)/18176523_1_1_260618_075730-w2000-h1331",
-      "url": "https://www.domain.com.au/13-83-bay-view-terrace-claremont-wa-6010-18176523"
+      "url": "https://www.domain.com.au/13-83-bay-view-terrace-claremont-wa-6010-18176523",
+      "pets": true,
+      "courtyard": false
+    },
+    {
+      "id": 18050375,
+      "address": "19/27 Hood Street, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$745 per week",
+      "priceValue": 745,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/4byS7Bnppo_MS7fzhEOWH2jPddc=/720x540/filters:format(webp):quality(85)/18050375_1_1_260327_063031-w1200-h802",
+      "url": "https://www.domain.com.au/19-27-hood-street-subiaco-wa-6008-18050375",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18155202,
@@ -591,23 +166,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/FS0F6KmsCI2Ph_shuO41qRfWD54=/720x540/filters:format(webp):quality(85)/17173615_21_1_240917_043648-w1024-h768",
-      "url": "https://www.domain.com.au/37-mengler-avenue-granny-flat-claremont-wa-6010-18155202"
-    },
-    {
-      "id": 18182331,
-      "address": "10/20 Shenton Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/BKVLI9RosEXXxLZA1Wmlmjq06gM=/720x540/filters:format(webp):quality(85)/18182331_1_1_260623_034759-w1500-h1125",
-      "url": "https://www.domain.com.au/10-20-shenton-road-claremont-wa-6010-18182331"
+      "url": "https://www.domain.com.au/37-mengler-avenue-granny-flat-claremont-wa-6010-18155202",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18141067,
@@ -621,23 +184,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/uP-vssnqlg91xFkchFaEFMKeP7w=/720x540/filters:format(webp):quality(85)/16544975_1_1_230703_053605-w1200-h800",
-      "url": "https://www.domain.com.au/109-1-davies-road-claremont-wa-6010-18141067"
-    },
-    {
-      "id": 18149041,
-      "address": "308/1 Kyle Way, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/aegL5WWFeC0T6WgSVJKUEOk0F24=/720x540/filters:format(webp):quality(85)/18149041_1_1_260603_022344-w1200-h900",
-      "url": "https://www.domain.com.au/308-1-kyle-way-claremont-wa-6010-18149041"
+      "url": "https://www.domain.com.au/109-1-davies-road-claremont-wa-6010-18141067",
+      "pets": false,
+      "courtyard": true
     },
     {
       "id": 18181947,
@@ -650,9 +201,15 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$750 per week",
       "priceValue": 750,
-      "isNew": true,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T16:00:00",
+        "close": "2026-06-29T16:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/VUb82eq0Oajw_SW6IaTteNVN9HY=/720x540/filters:format(webp):quality(85)/2020755240_12_1_260413_030014-w1200-h800",
-      "url": "https://www.domain.com.au/5-24-freshwater-parade-claremont-wa-6010-18181947"
+      "url": "https://www.domain.com.au/5-24-freshwater-parade-claremont-wa-6010-18181947",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18181076,
@@ -665,9 +222,12 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$750 per week",
       "priceValue": 750,
-      "isNew": true,
+      "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/3E2psv3AaOJ3H-QZZm1nWIilif4=/720x540/filters:format(webp):quality(85)/18181076_1_1_260622_073936-w3024-h4032",
-      "url": "https://www.domain.com.au/4-18-avonmore-terrace-cottesloe-wa-6011-18181076"
+      "url": "https://www.domain.com.au/4-18-avonmore-terrace-cottesloe-wa-6011-18181076",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18181162,
@@ -681,8 +241,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/5Cm-L7wHg2__C4Ed5a6KdrAJHVQ=/720x540/filters:format(webp):quality(85)/18181162_1_1_260622_082732-w1500-h1000",
-      "url": "https://www.domain.com.au/6-14-rosendo-street-cottesloe-wa-6011-18181162"
+      "url": "https://www.domain.com.au/6-14-rosendo-street-cottesloe-wa-6011-18181162",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18176015,
@@ -696,8 +259,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kCk6gW-D3BQD8Ge5TgOuQxFueuk=/720x540/filters:format(webp):quality(85)/18176015_1_1_260618_052915-w800-h533",
-      "url": "https://www.domain.com.au/24-72-stanley-street-scarborough-wa-6019-18176015"
+      "url": "https://www.domain.com.au/24-72-stanley-street-scarborough-wa-6019-18176015",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18167461,
@@ -711,23 +277,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/mlHx49vrTWhJ_Xul_H6AkkJAcgU=/720x540/filters:format(webp):quality(85)/17746298_1_1_250903_083509-w800-h600",
-      "url": "https://www.domain.com.au/189-railway-road-subiaco-wa-6008-18167461"
-    },
-    {
-      "id": 18173485,
-      "address": "45/222 Hay Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "House",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/_AEYVi2Q60Eye_-xxTjTb7zK1DU=/720x540/filters:format(webp):quality(85)/18173485_1_1_260617_035940-w5760-h3840",
-      "url": "https://www.domain.com.au/45-222-hay-street-subiaco-wa-6008-18173485"
+      "url": "https://www.domain.com.au/189-railway-road-subiaco-wa-6008-18167461",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18177773,
@@ -741,8 +295,11 @@
       "price": "$750 per week",
       "priceValue": 750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/RVhDBJ1rkOu9r09gWX_1O7E8vwA=/720x540/filters:format(webp):quality(85)/18177773_1_1_260619_043220-w1200-h900",
-      "url": "https://www.domain.com.au/27-1-roydhouse-street-subiaco-wa-6008-18177773"
+      "url": "https://www.domain.com.au/27-1-roydhouse-street-subiaco-wa-6008-18177773",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 18183152,
@@ -755,15 +312,60 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$750 per week",
       "priceValue": 750,
-      "isNew": true,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-02T17:00:00",
+        "close": "2026-07-02T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/O5iefLJFrBh-4G1pI3Fr4yqh4Fw=/720x540/filters:format(webp):quality(85)/18183152_1_1_260623_065956-w1200-h750",
-      "url": "https://www.domain.com.au/9a-49-herdsman-parade-wembley-wa-6014-18183152"
+      "url": "https://www.domain.com.au/9a-49-herdsman-parade-wembley-wa-6014-18183152",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18164181,
-      "address": "33/1 Roydhouse Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
+      "id": 18186545,
+      "address": "21/63 Palmerston Street, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": 110,
+      "propertyType": "House",
+      "price": "$750 per week",
+      "priceValue": 750,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/Ac8MyWAcwFRgHLRjwo0beNXaM2E=/720x540/filters:format(webp):quality(85)/18186545_1_1_260625_040156-w1920-h1280",
+      "url": "https://www.domain.com.au/21-63-palmerston-street-perth-wa-6000-18186545",
+      "pets": false,
+      "courtyard": true
+    },
+    {
+      "id": 18185327,
+      "address": "4/69 Kirkham Hill Terrrace, Maylands WA 6051",
+      "suburb": "Maylands",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$750 per week",
+      "priceValue": 750,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T16:45:00",
+        "close": "2026-06-29T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/WoQwBhE83u2u3WRZ-d0-gYCxjhY=/720x540/filters:format(webp):quality(85)/18185327_1_1_260624_074215-w1200-h799",
+      "url": "https://www.domain.com.au/4-69-kirkham-hill-terrrace-maylands-wa-6051-18185327",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18171469,
+      "address": "17/996 Hay Street, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
       "baths": 1,
       "cars": 1,
       "area": null,
@@ -771,8 +373,53 @@
       "price": "$760 per week",
       "priceValue": 760,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/GWFlhywjGHHorPLyOycZpksJN98=/720x540/filters:format(webp):quality(85)/18164181_1_1_260611_030406-w2592-h1936",
-      "url": "https://www.domain.com.au/33-1-roydhouse-street-subiaco-wa-6008-18164181"
+      "inspect": {
+        "open": "2026-06-30T14:00:00",
+        "close": "2026-06-30T14:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/LOLvW6TuzSGIIhF7cOqtx_HlAZc=/720x540/filters:format(webp):quality(85)/18171469_1_1_260616_044834-w4000-h2667",
+      "url": "https://www.domain.com.au/17-996-hay-street-perth-wa-6000-18171469",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18164633,
+      "address": "12 White Street, Osborne Park WA 6017",
+      "suburb": "Osborne Park",
+      "beds": 4,
+      "baths": 1,
+      "cars": 3,
+      "area": 628,
+      "propertyType": "House",
+      "price": "$770 per week",
+      "priceValue": 770,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-02T17:00:00",
+        "close": "2026-07-02T17:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/Fy9tB9w7hXQkcJ2sZgIM9gs7vSg=/720x540/filters:format(webp):quality(85)/18164633_1_1_260611_051136-w1920-h1280",
+      "url": "https://www.domain.com.au/12-white-street-osborne-park-wa-6017-18164633",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18167105,
+      "address": "Unit 21/120-122 LAKE STREET, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$770 per week",
+      "priceValue": 770,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/y66s4mJWN8mWoVhbwxFwXyMak6M=/720x540/filters:format(webp):quality(85)/18167105_1_1_260612_061732-w6742-h3792",
+      "url": "https://www.domain.com.au/unit-21-120-122-lake-street-perth-wa-6000-18167105",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16946128,
@@ -786,8 +433,32 @@
       "price": "$775 per week",
       "priceValue": 775,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Q9FUIjIftSJ74AkWKomcQToESuc=/720x540/filters:format(webp):quality(85)/16946128_1_1_240329_031118-w5184-h3456",
-      "url": "https://www.domain.com.au/3-16-monash-avenue-nedlands-wa-6009-16946128"
+      "url": "https://www.domain.com.au/3-16-monash-avenue-nedlands-wa-6009-16946128",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18180746,
+      "address": "16/500 Beaufort Street, Highgate WA 6003",
+      "suburb": "Highgate",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": 96,
+      "propertyType": "Townhouse",
+      "price": "$775 per week",
+      "priceValue": 775,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T17:00:00",
+        "close": "2026-06-29T17:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/T295Wa3LObCktSmNJVY8EAsOpCE=/720x540/filters:format(webp):quality(85)/18180746_1_1_260622_061029-w4000-h2667",
+      "url": "https://www.domain.com.au/16-500-beaufort-street-highgate-wa-6003-18180746",
+      "pets": true,
+      "courtyard": true
     },
     {
       "id": 18168786,
@@ -801,8 +472,11 @@
       "price": "$780 per week",
       "priceValue": 780,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/w3Btthx72xznzdF0mfGYj-0oAG8=/720x540/filters:format(webp):quality(85)/17449363_16_1_250225_090455-w1200-h675",
-      "url": "https://www.domain.com.au/119-5-shenton-road-claremont-wa-6010-18168786"
+      "url": "https://www.domain.com.au/119-5-shenton-road-claremont-wa-6010-18168786",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17918115,
@@ -816,8 +490,128 @@
       "price": "$780 per week",
       "priceValue": 780,
       "isNew": false,
+      "inspect": {
+        "open": "2026-07-01T13:30:00",
+        "close": "2026-07-01T13:45:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/i5G0LY8nefECMHDw-zcY9Wyn6a0=/720x540/filters:format(webp):quality(85)/2020464686_13_1_251202_072634-w1920-h1280",
-      "url": "https://www.domain.com.au/9-218-york-street-subiaco-wa-6008-17918115"
+      "url": "https://www.domain.com.au/9-218-york-street-subiaco-wa-6008-17918115",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18148981,
+      "address": "30/134 Aberdeen St, Northbridge WA 6003",
+      "suburb": "Northbridge",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$780 per week",
+      "priceValue": 780,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/aGzuRIr1-urDRo1JV-BCA1MMm-M=/720x540/filters:format(webp):quality(85)/18148981_1_1_260603_020751-w768-h512",
+      "url": "https://www.domain.com.au/30-134-aberdeen-st-northbridge-wa-6003-18148981",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18186770,
+      "address": "162/369 Hay Street, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$780 per week",
+      "priceValue": 780,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/-Tv0B9P0cGDi83rW5D7VQWdcLMc=/720x540/filters:format(webp):quality(85)/18186770_1_1_260625_050824-w1200-h900",
+      "url": "https://www.domain.com.au/162-369-hay-street-perth-wa-6000-18186770",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18188696,
+      "address": "8/6 Field Street, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": 67,
+      "propertyType": "Villa",
+      "price": "$780 per week",
+      "priceValue": 780,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T16:30:00",
+        "close": "2026-06-29T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/zSASTIzwof-_8rT3td6R4B1iAgw=/720x540/filters:format(webp):quality(85)/18188696_1_1_260626_045427-w2000-h1333",
+      "url": "https://www.domain.com.au/8-6-field-street-mount-lawley-wa-6050-18188696",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 16978104,
+      "address": "4/36 Whatley Crescent, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 3,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$780 per week",
+      "priceValue": 780,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/icTdxOIwDtUjIaUK99dGBvy4HLU=/720x540/filters:format(webp):quality(85)/16978104_1_1_240419_081849-w4032-h3024",
+      "url": "https://www.domain.com.au/4-36-whatley-crescent-mount-lawley-wa-6050-16978104",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 17110996,
+      "address": "18 Harold Street, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 2,
+      "baths": 1,
+      "cars": 4,
+      "area": 267,
+      "propertyType": "House",
+      "price": "$790 per week",
+      "priceValue": 790,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-02T16:45:00",
+        "close": "2026-07-02T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/UyDEAQ8zy7B8uiDOSykMIoot388=/720x540/filters:format(webp):quality(85)/12810909_9_1_181221_012543-w4000-h2667",
+      "url": "https://www.domain.com.au/18-harold-street-mount-lawley-wa-6050-17110996",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18167348,
+      "address": "5/32 Coode Street, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Townhouse",
+      "price": "$790 per week",
+      "priceValue": 790,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/BOrom4ikIdeLjnM0m6xmOBW3xF0=/720x540/filters:format(webp):quality(85)/18167348_1_1_260612_071934-w1920-h1280",
+      "url": "https://www.domain.com.au/5-32-coode-street-mount-lawley-wa-6050-18167348",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18164960,
@@ -831,8 +625,11 @@
       "price": "$800 per week",
       "priceValue": 800,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/H32fG0BFrrpMYl2nC6sK-vuoRZc=/720x540/filters:format(webp):quality(85)/18164960_1_1_260611_062754-w1920-h1280",
-      "url": "https://www.domain.com.au/46-2-burvill-drive-floreat-wa-6014-18164960"
+      "url": "https://www.domain.com.au/46-2-burvill-drive-floreat-wa-6014-18164960",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16878768,
@@ -846,8 +643,11 @@
       "price": "$800 per week",
       "priceValue": 800,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/MujQ2lQQBhbBWjnaYU_0Q42jgUw=/720x540/filters:format(webp):quality(85)/16878768_14_1_240313_024529-w4000-h2667",
-      "url": "https://www.domain.com.au/6-11-rosendo-street-cottesloe-wa-6011-16878768"
+      "url": "https://www.domain.com.au/6-11-rosendo-street-cottesloe-wa-6011-16878768",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17630055,
@@ -861,23 +661,11 @@
       "price": "$800 per week",
       "priceValue": 800,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/TvTZ4Yo1UDKQ_ucSFoIlnMYu1UE=/720x540/filters:format(webp):quality(85)/2019950814_1_1_250424_084936-w1920-h1280",
-      "url": "https://www.domain.com.au/8-39-broome-street-cottesloe-wa-6011-17630055"
-    },
-    {
-      "id": 18157757,
-      "address": "8/15 Eric Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$800 per week",
-      "priceValue": 800,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/MDwXmm01GnGuivXr_wJKGxFprKo=/720x540/filters:format(webp):quality(85)/18157757_1_1_260606_054406-w1024-h683",
-      "url": "https://www.domain.com.au/8-15-eric-street-cottesloe-wa-6011-18157757"
+      "url": "https://www.domain.com.au/8-39-broome-street-cottesloe-wa-6011-17630055",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18182791,
@@ -890,24 +678,87 @@
       "propertyType": "House",
       "price": "$800 per week",
       "priceValue": 800,
-      "isNew": true,
+      "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/xQmDP_2fnc53Nm0d0kZv-oqK9lc=/720x540/filters:format(webp):quality(85)/18182791_1_1_260623_053644-w1200-h800",
-      "url": "https://www.domain.com.au/28-duke-street-karrinyup-wa-6018-18182791"
+      "url": "https://www.domain.com.au/28-duke-street-karrinyup-wa-6018-18182791",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18120523,
-      "address": "Unit 1/34 Margaret Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
+      "id": 18184091,
+      "address": "323 Salvado Road, Floreat WA 6014",
+      "suburb": "Floreat",
+      "beds": 4,
+      "baths": 2,
+      "cars": 3,
+      "area": null,
+      "propertyType": "House",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/sVCa9oz2AQQ3MHbsOApHuNl2A8Y=/720x540/filters:format(webp):quality(85)/18184091_1_1_260624_014741-w1920-h1280",
+      "url": "https://www.domain.com.au/323-salvado-road-floreat-wa-6014-18184091",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18169213,
+      "address": "28/250 Beaufort Street, Perth WA 6000",
+      "suburb": "Perth",
       "beds": 2,
-      "baths": 1,
-      "cars": 1,
+      "baths": 2,
+      "cars": 2,
       "area": null,
       "propertyType": "Apartment / Unit / Flat",
-      "price": "$825 per week",
-      "priceValue": 825,
+      "price": "$800 per week",
+      "priceValue": 800,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/LKiumhCLoblh_yD-yJ4qfAwWFP0=/720x540/filters:format(webp):quality(85)/18120523_1_1_260514_092638-w1920-h1440",
-      "url": "https://www.domain.com.au/unit-1-34-margaret-street-cottesloe-wa-6011-18120523"
+      "inspect": {
+        "open": "2026-06-30T16:45:00",
+        "close": "2026-06-30T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/qI6Mch3J-Q2Jm7EtDBeBmN4p5YU=/720x540/filters:format(webp):quality(85)/16002737_1_1_220725_024011-w1200-h733",
+      "url": "https://www.domain.com.au/28-250-beaufort-street-perth-wa-6000-18169213",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18186675,
+      "address": "32/99 Palmerston Street, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": 100,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/4ttbc5SE0794PWRX8wyDd1B50hs=/720x540/filters:format(webp):quality(85)/18186675_1_1_260625_044428-w4000-h2667",
+      "url": "https://www.domain.com.au/32-99-palmerston-street-perth-wa-6000-18186675",
+      "pets": false,
+      "courtyard": true
+    },
+    {
+      "id": 18173200,
+      "address": "22D Kirkham Hill Terrace, Maylands WA 6051",
+      "suburb": "Maylands",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/XVs9jsZX_2BKD4VhwBPFoQMwing=/720x540/filters:format(webp):quality(85)/15910347_11_1_220531_120755-w800-h600",
+      "url": "https://www.domain.com.au/22d-kirkham-hill-terrace-maylands-wa-6051-18173200",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18179734,
@@ -921,8 +772,14 @@
       "price": "$830 per week",
       "priceValue": 830,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T16:45:00",
+        "close": "2026-06-30T17:00:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/aJIAwNtafgRfBrUMlCzaJ8GO_7Q=/720x540/filters:format(webp):quality(85)/17305094_13_1_241115_013526-w2997-h2000",
-      "url": "https://www.domain.com.au/11-42-victoria-avenue-claremont-wa-6010-18179734"
+      "url": "https://www.domain.com.au/11-42-victoria-avenue-claremont-wa-6010-18179734",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18179820,
@@ -935,9 +792,12 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$830 per week",
       "priceValue": 830,
-      "isNew": true,
+      "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Qgv-W35yVfE8XBkMSkNDlIvQfsE=/720x540/filters:format(webp):quality(85)/18179820_1_1_260622_023721-w1704-h904",
-      "url": "https://www.domain.com.au/2-35-dover-road-scarborough-wa-6019-18179820"
+      "url": "https://www.domain.com.au/2-35-dover-road-scarborough-wa-6019-18179820",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 16578923,
@@ -951,8 +811,32 @@
       "price": "$830 per week",
       "priceValue": 830,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T16:45:00",
+        "close": "2026-06-29T17:00:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/zaiJKwBnXEQW2AVI9qPEZQHnAWI=/720x540/filters:format(webp):quality(85)/16578923_1_1_230724_083916-w1280-h853",
-      "url": "https://www.domain.com.au/2-410-barker-road-subiaco-wa-6008-16578923"
+      "url": "https://www.domain.com.au/2-410-barker-road-subiaco-wa-6008-16578923",
+      "pets": true,
+      "courtyard": false
+    },
+    {
+      "id": 18188805,
+      "address": "3/16 Richardson Avenue, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 3,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$850 per week",
+      "priceValue": 850,
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/Su-lhrB9eomb6gV5sL3EkmIVcZg=/720x540/filters:format(webp):quality(85)/18188805_1_1_260626_052452-w2000-h1332",
+      "url": "https://www.domain.com.au/3-16-richardson-avenue-claremont-wa-6010-18188805",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18177636,
@@ -966,23 +850,29 @@
       "price": "$850 per week",
       "priceValue": 850,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/e5sVEJD9swqO7uiSx_wp_qupSuc=/720x540/filters:format(webp):quality(85)/18177636_1_1_260619_040030-w1600-h1047",
-      "url": "https://www.domain.com.au/1-5-napier-street-cottesloe-wa-6011-18177636"
+      "url": "https://www.domain.com.au/1-5-napier-street-cottesloe-wa-6011-18177636",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18184091,
-      "address": "323 Salvado Road, Floreat WA 6014",
-      "suburb": "Floreat",
-      "beds": 4,
+      "id": 18180849,
+      "address": "15A Selina Street, Innaloo WA 6018",
+      "suburb": "Innaloo",
+      "beds": 3,
       "baths": 2,
-      "cars": 3,
+      "cars": 2,
       "area": null,
-      "propertyType": "House",
+      "propertyType": "Townhouse",
       "price": "$850 per week",
       "priceValue": 850,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/sVCa9oz2AQQ3MHbsOApHuNl2A8Y=/720x540/filters:format(webp):quality(85)/18184091_1_1_260624_014741-w1920-h1280",
-      "url": "https://www.domain.com.au/323-salvado-road-floreat-wa-6014-18184091"
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/Vt6YqE-20KN42lCnIW9unOD-_Bc=/720x540/filters:format(webp):quality(85)/18180849_1_1_260622_063330-w1799-h1200",
+      "url": "https://www.domain.com.au/15a-selina-street-innaloo-wa-6018-18180849",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18187358,
@@ -995,9 +885,12 @@
       "propertyType": "House",
       "price": "$850 per week",
       "priceValue": 850,
-      "isNew": true,
+      "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YzVnYGD_Q1lqn61wNhs9PGv9IGM=/720x540/filters:format(webp):quality(85)/18187358_1_1_260625_081118-w1920-h1280",
-      "url": "https://www.domain.com.au/85-moorland-street-doubleview-wa-6018-18187358"
+      "url": "https://www.domain.com.au/85-moorland-street-doubleview-wa-6018-18187358",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18104655,
@@ -1011,38 +904,32 @@
       "price": "$850 per week",
       "priceValue": 850,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/qZ7lny6ks6NfixDfY3CDqPCzpaU=/720x540/filters:format(webp):quality(85)/18104655_13_1_260505_061125-w3840-h2560",
-      "url": "https://www.domain.com.au/5-42-monash-avenue-nedlands-wa-6009-18104655"
+      "url": "https://www.domain.com.au/5-42-monash-avenue-nedlands-wa-6009-18104655",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 16498966,
-      "address": "9D Webster Street, Nedlands WA 6009",
-      "suburb": "Nedlands",
+      "id": 16506629,
+      "address": "12/40 Onslow Road, Shenton Park WA 6008",
+      "suburb": "Shenton Park",
       "beds": 2,
-      "baths": 1,
+      "baths": 2,
       "cars": 1,
       "area": null,
       "propertyType": "Apartment / Unit / Flat",
-      "price": "$860 per week",
-      "priceValue": 860,
+      "price": "$880 per week",
+      "priceValue": 880,
       "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/CCkeTohTy69TZMnt4rvhqcNES8k=/720x540/filters:format(webp):quality(85)/16498966_1_1_230603_020605-w1500-h1000",
-      "url": "https://www.domain.com.au/9d-webster-street-nedlands-wa-6009-16498966"
-    },
-    {
-      "id": 18113349,
-      "address": "12/1 Park Road, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Townhouse",
-      "price": "$875 per week",
-      "priceValue": 875,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/JCpeRSlmhzttNtkbsxLdfZaWr6g=/720x540/filters:format(webp):quality(85)/16381326_1_1_230320_042906-w1920-h1280",
-      "url": "https://www.domain.com.au/12-1-park-road-nedlands-wa-6009-18113349"
+      "inspect": {
+        "open": "2026-07-01T12:00:00",
+        "close": "2026-07-01T12:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/ZiWOFSEKnsYcoTp1UhAUybRKRl0=/720x540/filters:format(webp):quality(85)/16506629_5_1_230608_030805-w800-h600",
+      "url": "https://www.domain.com.au/12-40-onslow-road-shenton-park-wa-6008-16506629",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18174118,
@@ -1056,8 +943,32 @@
       "price": "$880 per week",
       "priceValue": 880,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U43gb66JWinN3rUv-7UnH8FixZM=/720x540/filters:format(webp):quality(85)/18157379_1_1_260605_072902-w1200-h900",
-      "url": "https://www.domain.com.au/169a-jersey-st-wembley-wa-6014-18174118"
+      "url": "https://www.domain.com.au/169a-jersey-st-wembley-wa-6014-18174118",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18186004,
+      "address": "2C/25 Victoria Avenue, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": 86,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$900 per week",
+      "priceValue": 900,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-02T17:20:00",
+        "close": "2026-07-02T17:40:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/QxYNTIlfcjV8-y-l4bU4Gx_EwOY=/720x540/filters:format(webp):quality(85)/18186004_1_1_260625_012347-w1386-h922",
+      "url": "https://www.domain.com.au/2c-25-victoria-avenue-claremont-wa-6010-18186004",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 14806712,
@@ -1071,8 +982,14 @@
       "price": "$900 per week",
       "priceValue": 900,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T16:00:00",
+        "close": "2026-06-30T16:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/P0OAaxZEbYiUyY0bHyuWbI5Viwo=/720x540/filters:format(webp):quality(85)/14806712_15_1_210105_062950-w800-h600",
-      "url": "https://www.domain.com.au/13-3-rockett-lane-cottesloe-wa-6011-14806712"
+      "url": "https://www.domain.com.au/13-3-rockett-lane-cottesloe-wa-6011-14806712",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16488560,
@@ -1086,8 +1003,14 @@
       "price": "$900 per week",
       "priceValue": 900,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T16:45:00",
+        "close": "2026-06-30T17:00:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/RYGBBye1ERCyq758GaAGVfcazdA=/720x540/filters:format(webp):quality(85)/16488560_1_1_260622_065448-w3000-h2250",
-      "url": "https://www.domain.com.au/3-14-nautilus-crescent-scarborough-wa-6019-16488560"
+      "url": "https://www.domain.com.au/3-14-nautilus-crescent-scarborough-wa-6019-16488560",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18183267,
@@ -1100,9 +1023,12 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$900 per week",
       "priceValue": 900,
-      "isNew": true,
+      "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/of-14GO2iTG5Z214W5VEmfDV760=/720x540/filters:format(webp):quality(85)/18183267_1_1_260623_073325-w1600-h1067",
-      "url": "https://www.domain.com.au/7-13-vincent-street-nedlands-wa-6009-18183267"
+      "url": "https://www.domain.com.au/7-13-vincent-street-nedlands-wa-6009-18183267",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18179650,
@@ -1116,83 +1042,68 @@
       "price": "$900 per week",
       "priceValue": 900,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/LBFhLUKY4TVIWhMh0X-uqIlHFdw=/720x540/filters:format(webp):quality(85)/18179650_1_1_260622_020159-w1200-h900",
-      "url": "https://www.domain.com.au/504-26-hood-street-subiaco-wa-6008-18179650"
+      "url": "https://www.domain.com.au/504-26-hood-street-subiaco-wa-6008-18179650",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 17696782,
-      "address": "3C Marlow St, Wembley WA 6014",
-      "suburb": "Wembley",
+      "id": 18119849,
+      "address": "69 Mary Street, Highgate WA 6003",
+      "suburb": "Highgate",
       "beds": 3,
       "baths": 1,
-      "cars": 2,
+      "cars": 1,
       "area": null,
       "propertyType": "House",
       "price": "$900 per week",
       "priceValue": 900,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/55XFwTEQsHBjR5jC7ZoUdQXXWbA=/720x540/filters:format(webp):quality(85)/17456222_5_1_250225_015601-w2500-h1663",
-      "url": "https://www.domain.com.au/3c-marlow-st-wembley-wa-6014-17696782"
-    },
-    {
-      "id": 18178026,
-      "address": "8 Myera Street, Swanbourne WA 6010",
-      "suburb": "Swanbourne",
-      "beds": 4,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$950 per week",
-      "priceValue": 950,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/fldq_786hmaKXtJgTMfb5rNWMrE=/720x540/filters:format(webp):quality(85)/17017511_1_1_240516_025346-w2350-h1568",
-      "url": "https://www.domain.com.au/8-myera-street-swanbourne-wa-6010-18178026"
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/CN_mFUJSPDwYV58dYlGtnbnNbMc=/720x540/filters:format(webp):quality(85)/18119849_1_1_260514_051907-w3252-h2160",
+      "url": "https://www.domain.com.au/69-mary-street-highgate-wa-6003-18119849",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18177713,
-      "address": "11/5-7 Park Avenue, Crawley WA 6009",
-      "suburb": "Crawley",
+      "id": 14175500,
+      "address": "115/189 Adelaide Terrace, East Perth WA 6004",
+      "suburb": "East Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$900 per week",
+      "priceValue": 900,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-07-01T16:45:00",
+        "close": "2026-07-01T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/lqWlg2p0JffCp7_lUXFgBarjvCU=/720x540/filters:format(webp):quality(85)/14175500_1_1_200420_024949-w1440-h960",
+      "url": "https://www.domain.com.au/115-189-adelaide-terrace-east-perth-wa-6004-14175500",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18188856,
+      "address": "52 Ord Street, Nedlands WA 6009",
+      "suburb": "Nedlands",
       "beds": 3,
       "baths": 2,
-      "cars": 2,
+      "cars": 4,
       "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$950 per week",
-      "priceValue": 950,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/HyXpPgOrox-6TFMWRoWGKTNukm0=/720x540/filters:format(webp):quality(85)/17072852_1_1_240620_012321-w3000-h2000",
-      "url": "https://www.domain.com.au/11-5-7-park-avenue-crawley-wa-6009-18177713"
-    },
-    {
-      "id": 18182936,
-      "address": "Unit 16/5-7 Park Avenue, Crawley WA 6009",
-      "suburb": "Crawley",
-      "beds": 2,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$950 per week",
-      "priceValue": 950,
+      "propertyType": "House",
+      "price": "$940 per week",
+      "priceValue": 940,
       "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/8ASHz6zaHBhd8ZXJCjih5CGnA-k=/720x540/filters:format(webp):quality(85)/18182936_2_1_260623_060514-w1920-h1280",
-      "url": "https://www.domain.com.au/unit-16-5-7-park-avenue-crawley-wa-6009-18182936"
-    },
-    {
-      "id": 18180846,
-      "address": "10/21 Rowland Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 2,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$950 per week",
-      "priceValue": 950,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/XdgL-WZVmKszFf5EaOsAxG4toqo=/720x540/filters:format(webp):quality(85)/16803717_8_1_231221_024004-w3508-h2340",
-      "url": "https://www.domain.com.au/10-21-rowland-street-subiaco-wa-6008-18180846"
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/dboFx8mr0CKgK1oRKZN6uN5qylY=/720x540/filters:format(webp):quality(85)/18188856_1_1_260626_053937-w2099-h1574",
+      "url": "https://www.domain.com.au/52-ord-street-nedlands-wa-6009-18188856",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 18188196,
@@ -1206,8 +1117,125 @@
       "price": "$950 per week",
       "priceValue": 950,
       "isNew": true,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U3lQiGigz6N-w6if7kOPVHtxqrk=/720x540/filters:format(webp):quality(85)/18188196_1_1_260626_023816-w2000-h1336",
-      "url": "https://www.domain.com.au/38-nanson-street-wembley-wa-6014-18188196"
+      "url": "https://www.domain.com.au/38-nanson-street-wembley-wa-6014-18188196",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18178026,
+      "address": "8 Myera Street, Swanbourne WA 6010",
+      "suburb": "Swanbourne",
+      "beds": 4,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$950 per week",
+      "priceValue": 950,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/fldq_786hmaKXtJgTMfb5rNWMrE=/720x540/filters:format(webp):quality(85)/17017511_1_1_240516_025346-w2350-h1568",
+      "url": "https://www.domain.com.au/8-myera-street-swanbourne-wa-6010-18178026",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18182936,
+      "address": "Unit 16/5-7 Park Avenue, Crawley WA 6009",
+      "suburb": "Crawley",
+      "beds": 2,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$950 per week",
+      "priceValue": 950,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/8ASHz6zaHBhd8ZXJCjih5CGnA-k=/720x540/filters:format(webp):quality(85)/18182936_2_1_260623_060514-w1920-h1280",
+      "url": "https://www.domain.com.au/unit-16-5-7-park-avenue-crawley-wa-6009-18182936",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18158108,
+      "address": "Unit 10/222 Hay Street, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 3,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$950 per week",
+      "priceValue": 950,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/VezU0eRI4OKlatrnlgBFHtSQDG0=/720x540/filters:format(webp):quality(85)/18158108_1_1_260608_023512-w1920-h1280",
+      "url": "https://www.domain.com.au/unit-10-222-hay-street-subiaco-wa-6008-18158108",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 15812724,
+      "address": "607/78 Stirling Street, Perth WA 6000",
+      "suburb": "Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$950 per week",
+      "priceValue": 950,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T13:00:00",
+        "close": "2026-06-30T13:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/VmMNXs73tOjaNYDYCxC_5cFCwAE=/720x540/filters:format(webp):quality(85)/15812724_1_1_260624_062034-w2048-h1365",
+      "url": "https://www.domain.com.au/607-78-stirling-street-perth-wa-6000-15812724",
+      "pets": true,
+      "courtyard": false
+    },
+    {
+      "id": 18139108,
+      "address": "105 Walcott Street, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Townhouse",
+      "price": "$950 per week",
+      "priceValue": 950,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/DwAwrcibFYsF9yH3UaKmRgVrETA=/720x540/filters:format(webp):quality(85)/16719334_1_1_231029_100755-w1364-h912",
+      "url": "https://www.domain.com.au/105-walcott-street-mount-lawley-wa-6050-18139108",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18161677,
+      "address": "Unit 407/2 Tiger Way, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$970 per week",
+      "priceValue": 970,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T16:30:00",
+        "close": "2026-06-30T16:45:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/naqNJkmuhprQrKKkWFFzolavCgY=/720x540/filters:format(webp):quality(85)/15108253_1_1_210507_085923-w949-h654",
+      "url": "https://www.domain.com.au/unit-407-2-tiger-way-claremont-wa-6010-18161677",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 15994852,
@@ -1221,53 +1249,11 @@
       "price": "$975 per week",
       "priceValue": 975,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/FITtLRDl4ssyBJzL-RE2UXvpb00=/720x540/filters:format(webp):quality(85)/15994852_5_1_220719_075721-w1328-h885",
-      "url": "https://www.domain.com.au/7-219-barker-road-subiaco-wa-6008-15994852"
-    },
-    {
-      "id": 11870383,
-      "address": "147B Rochdale Rd, Mount Claremont WA 6010",
-      "suburb": "Mount Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Townhouse",
-      "price": "$980 per week",
-      "priceValue": 980,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/r-8J9EbxW3djdfNsaILy1wmZ2IU=/720x540/filters:format(webp):quality(85)/11870383_1_1_260227_114502-w2000-h1500",
-      "url": "https://www.domain.com.au/147b-rochdale-rd-mount-claremont-wa-6010-11870383"
-    },
-    {
-      "id": 18162807,
-      "address": "7/9 Overton Gardens, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$995 per week",
-      "priceValue": 995,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/ydYOs74HkdrAYNNvS7GpohhWGl0=/720x540/filters:format(webp):quality(85)/18162807_1_1_260610_070026-w1200-h800",
-      "url": "https://www.domain.com.au/7-9-overton-gardens-cottesloe-wa-6011-18162807"
-    },
-    {
-      "id": 18140571,
-      "address": "101/1 Airlie Street, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$1000 per week",
-      "priceValue": 1000,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/yzTaqZJW6c_Pq_wOaBPCBzr77rg=/720x540/filters:format(webp):quality(85)/18140571_1_1_260528_030440-w1448-h1086",
-      "url": "https://www.domain.com.au/101-1-airlie-street-claremont-wa-6010-18140571"
+      "url": "https://www.domain.com.au/7-219-barker-road-subiaco-wa-6008-15994852",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18147302,
@@ -1281,8 +1267,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ZqrqwKBlEJ9dG21xO4xUHcjmzmg=/720x540/filters:format(webp):quality(85)/17305509_1_1_241115_033034-w899-h600",
-      "url": "https://www.domain.com.au/17b-mimosa-avenue-mount-claremont-wa-6010-18147302"
+      "url": "https://www.domain.com.au/17b-mimosa-avenue-mount-claremont-wa-6010-18147302",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18161726,
@@ -1296,8 +1285,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/fx9MA9DH5dsbVC5IYm8ripjT4c4=/720x540/filters:format(webp):quality(85)/18161726_1_1_260610_021942-w1200-h801",
-      "url": "https://www.domain.com.au/601-1-airlie-street-claremont-wa-6010-18161726"
+      "url": "https://www.domain.com.au/601-1-airlie-street-claremont-wa-6010-18161726",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18152410,
@@ -1311,8 +1303,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/52KiqJdwVVJs-dX9qBqa3A1aZq8=/720x540/filters:format(webp):quality(85)/18152410_1_1_260623_020217-w1200-h800",
-      "url": "https://www.domain.com.au/36-2-milyarm-rise-swanbourne-wa-6010-18152410"
+      "url": "https://www.domain.com.au/36-2-milyarm-rise-swanbourne-wa-6010-18152410",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18164748,
@@ -1326,8 +1321,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/X2Pxaj3vdhuRgOq7XRkR0H7CDKo=/720x540/filters:format(webp):quality(85)/18164748_1_1_260611_054206-w1920-h1280",
-      "url": "https://www.domain.com.au/10a-bird-street-cottesloe-wa-6011-18164748"
+      "url": "https://www.domain.com.au/10a-bird-street-cottesloe-wa-6011-18164748",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18163104,
@@ -1341,8 +1339,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WCBspkIwgyGzpnndAdmoyVROE6s=/720x540/filters:format(webp):quality(85)/18163104_1_1_260610_112206-w1200-h800",
-      "url": "https://www.domain.com.au/319-7-wunderlich-road-subiaco-wa-6008-18163104"
+      "url": "https://www.domain.com.au/319-7-wunderlich-road-subiaco-wa-6008-18163104",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18177441,
@@ -1356,8 +1357,11 @@
       "price": "$1000 per week",
       "priceValue": 1000,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/A_kjsK9QnI4cDl3ta_D8IVfoR54=/720x540/filters:format(webp):quality(85)/18177441_1_1_260619_025623-w1920-h1280",
-      "url": "https://www.domain.com.au/101-74-price-street-subiaco-wa-6008-18177441"
+      "url": "https://www.domain.com.au/101-74-price-street-subiaco-wa-6008-18177441",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18178626,
@@ -1371,8 +1375,32 @@
       "price": "$1050 per week",
       "priceValue": 1050,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/4g2cgP3rosSYi5-NKEv9hoN6V9A=/720x540/filters:format(webp):quality(85)/18104060_3_1_260505_040128-w1920-h1280",
-      "url": "https://www.domain.com.au/271-scarborough-beach-road-doubleview-wa-6018-18178626"
+      "url": "https://www.domain.com.au/271-scarborough-beach-road-doubleview-wa-6018-18178626",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18189548,
+      "address": "229A Grand Promenade, Doubleview WA 6018",
+      "suburb": "Doubleview",
+      "beds": 3,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1050 per week",
+      "priceValue": 1050,
+      "isNew": true,
+      "inspect": {
+        "open": "2026-06-30T16:45:00",
+        "close": "2026-06-30T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/10E0ScpMZoVZZasQqoxQcX0OFtw=/720x540/filters:format(webp):quality(85)/18189548_1_1_260628_033840-w1200-h899",
+      "url": "https://www.domain.com.au/229a-grand-promenade-doubleview-wa-6018-18189548",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18165255,
@@ -1386,8 +1414,29 @@
       "price": "$1090 per week",
       "priceValue": 1090,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/7VlWypOrH3owG6peqPC6-Jz-4RQ=/720x540/filters:format(webp):quality(85)/18165255_1_1_260611_081926-w1920-h1280",
-      "url": "https://www.domain.com.au/287-marmion-street-cottesloe-wa-6011-18165255"
+      "url": "https://www.domain.com.au/287-marmion-street-cottesloe-wa-6011-18165255",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18139682,
+      "address": "3/40 Churchill Ave, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1130 per week",
+      "priceValue": 1130,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/yyTUro6me13B5Uvi_J8Huex5LlI=/720x540/filters:format(webp):quality(85)/18139682_1_1_260527_082225-w1179-h778",
+      "url": "https://www.domain.com.au/3-40-churchill-ave-subiaco-wa-6008-18139682",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17223445,
@@ -1401,23 +1450,47 @@
       "price": "$1150 per week",
       "priceValue": 1150,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/OXnSh5vRBxYn27XGj-8Regzc7k4=/720x540/filters:format(webp):quality(85)/17223445_1_1_260402_122013-w1500-h1125",
-      "url": "https://www.domain.com.au/2-81-davies-road-claremont-wa-6010-17223445"
+      "url": "https://www.domain.com.au/2-81-davies-road-claremont-wa-6010-17223445",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18162993,
-      "address": "4/55 Stirling Hwy, Nedlands WA 6009",
-      "suburb": "Nedlands",
+      "id": 18139642,
+      "address": "19/8 Bay Road, Claremont WA 6010",
+      "suburb": "Claremont",
       "beds": 3,
       "baths": 2,
       "cars": 2,
       "area": null,
-      "propertyType": "Apartment / Unit / Flat",
+      "propertyType": "House",
       "price": "$1150 per week",
       "priceValue": 1150,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/piqgIZes4PMDJK7CQJN1ugkxq3Y=/720x540/filters:format(webp):quality(85)/18162993_1_1_260610_081044-w1080-h1440",
-      "url": "https://www.domain.com.au/4-55-stirling-hwy-nedlands-wa-6009-18162993"
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/qkvqvaiZs6DYqsI9MWIq3IkgVAI=/720x540/filters:format(webp):quality(85)/18139642_1_1_260617_073334-w1600-h1082",
+      "url": "https://www.domain.com.au/19-8-bay-road-claremont-wa-6010-18139642",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 17760555,
+      "address": "175 Holbeck Street, Doubleview WA 6018",
+      "suburb": "Doubleview",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1150 per week",
+      "priceValue": 1150,
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/kqo2xKI-kr6tJmHe1U3IDaVoUK4=/720x540/filters:format(webp):quality(85)/17760555_1_1_250912_084616-w3000-h2000",
+      "url": "https://www.domain.com.au/175-holbeck-street-doubleview-wa-6018-17760555",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16258187,
@@ -1431,23 +1504,68 @@
       "price": "$1150 per week",
       "priceValue": 1150,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/oixbBw2Zg2-s7pi_Qo-nIVfkstM=/720x540/filters:format(webp):quality(85)/16258187_22_1_230207_043223-w1800-h1200",
-      "url": "https://www.domain.com.au/225-roberts-road-subiaco-wa-6008-16258187"
+      "url": "https://www.domain.com.au/225-roberts-road-subiaco-wa-6008-16258187",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18139642,
-      "address": "19/8 Bay Road, Claremont WA 6010",
-      "suburb": "Claremont",
+      "id": 10847129,
+      "address": "113 Fifth Avenue, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 4,
+      "baths": 3,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1150 per week",
+      "priceValue": 1150,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/gsUHKDxc_zksI7N5ug3LCz7_qlw=/720x540/filters:format(webp):quality(85)/10847129_1_1_231006_081607-w1740-h1145",
+      "url": "https://www.domain.com.au/113-fifth-avenue-mount-lawley-wa-6050-10847129",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 16965107,
+      "address": "6 Fourth Avenue, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
       "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1150 per week",
+      "priceValue": 1150,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T15:30:00",
+        "close": "2026-06-30T15:40:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/DJjhX10YxQvzXAJlldoH-A5f2zc=/720x540/filters:format(webp):quality(85)/16965107_1_1_240411_085726-w4000-h2667",
+      "url": "https://www.domain.com.au/6-fourth-avenue-mount-lawley-wa-6050-16965107",
+      "pets": true,
+      "courtyard": false
+    },
+    {
+      "id": 18189544,
+      "address": "1/20 Cooper Street, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 2,
       "baths": 2,
       "cars": 2,
       "area": null,
       "propertyType": "House",
       "price": "$1200 per week",
       "priceValue": 1200,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/qkvqvaiZs6DYqsI9MWIq3IkgVAI=/720x540/filters:format(webp):quality(85)/18139642_1_1_260617_073334-w1600-h1082",
-      "url": "https://www.domain.com.au/19-8-bay-road-claremont-wa-6010-18139642"
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/cByHTZtB6dqcxGdrOtBa6mvOY7A=/720x540/filters:format(webp):quality(85)/18189544_1_1_260628_032312-w1877-h1333",
+      "url": "https://www.domain.com.au/1-20-cooper-street-nedlands-wa-6009-18189544",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18134597,
@@ -1461,8 +1579,32 @@
       "price": "$1200 per week",
       "priceValue": 1200,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/sT9HpTyQFL-z5H_J5PhjjtBHuwM=/720x540/filters:format(webp):quality(85)/18134597_6_1_260525_043446-w2000-h1333",
-      "url": "https://www.domain.com.au/86-lawler-street-subiaco-wa-6008-18134597"
+      "url": "https://www.domain.com.au/86-lawler-street-subiaco-wa-6008-18134597",
+      "pets": false,
+      "courtyard": true
+    },
+    {
+      "id": 18154665,
+      "address": "27 Lagonda Drive, Gwelup WA 6018",
+      "suburb": "Gwelup",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1200 per week",
+      "priceValue": 1200,
+      "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T14:15:00",
+        "close": "2026-06-30T14:30:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/gLEL4hbu7bo2MOWioL8yjqYCRUo=/720x540/filters:format(webp):quality(85)/18154665_1_1_260604_052325-w1800-h1200",
+      "url": "https://www.domain.com.au/27-lagonda-drive-gwelup-wa-6018-18154665",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18166851,
@@ -1476,8 +1618,29 @@
       "price": "$1200 per week",
       "priceValue": 1200,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/j8OJ32GKdIjz6sMoIh8dIaKel88=/720x540/filters:format(webp):quality(85)/18166851_1_1_260612_052141-w1365-h909",
-      "url": "https://www.domain.com.au/96-marlow-street-wembley-wa-6014-18166851"
+      "url": "https://www.domain.com.au/96-marlow-street-wembley-wa-6014-18166851",
+      "pets": true,
+      "courtyard": false
+    },
+    {
+      "id": 18154300,
+      "address": "61 Pearse Street, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 4,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1250 per week",
+      "priceValue": 1250,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/XMrOkYKzWmZSWMuFGfMNcLYCvMY=/720x540/filters:format(webp):quality(85)/18154300_1_1_260604_034934-w4000-h2667",
+      "url": "https://www.domain.com.au/61-pearse-street-cottesloe-wa-6011-18154300",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16791759,
@@ -1491,8 +1654,11 @@
       "price": "$1250 per week",
       "priceValue": 1250,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/pVyYnSYwP955MXiUPSZQMxDRb-4=/720x540/filters:format(webp):quality(85)/2018849430_37_1_231025_040050-w6000-h4000",
-      "url": "https://www.domain.com.au/82-tyrell-street-nedlands-wa-6009-16791759"
+      "url": "https://www.domain.com.au/82-tyrell-street-nedlands-wa-6009-16791759",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16895230,
@@ -1506,8 +1672,29 @@
       "price": "$1250 per week",
       "priceValue": 1250,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/gm-Z64GpkYgxXiU0UZnikyKyX40=/720x540/filters:format(webp):quality(85)/2018957217_1_1_231214_060635-w1920-h1280",
-      "url": "https://www.domain.com.au/23-portland-street-nedlands-wa-6009-16895230"
+      "url": "https://www.domain.com.au/23-portland-street-nedlands-wa-6009-16895230",
+      "pets": false,
+      "courtyard": true
+    },
+    {
+      "id": 18158456,
+      "address": "6 Charles Street, Karrinyup WA 6018",
+      "suburb": "Karrinyup",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1250 per week",
+      "priceValue": 1250,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/I1ednOFdcRvm2-fqqVmEkH6-fY0=/720x540/filters:format(webp):quality(85)/18158456_1_1_260608_073935-w640-h480",
+      "url": "https://www.domain.com.au/6-charles-street-karrinyup-wa-6018-18158456",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17115580,
@@ -1521,8 +1708,11 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/XBZdlAQC-hXZb8LQCjxPlcA5m74=/720x540/filters:format(webp):quality(85)/17115580_1_1_240716_060146-w1456-h840",
-      "url": "https://www.domain.com.au/45b-alfred-road-mount-claremont-wa-6010-17115580"
+      "url": "https://www.domain.com.au/45b-alfred-road-mount-claremont-wa-6010-17115580",
+      "pets": false,
+      "courtyard": true
     },
     {
       "id": 18065741,
@@ -1536,8 +1726,11 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/i5aSLEnykjZ-nGmzrZa3E_CGUmg=/720x540/filters:format(webp):quality(85)/18065741_1_1_260409_033633-w1200-h799",
-      "url": "https://www.domain.com.au/5-100-montgomery-avenue-mount-claremont-wa-6010-18065741"
+      "url": "https://www.domain.com.au/5-100-montgomery-avenue-mount-claremont-wa-6010-18065741",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17769644,
@@ -1551,8 +1744,11 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": true,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/wTUjmhgP13L7bpSTHVQe9q_nc5o=/720x540/filters:format(webp):quality(85)/17769644_2_1_250919_024947-w1920-h1280",
-      "url": "https://www.domain.com.au/489-stirling-highway-cottesloe-wa-6011-17769644"
+      "url": "https://www.domain.com.au/489-stirling-highway-cottesloe-wa-6011-17769644",
+      "pets": false,
+      "courtyard": true
     },
     {
       "id": 17598519,
@@ -1566,8 +1762,11 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/znOOKAs8AOPXReNppajsf8xwrF0=/720x540/filters:format(webp):quality(85)/17598519_1_1_250530_014635-w1500-h1000",
-      "url": "https://www.domain.com.au/60-loch-street-nedlands-wa-6009-17598519"
+      "url": "https://www.domain.com.au/60-loch-street-nedlands-wa-6009-17598519",
+      "pets": false,
+      "courtyard": true
     },
     {
       "id": 18126221,
@@ -1581,8 +1780,14 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T17:00:00",
+        "close": "2026-06-29T17:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/XyqvMjWthFlYOfv8t57Ja9C-4JI=/720x540/filters:format(webp):quality(85)/18126221_3_1_260519_040355-w1920-h1280",
-      "url": "https://www.domain.com.au/16a-tyrell-st-nedlands-wa-6009-18126221"
+      "url": "https://www.domain.com.au/16a-tyrell-st-nedlands-wa-6009-18126221",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18126225,
@@ -1596,8 +1801,35 @@
       "price": "$1300 per week",
       "priceValue": 1300,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-29T17:15:00",
+        "close": "2026-06-29T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/o2LXeQwIePgaK-0o2SZGwDP-Mac=/720x540/filters:format(webp):quality(85)/18126225_2_1_260519_040448-w1920-h1280",
-      "url": "https://www.domain.com.au/16b-tyrell-st-nedlands-wa-6009-18126225"
+      "url": "https://www.domain.com.au/16b-tyrell-st-nedlands-wa-6009-18126225",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18188657,
+      "address": "16C Tyrell Street, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 3,
+      "baths": 2,
+      "cars": null,
+      "area": null,
+      "propertyType": "Townhouse",
+      "price": "$1300 per week",
+      "priceValue": 1300,
+      "isNew": true,
+      "inspect": {
+        "open": "2026-06-29T17:30:00",
+        "close": "2026-06-29T17:45:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/fHr3CDgeaOfdBUgw6ONAa3LYbKg=/720x540/filters:format(webp):quality(85)/18188657_1_1_260626_044433-w4000-h2667",
+      "url": "https://www.domain.com.au/16c-tyrell-street-nedlands-wa-6009-18188657",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 13511352,
@@ -1611,8 +1843,11 @@
       "price": "$1350 per week",
       "priceValue": 1350,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/CfsWii4K1b7JM_hnevk_P2Ar4qc=/720x540/filters:format(webp):quality(85)/13511352_1_1_190828_060411-w800-h520",
-      "url": "https://www.domain.com.au/41-north-street-swanbourne-wa-6010-13511352"
+      "url": "https://www.domain.com.au/41-north-street-swanbourne-wa-6010-13511352",
+      "pets": false,
+      "courtyard": true
     },
     {
       "id": 16299622,
@@ -1626,23 +1861,29 @@
       "price": "$1350 per week",
       "priceValue": 1350,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/tLOkqOEhQz7pePdXszb-Toyteoo=/720x540/filters:format(webp):quality(85)/16299622_7_1_230128_105114-w1920-h1280",
-      "url": "https://www.domain.com.au/17-reginald-street-cottesloe-wa-6011-16299622"
+      "url": "https://www.domain.com.au/17-reginald-street-cottesloe-wa-6011-16299622",
+      "pets": true,
+      "courtyard": false
     },
     {
-      "id": 18154300,
-      "address": "61 Pearse Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 4,
-      "baths": 1,
-      "cars": 1,
+      "id": 18189306,
+      "address": "107/17-19 Louise Street, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 2,
+      "baths": 2,
+      "cars": 2,
       "area": null,
-      "propertyType": "House",
+      "propertyType": "Apartment / Unit / Flat",
       "price": "$1350 per week",
       "priceValue": 1350,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/XMrOkYKzWmZSWMuFGfMNcLYCvMY=/720x540/filters:format(webp):quality(85)/18154300_1_1_260604_034934-w4000-h2667",
-      "url": "https://www.domain.com.au/61-pearse-street-cottesloe-wa-6011-18154300"
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/Q-mfrTMap-nlBEHGHklFJ2aJyTw=/720x540/filters:format(webp):quality(85)/18189306_1_1_260626_085029-w1537-h1023",
+      "url": "https://www.domain.com.au/107-17-19-louise-street-nedlands-wa-6009-18189306",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16418823,
@@ -1656,8 +1897,11 @@
       "price": "$1350 per week",
       "priceValue": 1350,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/b5TIcNlVqGWLqEAMEDD9htuHZxo=/720x540/filters:format(webp):quality(85)/16418823_38_1_260604_111106-w1535-h1024",
-      "url": "https://www.domain.com.au/73-hamersley-road-subiaco-wa-6008-16418823"
+      "url": "https://www.domain.com.au/73-hamersley-road-subiaco-wa-6008-16418823",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17647988,
@@ -1671,8 +1915,11 @@
       "price": "$1400 per week",
       "priceValue": 1400,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/KoPGIm5BTlwW2Xvkb0hAUQe01yU=/720x540/filters:format(webp):quality(85)/17647988_1_1_250701_070325-w2000-h1334",
-      "url": "https://www.domain.com.au/17-caladenia-parade-mount-claremont-wa-6010-17647988"
+      "url": "https://www.domain.com.au/17-caladenia-parade-mount-claremont-wa-6010-17647988",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 14036028,
@@ -1686,8 +1933,29 @@
       "price": "$1400 per week",
       "priceValue": 1400,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/k4YYME_FOik8xj2m5e4rNgLTMzQ=/720x540/filters:format(webp):quality(85)/14036028_1_1_200225_060112-w800-h600",
-      "url": "https://www.domain.com.au/1b-gadsdon-street-cottesloe-wa-6011-14036028"
+      "url": "https://www.domain.com.au/1b-gadsdon-street-cottesloe-wa-6011-14036028",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18189459,
+      "address": "2/46 Glenelg Avenue, Wembley Downs WA 6019",
+      "suburb": "Wembley Downs",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1400 per week",
+      "priceValue": 1400,
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/Ie0RgCKga2Sd7w7eChuHfum8DcU=/720x540/filters:format(webp):quality(85)/18189459_1_1_260627_041508-w1920-h1280",
+      "url": "https://www.domain.com.au/2-46-glenelg-avenue-wembley-downs-wa-6019-18189459",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18179550,
@@ -1701,8 +1969,29 @@
       "price": "$1400 per week",
       "priceValue": 1400,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/UGvIKxI5qqDDhD2-nzFsqEYRZ10=/720x540/filters:format(webp):quality(85)/18179550_1_1_260622_014238-w1200-h800",
-      "url": "https://www.domain.com.au/109-redfern-street-subiaco-wa-6008-18179550"
+      "url": "https://www.domain.com.au/109-redfern-street-subiaco-wa-6008-18179550",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18112762,
+      "address": "113 Third Avenue, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 5,
+      "baths": 2,
+      "cars": 4,
+      "area": 880,
+      "propertyType": "House",
+      "price": "$1400 per week",
+      "priceValue": 1400,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/0eZamWnHrXqWgLtbzGuGndTVFg8=/720x540/filters:format(webp):quality(85)/18112762_1_1_260511_025848-w1024-h683",
+      "url": "https://www.domain.com.au/113-third-avenue-mount-lawley-wa-6050-18112762",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18089359,
@@ -1716,8 +2005,11 @@
       "price": "$1450 per week",
       "priceValue": 1450,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/k2anOpF8b86Et4ifqDk0CCv2Vhw=/720x540/filters:format(webp):quality(85)/18089359_2_1_260424_032034-w1162-h768",
-      "url": "https://www.domain.com.au/77a-alfred-road-mount-claremont-wa-6010-18089359"
+      "url": "https://www.domain.com.au/77a-alfred-road-mount-claremont-wa-6010-18089359",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18129256,
@@ -1731,8 +2023,11 @@
       "price": "$1450 per week",
       "priceValue": 1450,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/cem66hpbIJksi7y1PWQTf1vBifs=/720x540/filters:format(webp):quality(85)/18129256_19_1_260520_090125-w5600-h3733",
-      "url": "https://www.domain.com.au/42-2-milyarm-rise-swanbourne-wa-6010-18129256"
+      "url": "https://www.domain.com.au/42-2-milyarm-rise-swanbourne-wa-6010-18129256",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17973071,
@@ -1746,8 +2041,11 @@
       "price": "$1500 per week",
       "priceValue": 1500,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Flgag5sjk2zGBvPx4VEKHlYliEw=/720x540/filters:format(webp):quality(85)/17973071_1_1_260204_082322-w1920-h1280",
-      "url": "https://www.domain.com.au/22-rankin-road-shenton-park-wa-6008-17973071"
+      "url": "https://www.domain.com.au/22-rankin-road-shenton-park-wa-6008-17973071",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18121765,
@@ -1761,8 +2059,11 @@
       "price": "$1500 per week",
       "priceValue": 1500,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/EAlvywi1mXAZSpVjjUEEn8Hpv9A=/720x540/filters:format(webp):quality(85)/18121765_27_1_260515_050715-w2048-h1365",
-      "url": "https://www.domain.com.au/71-hawkstone-street-cottesloe-wa-6011-18121765"
+      "url": "https://www.domain.com.au/71-hawkstone-street-cottesloe-wa-6011-18121765",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 14686250,
@@ -1776,8 +2077,11 @@
       "price": "$1500 per week",
       "priceValue": 1500,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/oTXNjjjb4r8S0kVBgzvw14Pt22g=/720x540/filters:format(webp):quality(85)/14686250_1_1_201112_070905-w1920-h1282",
-      "url": "https://www.domain.com.au/53c-brighton-road-scarborough-wa-6019-14686250"
+      "url": "https://www.domain.com.au/53c-brighton-road-scarborough-wa-6019-14686250",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18183219,
@@ -1791,8 +2095,11 @@
       "price": "$1500 per week",
       "priceValue": 1500,
       "isNew": true,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/N_Q4l5bfSiPI5U_yRHXBfNppoC4=/720x540/filters:format(webp):quality(85)/2020728452_3_1_260401_071231-w5943-h3962",
-      "url": "https://www.domain.com.au/12-bulimba-road-nedlands-wa-6009-18183219"
+      "url": "https://www.domain.com.au/12-bulimba-road-nedlands-wa-6009-18183219",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18178805,
@@ -1806,23 +2113,32 @@
       "price": "$1595 per week",
       "priceValue": 1595,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kJg2-cK9Kmgkxp7LSDZUMbqLaa8=/720x540/filters:format(webp):quality(85)/18178805_3_1_260620_062702-w1920-h1277",
-      "url": "https://www.domain.com.au/50-napier-street-nedlands-wa-6009-18178805"
+      "url": "https://www.domain.com.au/50-napier-street-nedlands-wa-6009-18178805",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 18175443,
-      "address": "501/74 Price Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
+      "id": 17624970,
+      "address": "7A Salisbury Street, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
       "beds": 3,
       "baths": 2,
       "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
+      "area": 450,
+      "propertyType": "House",
       "price": "$1600 per week",
       "priceValue": 1600,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/s0uBo1U-cYwtYCLYP4SB5M99P4c=/720x540/filters:format(webp):quality(85)/18175443_1_1_260618_025029-w1920-h1280",
-      "url": "https://www.domain.com.au/501-74-price-street-subiaco-wa-6008-18175443"
+      "isNew": true,
+      "inspect": {
+        "open": "2026-06-30T16:30:00",
+        "close": "2026-06-30T16:50:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/dHQcVfqMJxGxeOVMRQg1whtUjIM=/720x540/filters:format(webp):quality(85)/2019960114_1_1_250430_060343-w6000-h4000",
+      "url": "https://www.domain.com.au/7a-salisbury-street-cottesloe-wa-6011-17624970",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 14596127,
@@ -1836,8 +2152,29 @@
       "price": "$1650 per week",
       "priceValue": 1650,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/OM_Bn5oJEWXJeWXvi5QXuhVFJgs=/720x540/filters:format(webp):quality(85)/14596127_27_1_201009_051950-w1600-h1067",
-      "url": "https://www.domain.com.au/26-alyth-road-floreat-wa-6014-14596127"
+      "url": "https://www.domain.com.au/26-alyth-road-floreat-wa-6014-14596127",
+      "pets": true,
+      "courtyard": true
+    },
+    {
+      "id": 17831475,
+      "address": "144 Alfred Road, Swanbourne WA 6010",
+      "suburb": "Swanbourne",
+      "beds": 4,
+      "baths": 3,
+      "cars": 4,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1675 per week",
+      "priceValue": 1675,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/0jBezdpBthm2XYGsG4LBOCv61LA=/720x540/filters:format(webp):quality(85)/17831475_1_1_251031_090412-w3960-h2640",
+      "url": "https://www.domain.com.au/144-alfred-road-swanbourne-wa-6010-17831475",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18156440,
@@ -1851,53 +2188,29 @@
       "price": "$1700 per week",
       "priceValue": 1700,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/cKGb7uOyY4YSZ4aWEQDpo8LdJuU=/720x540/filters:format(webp):quality(85)/18156440_1_1_260605_032504-w1200-h800",
-      "url": "https://www.domain.com.au/4-barrow-court-mount-claremont-wa-6010-18156440"
+      "url": "https://www.domain.com.au/4-barrow-court-mount-claremont-wa-6010-18156440",
+      "pets": false,
+      "courtyard": false
     },
     {
-      "id": 17831475,
-      "address": "144 Alfred Road, Swanbourne WA 6010",
-      "suburb": "Swanbourne",
-      "beds": 4,
-      "baths": 3,
-      "cars": 4,
-      "area": null,
-      "propertyType": "House",
-      "price": "$1700 per week",
-      "priceValue": 1700,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/0jBezdpBthm2XYGsG4LBOCv61LA=/720x540/filters:format(webp):quality(85)/17831475_1_1_251031_090412-w3960-h2640",
-      "url": "https://www.domain.com.au/144-alfred-road-swanbourne-wa-6010-17831475"
-    },
-    {
-      "id": 18181817,
-      "address": "7/4 Warnham Road, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 1,
+      "id": 17517115,
+      "address": "9 Essex St, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 5,
+      "baths": 2,
       "cars": 2,
       "area": null,
-      "propertyType": "Apartment / Unit / Flat",
+      "propertyType": "House",
       "price": "$1700 per week",
       "priceValue": 1700,
       "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/lG0BDwN16xWcXcryfNp6mxKn2mo=/720x540/filters:format(webp):quality(85)/18181817_1_1_260623_012434-w1200-h800",
-      "url": "https://www.domain.com.au/7-4-warnham-road-cottesloe-wa-6011-18181817"
-    },
-    {
-      "id": 17986305,
-      "address": "15 Leura Street, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 4,
-      "baths": 3,
-      "cars": 3,
-      "area": 490,
-      "propertyType": "House",
-      "price": "$1750 per week",
-      "priceValue": 1750,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/wBhJKwGmRSOOorkXnKXnz_Z9bo8=/720x540/filters:format(webp):quality(85)/17986305_1_1_260613_084214-w4032-h3024",
-      "url": "https://www.domain.com.au/15-leura-street-nedlands-wa-6009-17986305"
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/K1dCm6WxUQg-4S-a9K6pqAu48xo=/720x540/filters:format(webp):quality(85)/17517115_1_1_250404_073819-w1920-h1280",
+      "url": "https://www.domain.com.au/9-essex-st-wembley-wa-6014-17517115",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 18178217,
@@ -1911,38 +2224,11 @@
       "price": "$1750 per week",
       "priceValue": 1750,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YSzrrSJAOzHZYmP80Hx3Xgvtjx4=/720x540/filters:format(webp):quality(85)/18178217_2_1_260619_061326-w1200-h800",
-      "url": "https://www.domain.com.au/103-victoria-avenue-dalkeith-wa-6009-18178217"
-    },
-    {
-      "id": 18161943,
-      "address": "1/5 Warton Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 2,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Villa",
-      "price": "$1800 per week",
-      "priceValue": 1800,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/xmtV5NU7OoHY7__qBnFHGwex1bw=/720x540/filters:format(webp):quality(85)/2020712360_1_1_260326_020125-w4000-h2667",
-      "url": "https://www.domain.com.au/1-5-warton-street-cottesloe-wa-6011-18161943"
-    },
-    {
-      "id": 17517115,
-      "address": "9 Essex St, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 5,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$1800 per week",
-      "priceValue": 1800,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/K1dCm6WxUQg-4S-a9K6pqAu48xo=/720x540/filters:format(webp):quality(85)/17517115_1_1_250404_073819-w1920-h1280",
-      "url": "https://www.domain.com.au/9-essex-st-wembley-wa-6014-17517115"
+      "url": "https://www.domain.com.au/103-victoria-avenue-dalkeith-wa-6009-18178217",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18164744,
@@ -1956,8 +2242,11 @@
       "price": "$1850 per week",
       "priceValue": 1850,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YwAt1Zh7AO42ZPBnjt3N8cZFwNQ=/720x540/filters:format(webp):quality(85)/18164744_1_1_260611_054153-w3000-h2000",
-      "url": "https://www.domain.com.au/29-laurino-terrace-subiaco-wa-6008-18164744"
+      "url": "https://www.domain.com.au/29-laurino-terrace-subiaco-wa-6008-18164744",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18156348,
@@ -1968,11 +2257,32 @@
       "cars": 2,
       "area": null,
       "propertyType": "House",
+      "price": "$1950 per week",
+      "priceValue": 1950,
+      "isNew": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/b0_nvW1ixKPbJyURZN7lOFy0IsE=/720x540/filters:format(webp):quality(85)/18156348_5_1_260605_025316-w1324-h885",
+      "url": "https://www.domain.com.au/12-nidjalla-loop-swanbourne-wa-6010-18156348",
+      "pets": false,
+      "courtyard": false
+    },
+    {
+      "id": 18188339,
+      "address": "36 Berkerley Crescent, Floreat WA 6014",
+      "suburb": "Floreat",
+      "beds": 5,
+      "baths": 3,
+      "cars": 4,
+      "area": null,
+      "propertyType": "House",
       "price": "$2100 per week",
       "priceValue": 2100,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/b0_nvW1ixKPbJyURZN7lOFy0IsE=/720x540/filters:format(webp):quality(85)/18156348_5_1_260605_025316-w1324-h885",
-      "url": "https://www.domain.com.au/12-nidjalla-loop-swanbourne-wa-6010-18156348"
+      "isNew": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/wNC--2-l8kF8b9iWKA7pVsLc73o=/720x540/filters:format(webp):quality(85)/18188339_1_1_260626_032608-w1166-h784",
+      "url": "https://www.domain.com.au/36-berkerley-crescent-floreat-wa-6014-18188339",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16913453,
@@ -1986,8 +2296,11 @@
       "price": "$2200 per week",
       "priceValue": 2200,
       "isNew": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/hXWLgbVvojVADuXzGy5zZpdKnyY=/720x540/filters:format(webp):quality(85)/16913453_1_1_240313_102838-w3840-h2560",
-      "url": "https://www.domain.com.au/68b-archdeacon-street-nedlands-wa-6009-16913453"
+      "url": "https://www.domain.com.au/68b-archdeacon-street-nedlands-wa-6009-16913453",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18167455,
@@ -2001,38 +2314,14 @@
       "price": "$2500 per week",
       "priceValue": 2500,
       "isNew": false,
+      "inspect": {
+        "open": "2026-06-30T10:00:00",
+        "close": "2026-06-30T10:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/w4JVexG5Wztv0WfnFndPQgAD9AM=/720x540/filters:format(webp):quality(85)/2019102986_37_1_240307_062926-w2000-h1333",
-      "url": "https://www.domain.com.au/48a-broome-street-cottesloe-wa-6011-18167455"
-    },
-    {
-      "id": 18187368,
-      "address": "1302/1 Airlie Street, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 4,
-      "baths": 3,
-      "cars": 4,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$2900 per week",
-      "priceValue": 2900,
-      "isNew": true,
-      "image": "https://rimh2.domainstatic.com.au/W7x9Qz4vc5_Psm6Bh9L8uBjzZXk=/720x540/filters:format(webp):quality(85)/18187368_1_1_260625_081805-w1200-h800",
-      "url": "https://www.domain.com.au/1302-1-airlie-street-claremont-wa-6010-18187368"
-    },
-    {
-      "id": 18088333,
-      "address": "49 Tyrell Street, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 5,
-      "baths": 5,
-      "cars": 2,
-      "area": 1012,
-      "propertyType": "House",
-      "price": "$2900 per week",
-      "priceValue": 2900,
-      "isNew": false,
-      "image": "https://rimh2.domainstatic.com.au/k11MeJNckofsWg7uqHeD_kwvi4M=/720x540/filters:format(webp):quality(85)/18088333_1_1_260423_075721-w1800-h1200",
-      "url": "https://www.domain.com.au/49-tyrell-street-nedlands-wa-6009-18088333"
+      "url": "https://www.domain.com.au/48a-broome-street-cottesloe-wa-6011-18167455",
+      "pets": false,
+      "courtyard": false
     }
   ],
   "buy": [

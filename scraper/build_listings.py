@@ -17,6 +17,7 @@ data/listings.json the website reads:
   both:     dedupe, sort (price asc; price-on-application last), keep inspect times
 """
 import json
+import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -62,8 +63,20 @@ def main():
     court = set(bundle.get("court", []))
     min_rent = config.get("minRent", 0)
 
-    rent = clean(pull, "rent", furn=furn, pets=pets, court=court, min_rent=min_rent)
-    buy = clean(pull, "buy")
+    # modes: "full" rebuilds both; "rent-only" rebuilds rent and keeps existing buy;
+    #        "buy-only" rebuilds buy and keeps existing (freshly-built) rent.
+    mode = sys.argv[1] if len(sys.argv) > 1 else "full"
+    existing = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+
+    if mode == "buy-only":
+        rent = existing.get("rent", [])
+    else:
+        rent = clean(pull, "rent", furn=furn, pets=pets, court=court, min_rent=min_rent)
+
+    if mode == "rent-only":
+        buy = existing.get("buy", [])
+    else:
+        buy = clean(pull, "buy")
 
     now = datetime.now(timezone(timedelta(hours=8)))  # AWST
     out = {
