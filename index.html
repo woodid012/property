@@ -96,6 +96,10 @@
   .tag.mc { background: #fde9c9; color: #8a5a00; }
   .tag.new { background: #d8f0e2; color: #138a52; }
   .tag.noprice { background: #eceef2; color: #5a6475; }
+  .tag.open { background: #e1ecff; color: #1f4fb0; }
+  .tag.amen { background: #e9f5ec; color: #2d7a47; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags .tag { margin-right: 0; }
 
   .actions { display: flex; gap: 8px; padding: 10px 16px 14px; margin-top: auto; }
   .act { flex: 1; padding: 11px 8px; border: 1px solid #e2e6ee; border-radius: 10px;
@@ -159,6 +163,14 @@
       <div class="beds">
         <span class="beds-label">Suburbs <span class="subs-hint">(tap to hide)</span></span>
         <div class="chips" id="rent-subs"></div>
+      </div>
+      <div class="beds">
+        <span class="beds-label">Must have <span class="subs-hint">(tap to require)</span></span>
+        <div class="chips" id="rent-amen">
+          <button class="chip" data-amen="pets">🐾 Pets allowed</button>
+          <button class="chip" data-amen="courtyard">🌿 Courtyard</button>
+          <button class="chip" data-amen="ground">⬇️ Ground floor</button>
+        </div>
       </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="rent">Save my budget</button>
@@ -358,6 +370,48 @@ function setupSubs(kind){
 
 function subMatch(item, kind){ return !SUBS[kind].has(item.suburb || 'Other'); }
 
+/* ---------- amenity filters (per-device; pets / courtyard / ground floor) ---------- */
+const AMEN_KEY = "mumPropertyAmen";
+let AMEN = { rent: { pets:false, courtyard:false, ground:false }, buy: { pets:false, courtyard:false, ground:false } };
+function loadAmen(){
+  try { const a = JSON.parse(localStorage.getItem(AMEN_KEY)) || {};
+    ['rent','buy'].forEach(k => { AMEN[k] = Object.assign({pets:false,courtyard:false,ground:false}, a[k]||{}); });
+  } catch(e){ /* defaults */ }
+}
+function saveAmen(){ localStorage.setItem(AMEN_KEY, JSON.stringify(AMEN)); }
+
+function setupAmen(kind){
+  const host = document.getElementById(kind+"-amen");
+  if (!host) return;
+  host.querySelectorAll('.chip').forEach(c => {
+    const a = c.dataset.amen;
+    c.classList.toggle('on', !!AMEN[kind][a]);
+    c.onclick = () => { AMEN[kind][a] = !AMEN[kind][a]; saveAmen(); setupAmen(kind); render(kind); paintTabCounts(); };
+  });
+}
+
+function amenMatch(item, kind){
+  const a = AMEN[kind]; if (!a) return true;
+  if (a.pets && !item.pets) return false;
+  if (a.courtyard && !item.courtyard) return false;
+  if (a.ground){
+    const hay = ((item.address||'') + ' ' + (item.propertyType||'')).toLowerCase();
+    if (!/ground\s*floor|ground\s*flr|\bg\/?f\b/.test(hay)) return false;
+  }
+  return true;
+}
+
+// "2026-07-02T17:00:00" + optional close -> "Sat 2 Jul, 5:00–5:30pm"
+function fmtInspect(insp){
+  if (!insp || !insp.open) return '';
+  const o = new Date(insp.open); if (isNaN(o)) return '';
+  if (o < new Date(Date.now() - 6*3600*1000)) return ''; // past inspection — don't show
+  const day = o.toLocaleDateString('en-AU', { weekday:'short', day:'numeric', month:'short' });
+  const t = d => d.toLocaleTimeString('en-AU', { hour:'numeric', minute:'2-digit' }).replace(' ','').toLowerCase();
+  const c = insp.close ? new Date(insp.close) : null;
+  return day + ', ' + t(o) + (c && !isNaN(c) ? '–' + t(c) : '');
+}
+
 /* ---------- favourites / hidden state ---------- */
 function lid(x){ return String(x.id || x.url || x.address || ""); }
 function isFav(id){ return STATE.favourites.has(id); }
@@ -445,6 +499,10 @@ function card(item, context){
   const tags = [];
   if ((item.suburb||"").toLowerCase().includes("mount claremont")) tags.push('<span class="tag mc">📍 Mount Claremont</span>');
   if (item.isNew) tags.push('<span class="tag new">New</span>');
+  const open = fmtInspect(item.inspect);
+  if (open) tags.push('<span class="tag open">🏠 Open '+open+'</span>');
+  if (item.pets) tags.push('<span class="tag amen">🐾 Pets OK</span>');
+  if (item.courtyard) tags.push('<span class="tag amen">🌿 Courtyard</span>');
   if (item.priceValue == null) tags.push('<span class="tag noprice">Price on application</span>');
   const tagHtml = tags.length ? '<div class="tags">'+tags.join('')+'</div>' : '';
 
@@ -466,7 +524,7 @@ function card(item, context){
 
 function render(kind){
   const r = RANGES[kind];
-  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind) && subMatch(x, kind));
+  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind) && subMatch(x, kind) && amenMatch(x, kind));
   const inRange = all.filter(x => x.priceValue != null && x.priceValue >= r.min && x.priceValue <= r.max);
   const noPrice = all.filter(x => x.priceValue == null);
   const shown = inRange.concat(noPrice);
@@ -544,6 +602,8 @@ async function loadData(){
   ['rent','buy'].forEach(setupBeds);
   loadSubs();
   ['rent','buy'].forEach(setupSubs);
+  loadAmen();
+  ['rent','buy'].forEach(setupAmen);
   await loadState();
   renderAll();
 }
