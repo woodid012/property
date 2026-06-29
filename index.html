@@ -98,6 +98,7 @@
   .tag.noprice { background: #eceef2; color: #5a6475; }
   .tag.open { background: #e1ecff; color: #1f4fb0; }
   .tag.amen { background: #e9f5ec; color: #2d7a47; }
+  .tag.uo { background: #fde2e2; color: #b02a2a; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags .tag { margin-right: 0; }
 
@@ -209,6 +210,12 @@
       <div class="beds">
         <span class="beds-label">Suburbs <span class="subs-hint">(tap to hide)</span></span>
         <div class="chips" id="buy-subs"></div>
+      </div>
+      <div class="beds">
+        <span class="beds-label">Status</span>
+        <div class="chips" id="buy-amen">
+          <button class="chip" data-amen="hideuo">🤝 Hide under offer</button>
+        </div>
       </div>
       <div class="ctl-actions">
         <button class="btn save" data-save="buy">Save my budget</button>
@@ -372,11 +379,12 @@ function subMatch(item, kind){ return !SUBS[kind].has(item.suburb || 'Other'); }
 
 /* ---------- amenity filters (per-device; pets / courtyard / ground floor) ---------- */
 const AMEN_KEY = "mumPropertyAmen";
-let AMEN = { rent: { pets:false, courtyard:false, ground:false }, buy: { pets:false, courtyard:false, ground:false } };
+let AMEN = { rent: { pets:false, courtyard:false, ground:false }, buy: { hideuo:false } };
 function loadAmen(){
+  const defs = { rent:{pets:false,courtyard:false,ground:false}, buy:{hideuo:false} };
   try { const a = JSON.parse(localStorage.getItem(AMEN_KEY)) || {};
-    ['rent','buy'].forEach(k => { AMEN[k] = Object.assign({pets:false,courtyard:false,ground:false}, a[k]||{}); });
-  } catch(e){ /* defaults */ }
+    ['rent','buy'].forEach(k => { AMEN[k] = Object.assign({}, defs[k], a[k]||{}); });
+  } catch(e){ AMEN = defs; }
 }
 function saveAmen(){ localStorage.setItem(AMEN_KEY, JSON.stringify(AMEN)); }
 
@@ -392,6 +400,7 @@ function setupAmen(kind){
 
 function amenMatch(item, kind){
   const a = AMEN[kind]; if (!a) return true;
+  if (a.hideuo && item.underOffer) return false;   // buy: hide under-offer homes
   if (a.pets && !item.pets) return false;
   if (a.courtyard && !item.courtyard) return false;
   if (a.ground){
@@ -501,6 +510,7 @@ function card(item, context){
   if (item.isNew) tags.push('<span class="tag new">New</span>');
   const open = fmtInspect(item.inspect);
   if (open) tags.push('<span class="tag open">🏠 Open '+open+'</span>');
+  if (item.underOffer) tags.push('<span class="tag uo">🤝 Under offer</span>');
   if (item.pets) tags.push('<span class="tag amen">🐾 Pets OK</span>');
   if (item.courtyard) tags.push('<span class="tag amen">🌿 Courtyard</span>');
   if (item.priceValue == null) tags.push('<span class="tag noprice">Price on application</span>');
