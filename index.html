@@ -258,8 +258,10 @@
 const LS_KEY = "mumPropertyRanges";       // saved budget ranges
 const BEDS_KEY = "mumPropertyBeds";        // saved bedroom filter
 const SUBS_KEY = "mumPropertySubs";        // saved suburb filter (stores HIDDEN suburbs)
+const SEEN_KEY = "mumPropertySeenSubs";    // suburbs we've already applied the focus default to
 const STATE_KEY = "mumPropertyState";      // local fallback for favourites/hidden
 const SUBURB_SLUGS = []; // filled from config
+const FOCUS = new Set(); // focus suburbs (from config.locations) — others default hidden
 let DATA = { rent: [], buy: [], config: null };
 let RANGES = {}; // {rent:{min,max}, buy:{min,max}}
 let BEDS = { rent: [], buy: [] }; // selected bedroom counts per tab ([] = Any)
@@ -351,6 +353,21 @@ function loadSubs(){
   catch(e){ SUBS = { rent: new Set(), buy: new Set() }; }
 }
 function saveSubs(){ localStorage.setItem(SUBS_KEY, JSON.stringify({ rent: [...SUBS.rent], buy: [...SUBS.buy] })); }
+
+// Default-hide any suburb that isn't in the focus list (config.locations). The
+// scrape still pulls these "nearby" suburbs in; they just start hidden and can be
+// shown via the chips. Applied once per suburb (tracked in SEEN_KEY) so a suburb
+// the user later un-hides stays shown.
+function seedFocus(){
+  let seen; try { seen = new Set(JSON.parse(localStorage.getItem(SEEN_KEY)) || []); } catch(e){ seen = new Set(); }
+  let changed = false;
+  ['rent','buy'].forEach(kind => {
+    suburbsOf(kind).forEach(s => {
+      if (!FOCUS.has(s.toLowerCase()) && !seen.has(s)) { SUBS[kind].add(s); seen.add(s); changed = true; }
+    });
+  });
+  if (changed){ saveSubs(); localStorage.setItem(SEEN_KEY, JSON.stringify([...seen])); }
+}
 
 function suburbsOf(kind){
   const c = {};
@@ -640,14 +657,17 @@ async function loadData(){
   const res = await fetch('./data/listings.json?t=' + Date.now());
   DATA = await res.json();
   ['rent','buy'].forEach(k => (DATA[k]||[]).forEach(x => { x._kind = k; x._id = lid(x); }));
-  SUBURB_SLUGS.length = 0;
-  ((DATA.config && DATA.config.locations) || []).forEach(l =>
-    SUBURB_SLUGS.push(l.suburb.toLowerCase().replace(/ /g,'-') + '-' + (l.state||'wa').toLowerCase() + '-' + l.postCode));
+  SUBURB_SLUGS.length = 0; FOCUS.clear();
+  ((DATA.config && DATA.config.locations) || []).forEach(l => {
+    SUBURB_SLUGS.push(l.suburb.toLowerCase().replace(/ /g,'-') + '-' + (l.state||'wa').toLowerCase() + '-' + l.postCode);
+    FOCUS.add(l.suburb.toLowerCase());
+  });
   paintUpdated();
   ['rent','buy'].forEach(setupSliders);
   loadBeds();
   ['rent','buy'].forEach(setupBeds);
   loadSubs();
+  seedFocus();   // default-hide nearby/spillover suburbs that aren't in the focus list
   ['rent','buy'].forEach(setupSubs);
   loadAmen();
   ['rent','buy'].forEach(setupAmen);
