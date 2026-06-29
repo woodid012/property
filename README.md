@@ -1,8 +1,13 @@
-# Property — Mount Claremont 2+ bed search
+# Property — Lake Claremont / Mount Claremont search
 
-A small website for browsing **2+ bedroom rentals and homes for sale** around
-Mount Claremont, WA (Claremont, Swanbourne, Cottesloe, Floreat, Nedlands,
-Dalkeith). Built to share with family.
+A small website for browsing **rentals and homes for sale** around
+Lake Claremont / Mount Claremont, WA — Claremont, Swanbourne, Cottesloe, Floreat,
+Nedlands, Dalkeith, Subiaco, Wembley, plus Highgate and Mount Lawley. Built to
+share with family.
+
+Rentals are filtered to **$700+ per week** and **exclude furnished homes**
+(see `minRent` / `excludeFurnished` in `config.json`). The same suburb list is
+used for both the **For Rent** and **To Buy** tabs.
 
 - **For Rent** and **To Buy** tabs, shown as a **photo dashboard** (lead photo per home)
 - **♥ Favourite** any home and **✕ Hide** ones you're not interested in — with **Undo** and a **Hidden** tab to restore from

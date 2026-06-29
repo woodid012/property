@@ -1,6 +1,7 @@
 {
   "_comment": "Edit this to change the search. The scraper and the website both read it.",
   "minBedrooms": 1,
+  "_locationsNote": "Focused on Lake Claremont / Mount Claremont (Lake Claremont sits inside Mount Claremont, postcode 6010) and surrounding suburbs.",
   "locations": [
     { "suburb": "Mount Claremont", "postCode": "6010", "state": "WA" },
     { "suburb": "Claremont",       "postCode": "6010", "state": "WA" },
@@ -10,11 +11,15 @@
     { "suburb": "Nedlands",        "postCode": "6009", "state": "WA" },
     { "suburb": "Dalkeith",        "postCode": "6009", "state": "WA" },
     { "suburb": "Subiaco",         "postCode": "6008", "state": "WA" },
-    { "suburb": "Wembley",         "postCode": "6014", "state": "WA" }
+    { "suburb": "Wembley",         "postCode": "6014", "state": "WA" },
+    { "suburb": "Highgate",        "postCode": "6003", "state": "WA" },
+    { "suburb": "Mount Lawley",    "postCode": "6050", "state": "WA" }
   ],
   "includeSurroundingSuburbs": false,
+  "minRent": 700,
+  "excludeFurnished": true,
   "defaultRanges": {
-    "rent": { "min": 400, "max": 1200, "absMin": 200, "absMax": 2000, "step": 25 },
+    "rent": { "min": 700, "max": 1200, "absMin": 700, "absMax": 2000, "step": 25 },
     "buy":  { "min": 600000, "max": 1400000, "absMin": 300000, "absMax": 3000000, "step": 25000 }
   }
 }

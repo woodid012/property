@@ -64,12 +64,18 @@ async function run(KIND) {
     let tt = ''; const tg = m.tags;
     if (Array.isArray(tg)) tt = tg.map(t => (t && t.tagText) || '').join(' ');
     else if (tg && typeof tg === 'object') tt = tg.tagText || '';
+    // furnished detection: scan every bit of text Domain exposes for the listing
+    const furnText = [tt, m.title, m.headline, m.summaryDescription, String(price),
+                      f.propertyTypeFormatted, f.propertyType, m.promoType]
+                      .filter(Boolean).join(' ');
+    const furnished = /\bfurnish/i.test(furnText) && !/\bunfurnish/i.test(furnText);
     out.push({
       id: e.id, address: addr, suburb: (a.suburb || '').trim(),
       beds: f.beds ?? null, baths: f.baths ?? null, cars: f.parking ?? null,
       area: f.landSize || null,
       propertyType: f.propertyTypeFormatted || f.propertyType || '',
       price: String(price).trim(), priceValue: pv, isNew: /new/i.test(tt),
+      furnished,
       image: (Array.isArray(m.images) && m.images[0]) || null,
       url: url || null, _kind: KIND,
     });
@@ -83,7 +89,7 @@ async function run(KIND) {
 // reset before a fresh pull:  localStorage.setItem('_pull', '[]'); await run('rent');
 
 // ── STEP B — dedupe / filter / sort into localStorage._final ─────────────────
-function assemble(minBeds = 2) {
+function assemble(minBeds = 2, minRent = 700) {
   const raw = JSON.parse(localStorage.getItem('_pull') || '[]');
   const clean = (kind) => {
     const seen = new Set(), rows = [];
@@ -92,6 +98,11 @@ function assemble(minBeds = 2) {
       const key = r.id || r.url;
       if (seen.has(key)) continue;
       if (r.beds != null && r.beds < minBeds) continue;
+      // rentals: drop furnished homes and anything priced below the minimum
+      if (kind === 'rent') {
+        if (r.furnished) continue;
+        if (r.priceValue != null && r.priceValue < minRent) continue;
+      }
       seen.add(key);
       const { _kind, ...rest } = r;
       rows.push(rest);
