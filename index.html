@@ -99,6 +99,7 @@
   .tag.open { background: #e1ecff; color: #1f4fb0; }
   .tag.amen { background: #e9f5ec; color: #2d7a47; }
   .tag.uo { background: #fde2e2; color: #b02a2a; }
+  .tag.gone { background: #f1d6a8; color: #7a4a00; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags .tag { margin-right: 0; }
 
@@ -263,7 +264,7 @@ let DATA = { rent: [], buy: [], config: null };
 let RANGES = {}; // {rent:{min,max}, buy:{min,max}}
 let BEDS = { rent: [], buy: [] }; // selected bedroom counts per tab ([] = Any)
 let SUBS = { rent: new Set(), buy: new Set() }; // HIDDEN suburbs per tab (empty = all shown)
-let STATE = { favourites: new Set(), hidden: new Set(), synced: false };
+let STATE = { favourites: new Set(), hidden: new Set(), snaps: {}, synced: false };
 
 function fmtRent(v){ return "$" + v.toLocaleString() + "/wk"; }
 function fmtBuy(v){
@@ -428,9 +429,20 @@ function isHidden(id){ return STATE.hidden.has(id); }
 
 function persistLocal(){
   localStorage.setItem(STATE_KEY, JSON.stringify({
-    favourites: [...STATE.favourites], hidden: [...STATE.hidden]
+    favourites: [...STATE.favourites], hidden: [...STATE.hidden], snaps: STATE.snaps
   }));
 }
+
+// a small copy of a listing, saved so a favourite survives the ad being delisted
+function snapshotOf(item){
+  if (!item) return null;
+  const keep = ['id','address','suburb','beds','baths','cars','area','propertyType',
+                'price','priceValue','isNew','inspect','pets','courtyard','underOffer','image','url'];
+  const s = {}; keep.forEach(k => { if (item[k] !== undefined) s[k] = item[k]; });
+  s._kind = item._kind; s._id = item._id;
+  return s;
+}
+function itemById(id){ return ['rent','buy'].flatMap(k => DATA[k]||[]).find(x => x._id === id) || null; }
 
 async function loadState(){
   // Try the synced API first; fall back to this device's localStorage.
@@ -441,6 +453,7 @@ async function loadState(){
       if (j && j.configured) {
         STATE.favourites = new Set(j.favourites || []);
         STATE.hidden = new Set(j.hidden || []);
+        STATE.snaps = j.snapshots || {};
         STATE.synced = true;
         persistLocal(); // keep a local mirror
         paintSyncNote();
@@ -451,27 +464,43 @@ async function loadState(){
   const ls = (() => { try { return JSON.parse(localStorage.getItem(STATE_KEY)) || {}; } catch(_){ return {}; } })();
   STATE.favourites = new Set(ls.favourites || []);
   STATE.hidden = new Set(ls.hidden || []);
+  STATE.snaps = ls.snaps || {};
   STATE.synced = false;
   paintSyncNote();
 }
 
-async function pushAction(action, id){
+// Make sure every current favourite has a saved snapshot (captures one for
+// favourites made before snapshots existed, while the ad is still live).
+function backfillSnaps(){
+  let added = false;
+  STATE.favourites.forEach(id => {
+    if (!STATE.snaps[id]) { const it = itemById(id); if (it) { STATE.snaps[id] = snapshotOf(it); added = true; } }
+  });
+  if (added){ persistLocal(); STATE.favourites.forEach(id => { if (STATE.snaps[id]) pushAction('favourite', id, STATE.snaps[id]); }); }
+}
+
+async function pushAction(action, id, snapshot){
   persistLocal(); // always keep a local copy first
   if (!STATE.synced) return;
   try {
     await fetch('/api/state', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ action, id }),
+      body: JSON.stringify({ action, id, snapshot }),
     });
   } catch(e) { /* network blip — local copy keeps us consistent */ }
 }
 
 async function doAction(act, id){
   if (act === 'fav'){
-    if (STATE.favourites.has(id)) STATE.favourites.delete(id);
-    else STATE.favourites.add(id);
-    await pushAction(STATE.favourites.has(id) ? 'favourite' : 'unfavourite', id);
+    if (STATE.favourites.has(id)) {
+      STATE.favourites.delete(id); delete STATE.snaps[id];
+      await pushAction('unfavourite', id);
+    } else {
+      STATE.favourites.add(id);
+      STATE.snaps[id] = snapshotOf(itemById(id));   // save the listing so it survives delisting
+      await pushAction('favourite', id, STATE.snaps[id]);
+    }
   } else if (act === 'hide'){
     STATE.hidden.add(id);
     await pushAction('hide', id);
@@ -514,6 +543,7 @@ function card(item, context){
   if (item.pets) tags.push('<span class="tag amen">🐾 Pets OK</span>');
   if (item.courtyard) tags.push('<span class="tag amen">🌿 Courtyard</span>');
   if (item.priceValue == null) tags.push('<span class="tag noprice">Price on application</span>');
+  if (item._removed) tags.push('<span class="tag gone">⚠ Ad may be removed</span>');
   const tagHtml = tags.length ? '<div class="tags">'+tags.join('')+'</div>' : '';
 
   const fav = isFav(id);
@@ -548,7 +578,14 @@ function render(kind){
 }
 
 function renderFavs(){
-  const items = ['rent','buy'].flatMap(k => DATA[k]||[]).filter(x => isFav(x._id) && !isHidden(x._id));
+  // Render every favourite — using the live listing when it's still in the data,
+  // otherwise the saved snapshot so the home (and its link) never disappears.
+  const items = [...STATE.favourites].filter(id => !isHidden(id)).map(id => {
+    const live = itemById(id);
+    if (live) return live;
+    const snap = STATE.snaps[id];
+    return snap ? Object.assign({}, snap, { _removed: true }) : null;
+  }).filter(Boolean);
   const host = document.getElementById('favs-cards');
   host.innerHTML = items.length
     ? items.map(x => card(x, 'fav')).join('')
@@ -580,7 +617,7 @@ function paintTabCounts(){
   const live = k => (DATA[k]||[]).filter(x => !isHidden(x._id)).length;
   document.getElementById("rent-count").textContent = live('rent') + " listings";
   document.getElementById("buy-count").textContent  = live('buy') + " listings";
-  const favN = ['rent','buy'].flatMap(k => DATA[k]||[]).filter(x => isFav(x._id) && !isHidden(x._id)).length;
+  const favN = [...STATE.favourites].filter(id => !isHidden(id)).length;
   const hidN = ['rent','buy'].flatMap(k => DATA[k]||[]).filter(x => isHidden(x._id)).length;
   document.getElementById("favs-count").textContent = favN;
   document.getElementById("hidden-count").textContent = hidN;
@@ -615,6 +652,7 @@ async function loadData(){
   loadAmen();
   ['rent','buy'].forEach(setupAmen);
   await loadState();
+  backfillSnaps();   // capture snapshots for any pre-existing favourites still live
   renderAll();
 }
 
