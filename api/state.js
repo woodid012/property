@@ -44,9 +44,30 @@ async function ensureReady(sql) {
       `;
       // snapshot of the favourited listing, so it survives delisting
       await sql`ALTER TABLE picks ADD COLUMN IF NOT EXISTS data JSONB`;
+      // shared filter preferences (one row, id=1): bedrooms, suburbs, must-haves, budget.
+      // Stored server-side so they sync across devices (e.g. Mum sees the same setup).
+      await sql`
+        CREATE TABLE IF NOT EXISTS prefs (
+          id         INT PRIMARY KEY,
+          data       JSONB NOT NULL DEFAULT '{}'::jsonb,
+          updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+        )
+      `;
     })();
   }
   await _ready;
+}
+
+async function getPrefs(sql) {
+  const rows = await sql`SELECT data FROM prefs WHERE id = 1`;
+  if (!rows.length || rows[0].data == null) return {};
+  return typeof rows[0].data === "string" ? JSON.parse(rows[0].data) : rows[0].data;
+}
+
+async function setPrefs(sql, prefs) {
+  const json = JSON.stringify(prefs || {});
+  await sql`INSERT INTO prefs (id, data) VALUES (1, ${json}::jsonb)
+            ON CONFLICT (id) DO UPDATE SET data = EXCLUDED.data, updated_at = now()`;
 }
 
 async function getState(sql) {
@@ -65,7 +86,8 @@ async function getState(sql) {
       hidden.push(r.listing_id);
     }
   }
-  return { favourites, hidden, snapshots };
+  const prefs = await getPrefs(sql);
+  return { favourites, hidden, snapshots, prefs };
 }
 
 async function apply(sql, action, id, snapshot) {
@@ -100,7 +122,7 @@ module.exports = async (req, res) => {
   const url = dbUrl();
   if (!url) {
     // No database connected yet — tell the client to use its local fallback.
-    res.status(200).json({ configured: false, favourites: [], hidden: [] });
+    res.status(200).json({ configured: false, favourites: [], hidden: [], prefs: {} });
     return;
   }
 
@@ -116,7 +138,17 @@ module.exports = async (req, res) => {
     if (req.method === "POST") {
       const body =
         typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
-      const { action, id, snapshot } = body;
+      const { action, id, snapshot, prefs } = body;
+
+      // shared filter preferences — no listing id, just the whole prefs blob
+      if (action === "setPrefs") {
+        await ensureReady(sql);
+        await setPrefs(sql, prefs || {});
+        const state = await getState(sql);
+        res.status(200).json({ configured: true, ...state });
+        return;
+      }
+
       if (!action || !id) {
         res.status(400).json({ error: "missing action or id" });
         return;

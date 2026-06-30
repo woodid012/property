@@ -59,6 +59,9 @@
   }
   .btn.save { background: #1f6feb; }
   .buy .btn.save { background: #138a52; }
+  .btn.save.dirty { box-shadow: 0 0 0 3px rgba(245,158,11,.55); }
+  .btn.save.dirty::after { content: " •"; }
+  .btn:disabled { opacity: .6; cursor: default; }
   .btn.ghost { background: #eef0f4; color: #3a4252; }
   .saved-msg { font-size: 0.82rem; color: #138a52; font-weight: 600; opacity: 0; transition: opacity .2s; }
   .saved-msg.show { opacity: 1; }
@@ -145,7 +148,7 @@
   <div class="panel active" id="rent">
     <div class="controls">
       <h2>Weekly rent: <span class="rangeval" id="rent-label"></span></h2>
-      <p class="hint">Drag to set your budget, then tap Save — it'll be remembered next time.</p>
+      <p class="hint">Set bedrooms, suburbs, must-haves &amp; budget below, then tap <strong>Save settings</strong> — saved for everyone on the link.</p>
       <div class="sliders">
         <label>Minimum <span id="rent-min-v"></span></label>
         <input type="range" id="rent-min">
@@ -175,7 +178,7 @@
         </div>
       </div>
       <div class="ctl-actions">
-        <button class="btn save" data-save="rent">Save my budget</button>
+        <button class="btn save" data-save="rent">Save settings</button>
         <button class="btn ghost" data-reset="rent">Reset</button>
         <span class="saved-msg" id="rent-saved">✓ Saved</span>
       </div>
@@ -191,7 +194,7 @@
   <div class="panel buy" id="buy">
     <div class="controls">
       <h2>Purchase price: <span class="rangeval" id="buy-label"></span></h2>
-      <p class="hint">Drag to set your budget, then tap Save — it'll be remembered next time.</p>
+      <p class="hint">Set bedrooms, suburbs, must-haves &amp; budget below, then tap <strong>Save settings</strong> — saved for everyone on the link.</p>
       <div class="sliders">
         <label>Minimum <span id="buy-min-v"></span></label>
         <input type="range" id="buy-min">
@@ -219,7 +222,7 @@
         </div>
       </div>
       <div class="ctl-actions">
-        <button class="btn save" data-save="buy">Save my budget</button>
+        <button class="btn save" data-save="buy">Save settings</button>
         <button class="btn ghost" data-reset="buy">Reset</button>
         <span class="saved-msg" id="buy-saved">✓ Saved</span>
       </div>
@@ -306,6 +309,7 @@ function setupSliders(kind){
     RANGES[kind] = { min: lo, max: hi };
     paintLabels(kind);
     render(kind);
+    markDirty();
   };
   mn.oninput = ()=>sync("min");
   mx.oninput = ()=>sync("max");
@@ -335,7 +339,7 @@ function setupBeds(kind){
     c.onclick = () => {
       if (v === 'any') { BEDS[kind] = []; }
       else { const n = +v, i = BEDS[kind].indexOf(n); if (i >= 0) BEDS[kind].splice(i,1); else BEDS[kind].push(n); }
-      saveBeds(); setupBeds(kind); render(kind); paintTabCounts();
+      setupBeds(kind); render(kind); paintTabCounts(); markDirty();
     };
   });
 }
@@ -388,7 +392,7 @@ function setupSubs(kind){
     c.onclick = () => {
       if (v === '__all__') { SUBS[kind].clear(); }
       else { if (SUBS[kind].has(v)) SUBS[kind].delete(v); else SUBS[kind].add(v); }
-      saveSubs(); setupSubs(kind); render(kind); paintTabCounts();
+      setupSubs(kind); render(kind); paintTabCounts(); markDirty();
     };
   });
 }
@@ -412,7 +416,7 @@ function setupAmen(kind){
   host.querySelectorAll('.chip').forEach(c => {
     const a = c.dataset.amen;
     c.classList.toggle('on', !!AMEN[kind][a]);
-    c.onclick = () => { AMEN[kind][a] = !AMEN[kind][a]; saveAmen(); setupAmen(kind); render(kind); paintTabCounts(); };
+    c.onclick = () => { AMEN[kind][a] = !AMEN[kind][a]; setupAmen(kind); render(kind); paintTabCounts(); markDirty(); };
   });
 }
 
@@ -426,6 +430,58 @@ function amenMatch(item, kind){
     if (!/ground\s*floor|ground\s*flr|\bg\/?f\b/.test(hay)) return false;
   }
   return true;
+}
+
+/* ---------- shared filter preferences (saved to the SERVER via the Save button) ---------- */
+// Bedrooms, suburbs, must-haves and budget all save together when Save is pressed,
+// and sync across devices (so Mum sees the same setup on the link). Chip/slider
+// changes are a live preview only — nothing persists until Save.
+let prefsDirty = false;
+function prefsBlob(){
+  return {
+    beds:   { rent: BEDS.rent.slice(), buy: BEDS.buy.slice() },
+    subs:   { rent: [...SUBS.rent], buy: [...SUBS.buy] },
+    amen:   { rent: Object.assign({}, AMEN.rent), buy: Object.assign({}, AMEN.buy) },
+    ranges: { rent: Object.assign({}, RANGES.rent), buy: Object.assign({}, RANGES.buy) },
+  };
+}
+function applyServerPrefs(p){
+  if (!p || typeof p !== 'object') return;
+  if (p.beds){ BEDS.rent = p.beds.rent || []; BEDS.buy = p.beds.buy || []; }
+  if (p.subs){ SUBS.rent = new Set(p.subs.rent || []); SUBS.buy = new Set(p.subs.buy || []); }
+  if (p.amen){ ['rent','buy'].forEach(k => { if (p.amen[k]) AMEN[k] = Object.assign({}, AMEN[k], p.amen[k]); }); }
+  if (p.ranges){ ['rent','buy'].forEach(k => {
+    const r = p.ranges[k]; if (!r) return;
+    RANGES[k] = { min: r.min, max: r.max };
+    const mn = document.getElementById(k+'-min'), mx = document.getElementById(k+'-max');
+    if (mn && mx){ mn.value = r.min; mx.value = r.max; }
+  }); }
+  ['rent','buy'].forEach(k => { setupBeds(k); setupSubs(k); setupAmen(k); paintLabels(k); });
+  saveBeds(); saveSubs(); saveAmen(); persist();   // mirror locally for offline
+  markClean();
+}
+function markDirty(){
+  prefsDirty = true;
+  document.querySelectorAll('.btn.save').forEach(b => b.classList.add('dirty'));
+}
+function markClean(){
+  prefsDirty = false;
+  document.querySelectorAll('.btn.save').forEach(b => b.classList.remove('dirty'));
+}
+async function saveAllPrefs(){
+  saveBeds(); saveSubs(); saveAmen(); persist();   // local mirror first (works offline / no DB)
+  let ok = true;
+  if (STATE.synced){
+    try {
+      const res = await fetch('/api/state', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'setPrefs', prefs: prefsBlob() }),
+      });
+      ok = res.ok;
+    } catch(e){ ok = false; }
+  }
+  markClean();
+  return ok;
 }
 
 // "2026-07-02T17:00:00" + optional close -> "Sat 2 Jul, 5:00–5:30pm"
@@ -472,6 +528,7 @@ async function loadState(){
         STATE.hidden = new Set(j.hidden || []);
         STATE.snaps = j.snapshots || {};
         STATE.synced = true;
+        applyServerPrefs(j.prefs);   // shared filters from the server win over local
         persistLocal(); // keep a local mirror
         paintSyncNote();
         return;
@@ -531,8 +588,8 @@ async function doAction(act, id){
 
 function paintSyncNote(){
   document.getElementById('syncnote').textContent = STATE.synced
-    ? "✓ Favourites are saved to the cloud — visible on any device."
-    : "Favourites are saved on this device.";
+    ? "✓ Favourites & saved filters sync to the cloud — visible on any device."
+    : "Favourites & filters are saved on this device.";
 }
 
 /* ---------- cards ---------- */
@@ -708,11 +765,16 @@ document.addEventListener('click', (e) => {
   if (id) doAction(btn.dataset.act, id);
 });
 
-// save / reset budget
-document.querySelectorAll('[data-save]').forEach(b => b.addEventListener('click', () => {
-  persist();
+// save ALL settings (bedrooms, suburbs, must-haves, budget) — to the server when synced
+document.querySelectorAll('[data-save]').forEach(b => b.addEventListener('click', async () => {
   const msg = document.getElementById(b.dataset.save+"-saved");
-  msg.classList.add('show'); setTimeout(()=>msg.classList.remove('show'), 1600);
+  b.disabled = true;
+  const ok = await saveAllPrefs();
+  b.disabled = false;
+  msg.textContent = STATE.synced
+    ? (ok ? "✓ Saved for everyone" : "Saved on this device (sync failed)")
+    : "✓ Saved on this device";
+  msg.classList.add('show'); setTimeout(()=>msg.classList.remove('show'), 2200);
 }));
 document.querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click', () => {
   const kind = b.dataset.reset, d = defaults(kind);
@@ -720,7 +782,7 @@ document.querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click
   RANGES[kind] = { min:d.min, max:d.max };
   document.getElementById(kind+"-min").value = d.min;
   document.getElementById(kind+"-max").value = d.max;
-  paintLabels(kind); render(kind);
+  paintLabels(kind); render(kind); markDirty();
 }));
 
 // refresh
