@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:34:01.825003+08:00",
+  "generatedAt": "2026-06-30T09:37:37.866750+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -2709,7 +2709,11 @@
       "price": "Offers Over $419,000",
       "priceValue": 419000,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-06-30T17:00:00",
+        "close": "2026-06-30T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/7cCAXYF-mvJaESr65z12WbPSGWs=/720x540/filters:format(webp):quality(85)/2020866912_1_1_260525_054528-w1920-h1280",
       "url": "https://www.domain.com.au/5-227-cambridge-street-wembley-wa-6014-2020866912"
     },
@@ -2725,6 +2729,7 @@
       "price": "From $419,000",
       "priceValue": 419000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/MYTpDwXBYM9CtGXxJSzP37Bt_hQ=/720x540/filters:format(webp):quality(85)/2020941621_5_1_260624_101512-w2000-h1331",
       "url": "https://www.domain.com.au/22-281-cambridge-street-wembley-wa-6014-2020941621"
@@ -2741,6 +2746,7 @@
       "price": "From $429,000",
       "priceValue": 429000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Rc-ncFn5pNxdFpsE0wcKMyb0veA=/720x540/filters:format(webp):quality(85)/2020936234_1_1_260623_034253-w1200-h800",
       "url": "https://www.domain.com.au/58-99-herdsman-parade-wembley-wa-6014-2020936234"
@@ -2757,6 +2763,7 @@
       "price": "offers from $489k",
       "priceValue": 489000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/1FdnqNqF1w0q6Z7kVcnEJxm38vY=/720x540/filters:format(webp):quality(85)/2019331200_2_1_240627_024607-w4000-h2667",
       "url": "https://www.domain.com.au/17-340-stirling-street-highgate-wa-6003-2020874537"
@@ -2773,6 +2780,7 @@
       "price": "Offers in the $500k's",
       "priceValue": 500000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/jUkZswyB9jlw7y5Udx8bkYwZVog=/720x540/filters:format(webp):quality(85)/2020909534_2_1_260611_044757-w4000-h2667",
       "url": "https://www.domain.com.au/70-131-harold-street-highgate-wa-6003-2020909534"
@@ -2789,9 +2797,27 @@
       "price": "Offers From $520,000",
       "priceValue": 520000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/wy__ezH4l_vaEUdAyok4Fo5iUo0=/720x540/filters:format(webp):quality(85)/2020823562_2_1_260507_042635-w1200-h800",
       "url": "https://www.domain.com.au/19a-49-herdsman-parade-wembley-wa-6014-2020823562"
+    },
+    {
+      "id": 2020898173,
+      "address": "3/99 Herdsman Parade, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "Offers from $560K",
+      "priceValue": 560000,
+      "isNew": false,
+      "underOffer": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/brO3qJIHx43q-CSNSPKYq2S7Vo0=/720x540/filters:format(webp):quality(85)/2020898173_1_1_260605_072840-w1200-h800",
+      "url": "https://www.domain.com.au/3-99-herdsman-parade-wembley-wa-6014-2020898173"
     },
     {
       "id": 2020850600,
@@ -2822,7 +2848,11 @@
       "price": "From $599,000",
       "priceValue": 599000,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-04T14:30:00",
+        "close": "2026-07-04T15:00:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/1ysrIzRZacKbyCD3Ol5Hco5cRYQ=/720x540/filters:format(webp):quality(85)/2020853818_1_1_260619_061102-w1264-h842",
       "url": "https://www.domain.com.au/104-131-harold-street-highgate-wa-6003-2020853818"
     },
@@ -2855,6 +2885,7 @@
       "price": "From $680,000",
       "priceValue": 680000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/y92_JjXqn-RelIswA3tP7yXYyrM=/720x540/filters:format(webp):quality(85)/2020850733_1_1_260518_075430-w1024-h768",
       "url": "https://www.domain.com.au/9-323-stirling-street-highgate-wa-6003-2020850733"
@@ -2871,6 +2902,7 @@
       "price": "Offers mid to high $700K's",
       "priceValue": 700000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/R0SlHiW2wqYhb6_nnd8r7JS_T_c=/720x540/filters:format(webp):quality(85)/2020803613_2_1_260430_061745-w4000-h2667",
       "url": "https://www.domain.com.au/29-131-harold-street-highgate-wa-6003-2020803613"
@@ -2887,6 +2919,7 @@
       "price": "Offers over $799,000",
       "priceValue": 799000,
       "isNew": true,
+      "underOffer": false,
       "inspect": {
         "open": "2026-07-04T11:30:00",
         "close": "2026-07-04T12:00:00"
@@ -2906,6 +2939,7 @@
       "price": "Offers From $800,000",
       "priceValue": 800000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/rKxB42cK7y65a7C9KhZB26cZ4IQ=/720x540/filters:format(webp):quality(85)/2020893481_1_1_260604_033720-w1920-h1280",
       "url": "https://www.domain.com.au/12-20-dean-street-claremont-wa-6010-2020893481"
@@ -2922,8 +2956,12 @@
       "price": "Offers from $935,000",
       "priceValue": 935000,
       "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/UzmPI6e1ExTtu1XfxlpBjsqSLk4=/720x540/filters:format(webp):quality(85)/2020878901_2_1_260529_020244-w1920-h1280",
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-04T11:00:00",
+        "close": "2026-07-04T11:30:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/Oaer0wGYRlDiQDzvbgONE2vj1EU=/720x540/filters:format(webp):quality(85)/2020878901_1_1_260529_020244-w1920-h1280",
       "url": "https://www.domain.com.au/4-1-stadium-drive-floreat-wa-6014-2020878901"
     },
     {
@@ -2938,6 +2976,7 @@
       "price": "From $975,000",
       "priceValue": 975000,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/i76RCe6VQPerv6zZU2tBmZK7J_E=/720x540/filters:format(webp):quality(85)/2020848837_4_1_260518_022052-w4000-h2667",
       "url": "https://www.domain.com.au/49-2-burvill-drive-floreat-wa-6014-2020848837"
@@ -2954,6 +2993,7 @@
       "price": "From $975,000",
       "priceValue": 975000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/1jbbNxhRFpDoGr7Db5wdiVn2-Ro=/720x540/filters:format(webp):quality(85)/2020943672_1_1_260625_042550-w4000-h2667",
       "url": "https://www.domain.com.au/19-2-wexford-street-subiaco-wa-6008-2020943672"
@@ -2970,6 +3010,7 @@
       "price": "Offers From $999,000",
       "priceValue": 999000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ljW2_Rt8JvKpQ4A8oEHf_ygSOhU=/720x540/filters:format(webp):quality(85)/2020071602_20_1_250618_073214-w2000-h1333",
       "url": "https://www.domain.com.au/66a-smith-street-highgate-wa-6003-2020071602"
@@ -2986,6 +3027,7 @@
       "price": "Buyers In The $1.2Millions",
       "priceValue": 1200000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kXQsh4ZLqnaZVUbektpUpFnoRDE=/720x540/filters:format(webp):quality(85)/2020804656_31_1_260430_115520-w2000-h1335",
       "url": "https://www.domain.com.au/206-18-atkinson-road-subiaco-wa-6008-2020804656"
@@ -3002,6 +3044,7 @@
       "price": "$1,220,000",
       "priceValue": 1220000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kHxleHd5bI1zVsDXKotvHxnULNg=/720x540/filters:format(webp):quality(85)/2020784878_1_1_260423_043727-w1200-h900",
       "url": "https://www.domain.com.au/102-91-broadway-nedlands-wa-6009-2020784878"
@@ -3018,6 +3061,7 @@
       "price": "Offers in the $1.3M's",
       "priceValue": 1300000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WZTBJDBk-S0eYI0hkZrpF0Uo0ps=/720x540/filters:format(webp):quality(85)/2020851763_3_1_260525_080431-w1200-h800",
       "url": "https://www.domain.com.au/18-11-17-princes-street-cottesloe-wa-6011-2020851763"
@@ -3034,6 +3078,7 @@
       "price": "$1,500,000",
       "priceValue": 1500000,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/entW1hLmH0EeI5xoZx7sOnQv0GM=/720x540/filters:format(webp):quality(85)/2020842192_1_1_260514_044359-w1640-h922",
       "url": "https://www.domain.com.au/21-34-marine-parade-cottesloe-wa-6011-2020842192"
@@ -3067,6 +3112,7 @@
       "price": "$1,595,000",
       "priceValue": 1595000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/guzycriRbQiDN9LWoM1jLKx0Sp4=/720x540/filters:format(webp):quality(85)/2020316040_1_1_260205_065838-w900-h900",
       "url": "https://www.domain.com.au/106-139-lake-street-perth-wa-6000-2020585636"
@@ -3083,9 +3129,27 @@
       "price": "$1,665,000",
       "priceValue": 1665000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WdqtiYR52uXlXN4_GsM6gExOcy8=/720x540/filters:format(webp):quality(85)/2019767761_3_1_250204_011352-w1200-h813",
       "url": "https://www.domain.com.au/401-141-west-parade-mount-lawley-wa-6050-2019767761"
+    },
+    {
+      "id": 2020804434,
+      "address": "6/6 John Street, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": 446,
+      "propertyType": "House",
+      "price": "Offers from $1.75M",
+      "priceValue": 1750000,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/VzwM3CyFLXgKLKTZZc1-7quHpI0=/720x540/filters:format(webp):quality(85)/16512875_33_1_260430_081620-w4000-h2667",
+      "url": "https://www.domain.com.au/6-6-john-street-claremont-wa-6010-2020804434"
     },
     {
       "id": 2020913387,
@@ -3099,6 +3163,7 @@
       "price": "From $1,795,000",
       "priceValue": 1795000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/lh_MXtZy6DUTrt4NzTLO-cyEAac=/720x540/filters:format(webp):quality(85)/2020831189_7_1_260526_042309-w4000-h2667",
       "url": "https://www.domain.com.au/19-bagot-road-subiaco-wa-6008-2020913387"
@@ -3115,6 +3180,7 @@
       "price": "$1,795,000",
       "priceValue": 1795000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/UOwWfjFAHKngDP0DG_L4NwSniSA=/720x540/filters:format(webp):quality(85)/2019628835_5_1_250203_034213-w1200-h727",
       "url": "https://www.domain.com.au/208-8-adair-parade-coolbinia-wa-6050-2020314300"
@@ -3131,6 +3197,7 @@
       "price": "From $1,799,000",
       "priceValue": 1799000,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/w347B3vmnn4eo17fgh6JvPS1Z5o=/720x540/filters:format(webp):quality(85)/2020890014_1_1_260603_061542-w3052-h2033",
       "url": "https://www.domain.com.au/424a-cambridge-street-floreat-wa-6014-2020890014"
@@ -3147,6 +3214,7 @@
       "price": "ALL OFFERS FROM $1,800,000 PRESENTED 30TH JUNE",
       "priceValue": 1800000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/6sOdtqM89KnpRbqI63YwVmCHo0I=/720x540/filters:format(webp):quality(85)/2020944121_1_1_260625_052628-w1200-h800",
       "url": "https://www.domain.com.au/79-pangbourne-street-wembley-wa-6014-2020944121"
@@ -3163,6 +3231,7 @@
       "price": "$1,815,000",
       "priceValue": 1815000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SaYe_G2zHWn0AN3B0khu2O-a8oo=/720x540/filters:format(webp):quality(85)/2019766759_10_1_250203_074956-w1200-h822",
       "url": "https://www.domain.com.au/503-141-west-parade-mount-lawley-wa-6050-2020921963"
@@ -3179,6 +3248,7 @@
       "price": "$1,895,000",
       "priceValue": 1895000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/djT5CuGtqkw-GYyiYR0exTHKa4k=/720x540/filters:format(webp):quality(85)/2020123956_6_1_250711_041440-w1171-h900",
       "url": "https://www.domain.com.au/401-8-adair-parade-coolbinia-wa-6050-2020314362"
@@ -3195,6 +3265,7 @@
       "price": "$1,895,000",
       "priceValue": 1895000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ARC_fzGNLoDmiZYq2MpuLOqc96I=/720x540/filters:format(webp):quality(85)/2020316040_2_1_260205_065838-w1200-h648",
       "url": "https://www.domain.com.au/304-139-lake-street-perth-wa-6000-2020697432"
@@ -3211,6 +3282,7 @@
       "price": "Offers from $1.96M",
       "priceValue": 1960000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/HFl1fa-uo3G9i6EjLLyouybWcTQ=/720x540/filters:format(webp):quality(85)/15247222_2_1_260604_054744-w4000-h2667",
       "url": "https://www.domain.com.au/30-jacaranda-avenue-mount-claremont-wa-6010-2020894879"
@@ -3227,6 +3299,7 @@
       "price": "$1,985,000",
       "priceValue": 1985000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/JzGN2t6S2G8x_ufTBsQlvtCHMiw=/720x540/filters:format(webp):quality(85)/2019766884_3_1_250203_084352-w1200-h727",
       "url": "https://www.domain.com.au/102-8-adair-parade-coolbinia-wa-6050-2020123932"
@@ -3243,6 +3316,7 @@
       "price": "Mid - $2M?s",
       "priceValue": 2000000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/lx3NtscT11IOsSRgWY_e8MxANnc=/720x540/filters:format(webp):quality(85)/2020825009_1_1_260507_071051-w4000-h2667",
       "url": "https://www.domain.com.au/28-mimosa-avenue-mount-claremont-wa-6010-2020825009"
@@ -3259,7 +3333,11 @@
       "price": "low to mid $2M's",
       "priceValue": 2000000,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-04T11:00:00",
+        "close": "2026-07-04T11:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/hUsinnSsRwUKz8A9UsJ715LgeB8=/720x540/filters:format(webp):quality(85)/2020739901_3_1_260407_075225-w1920-h1280",
       "url": "https://www.domain.com.au/102-1-airlie-street-claremont-wa-6010-2020739901"
     },
@@ -3275,6 +3353,7 @@
       "price": "From $2M+",
       "priceValue": 2000000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/A0k99pIesWgK3Efu-B-rDHJolfM=/720x540/filters:format(webp):quality(85)/2020843222_1_1_260514_065338-w1200-h800",
       "url": "https://www.domain.com.au/94-brookdale-street-floreat-wa-6014-2020843222"
@@ -3291,6 +3370,7 @@
       "price": "Fr $2,000,000",
       "priceValue": 2000000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/923bxzKnNiZm2cauWvF2kV2wl3w=/720x540/filters:format(webp):quality(85)/2020692735_7_1_260619_074729-w1800-h1200",
       "url": "https://www.domain.com.au/5-130-waratah-avenue-dalkeith-wa-6009-2020692735"
@@ -3307,6 +3387,7 @@
       "price": "Offers from $2 Million",
       "priceValue": 2000000,
       "isNew": false,
+      "underOffer": false,
       "inspect": {
         "open": "2026-07-01T17:30:00",
         "close": "2026-07-01T18:00:00"
@@ -3326,6 +3407,7 @@
       "price": "$2,095,000",
       "priceValue": 2095000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/8st-nGlmofR2hejVPMB8KnAatJE=/720x540/filters:format(webp):quality(85)/2019766759_12_1_250203_074956-w1200-h720",
       "url": "https://www.domain.com.au/603-141-west-parade-mount-lawley-wa-6050-2019915239"
@@ -3342,6 +3424,7 @@
       "price": "OFFERS FROM $2,100,000+",
       "priceValue": 2100000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/fTXwQFN-m9JJzBIQiB_Uh5n3gd8=/720x540/filters:format(webp):quality(85)/2020944052_1_1_260625_051857-w1200-h800",
       "url": "https://www.domain.com.au/2-albert-street-claremont-wa-6010-2020944052"
@@ -3358,6 +3441,7 @@
       "price": "$2,325,000",
       "priceValue": 2325000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/NhWIjeIVluGopUYqR-EzczQ1dC4=/720x540/filters:format(webp):quality(85)/2020316040_6_1_260205_065838-w1200-h780",
       "url": "https://www.domain.com.au/402-139-lake-street-perth-wa-6000-2020697435"
@@ -3374,6 +3458,7 @@
       "price": "$2,345,000",
       "priceValue": 2345000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/7ypctY1l0WqOwLxXcRao-2_3Ngw=/720x540/filters:format(webp):quality(85)/2019766759_11_1_250203_074956-w1200-h800",
       "url": "https://www.domain.com.au/701-141-west-parade-mount-lawley-wa-6050-2019916952"
@@ -3390,6 +3475,7 @@
       "price": "$2,425,000",
       "priceValue": 2425000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/QHDGPFWZuDNEjA_vxTSfeOd1HEo=/720x540/filters:format(webp):quality(85)/2020316040_7_1_260205_065838-w1200-h800",
       "url": "https://www.domain.com.au/401-139-lake-street-perth-wa-6000-2020316053"
@@ -3406,9 +3492,27 @@
       "price": "$2,495,000",
       "priceValue": 2495000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ybqAlFbR2vFJpp6_1QRsnQQptNM=/720x540/filters:format(webp):quality(85)/2019628835_2_1_250203_034213-w1200-h632",
       "url": "https://www.domain.com.au/g01-8-adair-parade-coolbinia-wa-6050-2020123979"
+    },
+    {
+      "id": 2020806036,
+      "address": "23 Clive Road, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 4,
+      "baths": 3,
+      "cars": 2,
+      "area": 240,
+      "propertyType": "House",
+      "price": "From $2.6m",
+      "priceValue": 2600000,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/IE3useoDNdWDRBu5MVdEfBAmB2g=/720x540/filters:format(webp):quality(85)/2020806036_1_1_260520_032040-w1400-h1189",
+      "url": "https://www.domain.com.au/23-clive-road-cottesloe-wa-6011-2020806036"
     },
     {
       "id": 2020825078,
@@ -3422,6 +3526,7 @@
       "price": "$2,625,000",
       "priceValue": 2625000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/agXaGKfYfbPN7Z_4QergurfM6V0=/720x540/filters:format(webp):quality(85)/2020784878_15_1_260423_043727-w1200-h900",
       "url": "https://www.domain.com.au/403-91-broadway-nedlands-wa-6009-2020825078"
@@ -3438,6 +3543,7 @@
       "price": "From $2,650,000",
       "priceValue": 2650000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/QX6hLeOH55g9VDLm7KnyPS1IPSc=/720x540/filters:format(webp):quality(85)/2020364805_9_1_260622_073235-w8000-h5000",
       "url": "https://www.domain.com.au/4-philip-road-dalkeith-wa-6009-2020364805"
@@ -3454,6 +3560,7 @@
       "price": "Offers From $2.9Mil",
       "priceValue": 2900000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/6gtrAplcYtTkqMI29mquOtWvRZg=/720x540/filters:format(webp):quality(85)/2020771668_2_1_260417_052436-w6000-h4000",
       "url": "https://www.domain.com.au/6-64-gallop-road-dalkeith-wa-6009-2020771668"
@@ -3470,26 +3577,10 @@
       "price": "$2,945,000",
       "priceValue": 2945000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/JXwALvYi3y3l1OpKfymKu7YDdhg=/720x540/filters:format(webp):quality(85)/2019091814_2_1_260608_020953-w1200-h800",
       "url": "https://www.domain.com.au/307-17-19-louise-street-nedlands-wa-6009-2019091814"
-    },
-    {
-      "id": 2020919287,
-      "address": "27 Second Avenue, Mount Lawley WA 6050",
-      "suburb": "Mount Lawley",
-      "beds": 4,
-      "baths": 2,
-      "cars": 2,
-      "area": 807,
-      "propertyType": "House",
-      "price": "From $2,950,000",
-      "priceValue": 2950000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/k2Dp_Zfz0TUCcqkip2q9kwECkkE=/720x540/filters:format(webp):quality(85)/2020919287_1_1_260616_044545-w3000-h2000",
-      "url": "https://www.domain.com.au/27-second-avenue-mount-lawley-wa-6050-2020919287"
     },
     {
       "id": 2020443645,
@@ -3503,6 +3594,7 @@
       "price": "Shore | By Negotiation Mid to High $3M's",
       "priceValue": 3000000,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/BDxtrOIPj2kMtEygJk9-xfjVnl8=/720x540/filters:format(webp):quality(85)/2020443645_1_1_260220_041406-w1600-h1066",
       "url": "https://www.domain.com.au/81-glengariff-drive-floreat-wa-6014-2020443645"
@@ -3518,7 +3610,8 @@
       "propertyType": "House",
       "price": "OFFERS FROM LOW $3M's",
       "priceValue": 3000000,
-      "isNew": true,
+      "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/JHNIQ8O8rKQVbTRH8Txvlum9Vi0=/720x540/filters:format(webp):quality(85)/2020934309_1_1_260622_071818-w3000-h1500",
       "url": "https://www.domain.com.au/2-philip-road-dalkeith-wa-6009-2020934309"
@@ -3535,6 +3628,7 @@
       "price": "PRICE GUIDE $3.550M",
       "priceValue": 3550000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U4ey3eq73FKChbDQQu-Pm4Yost4=/720x540/filters:format(webp):quality(85)/2020878799_1_1_260529_013059-w1920-h1280",
       "url": "https://www.domain.com.au/3-louth-road-floreat-wa-6014-2020878799"
@@ -3568,6 +3662,7 @@
       "price": "From $3,950,000",
       "priceValue": 3950000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/GDY5eKbjNS02FBBQ49KUZJ1zAJg=/720x540/filters:format(webp):quality(85)/2020800569_1_1_260429_091304-w1920-h1280",
       "url": "https://www.domain.com.au/2304-4-seddon-street-subiaco-wa-6008-2020800569"
@@ -3584,6 +3679,7 @@
       "price": "OFFERS INVITED - PRICE GUIDE MID $4MILS",
       "priceValue": 4000000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/f6K16IAOKwSZJwRSHKO_GaZsrPA=/720x540/filters:format(webp):quality(85)/16881855_1_1_250317_044113-w4000-h3000",
       "url": "https://www.domain.com.au/9-alexander-road-dalkeith-wa-6009-2019883654"
@@ -3600,6 +3696,7 @@
       "price": "$4,095,000",
       "priceValue": 4095000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/tJnoVvtfzWk7KPNHi4zRDRGwuHg=/720x540/filters:format(webp):quality(85)/2019581510_1_1_260612_080345-w6000-h4000",
       "url": "https://www.domain.com.au/403-17-19-louise-street-nedlands-wa-6009-2019581510"
@@ -3616,6 +3713,7 @@
       "price": "Offers From $4.85m",
       "priceValue": 4850000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/6k4uIm7lkoU3KlQXqQG9M43AS4A=/720x540/filters:format(webp):quality(85)/2020890232_36_1_260605_055431-w6000-h4002",
       "url": "https://www.domain.com.au/26-lillian-street-cottesloe-wa-6011-2020890232"
@@ -3632,6 +3730,7 @@
       "price": "Offers from $4.995m",
       "priceValue": 4995000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/UEm1UH9__uE5HW8SXXLwE6EUQXU=/720x540/filters:format(webp):quality(85)/2020856253_3_1_260520_051134-w1920-h1280",
       "url": "https://www.domain.com.au/2-robert-street-dalkeith-wa-6009-2020856253"
@@ -3648,6 +3747,7 @@
       "price": "From $5M",
       "priceValue": 5000000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/mAhL35djIv1zpoI4F2xl3XxSIzY=/720x540/filters:format(webp):quality(85)/2020259142_1_1_260617_033944-w1920-h1280",
       "url": "https://www.domain.com.au/5b-stanhope-street-cottesloe-wa-6011-2020259142"
@@ -3664,6 +3764,7 @@
       "price": "Second Time Offered - From $5,600,000",
       "priceValue": 5600000,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WzCfyDOAf0lw0ZUu6h95BMeGA4Y=/720x540/filters:format(webp):quality(85)/2020861207_31_1_260521_100913-w1400-h1050",
       "url": "https://www.domain.com.au/30-airlie-street-claremont-wa-6010-2020861207"
@@ -3680,6 +3781,7 @@
       "price": "From $8.5mil",
       "priceValue": 8500000,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/migTJzjUCIyKhKeX_s1jvYT-OTI=/720x540/filters:format(webp):quality(85)/2020941202_1_1_260624_070542-w4500-h3003",
       "url": "https://www.domain.com.au/1-110-marine-parade-cottesloe-wa-6011-2020941202"
@@ -3696,6 +3798,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/-Jb7DAj4Nllvt7h0bQW3uFPfC6Q=/720x540/filters:format(webp):quality(85)/2020214310_17_1_250822_035403-w1800-h1200",
       "url": "https://www.domain.com.au/1-norfolk-rise-mount-claremont-wa-6010-2020214310"
@@ -3712,6 +3815,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/EH6kO0gIWe2FzIDm8hEG_YYBxK0=/720x540/filters:format(webp):quality(85)/2020265454_1_1_250912_012853-w1800-h1200",
       "url": "https://www.domain.com.au/26-camelia-avenue-mount-claremont-wa-6010-2020265454"
@@ -3728,6 +3832,7 @@
       "price": "EXPRESSIONS OF INTEREST",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/RZSKlzxoTkBfvNUNuBm3Sq5B_Vc=/720x540/filters:format(webp):quality(85)/2020568330_31_1_260204_021917-w1800-h1200",
       "url": "https://www.domain.com.au/38b-adderley-street-mount-claremont-wa-6010-2020568330"
@@ -3744,6 +3849,7 @@
       "price": "UNDER OFFER BY KATE GALE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/IFzA3ErYJzyI2NTYJCHxpZmE0GA=/720x540/filters:format(webp):quality(85)/2020657877_1_1_260305_035623-w1920-h1280",
       "url": "https://www.domain.com.au/18-lisle-street-mount-claremont-wa-6010-2020657877"
@@ -3760,6 +3866,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/CwXEUzAeRTbogLroAyacs6piBqA=/720x540/filters:format(webp):quality(85)/2020798476_1_1_260429_040945-w1800-h1200",
       "url": "https://www.domain.com.au/12-bromilow-green-mount-claremont-wa-6010-2020798476"
@@ -3776,6 +3883,7 @@
       "price": "THE DEAL: Under Offer",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/1BeIZWSS3KG9dLU9YiHdsBq4Byg=/720x540/filters:format(webp):quality(85)/2020815342_1_1_260505_035120-w1200-h800",
       "url": "https://www.domain.com.au/19-lisle-street-mount-claremont-wa-6010-2020815342"
@@ -3792,6 +3900,7 @@
       "price": "Sold by Jamie Harrington",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/f2DfayA_KWah6BsQcCsz8mUET7I=/720x540/filters:format(webp):quality(85)/2020825050_1_1_260507_071740-w4000-h2667",
       "url": "https://www.domain.com.au/4-pine-tree-lane-mount-claremont-wa-6010-2020825050"
@@ -3808,6 +3917,7 @@
       "price": "EXPRESSIONS OF INTEREST",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ryHJRuZGk1s1tzd0U2xtxTheHaA=/720x540/filters:format(webp):quality(85)/2020835066_1_1_260512_061410-w1800-h1200",
       "url": "https://www.domain.com.au/57a-haldane-street-mount-claremont-wa-6010-2020835066"
@@ -3824,6 +3934,7 @@
       "price": "UNDER OFFER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/rAU8LE8eWDzUu-bBRBMlePs-Bds=/720x540/filters:format(webp):quality(85)/2020839796_1_1_260513_085317-w4000-h2667",
       "url": "https://www.domain.com.au/17-mcclemans-road-mount-claremont-wa-6010-2020839796"
@@ -3840,6 +3951,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/J_4ayN0iHumqkjDjTYUqXmEqIY0=/720x540/filters:format(webp):quality(85)/2020877872_1_1_260528_074528-w1800-h1200",
       "url": "https://www.domain.com.au/7-jubaea-gardens-mount-claremont-wa-6010-2020877872"
@@ -3856,6 +3968,7 @@
       "price": "OFFERS CLOSING 18 JUNE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/fa1KtozwH3DLVtRaRSEODGu-Qxc=/720x540/filters:format(webp):quality(85)/2020889413_1_1_260603_045300-w1920-h1280",
       "url": "https://www.domain.com.au/5-2-quintilian-road-mount-claremont-wa-6010-2020889413"
@@ -3872,6 +3985,7 @@
       "price": "UNDER OFFER BY KIM BENNETT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/DAyGTlUDzzm6fPxBPNeI-SnOqww=/720x540/filters:format(webp):quality(85)/2020895068_1_1_260604_080120-w1920-h1279",
       "url": "https://www.domain.com.au/14-lantana-avenue-mount-claremont-wa-6010-2020895068"
@@ -3888,6 +4002,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/uf9m0DK2Mi2MjO3fSlsvXQP3SyE=/720x540/filters:format(webp):quality(85)/2020907154_1_1_260610_081922-w1800-h1200",
       "url": "https://www.domain.com.au/162a-rochdale-road-mount-claremont-wa-6010-2020907154"
@@ -3904,6 +4019,7 @@
       "price": "UNDER OFFER BY SHIVA SHAKIBAEE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Snq6VOcqeOdxZfIplNpyM0889SY=/720x540/filters:format(webp):quality(85)/2020909254_1_1_260611_040731-w6000-h4000",
       "url": "https://www.domain.com.au/38-abbey-gardens-mount-claremont-wa-6010-2020909254"
@@ -3920,6 +4036,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/UgITHwrHGaJ-tOr7DpRdIRmthUE=/720x540/filters:format(webp):quality(85)/2020944116_1_1_260625_052537-w1200-h800",
       "url": "https://www.domain.com.au/30-st-vincents-avenue-wembley-wa-6014-2020944116"
@@ -3936,6 +4053,7 @@
       "price": "UNDER CONTRACT BY SUSAN JAMES",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/b-OEDk0zk3dDVvZ7AMJSo3E0TB4=/720x540/filters:format(webp):quality(85)/2020944128_1_1_260625_052701-w1200-h800",
       "url": "https://www.domain.com.au/34a-servetus-street-swanbourne-wa-6010-2020944128"
@@ -3952,6 +4070,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YWgtFSmPzetcdmaU1ZS4RorTp6s=/720x540/filters:format(webp):quality(85)/2020944129_1_1_260625_052716-w1200-h808",
       "url": "https://www.domain.com.au/38a-nanson-street-wembley-wa-6014-2020944129"
@@ -3968,6 +4087,7 @@
       "price": "UNDER OFFER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/opE4UhKVGvCj6Q5EGgtyAqagAfs=/720x540/filters:format(webp):quality(85)/2020641803_9_1_260227_025741-w6000-h4000",
       "url": "https://www.domain.com.au/27-1-freshwater-parade-claremont-wa-6010-2020641803"
@@ -3984,6 +4104,7 @@
       "price": "UNDER OFFER By PETER ROBERTSON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/QIEUa4onloMv2FzpkLLIJETsFyc=/720x540/filters:format(webp):quality(85)/2020714914_4_1_260326_094614-w6000-h3999",
       "url": "https://www.domain.com.au/1302-1-airlie-street-claremont-wa-6010-2020714914"
@@ -4000,6 +4121,7 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Y9g0FUseZHiHdE23iEBIYfoLfFY=/720x540/filters:format(webp):quality(85)/2020778895_1_1_260421_065619-w1200-h800",
       "url": "https://www.domain.com.au/12-lapsley-road-claremont-wa-6010-2020778895"
@@ -4016,6 +4138,7 @@
       "price": "Auction: 9th May 11:00am on site",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Yn0SXDSPoPvMaYKg5zAR-nn5gLw=/720x540/filters:format(webp):quality(85)/2020784924_1_1_260428_021822-w4000-h2250",
       "url": "https://www.domain.com.au/61-victoria-avenue-claremont-wa-6010-2020784924"
@@ -4032,6 +4155,7 @@
       "price": "UNDER OFFER BY DAVID & MARTINE EYERS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/xZDs6Szk15We9U5oWcbTKyBdlf4=/720x540/filters:format(webp):quality(85)/2020817243_1_1_260505_093413-w1920-h1280",
       "url": "https://www.domain.com.au/g26-3-airlie-street-claremont-wa-6010-2020817243"
@@ -4048,6 +4172,7 @@
       "price": "UNDER CONTRACT BY EMMA MILNER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/h3kdjY6rxp1l9YdAsZrSKfplQZ0=/720x540/filters:format(webp):quality(85)/2020824980_1_1_260507_070626-w2000-h1334",
       "url": "https://www.domain.com.au/704-2-bovell-lane-claremont-wa-6010-2020824980"
@@ -4064,25 +4189,10 @@
       "price": "UNDER OFFER BY JODY FEWSTER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/AVpGkO-uRljJTsXR_ASQIKHc9gk=/720x540/filters:format(webp):quality(85)/2020826947_28_1_260513_022839-w4000-h2667",
       "url": "https://www.domain.com.au/103-1-airlie-street-claremont-wa-6010-2020826947"
-    },
-    {
-      "id": 2020850934,
-      "address": "7 Corry Lynn Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 4,
-      "baths": 2,
-      "cars": 2,
-      "area": 1196,
-      "propertyType": "House",
-      "price": "HOME OPEN CANCELLED",
-      "priceValue": null,
-      "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/5Hw-RRsj3L4gahxNg7WJBaWkWoE=/720x540/filters:format(webp):quality(85)/2020850934_1_1_260518_094508-w2000-h1333",
-      "url": "https://www.domain.com.au/7-corry-lynn-road-claremont-wa-6010-2020850934"
     },
     {
       "id": 2020885949,
@@ -4096,6 +4206,7 @@
       "price": "AUCTION ON SITE SAT 4TH JUL 12PM",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/fvhlxQ_Kul7UylQj_4yqy5CVk20=/720x540/filters:format(webp):quality(85)/2020885949_1_1_260605_032130-w9504-h6336",
       "url": "https://www.domain.com.au/7-evelyn-road-claremont-wa-6010-2020885949"
@@ -4112,6 +4223,7 @@
       "price": "UNDER OFFER BY COURTNEY KEMP",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/iHRlrmqfPszGRmZk7iA5kTMDKP8=/720x540/filters:format(webp):quality(85)/2020886320_1_1_260602_053822-w6000-h4000",
       "url": "https://www.domain.com.au/6-17-victoria-avenue-claremont-wa-6010-2020886320"
@@ -4128,6 +4240,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kpi9tt52GAm-Ck0JeHL0rB42_F4=/720x540/filters:format(webp):quality(85)/2020888922_1_1_260603_033504-w1598-h914",
       "url": "https://www.domain.com.au/39a-bay-road-claremont-wa-6010-2020888922"
@@ -4144,6 +4257,7 @@
       "price": "UNDER OFFER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vHF0Wdm43XhomWNu64jIBh71NCg=/720x540/filters:format(webp):quality(85)/2020895118_1_1_260604_082126-w4691-h3127",
       "url": "https://www.domain.com.au/19-ashton-avenue-claremont-wa-6010-2020895118"
@@ -4160,6 +4274,7 @@
       "price": "UNDER OFFER BY CANDIE ITALIANO",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/OpFwE_QaY12KAj3qv7oyot-750I=/720x540/filters:format(webp):quality(85)/2020926356_1_1_260618_054452-w8256-h5504",
       "url": "https://www.domain.com.au/3-freshwater-close-claremont-wa-6010-2020926356"
@@ -4176,6 +4291,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/N74Xl35rahlJRIPKXf5ywai_6G8=/720x540/filters:format(webp):quality(85)/2020926455_1_1_260618_060315-w1920-h1280",
       "url": "https://www.domain.com.au/231-3-airlie-street-claremont-wa-6010-2020926455"
@@ -4192,6 +4308,7 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_llrDy0D2jkCL5vZGPYlHLzgOss=/720x540/filters:format(webp):quality(85)/2020937687_1_1_260624_080223-w1200-h800",
       "url": "https://www.domain.com.au/2-154-railway-street-claremont-wa-6010-2020937687"
@@ -4208,6 +4325,7 @@
       "price": "UNDER CONTRACT BY SUSAN JAMES",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/GqxwaM2kDUZKhTakfT33A9oDtDk=/720x540/filters:format(webp):quality(85)/2020944046_1_1_260625_051801-w1200-h800",
       "url": "https://www.domain.com.au/12-1-chatsworth-terrace-claremont-wa-6010-2020944046"
@@ -4224,6 +4342,7 @@
       "price": "Price On Application",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/jIxGmxMstyZvpH8-WT-m4hAfL-Y=/720x540/filters:format(webp):quality(85)/2019302893_3_1_240829_111314-w1200-h900",
       "url": "https://www.domain.com.au/10-cross-street-swanbourne-wa-6010-2019302893"
@@ -4240,6 +4359,7 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/AysS5yJavFSnDvq109lhFT-cFe0=/720x540/filters:format(webp):quality(85)/2020241882_1_1_260417_014414-w1200-h800",
       "url": "https://www.domain.com.au/swanbourne-wa-6010-2020241882"
@@ -4256,6 +4376,7 @@
       "price": "Expressions of Interest",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/wDm6Lpiyn6k2gCj7YqW7g3H-qeI=/720x540/filters:format(webp):quality(85)/2020656908_1_1_260404_092601-w4784-h3588",
       "url": "https://www.domain.com.au/129-2-milyarm-rise-swanbourne-wa-6010-2020656908"
@@ -4272,6 +4393,7 @@
       "price": "Contact Agent",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/32QkYMmdMK7zg5OnxAKKrub5mOs=/720x540/filters:format(webp):quality(85)/2020739842_1_1_260407_073857-w7796-h5802",
       "url": "https://www.domain.com.au/36-servetus-street-swanbourne-wa-6010-2020739842"
@@ -4288,6 +4410,7 @@
       "price": "OFFERS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/w0vFZX9rnxHsDZIycDU-NK28x4c=/720x540/filters:format(webp):quality(85)/2020815563_1_1_260505_043506-w2000-h1334",
       "url": "https://www.domain.com.au/1-narla-road-swanbourne-wa-6010-2020815563"
@@ -4304,6 +4427,7 @@
       "price": "UNDER CONTRACT BY SUSAN JAMES",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/5axy2xRlO3dlpxEZ8NyIwshqVas=/720x540/filters:format(webp):quality(85)/2020839699_1_1_260513_081403-w1200-h800",
       "url": "https://www.domain.com.au/11-greenville-street-swanbourne-wa-6010-2020839699"
@@ -4320,6 +4444,7 @@
       "price": "Under Contract",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/sP5Ve2ErnADNtO_jbagC0FGgM7g=/720x540/filters:format(webp):quality(85)/2020846653_8_1_260519_032728-w4000-h2667",
       "url": "https://www.domain.com.au/6-knutsford-street-swanbourne-wa-6010-2020846653"
@@ -4336,6 +4461,7 @@
       "price": "Contact Agent",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ykxn8-EMnI77SxO22srBAjaA_AQ=/720x540/filters:format(webp):quality(85)/2020860421_1_1_260521_055553-w4000-h2665",
       "url": "https://www.domain.com.au/swanbourne-wa-6010-2020860421"
@@ -4352,6 +4478,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/gBzFYyVoDMaRgRENPyXnHUDHoFM=/720x540/filters:format(webp):quality(85)/2020885274_4_1_260602_023542-w4000-h2667",
       "url": "https://www.domain.com.au/47-wood-street-swanbourne-wa-6010-2020885274"
@@ -4368,6 +4495,7 @@
       "price": "UNDER OFFER BY KATE GALE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/T-YhGskIEYXgZqaFmCucJ4hgdWI=/720x540/filters:format(webp):quality(85)/16270590_13_1_260603_052834-w1400-h1050",
       "url": "https://www.domain.com.au/8a-narla-road-swanbourne-wa-6010-2020890308"
@@ -4384,6 +4512,7 @@
       "price": "Expressions of Interest",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/CieQkgyvwhrpNT4NUqW-DanDrhQ=/720x540/filters:format(webp):quality(85)/2020925976_1_1_260618_043831-w5464-h3640",
       "url": "https://www.domain.com.au/91-north-street-swanbourne-wa-6010-2020925976"
@@ -4400,6 +4529,7 @@
       "price": "OFFERS FROM $1050 000",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/59cFpf6r2dGOQQ3wc0hnkbOzV_I=/720x540/filters:format(webp):quality(85)/2020935790_1_1_260623_022624-w1200-h800",
       "url": "https://www.domain.com.au/77-2-milyarm-rise-swanbourne-wa-6010-2020935790"
@@ -4416,6 +4546,7 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/gtp2umTBMhV-BOI5X4_qxrevfJc=/720x540/filters:format(webp):quality(85)/2020938909_1_1_260624_013238-w1200-h800",
       "url": "https://www.domain.com.au/17-108-broome-street-cottesloe-wa-6011-2020938909"
@@ -4432,7 +4563,11 @@
       "price": "Offers Closing 21st July 2026",
       "priceValue": null,
       "isNew": true,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-02T17:00:00",
+        "close": "2026-07-02T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/ucyrHszxR6ECrtsdD_HsNd639FE=/720x540/filters:format(webp):quality(85)/2020941045_1_1_260624_064336-w4000-h2667",
       "url": "https://www.domain.com.au/6-12-mcnamara-way-cottesloe-wa-6011-2020941045"
     },
@@ -4448,25 +4583,13 @@
       "price": "Offers Closing 22nd July 2026",
       "priceValue": null,
       "isNew": true,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-01T17:00:00",
+        "close": "2026-07-01T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/_tPXvfxBypHGIHFPG9a_E5q8pKo=/720x540/filters:format(webp):quality(85)/2020944160_1_1_260625_053021-w4000-h2667",
       "url": "https://www.domain.com.au/33-albion-street-cottesloe-wa-6011-2020944160"
-    },
-    {
-      "id": 2020460855,
-      "address": "2/22 Avonmore Terrace, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": 115,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "OFFERS",
-      "priceValue": null,
-      "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/b2K3AcyP3Zd2dDMNz3d36we4kqc=/720x540/filters:format(webp):quality(85)/2020460855_1_1_260130_030634-w5888-h3924",
-      "url": "https://www.domain.com.au/2-22-avonmore-terrace-cottesloe-wa-6011-2020460855"
     },
     {
       "id": 2020471927,
@@ -4480,41 +4603,10 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/LjWs5i4QL-slTcX8ejJ2emv9Np0=/720x540/filters:format(webp):quality(85)/2020471927_1_1_260430_011849-w1200-h800",
       "url": "https://www.domain.com.au/11-30-jarrad-street-cottesloe-wa-6011-2020471927"
-    },
-    {
-      "id": 2020707008,
-      "address": "3 Millers Court, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": 375,
-      "propertyType": "House",
-      "price": "Under Offer by Pat & Larry",
-      "priceValue": null,
-      "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/0WrsLqRpblPm2mP9l_kZR72G0DQ=/720x540/filters:format(webp):quality(85)/2020707008_1_1_260324_085916-w3812-h2527",
-      "url": "https://www.domain.com.au/3-millers-court-cottesloe-wa-6011-2020707008"
-    },
-    {
-      "id": 2020713232,
-      "address": "1/91 Forrest Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "SOLD UNDER THE HAMMER",
-      "priceValue": null,
-      "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/Vhb2iAQ7mcDmI8rCVQj_07XAC9g=/720x540/filters:format(webp):quality(85)/2020713232_1_1_260326_034955-w4000-h2667",
-      "url": "https://www.domain.com.au/1-91-forrest-street-cottesloe-wa-6011-2020713232"
     },
     {
       "id": 2020778720,
@@ -4528,6 +4620,7 @@
       "price": "Expressions of Interest",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_TByDFXW_uD3NCmBDwSeOnM3vm4=/720x540/filters:format(webp):quality(85)/2020778720_1_1_260421_062803-w1200-h799",
       "url": "https://www.domain.com.au/94-marine-parade-cottesloe-wa-6011-2020778720"
@@ -4544,9 +4637,44 @@
       "price": "UNDER OFFER BY CANDIE ITALIANO",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/m9Iu2sciUQRP194aeJagZrrP8Zc=/720x540/filters:format(webp):quality(85)/2020786023_1_1_260423_083029-w8204-h5475",
       "url": "https://www.domain.com.au/261-marmion-street-cottesloe-wa-6011-2020786023"
+    },
+    {
+      "id": 2020806810,
+      "address": "17 Mann Street, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 4,
+      "baths": 1,
+      "cars": 2,
+      "area": 1187,
+      "propertyType": "House",
+      "price": "UNDER OFFER BY CANDIE ITALIANO",
+      "priceValue": null,
+      "isNew": false,
+      "underOffer": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/fGKIQQGnW_BsFWxtK1WAJd9kYb4=/720x540/filters:format(webp):quality(85)/2020806810_1_1_260501_052632-w8218-h5479",
+      "url": "https://www.domain.com.au/17-mann-street-cottesloe-wa-6011-2020806810"
+    },
+    {
+      "id": 2020835797,
+      "address": "5 Henry Road, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 4,
+      "baths": 3,
+      "cars": 3,
+      "area": 607,
+      "propertyType": "House",
+      "price": "UNDER OFFER BY CANDIE ITALIANO",
+      "priceValue": null,
+      "isNew": false,
+      "underOffer": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/drRVJYRlNZgJLVU02DXXWGh_5a0=/720x540/filters:format(webp):quality(85)/2020835797_1_1_260512_084113-w8256-h5504",
+      "url": "https://www.domain.com.au/5-henry-road-cottesloe-wa-6011-2020835797"
     },
     {
       "id": 2020839790,
@@ -4560,6 +4688,7 @@
       "price": "UNDER OFFER BY CANDIE ITALIANO",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/c3zxz_8QRoi6uu8PqrYF52geL5Y=/720x540/filters:format(webp):quality(85)/2020839790_1_1_260513_085020-w4000-h2247",
       "url": "https://www.domain.com.au/1-clarendon-street-cottesloe-wa-6011-2020839790"
@@ -4576,6 +4705,7 @@
       "price": "All Offers By 5pm on the 14th of July 2026",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vIDFX5qSiF7tiMwK_MwHAMx09WI=/720x540/filters:format(webp):quality(85)/2020878273_1_1_260528_094014-w1244-h829",
       "url": "https://www.domain.com.au/98a-grant-street-cottesloe-wa-6011-2020878273"
@@ -4592,6 +4722,7 @@
       "price": "UNDER OFFER BY BEV HEYMANS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/e36yBFkuKQb9w_hkgwpvTemrbzg=/720x540/filters:format(webp):quality(85)/2020888921_1_1_260603_033441-w1536-h1024",
       "url": "https://www.domain.com.au/1-11-17-princes-street-cottesloe-wa-6011-2020888921"
@@ -4608,6 +4739,7 @@
       "price": "EOI",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/jneK7unJe-QX6o-yFoD9L3keKlw=/720x540/filters:format(webp):quality(85)/2020896524_3_1_260605_023446-w6000-h3998",
       "url": "https://www.domain.com.au/11-hamersley-street-cottesloe-wa-6011-2020896524"
@@ -4624,25 +4756,27 @@
       "price": "Offers Closing: 7th July (unless sold prior)",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/osn4dVXAeGYALcAY2yIwX2X5c_g=/720x540/filters:format(webp):quality(85)/2020921507_2_1_260618_033732-w6000-h4002",
       "url": "https://www.domain.com.au/7-3-rockett-lane-cottesloe-wa-6011-2020921507"
     },
     {
       "id": 2020936624,
-      "address": "Cottesloe WA 6011",
+      "address": "44 Florence Street, Cottesloe WA 6011",
       "suburb": "Cottesloe",
       "beds": 4,
       "baths": 3,
       "cars": 3,
       "area": 658,
       "propertyType": "House",
-      "price": "CALL CANDIE TO REGISTER",
+      "price": "ALL OFFERS BY 28TH JULY, 2026",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/TnoZEB6Llz16uJJQEFrAaC562Sw=/720x540/filters:format(webp):quality(85)/2020936624_13_1_260625_063232-w6000-h4000",
-      "url": "https://www.domain.com.au/cottesloe-wa-6011-2020936624"
+      "url": "https://www.domain.com.au/44-florence-street-cottesloe-wa-6011-2020936624"
     },
     {
       "id": 2020566047,
@@ -4656,6 +4790,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/eInE7CZo5U3P3JirCLuaLnvx0_8=/720x540/filters:format(webp):quality(85)/2020566047_39_1_260202_065549-w1200-h800",
       "url": "https://www.domain.com.au/47-cromarty-road-floreat-wa-6014-2020566047"
@@ -4672,25 +4807,27 @@
       "price": "UNDER OFFER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/nUMEMs-zRP5ZyRu_P-GPpxDnM84=/720x540/filters:format(webp):quality(85)/2020619144_2_1_260219_024102-w1200-h800",
       "url": "https://www.domain.com.au/4a-champion-crescent-floreat-wa-6014-2020619144"
     },
     {
-      "id": 2020802337,
-      "address": "104 Grovedale Road, Floreat WA 6014",
+      "id": 2020774610,
+      "address": "G08/1 Finishline View, Floreat WA 6014",
       "suburb": "Floreat",
       "beds": 3,
-      "baths": 1,
-      "cars": 1,
-      "area": 905,
+      "baths": 2,
+      "cars": 3,
+      "area": 380,
       "propertyType": "House",
-      "price": "UNDER OFFER BY HELEN HEMERY",
+      "price": "UNDER CONTRACT BY TONIA MCNEILLY",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/a6-BRs2Na74Kz_LPKcPoDqZt55M=/720x540/filters:format(webp):quality(85)/2020802337_1_1_260430_031958-w1920-h1280",
-      "url": "https://www.domain.com.au/104-grovedale-road-floreat-wa-6014-2020802337"
+      "image": "https://rimh2.domainstatic.com.au/sBZJ83OnTsvotyZlYQCs5nGCs8A=/720x540/filters:format(webp):quality(85)/2020774610_3_1_260420_030240-w1920-h1277",
+      "url": "https://www.domain.com.au/g08-1-finishline-view-floreat-wa-6014-2020774610"
     },
     {
       "id": 2020823073,
@@ -4704,6 +4841,7 @@
       "price": "UNDER OFFER BY MATHEW ST GUILLAUME",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/3Fezsj2T0iJ7bSzCHRkYcWOd5jA=/720x540/filters:format(webp):quality(85)/2020823073_2_1_260507_030911-w3840-h2560",
       "url": "https://www.domain.com.au/6-2-burvill-drive-floreat-wa-6014-2020823073"
@@ -4720,6 +4858,7 @@
       "price": "UNDER OFFER BY MATHEW ST GUILLAUME",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/DdGUcPqZmDFNWlt1wOl3YySv2TI=/720x540/filters:format(webp):quality(85)/2020823285_1_1_260507_034630-w3840-h2560",
       "url": "https://www.domain.com.au/51-orrel-avenue-floreat-wa-6014-2020823285"
@@ -4736,6 +4875,7 @@
       "price": "UNDER OFFER BY TONIA MCNEILLY",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/6MdUOYb1Jfg9bPuWV0Jd-tZzgX0=/720x540/filters:format(webp):quality(85)/2020826302_7_1_260508_014309-w1920-h1277",
       "url": "https://www.domain.com.au/5-steeplechase-green-floreat-wa-6014-2020826302"
@@ -4752,6 +4892,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ShUY9Mri04QisRXLopSLgmAApdI=/720x540/filters:format(webp):quality(85)/2020837541_1_1_260513_030202-w1200-h800",
       "url": "https://www.domain.com.au/292-salvado-road-floreat-wa-6014-2020837541"
@@ -4768,6 +4909,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/K5Nbv3dr9BI3zjcyacDQu5Z8b8w=/720x540/filters:format(webp):quality(85)/2020879384_21_1_260605_024336-w1800-h1200",
       "url": "https://www.domain.com.au/56-newry-street-floreat-wa-6014-2020879384"
@@ -4784,6 +4926,7 @@
       "price": "SOLD BY EMILY",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/3pQdfnmePn4Kg7mfkzGjU7psoME=/720x540/filters:format(webp):quality(85)/2020879537_1_1_260529_043529-w6000-h4000",
       "url": "https://www.domain.com.au/28-roscommon-road-floreat-wa-6014-2020879537"
@@ -4800,6 +4943,7 @@
       "price": "UNDER OFFER BY HELEN HEMERY",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SuWvHIaL1B4eseF7aWU062zfxng=/720x540/filters:format(webp):quality(85)/2020893035_10_1_260604_022051-w1920-h1280",
       "url": "https://www.domain.com.au/39a-evandale-street-floreat-wa-6014-2020893035"
@@ -4816,6 +4960,7 @@
       "price": "UNDER CONTRACT BY EMMA MILNER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WZyEcq9klzVu9uSA0rkCrCZS9_Y=/720x540/filters:format(webp):quality(85)/2020897656_1_1_260605_060630-w2000-h1333",
       "url": "https://www.domain.com.au/5-crieff-street-floreat-wa-6014-2020897656"
@@ -4832,6 +4977,7 @@
       "price": "UNDER OFFER BY MATHEW ST GUILLAUME",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/P7Q4cQP0vgywWlzh9QXecM-kSu4=/720x540/filters:format(webp):quality(85)/2020911969_1_1_260612_020659-w1920-h1280",
       "url": "https://www.domain.com.au/22-destiny-lane-floreat-wa-6014-2020911969"
@@ -4848,6 +4994,7 @@
       "price": "Please contact Helen for details",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": {
         "open": "2026-07-01T17:15:00",
         "close": "2026-07-01T17:45:00"
@@ -4867,6 +5014,7 @@
       "price": "New To Market",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": {
         "open": "2026-07-01T17:30:00",
         "close": "2026-07-01T18:00:00"
@@ -4886,6 +5034,7 @@
       "price": "SOLD OUT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SeU0P0LSIpFOMkWy4sHEjmlLriw=/720x540/filters:format(webp):quality(85)/2019877666_2_1_250320_010143-w1200-h900",
       "url": "https://www.domain.com.au/3-45-boronia-avenue-nedlands-wa-6009-2019893569"
@@ -4902,6 +5051,7 @@
       "price": "SOLD OUT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vuZcdwZ3M4JRT1an2GonLUfyALI=/720x540/filters:format(webp):quality(85)/2019877666_3_1_250320_010143-w1200-h900",
       "url": "https://www.domain.com.au/8-45-boronia-avenue-nedlands-wa-6009-2019926246"
@@ -4918,6 +5068,7 @@
       "price": "Under Contract",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ng58F9e9zY1w3YIdIQWPklo69X0=/720x540/filters:format(webp):quality(85)/2020737412_1_1_260407_022608-w1920-h1280",
       "url": "https://www.domain.com.au/58-kinninmont-avenue-nedlands-wa-6009-2020737412"
@@ -4934,6 +5085,7 @@
       "price": "Under Contract",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/rImQTH_14choftzm5vlOz2IToww=/720x540/filters:format(webp):quality(85)/2020738592_1_1_260407_051354-w3840-h2558",
       "url": "https://www.domain.com.au/20-kitchener-street-nedlands-wa-6009-2020738592"
@@ -4950,6 +5102,7 @@
       "price": "UNDER OFFER BY BEV HEYMANS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/wn3-sex2tq2ysLg3tygb_FcNWfk=/720x540/filters:format(webp):quality(85)/2020744302_1_1_260408_074131-w1920-h1280",
       "url": "https://www.domain.com.au/7-archdeacon-street-nedlands-wa-6009-2020744302"
@@ -4966,25 +5119,27 @@
       "price": "UNDER OFFER BY DAVID & MARTINE EYERS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ZuAtSScrEmZDYwGOZ0gCifJlLNE=/720x540/filters:format(webp):quality(85)/2020782753_6_1_260422_080828-w1920-h1280",
       "url": "https://www.domain.com.au/10-20-cooper-street-nedlands-wa-6009-2020782753"
     },
     {
-      "id": 2020811727,
-      "address": "17 Hillway, Nedlands WA 6009",
+      "id": 2020837533,
+      "address": "7/45 Boronia Avenue, Nedlands WA 6009",
       "suburb": "Nedlands",
       "beds": 3,
       "baths": 2,
-      "cars": 1,
-      "area": 911,
+      "cars": 2,
+      "area": null,
       "propertyType": "House",
-      "price": "SOLD UNDER THE HAMMER",
+      "price": "SOLD OUT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/-Av0h8WvrIEr8Rk9JZJWNLgXy6A=/720x540/filters:format(webp):quality(85)/2020811727_1_1_260508_034847-w2000-h1333",
-      "url": "https://www.domain.com.au/17-hillway-nedlands-wa-6009-2020811727"
+      "image": "https://rimh2.domainstatic.com.au/JVFGE0FQJw49RLz4TsnFlDs43sw=/720x540/filters:format(webp):quality(85)/2019877666_1_1_250320_010143-w1200-h900",
+      "url": "https://www.domain.com.au/7-45-boronia-avenue-nedlands-wa-6009-2020837533"
     },
     {
       "id": 2020839707,
@@ -4998,6 +5153,7 @@
       "price": "UNDER OFFER BY JODY FEWSTER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/JGbGWkJZy0jG8o_4mZ290Jt-2CU=/720x540/filters:format(webp):quality(85)/2020839707_1_1_260513_081641-w6000-h4000",
       "url": "https://www.domain.com.au/36-cooper-street-nedlands-wa-6009-2020839707"
@@ -5014,6 +5170,7 @@
       "price": "Now Under Offer",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_vAwURAKSE4FBYrcikW6VR-A9_w=/720x540/filters:format(webp):quality(85)/2020880977_13_1_260530_040518-w1920-h1280",
       "url": "https://www.domain.com.au/13-tareena-street-nedlands-wa-6009-2020880977"
@@ -5030,6 +5187,7 @@
       "price": "Call Tim for Details",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/eg4KpWM25QV5qmvJVHjJPaMubH8=/720x540/filters:format(webp):quality(85)/2020893153_4_1_260604_023259-w2000-h1334",
       "url": "https://www.domain.com.au/14-campsie-street-nedlands-wa-6009-2020893153"
@@ -5046,6 +5204,7 @@
       "price": "UNDER OFFER BY KATE GALE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/LqnZk61Cd7vYys48bD05mXTapGM=/720x540/filters:format(webp):quality(85)/2020906777_1_1_260610_065551-w1400-h1050",
       "url": "https://www.domain.com.au/57-stanley-street-nedlands-wa-6009-2020906777"
@@ -5062,6 +5221,7 @@
       "price": "UNDER OFFER BY DAVID & MARTINE EYERS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/NOG1vspai6yIjldgGfL1UTaxEzQ=/720x540/filters:format(webp):quality(85)/2020907367_1_1_260610_110215-w2000-h1333",
       "url": "https://www.domain.com.au/13-loneragan-street-nedlands-wa-6009-2020907367"
@@ -5078,6 +5238,7 @@
       "price": "FRESH TO MARKET!",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Bvms19PpWYBvr6F28pWqSUWe4JI=/720x540/filters:format(webp):quality(85)/2020941560_1_1_260624_085921-w6000-h4000",
       "url": "https://www.domain.com.au/55-archdeacon-street-nedlands-wa-6009-2020941560"
@@ -5094,6 +5255,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WjhA08I7UQbfnoYhB26iVgHYFt8=/720x540/filters:format(webp):quality(85)/2020944060_1_1_260625_051944-w1200-h800",
       "url": "https://www.domain.com.au/1-63-napier-street-nedlands-wa-6009-2020944060"
@@ -5110,6 +5272,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/2kCGFrZYDZOyQavsxnh4HQICzo0=/720x540/filters:format(webp):quality(85)/2020944102_1_1_260625_052425-w1200-h800",
       "url": "https://www.domain.com.au/nedlands-wa-6009-2020944102"
@@ -5126,6 +5289,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/a2OZNQpzvB9vvm5n8HTkh4J7LdI=/720x540/filters:format(webp):quality(85)/2020944110_1_1_260625_052518-w1200-h800",
       "url": "https://www.domain.com.au/54-webster-street-nedlands-wa-6009-2020944110"
@@ -5142,7 +5306,11 @@
       "price": "SECOND CHANCE! - CONTACT AGENT",
       "priceValue": null,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-01T17:00:00",
+        "close": "2026-07-01T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/z-3r49-nGLxYjJeewT0tSVjmI-4=/720x540/filters:format(webp):quality(85)/2020565239_35_1_260422_032150-w4743-h3162",
       "url": "https://www.domain.com.au/69-beatrice-road-dalkeith-wa-6009-2020565239"
     },
@@ -5158,6 +5326,7 @@
       "price": "Last One Remaining | New Home with Private Lift",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/oJuWZ7o4rGm5MrBITvUhYOcbxWw=/720x540/filters:format(webp):quality(85)/2020586839_2_1_260206_070825-w2000-h1334",
       "url": "https://www.domain.com.au/64-waratah-avenue-dalkeith-wa-6009-2020586839"
@@ -5174,6 +5343,7 @@
       "price": "AUCTION CANCELLED - CALL FOR DETAILS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SoYLLV0hiPBk4eFcDuChHNHVGf0=/720x540/filters:format(webp):quality(85)/2020717850_1_1_260327_072630-w6000-h3997",
       "url": "https://www.domain.com.au/6-hotchin-street-dalkeith-wa-6009-2020717850"
@@ -5190,6 +5360,7 @@
       "price": "Contact Agent",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/0C38OxctVqSauwPANrLJF0Wj5Ag=/720x540/filters:format(webp):quality(85)/2020816876_1_1_260507_053642-w4000-h2667",
       "url": "https://www.domain.com.au/35-hynes-road-dalkeith-wa-6009-2020816876"
@@ -5206,6 +5377,7 @@
       "price": "SOLD BY OLIVIA PORTEOUS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/1jePeT8iwddeAlKw--VWARn_Qq4=/720x540/filters:format(webp):quality(85)/2020853680_1_1_260519_065145-w2000-h1333",
       "url": "https://www.domain.com.au/16-watkins-road-dalkeith-wa-6009-2020853680"
@@ -5222,6 +5394,7 @@
       "price": "UNDER CONTRACT BY OLIVIA PORTEOUS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/sU41VOdeoyoteyyLk4KNWOkUkMI=/720x540/filters:format(webp):quality(85)/2020856153_1_1_260520_045604-w2000-h1333",
       "url": "https://www.domain.com.au/38-browne-avenue-dalkeith-wa-6009-2020856153"
@@ -5238,6 +5411,7 @@
       "price": "Expressions Of Interest Closing: 5:00pm 26.06.2026",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/RPnurblEGpd22tr1mOInvwQr9UE=/720x540/filters:format(webp):quality(85)/2020870720_1_1_260526_071735-w1920-h1280",
       "url": "https://www.domain.com.au/philip-road-dalkeith-wa-6009-2020870720"
@@ -5254,6 +5428,7 @@
       "price": "ALL OFFERS BY 30TH JUNE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/E8RCHrnI7AcBYsssF7-2Vx2V_yc=/720x540/filters:format(webp):quality(85)/2020891159_1_1_260603_103125-w2400-h1600",
       "url": "https://www.domain.com.au/31-watkins-road-dalkeith-wa-6009-2020891159"
@@ -5270,6 +5445,7 @@
       "price": "OFFERS INVITED",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Ede9n0ulhxoZ-2vNfiyz1_79h7o=/720x540/filters:format(webp):quality(85)/2020897098_15_1_260605_042637-w6000-h4000",
       "url": "https://www.domain.com.au/89-birdwood-parade-dalkeith-wa-6009-2020897098"
@@ -5286,6 +5462,7 @@
       "price": "UNDER CONTRACT BY VIVIEN YAP",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/I5GbWHBmUNiKgZDi73plopSxOPM=/720x540/filters:format(webp):quality(85)/2020898431_1_1_260605_092306-w6875-h4583",
       "url": "https://www.domain.com.au/4-bellevue-avenue-dalkeith-wa-6009-2020898431"
@@ -5302,6 +5479,7 @@
       "price": "EXCEPTIONAL LANDHOLDING IN DALKEITH",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/xFtqH9ktme5pGs-B6NYNSjIEEE8=/720x540/filters:format(webp):quality(85)/2020920166_1_1_260616_065618-w2000-h1333",
       "url": "https://www.domain.com.au/57-alexander-road-dalkeith-wa-6009-2020920166"
@@ -5315,9 +5493,10 @@
       "cars": 2,
       "area": 802,
       "propertyType": "House",
-      "price": "EXCLUSIVE SNEAK PREVIEW",
+      "price": "AUCTION ON SITE SAT 25TH JUL 9AM",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": {
         "open": "2026-07-02T17:00:00",
         "close": "2026-07-02T17:30:00"
@@ -5337,10 +5516,8 @@
       "price": "EXCLUSIVE SNEAK PREVIEW",
       "priceValue": null,
       "isNew": true,
-      "inspect": {
-        "open": "2026-06-29T17:00:00",
-        "close": "2026-06-29T17:40:00"
-      },
+      "underOffer": false,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/AtUaIOFN_jkaILY0gEQgx4dTuzE=/720x540/filters:format(webp):quality(85)/2020943177_1_1_260625_030325-w4000-h2667",
       "url": "https://www.domain.com.au/37-browne-avenue-dalkeith-wa-6009-2020943177"
     },
@@ -5356,6 +5533,7 @@
       "price": "UNDER CONTRACT BY SUSAN JAMES",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/T0gp7PiNtq8tdyGfVZQbUq3rXvQ=/720x540/filters:format(webp):quality(85)/2020944104_1_1_260625_052458-w1200-h800",
       "url": "https://www.domain.com.au/12-robert-street-dalkeith-wa-6009-2020944104"
@@ -5372,6 +5550,7 @@
       "price": "UNDER OFFER BY ANDREW GILL",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/DPhg-BflhcMh2WqNdN_EQ7de-FM=/720x540/filters:format(webp):quality(85)/2020439342_8_1_260508_034403-w4000-h2667",
       "url": "https://www.domain.com.au/21-bagot-road-subiaco-wa-6008-2020439342"
@@ -5388,6 +5567,7 @@
       "price": "Under Offer with Jen Lowe",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/5TdF_jQra4f2z0lmcEFnzovtCJs=/720x540/filters:format(webp):quality(85)/2020817418_1_1_260618_053632-w2000-h1333",
       "url": "https://www.domain.com.au/40-union-street-subiaco-wa-6008-2020817418"
@@ -5404,6 +5584,7 @@
       "price": "SUCCESSFULLY NEGOTIATED",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_HXaQNhJw_7Vb2ZBmdNUz0GknL8=/720x540/filters:format(webp):quality(85)/2020818905_1_1_260506_032321-w600-h900",
       "url": "https://www.domain.com.au/30-mere-view-way-subiaco-wa-6008-2020818905"
@@ -5420,6 +5601,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/LulTLvP2v6VnL-nEO1vNXjzYEig=/720x540/filters:format(webp):quality(85)/2020830460_1_1_260511_013517-w2000-h1333",
       "url": "https://www.domain.com.au/159-barker-road-subiaco-wa-6008-2020830460"
@@ -5436,6 +5618,7 @@
       "price": "UNDER OFFER BY ANDREW GILL",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/n1oQhd6PNsYIty4nm0qBfmOMP9I=/720x540/filters:format(webp):quality(85)/2020831189_12_1_260511_041157-w4000-h2667",
       "url": "https://www.domain.com.au/23-bagot-road-subiaco-wa-6008-2020831189"
@@ -5452,6 +5635,7 @@
       "price": "UNDER OFFER BY MATHEW ST GUILLAUME",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ka2Y1uxbNoRWk_Jsepo1P0suvHc=/720x540/filters:format(webp):quality(85)/2020841969_1_1_260514_040801-w1920-h1280",
       "url": "https://www.domain.com.au/39-coral-tree-avenue-subiaco-wa-6008-2020841969"
@@ -5465,9 +5649,10 @@
       "cars": 1,
       "area": 104,
       "propertyType": "Apartment / Unit / Flat",
-      "price": "Home Open Cancelled",
+      "price": "Under Offer by Pauline Fermanis",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/mRr6YV8AHxOGLWZlyMUKJQK3XxU=/720x540/filters:format(webp):quality(85)/2020855906_1_1_260520_041134-w4000-h2667",
       "url": "https://www.domain.com.au/1-220-nicholson-road-subiaco-wa-6008-2020855906"
@@ -5484,6 +5669,7 @@
       "price": "UNDER CONTRACT BY MAREENA WESTON",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SpOeZ58DEjsA86IhunvpOeN3gQI=/720x540/filters:format(webp):quality(85)/2020856703_2_1_260520_060118-w1800-h1200",
       "url": "https://www.domain.com.au/190-park-street-subiaco-wa-6008-2020856703"
@@ -5500,6 +5686,7 @@
       "price": "UNDER OFFER BY ANDREW GILL",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/f0iptBENj4RcYV6kIU-kfP7KCTw=/720x540/filters:format(webp):quality(85)/2020861787_2_1_260522_122746-w4000-h2667",
       "url": "https://www.domain.com.au/17-bagot-road-subiaco-wa-6008-2020861787"
@@ -5516,7 +5703,11 @@
       "price": "CONTACT AGENT",
       "priceValue": null,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-06-30T17:00:00",
+        "close": "2026-06-30T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/rlHBOiZInuWhsxoX4YWLBbO3x7U=/720x540/filters:format(webp):quality(85)/2020880425_1_1_260529_073919-w6000-h4000",
       "url": "https://www.domain.com.au/22-200-rokeby-road-subiaco-wa-6008-2020880425"
     },
@@ -5532,6 +5723,7 @@
       "price": "ALL OFFERS BY 5PM MON 29/6/2026 UNLESS SOLD PRIOR",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/IX5YtABuylu6__QwhC3GUFbXkoI=/720x540/filters:format(webp):quality(85)/16403511_11_1_260605_062229-w2048-h1368",
       "url": "https://www.domain.com.au/104-denis-street-subiaco-wa-6008-2020900460"
@@ -5548,6 +5740,7 @@
       "price": "Contact Janelle",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ivM54558saOdm2ODlozUr1Sc74U=/720x540/filters:format(webp):quality(85)/2020927088_1_1_260618_085511-w1920-h1280",
       "url": "https://www.domain.com.au/subiaco-wa-6008-2020927088"
@@ -5564,6 +5757,7 @@
       "price": "Offers",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Zk4f04Bzj-vWKGQ-I6PnFuFelbY=/720x540/filters:format(webp):quality(85)/2020929461_1_1_260619_053914-w1920-h1280",
       "url": "https://www.domain.com.au/24-york-street-subiaco-wa-6008-2020929461"
@@ -5580,6 +5774,7 @@
       "price": "NEW TO MARKET",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/RofZukcObQp0ArsjtIct9uIQq3s=/720x540/filters:format(webp):quality(85)/2020937880_1_1_260623_082821-w4000-h2667",
       "url": "https://www.domain.com.au/27-york-street-subiaco-wa-6008-2020937880"
@@ -5596,7 +5791,11 @@
       "price": "Offers closing by Wed 4pm July 15th",
       "priceValue": null,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-01T17:00:00",
+        "close": "2026-07-01T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/E9voWp8NWjrJCjHkfxrEE3niSqE=/720x540/filters:format(webp):quality(85)/2020937887_1_1_260623_083122-w3840-h2560",
       "url": "https://www.domain.com.au/52-hamersley-road-subiaco-wa-6008-2020937887"
     },
@@ -5612,6 +5811,7 @@
       "price": "UNDER CONTRACT BY SUSAN JAMES",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/CEhuVLOFLXw233yS9HAJzqZ45y0=/720x540/filters:format(webp):quality(85)/2020944047_1_1_260625_051812-w1200-h800",
       "url": "https://www.domain.com.au/56-1-brigid-road-subiaco-wa-6008-2020944047"
@@ -5628,6 +5828,7 @@
       "price": "UNDER CONTRACT BY EMMA MILNER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/oRdFXBcvvDNTWmIo--AsXWpYaWk=/720x540/filters:format(webp):quality(85)/2020787749_1_1_260424_041950-w2000-h1334",
       "url": "https://www.domain.com.au/115-mckenzie-street-wembley-wa-6014-2020787749"
@@ -5644,6 +5845,7 @@
       "price": "THE DEAL: Private Negotiation",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U6_LDeOLfLG-m3eqQw2NFJw9Q_8=/720x540/filters:format(webp):quality(85)/2020795449_1_1_260428_062936-w2500-h1667",
       "url": "https://www.domain.com.au/4-barrett-street-wembley-wa-6014-2020795449"
@@ -5660,6 +5862,7 @@
       "price": "AUCTION",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/-96PeevtSxJbyOQ4Zrk9tn8tSjk=/720x540/filters:format(webp):quality(85)/2020826160_1_1_260508_011132-w1920-h1280",
       "url": "https://www.domain.com.au/35-bath-street-wembley-wa-6014-2020826160"
@@ -5676,6 +5879,7 @@
       "price": "UNDER OFFER",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/hhdU5kSlS1BsCaHFb-OHmJLcVsk=/720x540/filters:format(webp):quality(85)/2020837971_1_1_260513_042125-w1920-h1280",
       "url": "https://www.domain.com.au/28-409-cambridge-street-wembley-wa-6014-2020837971"
@@ -5692,25 +5896,10 @@
       "price": "UNDER OFFER BY SHANE GARRETT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/-rbRun9ZutRw8BehN2edu2J6K88=/720x540/filters:format(webp):quality(85)/2020877630_1_1_260528_065524-w5500-h3674",
       "url": "https://www.domain.com.au/22-99-herdsman-parade-wembley-wa-6014-2020877630"
-    },
-    {
-      "id": 2020886900,
-      "address": "63 Holland Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 5,
-      "baths": 2,
-      "cars": 2,
-      "area": 653,
-      "propertyType": "House",
-      "price": "THE DEAL: Under Offer",
-      "priceValue": null,
-      "isNew": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/MpqY1TMoijbt4cQbaM778SL476M=/720x540/filters:format(webp):quality(85)/2020886900_1_1_260602_070639-w1200-h800",
-      "url": "https://www.domain.com.au/63-holland-street-wembley-wa-6014-2020886900"
     },
     {
       "id": 2020901939,
@@ -5724,6 +5913,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/0UcPBYWWrVQu5hgoGgU064EWRP8=/720x540/filters:format(webp):quality(85)/2020901939_1_1_260609_030933-w4000-h2667",
       "url": "https://www.domain.com.au/16-115-herdsman-parade-wembley-wa-6014-2020901939"
@@ -5740,6 +5930,7 @@
       "price": "ALL OFFERS BY 4PM MONDAY 29TH JUNE",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/2Xx4oqp5YTWMpuLVNlJyNFvrN_I=/720x540/filters:format(webp):quality(85)/2020920311_1_1_260616_072130-w6000-h4000",
       "url": "https://www.domain.com.au/188-jersey-street-wembley-wa-6014-2020920311"
@@ -5756,7 +5947,11 @@
       "price": "Offers Invited",
       "priceValue": null,
       "isNew": false,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-04T10:00:00",
+        "close": "2026-07-04T10:40:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/cAjCLAsQn7ODY_K1ouZLCV6TV1Q=/720x540/filters:format(webp):quality(85)/2020923178_1_1_260617_062933-w3000-h2000",
       "url": "https://www.domain.com.au/37-connolly-street-wembley-wa-6014-2020923178"
     },
@@ -5772,6 +5967,7 @@
       "price": "OFFERS",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/SfGUomlVJGKgTz2AYt-ETY80UFI=/720x540/filters:format(webp):quality(85)/2020925947_1_1_260618_043235-w4000-h2667",
       "url": "https://www.domain.com.au/46-71-herdsman-parade-wembley-wa-6014-2020925947"
@@ -5788,6 +5984,7 @@
       "price": "OFFERS",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": {
         "open": "2026-06-30T17:00:00",
         "close": "2026-06-30T17:30:00"
@@ -5807,6 +6004,7 @@
       "price": "SOLD AT AUCTION",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/-Fyq41gpFLXBBMfoOWCHOa4V3Pk=/720x540/filters:format(webp):quality(85)/2020944049_1_1_260625_051823-w1200-h800",
       "url": "https://www.domain.com.au/56-holland-street-wembley-wa-6014-2020944049"
@@ -5823,6 +6021,7 @@
       "price": "Contact agent",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/k0nCDBt2QThMln7wlKgyweNPPPo=/720x540/filters:format(webp):quality(85)/798c5b52-a235-4003-84f6-62864b9c8a30-w1920-h1080",
       "url": "https://www.domain.com.au/project/6322/west-residences-mount-lawley-wa/"
@@ -5839,6 +6038,7 @@
       "price": "Contact agent",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/6YIx1q8anA1GcO-1h5mXwTsto5U=/720x540/filters:format(webp):quality(85)/6456_1_13_251124_025315-w3889-h2160",
       "url": "https://www.domain.com.au/project/6456/the-coolbinia-coolbinia-wa/"
@@ -5855,6 +6055,7 @@
       "price": "Contact agent",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/r-FXPrGHnlaoTNK7HUrSirJtgaM=/720x540/filters:format(webp):quality(85)/6762_1_13_251121_064433-w2830-h2160",
       "url": "https://www.domain.com.au/project/6762/139-lake-street--perth-perth-wa/"
@@ -5871,6 +6072,7 @@
       "price": "All Offers Presented",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/sqZjIBq9cJhOEOKxh2i6YCchpRo=/720x540/filters:format(webp):quality(85)/2019773400_1_1_250205_071327-w5100-h3400",
       "url": "https://www.domain.com.au/335-stirling-street-highgate-wa-6003-2019773400"
@@ -5887,6 +6089,7 @@
       "price": "From Mid 500s",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/O-axqEr_uxO9vTubC8WQ4gWi1OE=/720x540/filters:format(webp):quality(85)/2020537251_1_1_260119_043132-w1920-h1280",
       "url": "https://www.domain.com.au/4-340-stirling-street-highgate-wa-6003-2020537251"
@@ -5903,6 +6106,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/4UtULpVumrPwkN6sWoiO1YsYpSA=/720x540/filters:format(webp):quality(85)/2020744341_1_1_260408_074626-w2000-h1333",
       "url": "https://www.domain.com.au/50-103-harold-street-highgate-wa-6003-2020744341"
@@ -5919,6 +6123,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/N40kzwwhi-YwhVqWtl7EO2N9PM4=/720x540/filters:format(webp):quality(85)/2020841230_3_1_260514_015041-w4000-h2667",
       "url": "https://www.domain.com.au/21-131-harold-street-highgate-wa-6003-2020841230"
@@ -5935,6 +6140,7 @@
       "price": "UNDER OFFER BY SHAGUN AHUJA",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/GWXF7DD3lLizoYttkngeVYwEB4A=/720x540/filters:format(webp):quality(85)/2020860195_1_1_260521_051400-w4000-h2667",
       "url": "https://www.domain.com.au/9-103-harold-street-highgate-wa-6003-2020860195"
@@ -5951,6 +6157,7 @@
       "price": "Under Offer",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ow4klaNfITtQlWRCqGF20CED5-I=/720x540/filters:format(webp):quality(85)/2020877004_1_1_260528_052535-w1920-h1280",
       "url": "https://www.domain.com.au/2-432-beaufort-street-highgate-wa-6003-2020877004"
@@ -5967,6 +6174,7 @@
       "price": "UNDER CONTRACT",
       "priceValue": null,
       "isNew": false,
+      "underOffer": true,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Mna4XBwovlJJiuDqNJqBuE_qns0=/720x540/filters:format(webp):quality(85)/2020890435_1_1_260603_070832-w6000-h4000",
       "url": "https://www.domain.com.au/30-34-smith-street-highgate-wa-6003-2020890435"
@@ -5983,6 +6191,7 @@
       "price": "ALL OFFERS PRESENTED 30th June (Unless Sold Prior)",
       "priceValue": null,
       "isNew": false,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/zORF0TLrhSW5P32AARdvd1f6S_c=/720x540/filters:format(webp):quality(85)/2020927040_1_1_260618_081706-w4608-h3072",
       "url": "https://www.domain.com.au/40-288-lord-street-highgate-wa-6003-2020927040"
@@ -5999,7 +6208,11 @@
       "price": "OFFERS",
       "priceValue": null,
       "isNew": true,
-      "inspect": null,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-01T17:00:00",
+        "close": "2026-07-01T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/fiCOSocMW0eIACn9ElSdKTOdPaU=/720x540/filters:format(webp):quality(85)/2020948176_1_1_260626_063634-w1200-h800",
       "url": "https://www.domain.com.au/53-537-william-street-mount-lawley-wa-6050-2020948176"
     },
@@ -6015,6 +6228,7 @@
       "price": "All Offers Presented",
       "priceValue": null,
       "isNew": true,
+      "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/IQ2KbVqek5Js0Xy8mnyXHIX1F20=/720x540/filters:format(webp):quality(85)/35c0im93i1pbn_1_0_260625_101048-w2000-h1336",
       "url": "https://www.domain.com.au/10-571-william-street-mount-lawley-wa-6050-2020952301"
@@ -6171,6 +6385,23 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/yF1Cp7CR7Ege8zWDCq4kDeWF3YU=/720x540/filters:format(webp):quality(85)/2020907013_1_1_260610_073406-w1500-h999",
       "url": "https://www.domain.com.au/14-st-monica-lane-mount-lawley-wa-6050-2020907013"
+    },
+    {
+      "id": 2020919287,
+      "address": "27 Second Avenue, Mount Lawley WA 6050",
+      "suburb": "Mount Lawley",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": 807,
+      "propertyType": "House",
+      "price": "UNDER CONTRACT",
+      "priceValue": null,
+      "isNew": false,
+      "underOffer": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/k2Dp_Zfz0TUCcqkip2q9kwECkkE=/720x540/filters:format(webp):quality(85)/2020919287_1_1_260616_044545-w3000-h2000",
+      "url": "https://www.domain.com.au/27-second-avenue-mount-lawley-wa-6050-2020919287"
     },
     {
       "id": 2020919825,
