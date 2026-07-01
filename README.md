@@ -2,17 +2,17 @@
 
 A small website for browsing **rentals and homes for sale** around
 Lake Claremont / Mount Claremont, WA — Claremont, Swanbourne, Cottesloe, Floreat,
-Nedlands, Dalkeith, Subiaco, Wembley, plus Highgate and Mount Lawley. Built to
-share with family.
+Nedlands, Dalkeith, Subiaco, Shenton Park, Daglish, Jolimont, Wembley, plus
+Highgate and Mount Lawley. Built to share with family.
 
-Rentals are filtered to **$700+ per week** and **exclude furnished homes**
+Rentals are filtered to a minimum weekly rent and **exclude furnished homes**
 (see `minRent` / `excludeFurnished` in `config.json`). The same suburb list is
 used for both the **For Rent** and **To Buy** tabs.
 
 - **For Rent** and **To Buy** tabs, shown as a **photo dashboard** (lead photo per home)
 - **♥ Favourite** any home and **✕ Hide** ones you're not interested in — with **Undo** and a **Hidden** tab to restore from
 - Favourites/hidden are **saved to the cloud** (visible on any device, and you can see what Mum picked) — with automatic fall-back to per-device saving if no cloud store is connected
-- An **adjustable price range** that's **saved** on the device (drag the sliders, tap Save)
+- **Save settings** stores ALL the filters — bedrooms, suburbs, must-haves and budget — **to the cloud too**, so everyone on the link sees the same setup (chip/slider changes are a live preview until you tap Save)
 - A **Refresh** button to pull the latest data
 
 ## How it works

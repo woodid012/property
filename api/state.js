@@ -142,6 +142,11 @@ module.exports = async (req, res) => {
 
       // shared filter preferences — no listing id, just the whole prefs blob
       if (action === "setPrefs") {
+        // the real prefs blob is ~1 KB; anything huge is a bug or abuse
+        if (JSON.stringify(prefs || {}).length > 32768) {
+          res.status(400).json({ error: "prefs too large" });
+          return;
+        }
         await ensureReady(sql);
         await setPrefs(sql, prefs || {});
         const state = await getState(sql);

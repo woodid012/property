@@ -78,6 +78,16 @@ def main():
     else:
         buy = clean(pull, "buy")
 
+    # Loud warning if a rebuilt side shrank a lot vs the previous build — the
+    # usual cause is a partial pull (Akamai block mid-run). Interim/partial
+    # builds are allowed (it still writes), but this makes them unmissable.
+    for name, rows, rebuilt in (("rent", rent, mode != "buy-only"),
+                                ("buy", buy, mode != "rent-only")):
+        old_n = len(existing.get(name) or [])
+        if rebuilt and old_n and len(rows) < 0.6 * old_n:
+            print(f"WARNING: {name} shrank {old_n} -> {len(rows)} "
+                  f"(partial pull? blocked mid-run?) - writing anyway")
+
     now = datetime.now(timezone(timedelta(hours=8)))  # AWST
     out = {
         "generatedAt": now.isoformat(),

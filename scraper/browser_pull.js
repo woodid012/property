@@ -7,14 +7,71 @@
  * The ONLY reliable method is a REAL, logged-in Chrome, driven by Claude through
  * the Chrome extension. To refresh, just ask Claude to "pull the latest listings".
  *
- * This file is the playbook Claude follows. It is a set of snippets you paste/run
- * in the Domain tab's console (or that Claude runs via the extension), in order.
+ * This file is the playbook Claude follows.
+ *
+ * ============================================================================
+ * METHOD 2 — DIRECT NAVIGATION (CURRENT, use this — proven 2026-07)
+ * ============================================================================
+ * The legacy stepper below (METHOD 1) drives page changes with
+ * `window.next.router.push()`. That started hanging the extension's CDP
+ * Runtime.evaluate for 45s per call (the navigation destroys the JS context
+ * mid-await, so the promise never resolves back). Do NOT use it.
+ *
+ * Instead, drive each page load with the extension's `navigate` tool
+ * (top-level browser navigation), then run a small extractor per page:
+ *
+ *   For each suburb slug from config.json
+ *   (slug = lowercase suburb, spaces->dashes, + '-<state>-<postcode>'):
+ *     RENT:  navigate  https://www.domain.com.au/rent/<slug>/?price=500-3000
+ *            -> run extractRent()                      (appends to _pull)
+ *            then for features furnished / petsallowed / gardencourtyard:
+ *            navigate  ...&features=<feature>
+ *            -> run extractFeat('_furn'|'_pets'|'_court')  (appends ids)
+ *     BUY:   navigate  https://www.domain.com.au/sale/<slug>/
+ *            -> run extractBuy()                       (appends to _pull)
+ *
+ * Then exfil (STEP C below), build, commit, push — rent first, then buys, as
+ * two pushes (`build_listings.py rent-only`, then `buy-only`).
+ *
+ * FIELD RULES (each one earned the hard way)
+ * ------------------------------------------
+ *  - HYDRATION RACE: right after navigate, __NEXT_DATA__ may not be populated
+ *    yet — extractors return {captured:0,total:null}. That is NOT a block;
+ *    just re-run the extractor (or use the wait-loop built into the snippets
+ *    below). A real block has "Access Denied" in document.title.
+ *  - AKAMAI: rental *feature-filter* URLs are the usual trigger; /sale/ pages
+ *    almost never block. On "Access Denied": STOP hitting Domain entirely
+ *    (every extra hit re-arms it), wait ~20 min hands-off, then retry starting
+ *    from the suburb's UNFILTERED page (no ?price=). If only a feature filter
+ *    blocks but the unfiltered page loads, skip that one filter rather than
+ *    burning the cooldown — the suburb just loses that flag for a day.
+ *  - INTERIM COMMIT ON BLOCK: before going quiet for a cooldown, exfil what
+ *    has been captured so far (exfil hits localhost only — it cannot re-arm
+ *    Akamai) and build+commit+push it as an interim update, MERGED so suburbs
+ *    not yet re-scraped keep yesterday's rows instead of vanishing from the
+ *    site. (Merge: load the previous data/listings.json, re-tag its rows for
+ *    the missing suburbs with _kind and re-add their pets/courtyard ids, and
+ *    append them to the bundle before running build_listings.py.)
+ *  - Only page 1 (~20 cards) of each search is captured, by design — keeps the
+ *    pull small and under Akamai's radar. Totals of 100+ per suburb exist;
+ *    paginating would multiply Domain hits and block risk.
+ *  - localStorage survives reloads and Chrome restarts (per profile), so
+ *    captured data is never lost by a crash — reconnect and continue.
+ *
+ * EXTRACTORS (stash in localStorage so each page-call is one tiny eval):
+ *   localStorage._extractRent / _extractFeat / _extractBuy — see bottom of
+ *   this file for the reference implementations.
+ *
+ * ============================================================================
+ * METHOD 1 — LEGACY STEPPER (kept for reference; router.push hangs CDP)
+ * ============================================================================
  *
  * WHY IT LOOKS THE WAY IT DOES (lessons from the field)
  * -----------------------------------------------------
- *  - Direct navigation to a *filtered* URL (?price=…, ?features=…) returns a 404
- *    in this session, but Next.js CLIENT-SIDE navigation does not. So we move
- *    between pages with `window.next.router.push(path)`, never location/navigate.
+ *  - Direct navigation to a *filtered* URL (?price=…, ?features=…) returned 404
+ *    in early sessions, but Next.js CLIENT-SIDE navigation did not. (This is no
+ *    longer true — filtered URLs load fine via top-level navigation now, which
+ *    is what METHOD 2 relies on.)
  *  - Furnished / pets / courtyard are NOT in the listing-card JSON. They are only
  *    expressible as Domain "feature" filters. So for each rental suburb we run the
  *    base search plus one search per feature, and keep the matching ids as sets.
@@ -34,7 +91,7 @@
  *   3. STEP A — build the job queue + reset buffers (run once).
  *   4. STEP B — run the stepper repeatedly (once per job) until it reports done.
  *              Each call settles the current page, extracts it, and pushes the
- *              next. ~55 jobs for 11 suburbs (rent base + 3 feature queries + buy).
+ *              next. 5 jobs per suburb (rent base + 3 feature queries + buy).
  *   5. STEP C — exfiltrate the bundle to scraper/_pull_final.json (via receiver).
  *   6. Build + ship:                 python scraper/build_listings.py
  *                                    git add data/listings.json && git commit && git push
@@ -164,4 +221,79 @@ function exfil() {
   const data = JSON.stringify(bundle);
   location.href = 'http://127.0.0.1:8799/sink#' + encodeURIComponent(data);
   return { bytes: data.length, listings: bundle.pull.length };
+}
+
+// ── METHOD 2 reference extractors ────────────────────────────────────────────
+// Run ONE of these per page load (after a top-level `navigate`). Each waits for
+// __NEXT_DATA__ to hydrate (the race that makes fresh pages report 0 listings),
+// detects Akamai denial, and appends results to localStorage. Stash them once:
+//   localStorage.setItem('_extractRent', extractRent.toString()) … etc,
+// then per page:  eval(localStorage.getItem('_extractRent')); await extractRent();
+
+// shared: wait for the listing data to hydrate (or detect a block)
+async function settle() {
+  for (let i = 0; i < 20; i++) {
+    if (/access denied/i.test(document.title)) return { denied: true };
+    const cp = window.__NEXT_DATA__?.props?.pageProps?.componentProps;
+    if (cp?.listingsMap) return { denied: false, cp };
+    await new Promise(r => setTimeout(r, 400));
+  }
+  return { denied: false, cp: null }; // treat as empty page, not a block
+}
+
+// row extractor shared by rent + buy (kind = 'rent' | 'buy')
+function rowsOf(lm, kind) {
+  const num = (t) => {
+    if (!t) return null;
+    const m = String(t).match(/\$\s*([\d,]+(?:\.\d+)?)\s*([kmKM]?)/); if (!m) return null;
+    let v = parseFloat(m[1].replace(/,/g, '')); const s = (m[2] || '').toLowerCase();
+    if (s === 'k') v *= 1e3; else if (s === 'm') v *= 1e6; return Math.round(v);
+  };
+  const out = [];
+  for (const e of Object.values(lm)) {
+    const m = e.listingModel; if (!m || !m.address) continue;
+    const a = m.address, f = m.features || {};
+    let url = m.url || ''; if (url.startsWith('/')) url = 'https://www.domain.com.au' + url;
+    const tail = [a.suburb, a.state, a.postcode].filter(Boolean).join(' ');
+    const addr = [(a.street || '').trim(), tail].filter(Boolean).join(', ') || 'Address withheld';
+    let price = m.price || m.displaySearchPriceRange || 'Contact agent';
+    let pv = num(price); if (kind === 'buy' && pv && pv < 10000) pv = null;
+    let tt = '', tc = ''; const tg = m.tags;
+    if (Array.isArray(tg)) { tt = tg.map(t => (t && t.tagText) || '').join(' '); tc = tg.map(t => (t && t.tagClassName) || '').join(' '); }
+    else if (tg && typeof tg === 'object') { tt = tg.tagText || ''; tc = tg.tagClassName || ''; }
+    const underOffer = /under.?offer|under.?contract/i.test(tt + ' ' + tc);
+    const ins = m.inspection;
+    const inspect = (ins && ins.openTime) ? { open: ins.openTime, close: ins.closeTime || null } : null;
+    out.push({ id: e.id, address: addr, suburb: (a.suburb || '').trim(),
+      beds: f.beds ?? null, baths: f.baths ?? null, cars: f.parking ?? null, area: f.landSize || null,
+      propertyType: f.propertyTypeFormatted || f.propertyType || '',
+      price: String(price).trim(), priceValue: pv, isNew: /new/i.test(tt), underOffer, inspect,
+      image: (Array.isArray(m.images) && m.images[0]) || null, url: url || null, _kind: kind });
+  }
+  return out;
+}
+
+async function extractRent() {
+  const s = await settle(); if (s.denied) return { denied: true };
+  const out = rowsOf(s.cp?.listingsMap || {}, 'rent');
+  const cur = JSON.parse(localStorage.getItem('_pull') || '[]');
+  cur.push(...out); localStorage.setItem('_pull', JSON.stringify(cur));
+  return { denied: false, total: s.cp?.totalListings ?? null, captured: out.length, newPullTotal: cur.length };
+}
+
+async function extractBuy() {
+  const s = await settle(); if (s.denied) return { denied: true };
+  const out = rowsOf(s.cp?.listingsMap || {}, 'buy');
+  const cur = JSON.parse(localStorage.getItem('_pull') || '[]');
+  cur.push(...out); localStorage.setItem('_pull', JSON.stringify(cur));
+  return { denied: false, total: s.cp?.totalListings ?? null, captured: out.length, newPullTotal: cur.length };
+}
+
+async function extractFeat(store) { // store = '_furn' | '_pets' | '_court'
+  const s = await settle(); if (s.denied) return { denied: true };
+  const ids = [];
+  for (const e of Object.values(s.cp?.listingsMap || {})) if (e.listingModel?.address) ids.push(e.id);
+  const fs = JSON.parse(localStorage.getItem(store) || '[]');
+  fs.push(...ids); localStorage.setItem(store, JSON.stringify(fs));
+  return { denied: false, total: s.cp?.totalListings ?? null, added: ids.length, storeNow: fs.length };
 }
