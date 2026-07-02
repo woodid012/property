@@ -137,8 +137,15 @@
   .act.restore { background: #e8f3ec; color: var(--buy); border-color: #cce8d6; }
 
   /* map view */
-  #mapbox { height: 72vh; min-height: 420px; border-radius: 16px; position: relative; z-index: 0;
+  #mapbox { height: 66vh; min-height: 400px; border-radius: 16px; position: relative; z-index: 0;
     background: #e7ebf2; box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 4px rgba(16,24,40,.08); }
+  #map-card { margin-top: 12px; }
+  #map-card:empty { display: none; }
+
+  /* favourites: rent / buy section headers */
+  .gridsec { grid-column: 1 / -1; margin: 6px 0 -6px; font-size: 0.95rem; color: var(--ink2); }
+  .gridsec.rent { color: var(--rent); }
+  .gridsec.buy { color: var(--buy); }
   .maplayer.on[data-layer="rent"] { background: var(--rent); border-color: var(--rent); color: #fff; }
   .maplayer.on[data-layer="buy"] { background: var(--buy); border-color: var(--buy); color: #fff; }
   .leaflet-popup-content { margin: 10px 12px; font-family: inherit; }
@@ -283,7 +290,8 @@
       </span>
     </div>
     <div id="mapbox"></div>
-    <p class="footnote">Pins follow the filters set on the For Rent and To Buy tabs. Tap a pin for the photo &amp; link.</p>
+    <div class="grid" id="map-card"></div>
+    <p class="footnote">Pins follow the filters set on the For Rent and To Buy tabs — ♥ favourites show in pink. Tap a pin to see the home below the map.</p>
   </div>
 
   <!-- FAVOURITES -->
@@ -741,16 +749,10 @@ function ensureLeaflet(){
 }
 
 function mapPopup(x){
-  const img = x.image ? '<img src="'+x.image+'" alt="" style="width:100%;height:110px;object-fit:cover;border-radius:8px">' : '';
-  const bits = [];
-  if (x.beds != null) bits.push(x.beds + ' bed');
-  if (x.baths != null) bits.push(x.baths + ' bath');
-  if (x.propertyType) bits.push(x.propertyType);
-  return '<div style="width:215px">' + img
-    + '<div style="font-weight:700;margin-top:6px">' + x.address + '</div>'
+  // compact — the full card (photo, ♥/✕, link) renders under the map on tap
+  return '<div style="max-width:200px"><b>' + x.address + '</b>'
     + '<div style="color:#5a6475">' + x.price + '</div>'
-    + (bits.length ? '<div style="color:#5a6475;font-size:.85em">' + bits.join(' · ') + '</div>' : '')
-    + '<a href="' + (x.url||'#') + '" target="_blank" rel="noopener">Open on Domain →</a></div>';
+    + '<div style="color:#939aad;font-size:.82em">details below the map ↓</div></div>';
 }
 
 async function renderMap(){
@@ -767,10 +769,13 @@ async function renderMap(){
   MAP._pins.clearLayers();
   const items = ['rent','buy'].flatMap(k => MAPLAYERS[k] ? visibleItems(k) : []);
   const located = items.filter(x => x.lat != null && x.lng != null);
+  located.sort((a, b) => isFav(a._id) - isFav(b._id));   // favourites drawn last = on top
   located.forEach(x => {
-    const fill = x._kind === 'buy' ? '#138a52' : '#1f6feb';
-    L.circleMarker([x.lat, x.lng], { radius: 8, color: '#fff', weight: 2, fillColor: fill, fillOpacity: .95 })
+    const fav = isFav(x._id);
+    const fill = fav ? '#d33b66' : (x._kind === 'buy' ? '#138a52' : '#1f6feb');
+    L.circleMarker([x.lat, x.lng], { radius: fav ? 9 : 8, color: '#fff', weight: 2, fillColor: fill, fillOpacity: .95 })
       .bindPopup(mapPopup(x))
+      .on('click', () => { MAPSEL = x._id; paintMapCard(); })
       .addTo(MAP._pins);
   });
   if (located.length) MAP.fitBounds(L.latLngBounds(located.map(x => [x.lat, x.lng])), { padding: [30, 30] });
@@ -778,7 +783,21 @@ async function renderMap(){
   const missing = items.length - located.length;
   document.getElementById('map-resultcount').textContent =
     located.length + ' homes on the map' + (missing ? ' ('+missing+' without a location yet)' : '');
+  paintMapCard();
   setTimeout(() => MAP.invalidateSize(), 60);
+}
+
+let MAPSEL = null;   // id of the pin last tapped — its full card renders under the map
+function paintMapCard(){
+  const host = document.getElementById('map-card');
+  if (!host) return;
+  let x = null;
+  if (MAPSEL && !isHidden(MAPSEL)){
+    x = itemById(MAPSEL)
+      || (STATE.snaps[MAPSEL] ? Object.assign({}, STATE.snaps[MAPSEL], { _removed: true }) : null);
+  }
+  host.innerHTML = x ? card(x, 'board') : '';
+  if (x) host.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function renderFavs(){
@@ -791,9 +810,19 @@ function renderFavs(){
     return snap ? Object.assign({}, snap, { _removed: true }) : null;
   }).filter(Boolean);
   const host = document.getElementById('favs-cards');
-  host.innerHTML = items.length
-    ? items.map(x => card(x, 'fav')).join('')
-    : '<div class="empty">No favourites yet.<br>Tap <strong>♡ Save</strong> on any home you like and it’ll appear here.</div>';
+  if (!items.length){
+    host.innerHTML = '<div class="empty">No favourites yet.<br>Tap <strong>♡ Save</strong> on any home you like and it’ll appear here.</div>';
+  } else {
+    // grouped: rentals first, then homes to buy (anything unmatched last)
+    const groups = [['rent','For Rent'], ['buy','To Buy']];
+    const rest = items.filter(x => x._kind !== 'rent' && x._kind !== 'buy');
+    host.innerHTML = groups.map(([k, label]) => {
+      const rows = items.filter(x => x._kind === k);
+      return rows.length
+        ? '<h3 class="gridsec '+k+'">'+label+' ('+rows.length+')</h3>' + rows.map(x => card(x, 'fav')).join('')
+        : '';
+    }).join('') + rest.map(x => card(x, 'fav')).join('');
+  }
   document.getElementById('favs-resultcount').textContent =
     items.length + (items.length===1 ? ' saved home' : ' saved homes');
 }
