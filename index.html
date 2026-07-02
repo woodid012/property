@@ -5,97 +5,121 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mum's Property Search — Mount Claremont &amp; Nearby</title>
 <style>
-  :root { color-scheme: light; }
+  :root {
+    color-scheme: light;
+    --rent: #1f6feb; --buy: #138a52;
+    --ink: #1c2433; --ink2: #5a6475; --ink3: #939aad;
+    --line: #e5e8ef; --bg: #f4f5f8;
+  }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: #f5f6f8; color: #1d2330; line-height: 1.45;
+    background: var(--bg); color: var(--ink); line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 900px; margin: 0 auto; padding: 20px 16px 80px; }
-  header h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  header p { margin: 0; color: #5a6475; font-size: 0.92rem; }
-  .meta { font-size: 0.8rem; color: #8a93a4; margin-top: 6px; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 22px 16px 80px; }
+  header h1 { font-size: 1.4rem; margin: 0 0 3px; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--ink2); font-size: 0.9rem; }
+  .meta { font-size: 0.78rem; color: var(--ink3); margin-top: 6px; }
 
-  .tabs { display: flex; gap: 8px; margin: 22px 0 16px; flex-wrap: wrap; }
+  .tabs { display: flex; gap: 6px; margin: 16px 0 12px; flex-wrap: wrap;
+    position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 8px 0; }
   .tab {
-    flex: 1 1 auto; min-width: 90px; padding: 12px 10px; border: none; border-radius: 10px;
-    background: #e7e9ee; color: #3a4252; font-size: 1rem; font-weight: 600; cursor: pointer;
+    flex: 1 1 auto; min-width: 86px; padding: 11px 10px; border: none; border-radius: 12px;
+    background: #e9ebf1; color: #3a4252; font-size: 0.95rem; font-weight: 600; cursor: pointer;
     transition: background .15s, color .15s;
   }
-  .tab .count { display: block; font-size: 0.72rem; font-weight: 500; opacity: .7; margin-top: 2px; }
-  .tab.active { background: #1f6feb; color: #fff; }
-  .tab.buy.active { background: #138a52; }
+  .tab .count { display: block; font-size: 0.7rem; font-weight: 500; opacity: .7; margin-top: 2px; }
+  .tab.active { background: var(--rent); color: #fff; }
+  .tab.buy.active { background: var(--buy); }
   .tab.favs.active { background: #d33b66; }
   .tab.hidden.active { background: #5a6475; }
   .panel { display: none; }
   .panel.active { display: block; }
 
-  /* price range controls */
+  /* result bar: count + Filters toggle + Domain link */
+  .bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 2px 0 12px; flex-wrap: wrap; }
+  .bar .resultcount { font-size: 0.9rem; color: var(--ink2); font-weight: 600; }
+  .bar-actions { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .filters-toggle {
+    display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px;
+    border: 1px solid #d5dae4; border-radius: 999px; background: #fff;
+    font-size: 0.88rem; font-weight: 600; color: #3a4252; cursor: pointer;
+  }
+  .filters-toggle .fsum { font-weight: 500; color: var(--ink3); font-size: 0.78rem;
+    max-width: 42vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .filters-toggle.on { border-color: var(--rent); color: var(--rent); background: #eef4ff; }
+  .buy .filters-toggle.on { border-color: var(--buy); color: var(--buy); background: #ecf7f1; }
+  .viewall {
+    display: inline-block; padding: 9px 14px; background: var(--rent); color: #fff;
+    text-decoration: none; border-radius: 999px; font-size: 0.85rem; font-weight: 600; white-space: nowrap;
+  }
+  .buy .viewall { background: var(--buy); }
+
+  /* filter panel (collapsed by default — tap Filters to open) */
   .controls {
-    background: #fff; border: 1px solid #e4e7ee; border-radius: 12px;
-    padding: 16px 18px; margin-bottom: 16px;
+    display: none; background: #fff; border: 1px solid var(--line); border-radius: 16px;
+    padding: 16px 18px; margin-bottom: 14px;
   }
+  .controls.open { display: block; }
   .controls h2 { font-size: 0.95rem; margin: 0 0 2px; }
-  .controls .hint { font-size: 0.8rem; color: #8a93a4; margin: 0 0 14px; }
-  .rangeval { font-weight: 700; font-size: 1.15rem; color: #1f6feb; }
-  .buy .rangeval { color: #138a52; }
+  .controls .hint { font-size: 0.8rem; color: var(--ink3); margin: 0 0 14px; }
+  .rangeval { font-weight: 700; font-size: 1.1rem; color: var(--rent); }
+  .buy .rangeval { color: var(--buy); }
   .sliders { display: flex; flex-direction: column; gap: 6px; margin: 10px 0 4px; }
-  .sliders label { font-size: 0.78rem; color: #5a6475; display: flex; justify-content: space-between; }
-  input[type=range] { width: 100%; accent-color: #1f6feb; height: 26px; }
-  .buy input[type=range] { accent-color: #138a52; }
-  .beds { margin-top: 16px; }
-  .beds-label { font-size: 0.78rem; color: #5a6475; display: block; margin-bottom: 7px; }
-  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
-  .chip { padding: 9px 16px; border: 1px solid #d8dce6; border-radius: 999px; background: #fff;
-    font-size: 0.92rem; font-weight: 600; color: #3a4252; cursor: pointer; transition: background .12s, border-color .12s, color .12s; }
-  .chip.on { background: #1f6feb; border-color: #1f6feb; color: #fff; }
-  .buy .chip.on { background: #138a52; border-color: #138a52; }
-  .subs-hint { font-weight: 400; opacity: .65; }
-  .ctl-actions { display: flex; gap: 10px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+  .sliders label { font-size: 0.78rem; color: var(--ink2); display: flex; justify-content: space-between; }
+  input[type=range] { width: 100%; accent-color: var(--rent); height: 26px; }
+  .buy input[type=range] { accent-color: var(--buy); }
+  .beds { margin-top: 14px; }
+  .beds-label { font-size: 0.75rem; color: var(--ink2); font-weight: 600;
+    text-transform: uppercase; letter-spacing: .04em; display: block; margin-bottom: 7px; }
+  .chips { display: flex; gap: 7px; flex-wrap: wrap; }
+  .chip { padding: 8px 14px; border: 1px solid #d8dce6; border-radius: 999px; background: #fff;
+    font-size: 0.88rem; font-weight: 600; color: #3a4252; cursor: pointer; transition: background .12s, border-color .12s, color .12s; }
+  .chip.on { background: var(--rent); border-color: var(--rent); color: #fff; }
+  .buy .chip.on { background: var(--buy); border-color: var(--buy); }
+  .subs-hint { font-weight: 400; opacity: .65; text-transform: none; letter-spacing: 0; }
+  .ctl-actions { display: flex; gap: 10px; align-items: center; margin-top: 14px; flex-wrap: wrap; }
   .btn {
-    padding: 10px 16px; border: none; border-radius: 9px; font-size: 0.9rem; font-weight: 600;
-    cursor: pointer; background: #1f6feb; color: #fff;
+    padding: 10px 16px; border: none; border-radius: 10px; font-size: 0.9rem; font-weight: 600;
+    cursor: pointer; background: var(--rent); color: #fff;
   }
-  .btn.save { background: #1f6feb; }
-  .buy .btn.save { background: #138a52; }
+  .btn.save { background: var(--rent); }
+  .buy .btn.save { background: var(--buy); }
   .btn.save.dirty { box-shadow: 0 0 0 3px rgba(245,158,11,.55); }
   .btn.save.dirty::after { content: " •"; }
   .btn:disabled { opacity: .6; cursor: default; }
-  .btn.ghost { background: #eef0f4; color: #3a4252; }
-  .saved-msg { font-size: 0.82rem; color: #138a52; font-weight: 600; opacity: 0; transition: opacity .2s; }
+  .btn.ghost { background: #eceef3; color: #3a4252; }
+  .saved-msg { font-size: 0.82rem; color: var(--buy); font-weight: 600; opacity: 0; transition: opacity .2s; }
   .saved-msg.show { opacity: 1; }
-  .viewall {
-    display: inline-block; padding: 10px 16px; background: #1f6feb; color: #fff;
-    text-decoration: none; border-radius: 9px; font-size: 0.88rem; font-weight: 600; white-space: nowrap;
-  }
-  .buy .viewall { background: #138a52; }
-
-  .bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
-  .bar .resultcount { font-size: 0.9rem; color: #5a6475; font-weight: 600; }
 
   /* photo cards */
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
   .card {
-    background: #fff; border: 1px solid #e4e7ee; border-radius: 14px; overflow: hidden;
-    display: flex; flex-direction: column; transition: box-shadow .15s;
+    background: #fff; border: none; border-radius: 16px; overflow: hidden;
+    display: flex; flex-direction: column;
+    box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 4px rgba(16,24,40,.08);
+    transition: box-shadow .15s, transform .15s;
   }
-  .card:hover { box-shadow: 0 6px 20px rgba(31,111,235,.12); }
+  .card:hover { box-shadow: 0 10px 28px rgba(16,24,40,.14); transform: translateY(-2px); }
   .cardlink { display: block; text-decoration: none; color: inherit; }
   .photo { position: relative; height: 190px; background-size: cover; background-position: center; background-color: #e7ebf2; }
   .photo.ph { display: flex; align-items: center; justify-content: center;
     background: linear-gradient(135deg, #dfe6f0, #eef1f6); }
   .photo.ph .ico { font-size: 2.6rem; opacity: .5; }
   .pricetag {
-    position: absolute; left: 10px; bottom: 10px; background: rgba(19,138,82,.95); color: #fff;
-    font-weight: 700; font-size: 0.95rem; padding: 5px 11px; border-radius: 8px;
+    position: absolute; left: 10px; bottom: 10px; background: rgba(28,36,51,.85); color: #fff;
+    font-weight: 700; font-size: 0.93rem; padding: 5px 11px; border-radius: 8px;
+    backdrop-filter: blur(4px); max-width: calc(100% - 20px); overflow: hidden;
+    text-overflow: ellipsis; white-space: nowrap;
   }
-  .pricetag.buy { background: rgba(31,111,235,.95); }
+  .pricetag.buy { background: rgba(28,36,51,.85); }
   .body { padding: 13px 16px 6px; }
   .addr { font-weight: 700; font-size: 1.0rem; }
-  .sub { font-size: 0.85rem; color: #5a6475; margin-top: 4px; }
-  .tags { margin-top: 8px; }
-  .tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; margin-right: 6px; }
+  .sub { font-size: 0.85rem; color: var(--ink2); margin-top: 4px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; }
   .tag.mc { background: #fde9c9; color: #8a5a00; }
   .tag.new { background: #d8f0e2; color: #138a52; }
   .tag.noprice { background: #eceef2; color: #5a6475; }
@@ -103,18 +127,16 @@
   .tag.amen { background: #e9f5ec; color: #2d7a47; }
   .tag.uo { background: #fde2e2; color: #b02a2a; }
   .tag.gone { background: #f1d6a8; color: #7a4a00; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-  .tags .tag { margin-right: 0; }
 
   .actions { display: flex; gap: 8px; padding: 10px 16px 14px; margin-top: auto; }
-  .act { flex: 1; padding: 11px 8px; border: 1px solid #e2e6ee; border-radius: 10px;
-    background: #f6f8fb; font-size: 0.92rem; font-weight: 600; cursor: pointer; color: #3a4252; }
+  .act { flex: 1; padding: 10px 8px; border: 1px solid #e4e8ef; border-radius: 10px;
+    background: #f7f8fb; font-size: 0.9rem; font-weight: 600; cursor: pointer; color: #3a4252; }
   .act.fav.on { background: #ffe3ea; border-color: #ffc6d4; color: #d33b66; }
   .act.hide:hover { background: #fdeaea; color: #c0392b; }
-  .act.restore { background: #e8f3ec; color: #138a52; border-color: #cce8d6; }
+  .act.restore { background: #e8f3ec; color: var(--buy); border-color: #cce8d6; }
 
-  .empty { text-align: center; color: #8a93a4; padding: 30px 10px; grid-column: 1 / -1; }
-  .footnote { font-size: 0.8rem; color: #8a93a4; margin-top: 22px; }
+  .empty { text-align: center; color: var(--ink3); padding: 30px 10px; grid-column: 1 / -1; }
+  .footnote { font-size: 0.8rem; color: var(--ink3); margin-top: 22px; }
   #syncnote { font-weight: 600; }
   .spin { display: inline-block; width: 14px; height: 14px; border: 2px solid #fff; border-top-color: transparent; border-radius: 50%; animation: s .7s linear infinite; vertical-align: -2px; margin-right: 6px; }
   @keyframes s { to { transform: rotate(360deg); } }
@@ -133,7 +155,7 @@
 <div class="wrap">
   <header>
     <h1>🏡 Mum's Property Search</h1>
-    <p>Homes in Mount Claremont &amp; nearby (Claremont, Swanbourne, Cottesloe, Floreat, Nedlands, Dalkeith, Subiaco, Wembley) — filter by bedrooms &amp; budget below.</p>
+    <p>Homes for rent and sale in Mount Claremont &amp; nearby — tap <strong>Filters</strong> to set bedrooms, suburbs &amp; budget.</p>
     <div class="meta" id="updated">Loading…</div>
   </header>
 
@@ -146,6 +168,13 @@
 
   <!-- RENT -->
   <div class="panel active" id="rent">
+    <div class="bar">
+      <span class="resultcount" id="rent-resultcount"></span>
+      <span class="bar-actions">
+        <button class="filters-toggle" data-ftoggle="rent">⚙ Filters<span class="fsum" id="rent-fsum"></span></button>
+        <a class="viewall" id="rent-viewall" target="_blank" rel="noopener">Domain →</a>
+      </span>
+    </div>
     <div class="controls">
       <h2>Weekly rent: <span class="rangeval" id="rent-label"></span></h2>
       <p class="hint">Set bedrooms, suburbs, must-haves &amp; budget below, then tap <strong>Save settings</strong> — saved for everyone on the link.</p>
@@ -183,15 +212,18 @@
         <span class="saved-msg" id="rent-saved">✓ Saved</span>
       </div>
     </div>
-    <div class="bar">
-      <span class="resultcount" id="rent-resultcount"></span>
-      <a class="viewall" id="rent-viewall" target="_blank" rel="noopener">See all on Domain →</a>
-    </div>
     <div class="grid" id="rent-cards"></div>
   </div>
 
   <!-- BUY -->
   <div class="panel buy" id="buy">
+    <div class="bar">
+      <span class="resultcount" id="buy-resultcount"></span>
+      <span class="bar-actions">
+        <button class="filters-toggle" data-ftoggle="buy">⚙ Filters<span class="fsum" id="buy-fsum"></span></button>
+        <a class="viewall" id="buy-viewall" target="_blank" rel="noopener">Domain →</a>
+      </span>
+    </div>
     <div class="controls">
       <h2>Purchase price: <span class="rangeval" id="buy-label"></span></h2>
       <p class="hint">Set bedrooms, suburbs, must-haves &amp; budget below, then tap <strong>Save settings</strong> — saved for everyone on the link.</p>
@@ -227,10 +259,6 @@
         <button class="btn ghost" data-reset="buy">Reset</button>
         <span class="saved-msg" id="buy-saved">✓ Saved</span>
       </div>
-    </div>
-    <div class="bar">
-      <span class="resultcount" id="buy-resultcount"></span>
-      <a class="viewall" id="buy-viewall" target="_blank" rel="noopener">See all on Domain →</a>
     </div>
     <div class="grid" id="buy-cards"></div>
   </div>
@@ -650,7 +678,18 @@ function render(kind){
     : '<div class="empty">No '+kind+' listings in this budget right now.<br>Try widening the range above.</div>';
   const npNote = noPrice.length ? ' (+'+noPrice.length+' price-on-application)' : '';
   document.getElementById(kind+"-resultcount").textContent = inRange.length + ' match your budget' + npNote;
+  paintFilterSummary(kind);
   updateViewAll(kind);
+}
+
+function paintFilterSummary(kind){
+  const el = document.getElementById(kind+'-fsum');
+  const r = RANGES[kind];
+  if (!el || !r) return;
+  const bits = [FMT[kind](r.min).replace('/wk','') + '–' + FMT[kind](r.max)];
+  if (BEDS[kind].length) bits.push(BEDS[kind].slice().sort((a,b)=>a-b).map(n => n>=4?'4+':n).join('/') + ' bed');
+  if (SUBS[kind].size) bits.push(SUBS[kind].size + ' suburbs off');
+  el.textContent = bits.join(' · ');
 }
 
 function renderFavs(){
@@ -777,6 +816,10 @@ document.querySelectorAll('[data-save]').forEach(b => b.addEventListener('click'
     ? (ok ? "✓ Saved for everyone" : "Saved on this device (sync failed)")
     : "✓ Saved on this device";
   msg.classList.add('show'); setTimeout(()=>msg.classList.remove('show'), 2200);
+}));
+document.querySelectorAll('[data-ftoggle]').forEach(b => b.addEventListener('click', () => {
+  const c = document.querySelector('#'+b.dataset.ftoggle+' .controls');
+  b.classList.toggle('on', c.classList.toggle('open'));
 }));
 document.querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click', () => {
   const kind = b.dataset.reset, d = defaults(kind);
