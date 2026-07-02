@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(rent|buy|map|favourites|favorites|favs|hidden)", "destination": "/index.html" }
+  ]
+}

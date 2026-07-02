@@ -830,6 +830,8 @@ function paintTabCounts(){
 
 function renderAll(){
   render('rent'); render('buy'); renderFavs(); renderHidden(); paintTabCounts();
+  const mapPanel = document.getElementById('map');
+  if (mapPanel && mapPanel.classList.contains('active')) renderMap();
 }
 
 function paintUpdated(){
@@ -842,7 +844,7 @@ function paintUpdated(){
 }
 
 async function loadData(){
-  const res = await fetch('./data/listings.json?t=' + Date.now());
+  const res = await fetch((location.protocol === 'file:' ? './' : '/') + 'data/listings.json?t=' + Date.now());
   DATA = await res.json();
   ['rent','buy'].forEach(k => (DATA[k]||[]).forEach(x => { x._kind = k; x._id = lid(x); }));
   SUBURB_SLUGS.length = 0; FOCUS.clear();
@@ -879,13 +881,27 @@ function hideToast(){ document.getElementById('toast').classList.remove('show');
 
 /* ---------- events ---------- */
 // tab switching
-document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+// each tab has a shareable path (e.g. /favourites) — vercel.json rewrites them all here
+const TAB_PATHS = { rent: '/', buy: '/buy', map: '/map', favs: '/favourites', hidden: '/hidden' };
+function activateTab(name, updateUrl){
+  const btn = document.querySelector('.tab[data-tab="'+name+'"]');
+  if (!btn) return;
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-  t.classList.add('active');
-  document.getElementById(t.dataset.tab).classList.add('active');
-  if (t.dataset.tab === 'map') renderMap();
-}));
+  btn.classList.add('active');
+  document.getElementById(name).classList.add('active');
+  if (name === 'map') renderMap();
+  if (updateUrl !== false && location.protocol !== 'file:'){
+    try { history.replaceState(null, '', TAB_PATHS[name] || '/'); } catch(e){}
+  }
+}
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => activateTab(t.dataset.tab)));
+// deep link: open the tab named in the URL
+{
+  const seg = location.pathname.replace(/\/+$/,'').split('/').pop().toLowerCase();
+  const alias = { rent:'rent', buy:'buy', map:'map', favourites:'favs', favorites:'favs', favs:'favs', hidden:'hidden' };
+  if (alias[seg]) activateTab(alias[seg], false);
+}
 document.querySelectorAll('.maplayer').forEach(b => b.addEventListener('click', () => {
   const k = b.dataset.layer;
   MAPLAYERS[k] = !MAPLAYERS[k];
