@@ -25,6 +25,17 @@ ROOT = Path(__file__).resolve().parent.parent
 BUNDLE = ROOT / "scraper" / "_pull_final.json"
 CONFIG = ROOT / "config.json"
 OUT = ROOT / "data" / "listings.json"
+SEEN = ROOT / "scraper" / "_seen.json"  # { "<id>": "YYYY-MM-DD" } first-seen dates
+
+
+def stamp_dates(rows, seen, today):
+    """Give every row a `dateAdded`: its first-seen date, or today if brand new.
+    Mutates `seen` so newly-appearing listings are remembered for next time."""
+    for r in rows:
+        key = str(r.get("id") or r.get("url") or "")
+        if key and key not in seen:
+            seen[key] = today
+        r["dateAdded"] = seen.get(key, today)
 
 
 def clean(records, kind, *, furn=None, pets=None, court=None, min_rent=0):
@@ -97,6 +108,14 @@ def main():
         print(f"WARNING: geocoding skipped ({e})")
 
     now = datetime.now(timezone(timedelta(hours=8)))  # AWST
+
+    # stamp each listing with a first-seen date (persisted in _seen.json)
+    seen = json.loads(SEEN.read_text(encoding="utf-8")) if SEEN.exists() else {}
+    today = now.date().isoformat()
+    stamp_dates(rent, seen, today)
+    stamp_dates(buy, seen, today)
+    SEEN.write_text(json.dumps(seen, ensure_ascii=False, indent=0, sort_keys=True),
+                    encoding="utf-8")
     out = {
         "generatedAt": now.isoformat(),
         "config": config,

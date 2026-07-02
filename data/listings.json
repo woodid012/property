@@ -116,7 +116,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.945981,
-      "lng": 115.81054
+      "lng": 115.81054,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18184070,
@@ -137,7 +138,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.901256,
-      "lng": 115.762234
+      "lng": 115.762234,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17934555,
@@ -158,7 +160,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17124097,
@@ -179,7 +182,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931441,
-      "lng": 115.809315
+      "lng": 115.809315,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18172214,
@@ -200,7 +204,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18195428,
@@ -221,7 +226,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.959759,
-      "lng": 115.818644
+      "lng": 115.818644,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 18175563,
@@ -242,7 +248,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.980258,
-      "lng": 115.777185
+      "lng": 115.777185,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 13843511,
@@ -266,7 +273,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.987028,
-      "lng": 115.76748
+      "lng": 115.76748,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18178513,
@@ -287,7 +295,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18194556,
@@ -308,7 +317,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.957426,
-      "lng": 115.872619
+      "lng": 115.872619,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18167466,
@@ -329,7 +339,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.943433,
-      "lng": 115.834018
+      "lng": 115.834018,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18193143,
@@ -350,7 +361,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.955379,
-      "lng": 115.824892
+      "lng": 115.824892,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18194913,
@@ -371,7 +383,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.953038,
-      "lng": 115.808442
+      "lng": 115.808442,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18180689,
@@ -392,7 +405,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.98541,
-      "lng": 115.779886
+      "lng": 115.779886,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18155941,
@@ -416,7 +430,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.900665,
-      "lng": 115.760038
+      "lng": 115.760038,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18192513,
@@ -437,7 +452,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.863158,
-      "lng": 115.770578
+      "lng": 115.770578,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18156540,
@@ -458,7 +474,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.922981,
-      "lng": 115.793541
+      "lng": 115.793541,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18174215,
@@ -479,7 +496,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931002,
-      "lng": 115.866765
+      "lng": 115.866765,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18173312,
@@ -503,7 +521,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983995,
-      "lng": 115.778655
+      "lng": 115.778655,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18192840,
@@ -524,7 +543,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.981839,
-      "lng": 115.788613
+      "lng": 115.788613,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18176319,
@@ -545,7 +565,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931441,
-      "lng": 115.809315
+      "lng": 115.809315,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18179595,
@@ -566,7 +587,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18169081,
@@ -587,7 +609,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.930624,
-      "lng": 115.881069
+      "lng": 115.881069,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 17504201,
@@ -608,7 +631,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.936621,
-      "lng": 115.870678
+      "lng": 115.870678,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18174508,
@@ -629,7 +653,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.948738,
-      "lng": 115.81254
+      "lng": 115.81254,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18183314,
@@ -650,7 +675,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.933648,
-      "lng": 115.814809
+      "lng": 115.814809,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18188029,
@@ -671,7 +697,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.940742,
-      "lng": 115.80991
+      "lng": 115.80991,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18172150,
@@ -692,7 +719,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.922526,
-      "lng": 115.875857
+      "lng": 115.875857,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18187354,
@@ -713,7 +741,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.924712,
-      "lng": 115.819532
+      "lng": 115.819532,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18177981,
@@ -734,7 +763,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.928973,
-      "lng": 115.876836
+      "lng": 115.876836,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 14740960,
@@ -755,7 +785,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.943253,
-      "lng": 115.821613
+      "lng": 115.821613,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18193920,
@@ -776,7 +807,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.940742,
-      "lng": 115.80991
+      "lng": 115.80991,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18180776,
@@ -797,7 +829,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.954384,
-      "lng": 115.807473
+      "lng": 115.807473,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 13875744,
@@ -818,7 +851,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.979573,
-      "lng": 115.812716
+      "lng": 115.812716,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18176523,
@@ -839,7 +873,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.981663,
-      "lng": 115.781241
+      "lng": 115.781241,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18092729,
@@ -860,7 +895,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.98541,
-      "lng": 115.779886
+      "lng": 115.779886,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18155202,
@@ -884,7 +920,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.975158,
-      "lng": 115.780947
+      "lng": 115.780947,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18195158,
@@ -908,7 +945,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.951276,
-      "lng": 115.850262
+      "lng": 115.850262,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18141067,
@@ -929,7 +967,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.979757,
-      "lng": 115.78172
+      "lng": 115.78172,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18181947,
@@ -953,7 +992,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.98541,
-      "lng": 115.779886
+      "lng": 115.779886,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18050541,
@@ -974,7 +1014,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.984269,
-      "lng": 115.757413
+      "lng": 115.757413,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18181076,
@@ -995,7 +1036,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -32.005311,
-      "lng": 115.754055
+      "lng": 115.754055,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16646232,
@@ -1016,7 +1058,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.977712,
-      "lng": 115.811444
+      "lng": 115.811444,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 18167461,
@@ -1037,7 +1080,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.952104,
-      "lng": 115.813889
+      "lng": 115.813889,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18177773,
@@ -1058,7 +1102,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.943253,
-      "lng": 115.821613
+      "lng": 115.821613,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18176015,
@@ -1082,7 +1127,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.899817,
-      "lng": 115.762227
+      "lng": 115.762227,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18183152,
@@ -1106,7 +1152,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18167105,
@@ -1130,7 +1177,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.951806,
-      "lng": 115.859537
+      "lng": 115.859537,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18171469,
@@ -1154,7 +1202,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.951276,
-      "lng": 115.850262
+      "lng": 115.850262,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18195537,
@@ -1175,7 +1224,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.944855,
-      "lng": 115.857951
+      "lng": 115.857951,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 16946128,
@@ -1196,7 +1246,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.970549,
-      "lng": 115.816746
+      "lng": 115.816746,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18180746,
@@ -1217,7 +1268,8 @@
       "pets": true,
       "courtyard": true,
       "lat": -31.939727,
-      "lng": 115.868797
+      "lng": 115.868797,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18168786,
@@ -1238,7 +1290,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.978753,
-      "lng": 115.784906
+      "lng": 115.784906,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17918115,
@@ -1259,7 +1312,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946266,
-      "lng": 115.82774
+      "lng": 115.82774,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18148981,
@@ -1280,7 +1334,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946057,
-      "lng": 115.857942
+      "lng": 115.857942,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18188696,
@@ -1301,7 +1356,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.932593,
-      "lng": 115.872107
+      "lng": 115.872107,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 17110996,
@@ -1325,7 +1381,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.938688,
-      "lng": 115.872718
+      "lng": 115.872718,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18167348,
@@ -1346,7 +1403,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931216,
-      "lng": 115.884274
+      "lng": 115.884274,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 17776725,
@@ -1367,7 +1425,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946451,
-      "lng": 115.868692
+      "lng": 115.868692,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 18164960,
@@ -1388,7 +1447,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.947384,
-      "lng": 115.788803
+      "lng": 115.788803,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16878768,
@@ -1412,7 +1472,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -32.004187,
-      "lng": 115.754106
+      "lng": 115.754106,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18195900,
@@ -1433,7 +1494,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.940811,
-      "lng": 115.811358
+      "lng": 115.811358,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18195157,
@@ -1457,7 +1519,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.951597,
-      "lng": 115.850987
+      "lng": 115.850987,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18195693,
@@ -1481,7 +1544,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.941147,
-      "lng": 115.863816
+      "lng": 115.863816,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18196346,
@@ -1502,7 +1566,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946956,
-      "lng": 115.857381
+      "lng": 115.857381,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18194848,
@@ -1523,7 +1588,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.943253,
-      "lng": 115.821613
+      "lng": 115.821613,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 16578923,
@@ -1544,7 +1610,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.948766,
-      "lng": 115.828651
+      "lng": 115.828651,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18179820,
@@ -1565,7 +1632,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.902866,
-      "lng": 115.765684
+      "lng": 115.765684,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18188805,
@@ -1586,7 +1654,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.989646,
-      "lng": 115.771922
+      "lng": 115.771922,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18177636,
@@ -1607,7 +1676,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.992922,
-      "lng": 115.755977
+      "lng": 115.755977,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18104655,
@@ -1628,7 +1698,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.970546,
-      "lng": 115.808636
+      "lng": 115.808636,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18187358,
@@ -1649,7 +1720,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.89076,
-      "lng": 115.777109
+      "lng": 115.777109,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18196488,
@@ -1670,7 +1742,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.95354,
-      "lng": 115.842532
+      "lng": 115.842532,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 18197398,
@@ -1691,7 +1764,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.944913,
-      "lng": 115.841964
+      "lng": 115.841964,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 16506629,
@@ -1712,7 +1786,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.960825,
-      "lng": 115.806886
+      "lng": 115.806886,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18174118,
@@ -1733,7 +1808,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.933898,
-      "lng": 115.811729
+      "lng": 115.811729,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18186004,
@@ -1757,7 +1833,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.98816,
-      "lng": 115.780734
+      "lng": 115.780734,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 14806712,
@@ -1781,7 +1858,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.99348,
-      "lng": 115.765239
+      "lng": 115.765239,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18179650,
@@ -1802,7 +1880,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.944254,
-      "lng": 115.82198
+      "lng": 115.82198,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18198629,
@@ -1823,7 +1902,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946406,
-      "lng": 115.817687
+      "lng": 115.817687,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 18182936,
@@ -1844,7 +1924,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.97463,
-      "lng": 115.817599
+      "lng": 115.817599,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18119849,
@@ -1865,7 +1946,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.938383,
-      "lng": 115.869415
+      "lng": 115.869415,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18188856,
@@ -1886,7 +1968,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.978191,
-      "lng": 115.794901
+      "lng": 115.794901,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18188196,
@@ -1907,7 +1990,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.939058,
-      "lng": 115.815226
+      "lng": 115.815226,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18191650,
@@ -1931,7 +2015,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.97463,
-      "lng": 115.817599
+      "lng": 115.817599,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 17130726,
@@ -1952,7 +2037,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.928661,
-      "lng": 115.815033
+      "lng": 115.815033,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 15812724,
@@ -1976,7 +2062,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.948147,
-      "lng": 115.865107
+      "lng": 115.865107,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18139108,
@@ -1997,7 +2084,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.932598,
-      "lng": 115.869988
+      "lng": 115.869988,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 15994852,
@@ -2018,7 +2106,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.948657,
-      "lng": 115.818886
+      "lng": 115.818886,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18177441,
@@ -2039,7 +2128,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.945357,
-      "lng": 115.818042
+      "lng": 115.818042,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18161726,
@@ -2060,7 +2150,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.992411,
-      "lng": 115.769286
+      "lng": 115.769286,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18163104,
@@ -2081,7 +2172,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946252,
-      "lng": 115.819331
+      "lng": 115.819331,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18152410,
@@ -2105,7 +2197,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.97148,
-      "lng": 115.769631
+      "lng": 115.769631,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18164748,
@@ -2126,7 +2219,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.993817,
-      "lng": 115.760553
+      "lng": 115.760553,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18192289,
@@ -2147,7 +2241,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.863158,
-      "lng": 115.770578
+      "lng": 115.770578,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18193746,
@@ -2171,7 +2266,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.951806,
-      "lng": 115.859537
+      "lng": 115.859537,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18178626,
@@ -2195,7 +2291,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.894047,
-      "lng": 115.777358
+      "lng": 115.777358,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16965107,
@@ -2219,7 +2316,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.927645,
-      "lng": 115.881852
+      "lng": 115.881852,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18191680,
@@ -2243,7 +2341,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.937711,
-      "lng": 115.814074
+      "lng": 115.814074,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 18158095,
@@ -2264,7 +2363,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.958064,
-      "lng": 115.814675
+      "lng": 115.814675,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 17223445,
@@ -2285,7 +2385,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.979757,
-      "lng": 115.78172
+      "lng": 115.78172,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18139642,
@@ -2306,7 +2407,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.990043,
-      "lng": 115.787089
+      "lng": 115.787089,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16258187,
@@ -2327,7 +2429,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.945676,
-      "lng": 115.830825
+      "lng": 115.830825,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 10847129,
@@ -2348,7 +2451,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.927666,
-      "lng": 115.883448
+      "lng": 115.883448,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18189544,
@@ -2369,7 +2473,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.978573,
-      "lng": 115.812601
+      "lng": 115.812601,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18134597,
@@ -2390,7 +2495,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.951092,
-      "lng": 115.816242
+      "lng": 115.816242,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18166851,
@@ -2411,7 +2517,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.931742,
-      "lng": 115.807803
+      "lng": 115.807803,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17769644,
@@ -2435,7 +2542,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.989645,
-      "lng": 115.768178
+      "lng": 115.768178,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18154300,
@@ -2456,7 +2564,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -32.002038,
-      "lng": 115.7559
+      "lng": 115.7559,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16791759,
@@ -2477,7 +2586,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983687,
-      "lng": 115.808991
+      "lng": 115.808991,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16895230,
@@ -2498,7 +2608,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.975614,
-      "lng": 115.808115
+      "lng": 115.808115,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18126225,
@@ -2522,7 +2633,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983687,
-      "lng": 115.808991
+      "lng": 115.808991,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18188657,
@@ -2546,7 +2658,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983687,
-      "lng": 115.808991
+      "lng": 115.808991,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18193013,
@@ -2570,7 +2683,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.960175,
-      "lng": 115.776706
+      "lng": 115.776706,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 17115580,
@@ -2591,7 +2705,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.969002,
-      "lng": 115.79327
+      "lng": 115.79327,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17598519,
@@ -2612,7 +2727,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.978137,
-      "lng": 115.791432
+      "lng": 115.791432,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18126221,
@@ -2636,7 +2752,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983687,
-      "lng": 115.808991
+      "lng": 115.808991,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18196524,
@@ -2657,7 +2774,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.967817,
-      "lng": 115.785366
+      "lng": 115.785366,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 13511352,
@@ -2678,7 +2796,8 @@
       "pets": false,
       "courtyard": true,
       "lat": -31.981955,
-      "lng": 115.754427
+      "lng": 115.754427,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 15942674,
@@ -2702,7 +2821,8 @@
       "pets": true,
       "courtyard": true,
       "lat": -31.983835,
-      "lng": 115.753986
+      "lng": 115.753986,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 16299622,
@@ -2723,7 +2843,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -32.003886,
-      "lng": 115.757534
+      "lng": 115.757534,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17647988,
@@ -2744,7 +2865,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.967875,
-      "lng": 115.793684
+      "lng": 115.793684,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 14036028,
@@ -2765,7 +2887,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.990515,
-      "lng": 115.754047
+      "lng": 115.754047,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18112762,
@@ -2789,7 +2912,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.931227,
-      "lng": 115.883879
+      "lng": 115.883879,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 13713147,
@@ -2810,7 +2934,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.996163,
-      "lng": 115.762367
+      "lng": 115.762367,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 16929201,
@@ -2831,7 +2956,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.943802,
-      "lng": 115.815319
+      "lng": 115.815319,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 18129256,
@@ -2852,7 +2978,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.97148,
-      "lng": 115.769631
+      "lng": 115.769631,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18121765,
@@ -2873,7 +3000,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.987545,
-      "lng": 115.758973
+      "lng": 115.758973,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18183219,
@@ -2894,7 +3022,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.98361,
-      "lng": 115.794036
+      "lng": 115.794036,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17973071,
@@ -2918,7 +3047,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.957361,
-      "lng": 115.807883
+      "lng": 115.807883,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 14686250,
@@ -2939,7 +3069,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.898114,
-      "lng": 115.757675
+      "lng": 115.757675,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17624970,
@@ -2963,7 +3094,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.982913,
-      "lng": 115.76567
+      "lng": 115.76567,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18183228,
@@ -2984,7 +3116,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.946356,
-      "lng": 115.809473
+      "lng": 115.809473,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 17831475,
@@ -3005,7 +3138,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.970566,
-      "lng": 115.770623
+      "lng": 115.770623,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 14596127,
@@ -3026,7 +3160,8 @@
       "pets": true,
       "courtyard": true,
       "lat": -31.930021,
-      "lng": 115.789114
+      "lng": 115.789114,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18156440,
@@ -3047,7 +3182,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.96444,
-      "lng": 115.782035
+      "lng": 115.782035,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 17517115,
@@ -3068,7 +3204,8 @@
       "pets": true,
       "courtyard": false,
       "lat": -31.937697,
-      "lng": 115.816408
+      "lng": 115.816408,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18178217,
@@ -3092,7 +3229,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.992297,
-      "lng": 115.788711
+      "lng": 115.788711,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18197714,
@@ -3113,7 +3251,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.990483,
-      "lng": 115.794573
+      "lng": 115.794573,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 18156348,
@@ -3134,7 +3273,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.972005,
-      "lng": 115.768066
+      "lng": 115.768066,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18188339,
@@ -3155,7 +3295,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.939942,
-      "lng": 115.797758
+      "lng": 115.797758,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 18084420,
@@ -3176,7 +3317,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.962746,
-      "lng": 115.813777
+      "lng": 115.813777,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 16913453,
@@ -3197,7 +3339,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -31.983559,
-      "lng": 115.810049
+      "lng": 115.810049,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 18167455,
@@ -3221,7 +3364,8 @@
       "pets": false,
       "courtyard": false,
       "lat": -32.002623,
-      "lng": 115.756604
+      "lng": 115.756604,
+      "dateAdded": "2026-06-26"
     }
   ],
   "buy": [
@@ -3245,7 +3389,8 @@
       "image": "https://rimh2.domainstatic.com.au/HQk4Ad5SHzBIWx9fXbH-m6hoxFo=/720x540/filters:format(webp):quality(85)/2020939954_1_1_260624_041746-w6000-h4000",
       "url": "https://www.domain.com.au/34-26-stanley-street-mount-lawley-wa-6050-2020939954",
       "lat": -31.938042,
-      "lng": 115.881538
+      "lng": 115.881538,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020941621,
@@ -3264,7 +3409,8 @@
       "image": "https://rimh2.domainstatic.com.au/MYTpDwXBYM9CtGXxJSzP37Bt_hQ=/720x540/filters:format(webp):quality(85)/2020941621_5_1_260624_101512-w2000-h1331",
       "url": "https://www.domain.com.au/22-281-cambridge-street-wembley-wa-6014-2020941621",
       "lat": -31.940746,
-      "lng": 115.811429
+      "lng": 115.811429,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020866912,
@@ -3286,7 +3432,8 @@
       "image": "https://rimh2.domainstatic.com.au/7cCAXYF-mvJaESr65z12WbPSGWs=/720x540/filters:format(webp):quality(85)/2020866912_1_1_260525_054528-w1920-h1280",
       "url": "https://www.domain.com.au/5-227-cambridge-street-wembley-wa-6014-2020866912",
       "lat": -31.940742,
-      "lng": 115.80991
+      "lng": 115.80991,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020874537,
@@ -3308,7 +3455,8 @@
       "image": "https://rimh2.domainstatic.com.au/1FdnqNqF1w0q6Z7kVcnEJxm38vY=/720x540/filters:format(webp):quality(85)/2019331200_2_1_240627_024607-w4000-h2667",
       "url": "https://www.domain.com.au/17-340-stirling-street-highgate-wa-6003-2020874537",
       "lat": -31.940672,
-      "lng": 115.869937
+      "lng": 115.869937,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020909534,
@@ -3327,7 +3475,8 @@
       "image": "https://rimh2.domainstatic.com.au/jUkZswyB9jlw7y5Udx8bkYwZVog=/720x540/filters:format(webp):quality(85)/2020909534_2_1_260611_044757-w4000-h2667",
       "url": "https://www.domain.com.au/70-131-harold-street-highgate-wa-6003-2020909534",
       "lat": -31.93945,
-      "lng": 115.874298
+      "lng": 115.874298,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020823562,
@@ -3349,7 +3498,8 @@
       "image": "https://rimh2.domainstatic.com.au/xn8cVxDjRWGpH2LDVOC-07VmSGo=/720x540/filters:format(webp):quality(85)/2020823562_3_1_260507_042635-w1200-h800",
       "url": "https://www.domain.com.au/19a-49-herdsman-parade-wembley-wa-6014-2020823562",
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020898173,
@@ -3368,7 +3518,8 @@
       "image": "https://rimh2.domainstatic.com.au/brO3qJIHx43q-CSNSPKYq2S7Vo0=/720x540/filters:format(webp):quality(85)/2020898173_1_1_260605_072840-w1200-h800",
       "url": "https://www.domain.com.au/3-99-herdsman-parade-wembley-wa-6014-2020898173",
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020917390,
@@ -3390,7 +3541,8 @@
       "image": "https://rimh2.domainstatic.com.au/6aEeAJY3Mq0MaEZNoon3fwHdMbA=/720x540/filters:format(webp):quality(85)/2020917390_1_1_260615_094102-w2000-h1333",
       "url": "https://www.domain.com.au/46-645-hay-street-jolimont-wa-6014-2020917390",
       "lat": -31.948072,
-      "lng": 115.810624
+      "lng": 115.810624,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020853818,
@@ -3412,7 +3564,8 @@
       "image": "https://rimh2.domainstatic.com.au/1ysrIzRZacKbyCD3Ol5Hco5cRYQ=/720x540/filters:format(webp):quality(85)/2020853818_1_1_260619_061102-w1264-h842",
       "url": "https://www.domain.com.au/104-131-harold-street-highgate-wa-6003-2020853818",
       "lat": -31.93945,
-      "lng": 115.874298
+      "lng": 115.874298,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020857518,
@@ -3434,7 +3587,8 @@
       "image": "https://rimh2.domainstatic.com.au/qloQi9NmMDD0agzp86o6Raax_Dc=/720x540/filters:format(webp):quality(85)/2020763806_22_1_260415_053321-w2000-h1335",
       "url": "https://www.domain.com.au/49-645-hay-street-jolimont-wa-6014-2020857518",
       "lat": -31.948072,
-      "lng": 115.810624
+      "lng": 115.810624,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020927040,
@@ -3456,7 +3610,8 @@
       "image": "https://rimh2.domainstatic.com.au/zORF0TLrhSW5P32AARdvd1f6S_c=/720x540/filters:format(webp):quality(85)/2020927040_1_1_260618_081706-w4608-h3072",
       "url": "https://www.domain.com.au/40-288-lord-street-highgate-wa-6003-2020927040",
       "lat": -31.943679,
-      "lng": 115.873912
+      "lng": 115.873912,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020920713,
@@ -3475,7 +3630,8 @@
       "image": "https://rimh2.domainstatic.com.au/a8nI1_uT6X_ZFqX23gpQbRV1SNA=/720x540/filters:format(webp):quality(85)/2020920713_1_1_260616_023438-w1920-h1280",
       "url": "https://www.domain.com.au/5-48-queens-crescent-mount-lawley-wa-6050-2020920713",
       "lat": -31.929581,
-      "lng": 115.870311
+      "lng": 115.870311,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020926653,
@@ -3497,7 +3653,8 @@
       "image": "https://rimh2.domainstatic.com.au/F4bh1raTyQOHer4pzTp2KcZ-mZI=/720x540/filters:format(webp):quality(85)/2020926653_1_1_260618_064333-w6000-h4000",
       "url": "https://www.domain.com.au/2-39-railway-parade-mount-lawley-wa-6050-2020926653",
       "lat": -31.932498,
-      "lng": 115.885454
+      "lng": 115.885454,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020850733,
@@ -3516,7 +3673,8 @@
       "image": "https://rimh2.domainstatic.com.au/y92_JjXqn-RelIswA3tP7yXYyrM=/720x540/filters:format(webp):quality(85)/2020850733_1_1_260518_075430-w1024-h768",
       "url": "https://www.domain.com.au/9-323-stirling-street-highgate-wa-6003-2020850733",
       "lat": -31.940672,
-      "lng": 115.869937
+      "lng": 115.869937,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020803613,
@@ -3538,7 +3696,8 @@
       "image": "https://rimh2.domainstatic.com.au/R0SlHiW2wqYhb6_nnd8r7JS_T_c=/720x540/filters:format(webp):quality(85)/2020803613_2_1_260430_061745-w4000-h2667",
       "url": "https://www.domain.com.au/29-131-harold-street-highgate-wa-6003-2020803613",
       "lat": -31.93945,
-      "lng": 115.874298
+      "lng": 115.874298,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020935717,
@@ -3560,7 +3719,8 @@
       "image": "https://rimh2.domainstatic.com.au/W2kDl3psjikKbDrCCta-WgRrLj0=/720x540/filters:format(webp):quality(85)/2020935717_1_1_260623_020503-w1920-h1280",
       "url": "https://www.domain.com.au/10-48-austin-street-shenton-park-wa-6008-2020935717",
       "lat": -31.958494,
-      "lng": 115.821636
+      "lng": 115.821636,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020893481,
@@ -3582,7 +3742,8 @@
       "image": "https://rimh2.domainstatic.com.au/rKxB42cK7y65a7C9KhZB26cZ4IQ=/720x540/filters:format(webp):quality(85)/2020893481_1_1_260604_033720-w1920-h1280",
       "url": "https://www.domain.com.au/12-20-dean-street-claremont-wa-6010-2020893481",
       "lat": -31.985085,
-      "lng": 115.775539
+      "lng": 115.775539,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020878901,
@@ -3604,7 +3765,8 @@
       "image": "https://rimh2.domainstatic.com.au/Oaer0wGYRlDiQDzvbgONE2vj1EU=/720x540/filters:format(webp):quality(85)/2020878901_1_1_260529_020244-w1920-h1280",
       "url": "https://www.domain.com.au/4-1-stadium-drive-floreat-wa-6014-2020878901",
       "lat": -31.946752,
-      "lng": 115.789443
+      "lng": 115.789443,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020848837,
@@ -3623,7 +3785,8 @@
       "image": "https://rimh2.domainstatic.com.au/i76RCe6VQPerv6zZU2tBmZK7J_E=/720x540/filters:format(webp):quality(85)/2020848837_4_1_260518_022052-w4000-h2667",
       "url": "https://www.domain.com.au/49-2-burvill-drive-floreat-wa-6014-2020848837",
       "lat": -31.947384,
-      "lng": 115.788803
+      "lng": 115.788803,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020071602,
@@ -3642,7 +3805,8 @@
       "image": "https://rimh2.domainstatic.com.au/ljW2_Rt8JvKpQ4A8oEHf_ygSOhU=/720x540/filters:format(webp):quality(85)/2020071602_20_1_250618_073214-w2000-h1333",
       "url": "https://www.domain.com.au/66a-smith-street-highgate-wa-6003-2020071602",
       "lat": -31.939581,
-      "lng": 115.872315
+      "lng": 115.872315,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020964026,
@@ -3664,7 +3828,8 @@
       "image": "https://rimh2.domainstatic.com.au/f3SaWUT06GBDJ3H3G_c2KAGVjws=/720x540/filters:format(webp):quality(85)/2020964026_1_1_260701_085918-w1920-h1280",
       "url": "https://www.domain.com.au/109-grantham-street-floreat-wa-6014-2020964026",
       "lat": -31.934288,
-      "lng": 115.790943
+      "lng": 115.790943,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020965550,
@@ -3686,7 +3851,8 @@
       "image": "https://rimh2.domainstatic.com.au/8b6eZ_yiTqy6Eh2YdvJITucT1pA=/720x540/filters:format(webp):quality(85)/2020965550_1_1_260702_023724-w1920-h1280",
       "url": "https://www.domain.com.au/165-flamborough-street-doubleview-wa-6018-2020965550",
       "lat": -31.896919,
-      "lng": 115.778883
+      "lng": 115.778883,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020804656,
@@ -3705,7 +3871,8 @@
       "image": "https://rimh2.domainstatic.com.au/kXQsh4ZLqnaZVUbektpUpFnoRDE=/720x540/filters:format(webp):quality(85)/2020804656_31_1_260430_115520-w2000-h1335",
       "url": "https://www.domain.com.au/206-18-atkinson-road-subiaco-wa-6008-2020804656",
       "lat": -31.945639,
-      "lng": 115.818984
+      "lng": 115.818984,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020919825,
@@ -3727,7 +3894,8 @@
       "image": "https://rimh2.domainstatic.com.au/C89lOcptLd6cwhv-0gpNUA8p074=/720x540/filters:format(webp):quality(85)/2020919825_1_1_260616_060826-w6000-h4000",
       "url": "https://www.domain.com.au/6-second-avenue-east-mount-lawley-wa-6050-2020919825",
       "lat": -31.933969,
-      "lng": 115.884952
+      "lng": 115.884952,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020964049,
@@ -3749,7 +3917,8 @@
       "image": "https://rimh2.domainstatic.com.au/fM2tZyktaxT9rVdJLrfO4miDnhs=/720x540/filters:format(webp):quality(85)/2020964049_1_1_260701_090821-w4000-h2667",
       "url": "https://www.domain.com.au/8-lane-street-perth-wa-6000-2020964049",
       "lat": -31.942431,
-      "lng": 115.864458
+      "lng": 115.864458,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020842192,
@@ -3768,7 +3937,8 @@
       "image": "https://rimh2.domainstatic.com.au/entW1hLmH0EeI5xoZx7sOnQv0GM=/720x540/filters:format(webp):quality(85)/2020842192_1_1_260514_044359-w1640-h922",
       "url": "https://www.domain.com.au/21-34-marine-parade-cottesloe-wa-6011-2020842192",
       "lat": -32.013464,
-      "lng": 115.753055
+      "lng": 115.753055,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020872524,
@@ -3790,7 +3960,8 @@
       "image": "https://rimh2.domainstatic.com.au/ujFkD9EooSVR4LZex473KtLXEPI=/720x540/filters:format(webp):quality(85)/2020872524_1_1_260527_032224-w5553-h3703",
       "url": "https://www.domain.com.au/120a-fifth-avenue-mount-lawley-wa-6050-2020872524",
       "lat": -31.927666,
-      "lng": 115.883448
+      "lng": 115.883448,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020900460,
@@ -3812,7 +3983,8 @@
       "image": "https://rimh2.domainstatic.com.au/IX5YtABuylu6__QwhC3GUFbXkoI=/720x540/filters:format(webp):quality(85)/16403511_11_1_260605_062229-w2048-h1368",
       "url": "https://www.domain.com.au/104-denis-street-subiaco-wa-6008-2020900460",
       "lat": -31.950084,
-      "lng": 115.822418
+      "lng": 115.822418,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020585636,
@@ -3831,7 +4003,8 @@
       "image": "https://rimh2.domainstatic.com.au/guzycriRbQiDN9LWoM1jLKx0Sp4=/720x540/filters:format(webp):quality(85)/2020316040_1_1_260205_065838-w900-h900",
       "url": "https://www.domain.com.au/106-139-lake-street-perth-wa-6000-2020585636",
       "lat": -31.94211,
-      "lng": 115.860425
+      "lng": 115.860425,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2019767761,
@@ -3850,7 +4023,8 @@
       "image": "https://rimh2.domainstatic.com.au/WdqtiYR52uXlXN4_GsM6gExOcy8=/720x540/filters:format(webp):quality(85)/2019767761_3_1_250204_011352-w1200-h813",
       "url": "https://www.domain.com.au/401-141-west-parade-mount-lawley-wa-6050-2019767761",
       "lat": -31.939529,
-      "lng": 115.877672
+      "lng": 115.877672,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020804434,
@@ -3869,7 +4043,8 @@
       "image": "https://rimh2.domainstatic.com.au/VzwM3CyFLXgKLKTZZc1-7quHpI0=/720x540/filters:format(webp):quality(85)/16512875_33_1_260430_081620-w4000-h2667",
       "url": "https://www.domain.com.au/6-6-john-street-claremont-wa-6010-2020804434",
       "lat": -31.983109,
-      "lng": 115.784892
+      "lng": 115.784892,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020314300,
@@ -3888,7 +4063,8 @@
       "image": "https://rimh2.domainstatic.com.au/UOwWfjFAHKngDP0DG_L4NwSniSA=/720x540/filters:format(webp):quality(85)/2019628835_5_1_250203_034213-w1200-h727",
       "url": "https://www.domain.com.au/208-8-adair-parade-coolbinia-wa-6050-2020314300",
       "lat": -31.917601,
-      "lng": 115.856157
+      "lng": 115.856157,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020890014,
@@ -3907,7 +4083,8 @@
       "image": "https://rimh2.domainstatic.com.au/w347B3vmnn4eo17fgh6JvPS1Z5o=/720x540/filters:format(webp):quality(85)/2020890014_1_1_260603_061542-w3052-h2033",
       "url": "https://www.domain.com.au/424a-cambridge-street-floreat-wa-6014-2020890014",
       "lat": -31.940793,
-      "lng": 115.799777
+      "lng": 115.799777,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020921963,
@@ -3926,7 +4103,8 @@
       "image": "https://rimh2.domainstatic.com.au/SaYe_G2zHWn0AN3B0khu2O-a8oo=/720x540/filters:format(webp):quality(85)/2019766759_10_1_250203_074956-w1200-h822",
       "url": "https://www.domain.com.au/503-141-west-parade-mount-lawley-wa-6050-2020921963",
       "lat": -31.939529,
-      "lng": 115.877672
+      "lng": 115.877672,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020314362,
@@ -3945,7 +4123,8 @@
       "image": "https://rimh2.domainstatic.com.au/djT5CuGtqkw-GYyiYR0exTHKa4k=/720x540/filters:format(webp):quality(85)/2020123956_6_1_250711_041440-w1171-h900",
       "url": "https://www.domain.com.au/401-8-adair-parade-coolbinia-wa-6050-2020314362",
       "lat": -31.917601,
-      "lng": 115.856157
+      "lng": 115.856157,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020697432,
@@ -3964,7 +4143,8 @@
       "image": "https://rimh2.domainstatic.com.au/ARC_fzGNLoDmiZYq2MpuLOqc96I=/720x540/filters:format(webp):quality(85)/2020316040_2_1_260205_065838-w1200-h648",
       "url": "https://www.domain.com.au/304-139-lake-street-perth-wa-6000-2020697432",
       "lat": -31.94211,
-      "lng": 115.860425
+      "lng": 115.860425,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020914110,
@@ -3983,7 +4163,8 @@
       "image": "https://rimh2.domainstatic.com.au/NWhzR27QODmzFmUglfKFnl4xx60=/720x540/filters:format(webp):quality(85)/2020914110_1_1_260613_033504-w800-h600",
       "url": "https://www.domain.com.au/seymour-avenue-shenton-park-wa-6008-2020914110",
       "lat": -31.955246,
-      "lng": 115.804318
+      "lng": 115.804318,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020894879,
@@ -4002,7 +4183,8 @@
       "image": "https://rimh2.domainstatic.com.au/HFl1fa-uo3G9i6EjLLyouybWcTQ=/720x540/filters:format(webp):quality(85)/15247222_2_1_260604_054744-w4000-h2667",
       "url": "https://www.domain.com.au/30-jacaranda-avenue-mount-claremont-wa-6010-2020894879",
       "lat": -31.968105,
-      "lng": 115.783462
+      "lng": 115.783462,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020123932,
@@ -4021,7 +4203,8 @@
       "image": "https://rimh2.domainstatic.com.au/JzGN2t6S2G8x_ufTBsQlvtCHMiw=/720x540/filters:format(webp):quality(85)/2019766884_3_1_250203_084352-w1200-h727",
       "url": "https://www.domain.com.au/102-8-adair-parade-coolbinia-wa-6050-2020123932",
       "lat": -31.917601,
-      "lng": 115.856157
+      "lng": 115.856157,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020825009,
@@ -4040,7 +4223,8 @@
       "image": "https://rimh2.domainstatic.com.au/lx3NtscT11IOsSRgWY_e8MxANnc=/720x540/filters:format(webp):quality(85)/2020825009_1_1_260507_071051-w4000-h2667",
       "url": "https://www.domain.com.au/28-mimosa-avenue-mount-claremont-wa-6010-2020825009",
       "lat": -31.967673,
-      "lng": 115.784647
+      "lng": 115.784647,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020843222,
@@ -4062,7 +4246,8 @@
       "image": "https://rimh2.domainstatic.com.au/A0k99pIesWgK3Efu-B-rDHJolfM=/720x540/filters:format(webp):quality(85)/2020843222_1_1_260514_065338-w1200-h800",
       "url": "https://www.domain.com.au/94-brookdale-street-floreat-wa-6014-2020843222",
       "lat": -31.942671,
-      "lng": 115.791798
+      "lng": 115.791798,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020957053,
@@ -4084,7 +4269,8 @@
       "image": "https://rimh2.domainstatic.com.au/YV3s-oXkP0KIo44qIqoi9CWwdkA=/720x540/filters:format(webp):quality(85)/2020957053_1_1_260630_054359-w4096-h2733",
       "url": "https://www.domain.com.au/303-17-19-louise-street-nedlands-wa-6009-2020957053",
       "lat": -31.984308,
-      "lng": 115.800072
+      "lng": 115.800072,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020692735,
@@ -4106,7 +4292,8 @@
       "image": "https://rimh2.domainstatic.com.au/923bxzKnNiZm2cauWvF2kV2wl3w=/720x540/filters:format(webp):quality(85)/2020692735_7_1_260619_074729-w1800-h1200",
       "url": "https://www.domain.com.au/5-130-waratah-avenue-dalkeith-wa-6009-2020692735",
       "lat": -31.994782,
-      "lng": 115.792127
+      "lng": 115.792127,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020914099,
@@ -4125,7 +4312,8 @@
       "image": "https://rimh2.domainstatic.com.au/VZ79Tw3Y_TwS9lnoVLh9AcgGJG0=/720x540/filters:format(webp):quality(85)/2020914099_1_1_260613_030511-w2000-h1333",
       "url": "https://www.domain.com.au/15-troy-terrace-daglish-wa-6008-2020914099",
       "lat": -31.951723,
-      "lng": 115.809947
+      "lng": 115.809947,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020920494,
@@ -4147,7 +4335,8 @@
       "image": "https://rimh2.domainstatic.com.au/2-EifGxaSiHP62PD1vX2hhLH4Qc=/720x540/filters:format(webp):quality(85)/2020920494_16_1_260616_081515-w2000-h1331",
       "url": "https://www.domain.com.au/44a-simper-street-wembley-wa-6014-2020920494",
       "lat": -31.93289,
-      "lng": 115.809151
+      "lng": 115.809151,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020907013,
@@ -4169,7 +4358,8 @@
       "image": "https://rimh2.domainstatic.com.au/yF1Cp7CR7Ege8zWDCq4kDeWF3YU=/720x540/filters:format(webp):quality(85)/2020907013_1_1_260610_073406-w1500-h999",
       "url": "https://www.domain.com.au/14-st-monica-lane-mount-lawley-wa-6050-2020907013",
       "lat": -31.929825,
-      "lng": 115.87237
+      "lng": 115.87237,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2019915239,
@@ -4188,7 +4378,8 @@
       "image": "https://rimh2.domainstatic.com.au/8st-nGlmofR2hejVPMB8KnAatJE=/720x540/filters:format(webp):quality(85)/2019766759_12_1_250203_074956-w1200-h720",
       "url": "https://www.domain.com.au/603-141-west-parade-mount-lawley-wa-6050-2019915239",
       "lat": -31.939529,
-      "lng": 115.877672
+      "lng": 115.877672,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020944052,
@@ -4207,7 +4398,8 @@
       "image": "https://rimh2.domainstatic.com.au/fTXwQFN-m9JJzBIQiB_Uh5n3gd8=/720x540/filters:format(webp):quality(85)/2020944052_1_1_260625_051857-w1200-h800",
       "url": "https://www.domain.com.au/2-albert-street-claremont-wa-6010-2020944052",
       "lat": -31.982985,
-      "lng": 115.774067
+      "lng": 115.774067,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020884160,
@@ -4229,7 +4421,8 @@
       "image": "https://rimh2.domainstatic.com.au/YSbKBgiYKz2LZ-lf4qC_r0OHe6M=/720x540/filters:format(webp):quality(85)/2020884160_1_1_260629_025024-w2400-h1600",
       "url": "https://www.domain.com.au/8-charles-street-shenton-park-wa-6008-2020884160",
       "lat": -31.96234,
-      "lng": 115.805124
+      "lng": 115.805124,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020697435,
@@ -4248,7 +4441,8 @@
       "image": "https://rimh2.domainstatic.com.au/NhWIjeIVluGopUYqR-EzczQ1dC4=/720x540/filters:format(webp):quality(85)/2020316040_6_1_260205_065838-w1200-h780",
       "url": "https://www.domain.com.au/402-139-lake-street-perth-wa-6000-2020697435",
       "lat": -31.94211,
-      "lng": 115.860425
+      "lng": 115.860425,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2019916952,
@@ -4267,7 +4461,8 @@
       "image": "https://rimh2.domainstatic.com.au/7ypctY1l0WqOwLxXcRao-2_3Ngw=/720x540/filters:format(webp):quality(85)/2019766759_11_1_250203_074956-w1200-h800",
       "url": "https://www.domain.com.au/701-141-west-parade-mount-lawley-wa-6050-2019916952",
       "lat": -31.939529,
-      "lng": 115.877672
+      "lng": 115.877672,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020316053,
@@ -4286,7 +4481,8 @@
       "image": "https://rimh2.domainstatic.com.au/QHDGPFWZuDNEjA_vxTSfeOd1HEo=/720x540/filters:format(webp):quality(85)/2020316040_7_1_260205_065838-w1200-h800",
       "url": "https://www.domain.com.au/401-139-lake-street-perth-wa-6000-2020316053",
       "lat": -31.94211,
-      "lng": 115.860425
+      "lng": 115.860425,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020123979,
@@ -4305,7 +4501,8 @@
       "image": "https://rimh2.domainstatic.com.au/ybqAlFbR2vFJpp6_1QRsnQQptNM=/720x540/filters:format(webp):quality(85)/2019628835_2_1_250203_034213-w1200-h632",
       "url": "https://www.domain.com.au/g01-8-adair-parade-coolbinia-wa-6050-2020123979",
       "lat": -31.917601,
-      "lng": 115.856157
+      "lng": 115.856157,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020825078,
@@ -4324,7 +4521,8 @@
       "image": "https://rimh2.domainstatic.com.au/agXaGKfYfbPN7Z_4QergurfM6V0=/720x540/filters:format(webp):quality(85)/2020784878_15_1_260423_043727-w1200-h900",
       "url": "https://www.domain.com.au/403-91-broadway-nedlands-wa-6009-2020825078",
       "lat": -31.983428,
-      "lng": 115.814505
+      "lng": 115.814505,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020613193,
@@ -4343,7 +4541,8 @@
       "image": "https://rimh2.domainstatic.com.au/XNWq_eMnUgYZE_uP96DHqsLS7rc=/720x540/filters:format(webp):quality(85)/2020613193_1_1_260619_034430-w1672-h941",
       "url": "https://www.domain.com.au/6-10-avonmore-terrace-cottesloe-wa-6011-2020613193",
       "lat": -32.005311,
-      "lng": 115.754055
+      "lng": 115.754055,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020364805,
@@ -4362,7 +4561,8 @@
       "image": "https://rimh2.domainstatic.com.au/QX6hLeOH55g9VDLm7KnyPS1IPSc=/720x540/filters:format(webp):quality(85)/2020364805_9_1_260622_073235-w8000-h5000",
       "url": "https://www.domain.com.au/4-philip-road-dalkeith-wa-6009-2020364805",
       "lat": -31.993517,
-      "lng": 115.793755
+      "lng": 115.793755,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020771668,
@@ -4384,7 +4584,8 @@
       "image": "https://rimh2.domainstatic.com.au/6gtrAplcYtTkqMI29mquOtWvRZg=/720x540/filters:format(webp):quality(85)/2020771668_2_1_260417_052436-w6000-h4000",
       "url": "https://www.domain.com.au/6-64-gallop-road-dalkeith-wa-6009-2020771668",
       "lat": -31.992799,
-      "lng": 115.800502
+      "lng": 115.800502,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019091814,
@@ -4403,7 +4604,8 @@
       "image": "https://rimh2.domainstatic.com.au/JXwALvYi3y3l1OpKfymKu7YDdhg=/720x540/filters:format(webp):quality(85)/2019091814_2_1_260608_020953-w1200-h800",
       "url": "https://www.domain.com.au/307-17-19-louise-street-nedlands-wa-6009-2019091814",
       "lat": -31.984308,
-      "lng": 115.800072
+      "lng": 115.800072,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020443645,
@@ -4422,7 +4624,8 @@
       "image": "https://rimh2.domainstatic.com.au/BDxtrOIPj2kMtEygJk9-xfjVnl8=/720x540/filters:format(webp):quality(85)/2020443645_1_1_260220_041406-w1600-h1066",
       "url": "https://www.domain.com.au/81-glengariff-drive-floreat-wa-6014-2020443645",
       "lat": -31.936798,
-      "lng": 115.782126
+      "lng": 115.782126,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020934309,
@@ -4441,7 +4644,8 @@
       "image": "https://rimh2.domainstatic.com.au/JHNIQ8O8rKQVbTRH8Txvlum9Vi0=/720x540/filters:format(webp):quality(85)/2020934309_1_1_260622_071818-w3000-h1500",
       "url": "https://www.domain.com.au/2-philip-road-dalkeith-wa-6009-2020934309",
       "lat": -31.993517,
-      "lng": 115.793755
+      "lng": 115.793755,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020600563,
@@ -4460,7 +4664,8 @@
       "image": "https://rimh2.domainstatic.com.au/5XjuyJVFwBRkSEt7quBmDm2h_v0=/720x540/filters:format(webp):quality(85)/2020600563_6_1_260212_041520-w6000-h4000",
       "url": "https://www.domain.com.au/66-clotilde-street-mount-lawley-wa-6050-2020600563",
       "lat": -31.93309,
-      "lng": 115.879162
+      "lng": 115.879162,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020800569,
@@ -4479,7 +4684,8 @@
       "image": "https://rimh2.domainstatic.com.au/GDY5eKbjNS02FBBQ49KUZJ1zAJg=/720x540/filters:format(webp):quality(85)/2020800569_1_1_260429_091304-w1920-h1280",
       "url": "https://www.domain.com.au/2304-4-seddon-street-subiaco-wa-6008-2020800569",
       "lat": -31.946202,
-      "lng": 115.824594
+      "lng": 115.824594,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019883654,
@@ -4498,7 +4704,8 @@
       "image": "https://rimh2.domainstatic.com.au/f6K16IAOKwSZJwRSHKO_GaZsrPA=/720x540/filters:format(webp):quality(85)/16881855_1_1_250317_044113-w4000-h3000",
       "url": "https://www.domain.com.au/9-alexander-road-dalkeith-wa-6009-2019883654",
       "lat": -31.998082,
-      "lng": 115.795598
+      "lng": 115.795598,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019581510,
@@ -4517,7 +4724,8 @@
       "image": "https://rimh2.domainstatic.com.au/tJnoVvtfzWk7KPNHi4zRDRGwuHg=/720x540/filters:format(webp):quality(85)/2019581510_1_1_260612_080345-w6000-h4000",
       "url": "https://www.domain.com.au/403-17-19-louise-street-nedlands-wa-6009-2019581510",
       "lat": -31.984308,
-      "lng": 115.800072
+      "lng": 115.800072,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020856253,
@@ -4536,7 +4744,8 @@
       "image": "https://rimh2.domainstatic.com.au/UEm1UH9__uE5HW8SXXLwE6EUQXU=/720x540/filters:format(webp):quality(85)/2020856253_3_1_260520_051134-w1920-h1280",
       "url": "https://www.domain.com.au/2-robert-street-dalkeith-wa-6009-2020856253",
       "lat": -31.994017,
-      "lng": 115.792323
+      "lng": 115.792323,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020861207,
@@ -4558,7 +4767,8 @@
       "image": "https://rimh2.domainstatic.com.au/WzCfyDOAf0lw0ZUu6h95BMeGA4Y=/720x540/filters:format(webp):quality(85)/2020861207_31_1_260521_100913-w1400-h1050",
       "url": "https://www.domain.com.au/30-airlie-street-claremont-wa-6010-2020861207",
       "lat": -31.992411,
-      "lng": 115.769286
+      "lng": 115.769286,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019305531,
@@ -4577,7 +4787,8 @@
       "image": "https://rimh2.domainstatic.com.au/0ysV1P1CBNcrs9GdO1Xp4hrfBLo=/720x540/filters:format(webp):quality(85)/2019305531_1_1_260211_044950-w5500-h3927",
       "url": "https://www.domain.com.au/102-120-marine-pde-cottesloe-wa-6011-2019305531",
       "lat": -32.013464,
-      "lng": 115.753055
+      "lng": 115.753055,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2019149336,
@@ -4596,7 +4807,8 @@
       "image": "https://rimh2.domainstatic.com.au/LASAvSrtxIUrYO3SIOhiosrE-nA=/720x540/filters:format(webp):quality(85)/2019143190_4_1_240326_090047-w2000-h1500",
       "url": "https://www.domain.com.au/202-120-marine-parade-cottesloe-wa-6011-2019149336",
       "lat": -31.987206,
-      "lng": 115.753245
+      "lng": 115.753245,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020941202,
@@ -4615,7 +4827,8 @@
       "image": "https://rimh2.domainstatic.com.au/migTJzjUCIyKhKeX_s1jvYT-OTI=/720x540/filters:format(webp):quality(85)/2020941202_1_1_260624_070542-w4500-h3003",
       "url": "https://www.domain.com.au/1-110-marine-parade-cottesloe-wa-6011-2020941202",
       "lat": -31.984078,
-      "lng": 115.753175
+      "lng": 115.753175,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020214310,
@@ -4634,7 +4847,8 @@
       "image": "https://rimh2.domainstatic.com.au/-Jb7DAj4Nllvt7h0bQW3uFPfC6Q=/720x540/filters:format(webp):quality(85)/2020214310_17_1_250822_035403-w1800-h1200",
       "url": "https://www.domain.com.au/1-norfolk-rise-mount-claremont-wa-6010-2020214310",
       "lat": -31.963268,
-      "lng": 115.783193
+      "lng": 115.783193,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020265454,
@@ -4653,7 +4867,8 @@
       "image": "https://rimh2.domainstatic.com.au/EH6kO0gIWe2FzIDm8hEG_YYBxK0=/720x540/filters:format(webp):quality(85)/2020265454_1_1_250912_012853-w1800-h1200",
       "url": "https://www.domain.com.au/26-camelia-avenue-mount-claremont-wa-6010-2020265454",
       "lat": -31.966257,
-      "lng": 115.785531
+      "lng": 115.785531,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020568330,
@@ -4672,7 +4887,8 @@
       "image": "https://rimh2.domainstatic.com.au/RZSKlzxoTkBfvNUNuBm3Sq5B_Vc=/720x540/filters:format(webp):quality(85)/2020568330_31_1_260204_021917-w1800-h1200",
       "url": "https://www.domain.com.au/38b-adderley-street-mount-claremont-wa-6010-2020568330",
       "lat": -31.969834,
-      "lng": 115.776568
+      "lng": 115.776568,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020657877,
@@ -4691,7 +4907,8 @@
       "image": "https://rimh2.domainstatic.com.au/IFzA3ErYJzyI2NTYJCHxpZmE0GA=/720x540/filters:format(webp):quality(85)/2020657877_1_1_260305_035623-w1920-h1280",
       "url": "https://www.domain.com.au/18-lisle-street-mount-claremont-wa-6010-2020657877",
       "lat": -31.964774,
-      "lng": 115.777968
+      "lng": 115.777968,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020798476,
@@ -4710,7 +4927,8 @@
       "image": "https://rimh2.domainstatic.com.au/CwXEUzAeRTbogLroAyacs6piBqA=/720x540/filters:format(webp):quality(85)/2020798476_1_1_260429_040945-w1800-h1200",
       "url": "https://www.domain.com.au/12-bromilow-green-mount-claremont-wa-6010-2020798476",
       "lat": -31.967463,
-      "lng": 115.78566
+      "lng": 115.78566,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020815342,
@@ -4729,7 +4947,8 @@
       "image": "https://rimh2.domainstatic.com.au/1BeIZWSS3KG9dLU9YiHdsBq4Byg=/720x540/filters:format(webp):quality(85)/2020815342_1_1_260505_035120-w1200-h800",
       "url": "https://www.domain.com.au/19-lisle-street-mount-claremont-wa-6010-2020815342",
       "lat": -31.967747,
-      "lng": 115.777947
+      "lng": 115.777947,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020825050,
@@ -4748,7 +4967,8 @@
       "image": "https://rimh2.domainstatic.com.au/f2DfayA_KWah6BsQcCsz8mUET7I=/720x540/filters:format(webp):quality(85)/2020825050_1_1_260507_071740-w4000-h2667",
       "url": "https://www.domain.com.au/4-pine-tree-lane-mount-claremont-wa-6010-2020825050",
       "lat": -31.96444,
-      "lng": 115.782035
+      "lng": 115.782035,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020835066,
@@ -4767,7 +4987,8 @@
       "image": "https://rimh2.domainstatic.com.au/ryHJRuZGk1s1tzd0U2xtxTheHaA=/720x540/filters:format(webp):quality(85)/2020835066_1_1_260512_061410-w1800-h1200",
       "url": "https://www.domain.com.au/57a-haldane-street-mount-claremont-wa-6010-2020835066",
       "lat": -31.963317,
-      "lng": 115.777282
+      "lng": 115.777282,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020839796,
@@ -4786,7 +5007,8 @@
       "image": "https://rimh2.domainstatic.com.au/rAU8LE8eWDzUu-bBRBMlePs-Bds=/720x540/filters:format(webp):quality(85)/2020839796_1_1_260513_085317-w4000-h2667",
       "url": "https://www.domain.com.au/17-mcclemans-road-mount-claremont-wa-6010-2020839796",
       "lat": -31.960323,
-      "lng": 115.771401
+      "lng": 115.771401,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020889413,
@@ -4805,7 +5027,8 @@
       "image": "https://rimh2.domainstatic.com.au/fa1KtozwH3DLVtRaRSEODGu-Qxc=/720x540/filters:format(webp):quality(85)/2020889413_1_1_260603_045300-w1920-h1280",
       "url": "https://www.domain.com.au/5-2-quintilian-road-mount-claremont-wa-6010-2020889413",
       "lat": -31.967032,
-      "lng": 115.794004
+      "lng": 115.794004,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020895068,
@@ -4824,7 +5047,8 @@
       "image": "https://rimh2.domainstatic.com.au/DAyGTlUDzzm6fPxBPNeI-SnOqww=/720x540/filters:format(webp):quality(85)/2020895068_1_1_260604_080120-w1920-h1279",
       "url": "https://www.domain.com.au/14-lantana-avenue-mount-claremont-wa-6010-2020895068",
       "lat": -31.967707,
-      "lng": 115.788489
+      "lng": 115.788489,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020907154,
@@ -4843,7 +5067,8 @@
       "image": "https://rimh2.domainstatic.com.au/uf9m0DK2Mi2MjO3fSlsvXQP3SyE=/720x540/filters:format(webp):quality(85)/2020907154_1_1_260610_081922-w1800-h1200",
       "url": "https://www.domain.com.au/162a-rochdale-road-mount-claremont-wa-6010-2020907154",
       "lat": -31.969681,
-      "lng": 115.773903
+      "lng": 115.773903,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020909254,
@@ -4862,7 +5087,8 @@
       "image": "https://rimh2.domainstatic.com.au/Snq6VOcqeOdxZfIplNpyM0889SY=/720x540/filters:format(webp):quality(85)/2020909254_1_1_260611_040731-w6000-h4000",
       "url": "https://www.domain.com.au/38-abbey-gardens-mount-claremont-wa-6010-2020909254",
       "lat": -31.961114,
-      "lng": 115.781359
+      "lng": 115.781359,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020965916,
@@ -4884,7 +5110,8 @@
       "image": "https://rimh2.domainstatic.com.au/VgzsW9byRv6He0NTSrznBjEQnYE=/720x540/filters:format(webp):quality(85)/2020965916_1_1_260702_040414-w1920-h1111",
       "url": "https://www.domain.com.au/8-kennedia-lane-mount-claremont-wa-6010-2020965916",
       "lat": -31.969435,
-      "lng": 115.775935
+      "lng": 115.775935,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020641803,
@@ -4903,7 +5130,8 @@
       "image": "https://rimh2.domainstatic.com.au/opE4UhKVGvCj6Q5EGgtyAqagAfs=/720x540/filters:format(webp):quality(85)/2020641803_9_1_260227_025741-w6000-h4000",
       "url": "https://www.domain.com.au/27-1-freshwater-parade-claremont-wa-6010-2020641803",
       "lat": -31.98541,
-      "lng": 115.779886
+      "lng": 115.779886,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020652524,
@@ -4922,7 +5150,8 @@
       "image": "https://rimh2.domainstatic.com.au/3hz9OHl91ThF3XCvVHYA8KWoaJA=/720x540/filters:format(webp):quality(85)/2020652524_1_1_260313_065553-w2000-h1333",
       "url": "https://www.domain.com.au/521-3-airlie-street-claremont-wa-6010-2020652524",
       "lat": -31.992411,
-      "lng": 115.769286
+      "lng": 115.769286,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020763903,
@@ -4941,7 +5170,8 @@
       "image": "https://rimh2.domainstatic.com.au/TgEA5qIPZxD-xdOSDDNqtgpNkZ0=/720x540/filters:format(webp):quality(85)/2020763903_1_1_260415_054223-w4000-h2667",
       "url": "https://www.domain.com.au/315-40-st-quentin-avenue-claremont-wa-6010-2020763903",
       "lat": -31.983167,
-      "lng": 115.778388
+      "lng": 115.778388,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020795141,
@@ -4960,7 +5190,8 @@
       "image": "https://rimh2.domainstatic.com.au/jnZ-YuVYLaO7RHDtb9LFB9u0Bd8=/720x540/filters:format(webp):quality(85)/2020795141_1_1_260428_054838-w6000-h4000",
       "url": "https://www.domain.com.au/50a-second-avenue-claremont-wa-6010-2020795141",
       "lat": -31.97093,
-      "lng": 115.787663
+      "lng": 115.787663,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020795858,
@@ -4982,7 +5213,8 @@
       "image": "https://rimh2.domainstatic.com.au/-BYNqKNCGty7dYgOiCmZ5DuEYVI=/720x540/filters:format(webp):quality(85)/2020795858_15_1_260608_082713-w1920-h1280",
       "url": "https://www.domain.com.au/211-40-st-quentin-avenue-claremont-wa-6010-2020795858",
       "lat": -31.983167,
-      "lng": 115.778388
+      "lng": 115.778388,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020803230,
@@ -5001,7 +5233,8 @@
       "image": "https://rimh2.domainstatic.com.au/6uefrjp6eK1cZI-UPE64EDiBQfU=/720x540/filters:format(webp):quality(85)/2020803230_1_1_260430_052730-w2000-h1333",
       "url": "https://www.domain.com.au/16b-victoria-avenue-claremont-wa-6010-2020803230",
       "lat": -31.98816,
-      "lng": 115.780734
+      "lng": 115.780734,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020870889,
@@ -5020,7 +5253,8 @@
       "image": "https://rimh2.domainstatic.com.au/JoneOlca8xjSEgqnovyfftfk0xc=/720x540/filters:format(webp):quality(85)/2020870889_1_1_260526_075548-w1800-h1200",
       "url": "https://www.domain.com.au/12a-bay-road-claremont-wa-6010-2020870889",
       "lat": -31.990043,
-      "lng": 115.787089
+      "lng": 115.787089,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020885949,
@@ -5039,7 +5273,8 @@
       "image": "https://rimh2.domainstatic.com.au/fvhlxQ_Kul7UylQj_4yqy5CVk20=/720x540/filters:format(webp):quality(85)/2020885949_1_1_260605_032130-w9504-h6336",
       "url": "https://www.domain.com.au/7-evelyn-road-claremont-wa-6010-2020885949",
       "lat": -31.985671,
-      "lng": 115.78486
+      "lng": 115.78486,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020886320,
@@ -5058,7 +5293,8 @@
       "image": "https://rimh2.domainstatic.com.au/iHRlrmqfPszGRmZk7iA5kTMDKP8=/720x540/filters:format(webp):quality(85)/2020886320_1_1_260602_053822-w6000-h4000",
       "url": "https://www.domain.com.au/6-17-victoria-avenue-claremont-wa-6010-2020886320",
       "lat": -31.988002,
-      "lng": 115.779614
+      "lng": 115.779614,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020888922,
@@ -5077,7 +5313,8 @@
       "image": "https://rimh2.domainstatic.com.au/kpi9tt52GAm-Ck0JeHL0rB42_F4=/720x540/filters:format(webp):quality(85)/2020888922_1_1_260603_033504-w1598-h914",
       "url": "https://www.domain.com.au/39a-bay-road-claremont-wa-6010-2020888922",
       "lat": -31.988901,
-      "lng": 115.788088
+      "lng": 115.788088,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020895118,
@@ -5096,7 +5333,8 @@
       "image": "https://rimh2.domainstatic.com.au/vHF0Wdm43XhomWNu64jIBh71NCg=/720x540/filters:format(webp):quality(85)/2020895118_1_1_260604_082126-w4691-h3127",
       "url": "https://www.domain.com.au/19-ashton-avenue-claremont-wa-6010-2020895118",
       "lat": -31.97379,
-      "lng": 115.788324
+      "lng": 115.788324,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020912253,
@@ -5118,7 +5356,8 @@
       "image": "https://rimh2.domainstatic.com.au/av0CE7xunek_-aDbiI6H5H77LJ0=/720x540/filters:format(webp):quality(85)/17178922_1_1_240826_084532-w1920-h1440",
       "url": "https://www.domain.com.au/319-1-kyle-way-claremont-wa-6010-2020912253",
       "lat": -31.97701,
-      "lng": 115.782461
+      "lng": 115.782461,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020926356,
@@ -5137,7 +5376,8 @@
       "image": "https://rimh2.domainstatic.com.au/OpFwE_QaY12KAj3qv7oyot-750I=/720x540/filters:format(webp):quality(85)/2020926356_1_1_260618_054452-w8256-h5504",
       "url": "https://www.domain.com.au/3-freshwater-close-claremont-wa-6010-2020926356",
       "lat": -31.988174,
-      "lng": 115.782755
+      "lng": 115.782755,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020926455,
@@ -5156,7 +5396,8 @@
       "image": "https://rimh2.domainstatic.com.au/N74Xl35rahlJRIPKXf5ywai_6G8=/720x540/filters:format(webp):quality(85)/2020926455_1_1_260618_060315-w1920-h1280",
       "url": "https://www.domain.com.au/231-3-airlie-street-claremont-wa-6010-2020926455",
       "lat": -31.992411,
-      "lng": 115.769286
+      "lng": 115.769286,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020937687,
@@ -5178,7 +5419,8 @@
       "image": "https://rimh2.domainstatic.com.au/_llrDy0D2jkCL5vZGPYlHLzgOss=/720x540/filters:format(webp):quality(85)/2020937687_1_1_260624_080223-w1200-h800",
       "url": "https://www.domain.com.au/2-154-railway-street-claremont-wa-6010-2020937687",
       "lat": -31.98331,
-      "lng": 115.770354
+      "lng": 115.770354,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944046,
@@ -5197,7 +5439,8 @@
       "image": "https://rimh2.domainstatic.com.au/GqxwaM2kDUZKhTakfT33A9oDtDk=/720x540/filters:format(webp):quality(85)/2020944046_1_1_260625_051801-w1200-h800",
       "url": "https://www.domain.com.au/12-1-chatsworth-terrace-claremont-wa-6010-2020944046",
       "lat": -31.98387,
-      "lng": 115.776652
+      "lng": 115.776652,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 6254,
@@ -5216,7 +5459,8 @@
       "image": "https://rimh2.domainstatic.com.au/7jcMuIlLKNzmsQkMr0lqu4QqKd0=/720x540/filters:format(webp):quality(85)/61be994f-020f-433a-aa51-e545e2426e8d-w3000-h1688",
       "url": "https://www.domain.com.au/project/6254/meridian-cottesloe-wa/",
       "lat": -31.987206,
-      "lng": 115.753245
+      "lng": 115.753245,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2019170121,
@@ -5235,7 +5479,8 @@
       "image": "https://rimh2.domainstatic.com.au/wEevr3XgfyS_aCwHW2U-UdF-lPs=/720x540/filters:format(webp):quality(85)/2019170121_1_1_240409_070920-w3000-h1688",
       "url": "https://www.domain.com.au/601-120-marine-parade-cottesloe-wa-6011-2019170121",
       "lat": -31.987206,
-      "lng": 115.753245
+      "lng": 115.753245,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2019170258,
@@ -5254,7 +5499,8 @@
       "image": "https://rimh2.domainstatic.com.au/uIwgBwttKQgc5sAB4mNAHLIMDgg=/720x540/filters:format(webp):quality(85)/2019143190_2_1_240326_090047-w2048-h1418",
       "url": "https://www.domain.com.au/201-120-marine-parade-cottesloe-wa-6011-2019170258",
       "lat": -32.013464,
-      "lng": 115.753055
+      "lng": 115.753055,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2019302893,
@@ -5273,7 +5519,8 @@
       "image": "https://rimh2.domainstatic.com.au/jIxGmxMstyZvpH8-WT-m4hAfL-Y=/720x540/filters:format(webp):quality(85)/2019302893_3_1_240829_111314-w1200-h900",
       "url": "https://www.domain.com.au/10-cross-street-swanbourne-wa-6010-2019302893",
       "lat": -31.980506,
-      "lng": 115.763232
+      "lng": 115.763232,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020241882,
@@ -5292,7 +5539,8 @@
       "image": "https://rimh2.domainstatic.com.au/AysS5yJavFSnDvq109lhFT-cFe0=/720x540/filters:format(webp):quality(85)/2020241882_1_1_260417_014414-w1200-h800",
       "url": "https://www.domain.com.au/swanbourne-wa-6010-2020241882",
       "lat": -31.972904,
-      "lng": 115.766645
+      "lng": 115.766645,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020656908,
@@ -5311,7 +5559,8 @@
       "image": "https://rimh2.domainstatic.com.au/wDm6Lpiyn6k2gCj7YqW7g3H-qeI=/720x540/filters:format(webp):quality(85)/2020656908_1_1_260404_092601-w4784-h3588",
       "url": "https://www.domain.com.au/129-2-milyarm-rise-swanbourne-wa-6010-2020656908",
       "lat": -31.97148,
-      "lng": 115.769631
+      "lng": 115.769631,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020739842,
@@ -5330,7 +5579,8 @@
       "image": "https://rimh2.domainstatic.com.au/32QkYMmdMK7zg5OnxAKKrub5mOs=/720x540/filters:format(webp):quality(85)/2020739842_1_1_260407_073857-w7796-h5802",
       "url": "https://www.domain.com.au/36-servetus-street-swanbourne-wa-6010-2020739842",
       "lat": -31.972894,
-      "lng": 115.767093
+      "lng": 115.767093,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020815563,
@@ -5349,7 +5599,8 @@
       "image": "https://rimh2.domainstatic.com.au/w0vFZX9rnxHsDZIycDU-NK28x4c=/720x540/filters:format(webp):quality(85)/2020815563_1_1_260505_043506-w2000-h1334",
       "url": "https://www.domain.com.au/1-narla-road-swanbourne-wa-6010-2020815563",
       "lat": -31.970435,
-      "lng": 115.771634
+      "lng": 115.771634,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020839699,
@@ -5368,7 +5619,8 @@
       "image": "https://rimh2.domainstatic.com.au/5axy2xRlO3dlpxEZ8NyIwshqVas=/720x540/filters:format(webp):quality(85)/2020839699_1_1_260513_081403-w1200-h800",
       "url": "https://www.domain.com.au/11-greenville-street-swanbourne-wa-6010-2020839699",
       "lat": -31.976603,
-      "lng": 115.765664
+      "lng": 115.765664,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020846653,
@@ -5387,7 +5639,8 @@
       "image": "https://rimh2.domainstatic.com.au/sP5Ve2ErnADNtO_jbagC0FGgM7g=/720x540/filters:format(webp):quality(85)/2020846653_8_1_260519_032728-w4000-h2667",
       "url": "https://www.domain.com.au/6-knutsford-street-swanbourne-wa-6010-2020846653",
       "lat": -31.980728,
-      "lng": 115.765298
+      "lng": 115.765298,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020860421,
@@ -5406,7 +5659,8 @@
       "image": "https://rimh2.domainstatic.com.au/ykxn8-EMnI77SxO22srBAjaA_AQ=/720x540/filters:format(webp):quality(85)/2020860421_1_1_260521_055553-w4000-h2665",
       "url": "https://www.domain.com.au/swanbourne-wa-6010-2020860421",
       "lat": -31.972904,
-      "lng": 115.766645
+      "lng": 115.766645,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020885274,
@@ -5425,7 +5679,8 @@
       "image": "https://rimh2.domainstatic.com.au/gBzFYyVoDMaRgRENPyXnHUDHoFM=/720x540/filters:format(webp):quality(85)/2020885274_4_1_260602_023542-w4000-h2667",
       "url": "https://www.domain.com.au/47-wood-street-swanbourne-wa-6010-2020885274",
       "lat": -31.978194,
-      "lng": 115.764344
+      "lng": 115.764344,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020890308,
@@ -5444,7 +5699,8 @@
       "image": "https://rimh2.domainstatic.com.au/T-YhGskIEYXgZqaFmCucJ4hgdWI=/720x540/filters:format(webp):quality(85)/16270590_13_1_260603_052834-w1400-h1050",
       "url": "https://www.domain.com.au/8a-narla-road-swanbourne-wa-6010-2020890308",
       "lat": -31.970435,
-      "lng": 115.771634
+      "lng": 115.771634,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020925976,
@@ -5463,7 +5719,8 @@
       "image": "https://rimh2.domainstatic.com.au/CieQkgyvwhrpNT4NUqW-DanDrhQ=/720x540/filters:format(webp):quality(85)/2020925976_1_1_260618_043831-w5464-h3640",
       "url": "https://www.domain.com.au/91-north-street-swanbourne-wa-6010-2020925976",
       "lat": -31.981955,
-      "lng": 115.754427
+      "lng": 115.754427,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020935790,
@@ -5485,7 +5742,8 @@
       "image": "https://rimh2.domainstatic.com.au/59cFpf6r2dGOQQ3wc0hnkbOzV_I=/720x540/filters:format(webp):quality(85)/2020935790_1_1_260623_022624-w1200-h800",
       "url": "https://www.domain.com.au/77-2-milyarm-rise-swanbourne-wa-6010-2020935790",
       "lat": -31.97148,
-      "lng": 115.769631
+      "lng": 115.769631,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020941045,
@@ -5507,7 +5765,8 @@
       "image": "https://rimh2.domainstatic.com.au/ucyrHszxR6ECrtsdD_HsNd639FE=/720x540/filters:format(webp):quality(85)/2020941045_1_1_260624_064336-w4000-h2667",
       "url": "https://www.domain.com.au/6-12-mcnamara-way-cottesloe-wa-6011-2020941045",
       "lat": -31.987028,
-      "lng": 115.76748
+      "lng": 115.76748,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944128,
@@ -5526,7 +5785,8 @@
       "image": "https://rimh2.domainstatic.com.au/b-OEDk0zk3dDVvZ7AMJSo3E0TB4=/720x540/filters:format(webp):quality(85)/2020944128_1_1_260625_052701-w1200-h800",
       "url": "https://www.domain.com.au/34a-servetus-street-swanbourne-wa-6010-2020944128",
       "lat": -31.976257,
-      "lng": 115.766961
+      "lng": 115.766961,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944160,
@@ -5548,7 +5808,8 @@
       "image": "https://rimh2.domainstatic.com.au/_tPXvfxBypHGIHFPG9a_E5q8pKo=/720x540/filters:format(webp):quality(85)/2020944160_1_1_260625_053021-w4000-h2667",
       "url": "https://www.domain.com.au/33-albion-street-cottesloe-wa-6011-2020944160",
       "lat": -31.994914,
-      "lng": 115.763624
+      "lng": 115.763624,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019134489,
@@ -5567,7 +5828,8 @@
       "image": "https://rimh2.domainstatic.com.au/h8zbkKvR9dTfYSEGmKFUmbRRTwE=/720x540/filters:format(webp):quality(85)/2019134489_1_1_240321_070224-w4890-h3255",
       "url": "https://www.domain.com.au/51-john-street-cottesloe-wa-6011-2019134489",
       "lat": -31.995276,
-      "lng": 115.757624
+      "lng": 115.757624,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020374565,
@@ -5586,7 +5848,8 @@
       "image": "https://rimh2.domainstatic.com.au/wpPwUM7GvX0qXsDwg5ZUIqFXbOY=/720x540/filters:format(webp):quality(85)/2020658657_1_1_260305_052340-w2048-h1447",
       "url": "https://www.domain.com.au/50-marine-parade-cottesloe-wa-6011-2020374565",
       "lat": -32.007174,
-      "lng": 115.752349
+      "lng": 115.752349,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020454924,
@@ -5605,7 +5868,8 @@
       "image": "https://rimh2.domainstatic.com.au/BJ3TRRod3EBDk1gyH58tN8qTMOk=/720x540/filters:format(webp):quality(85)/2020454924_1_1_251127_042151-w4000-h2250",
       "url": "https://www.domain.com.au/68-broome-street-cottesloe-wa-6011-2020454924",
       "lat": -31.999631,
-      "lng": 115.756575
+      "lng": 115.756575,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020471927,
@@ -5624,7 +5888,8 @@
       "image": "https://rimh2.domainstatic.com.au/LjWs5i4QL-slTcX8ejJ2emv9Np0=/720x540/filters:format(webp):quality(85)/2020471927_1_1_260430_011849-w1200-h800",
       "url": "https://www.domain.com.au/11-30-jarrad-street-cottesloe-wa-6011-2020471927",
       "lat": -31.999,
-      "lng": 115.760396
+      "lng": 115.760396,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020477521,
@@ -5643,7 +5908,8 @@
       "image": "https://rimh2.domainstatic.com.au/Bj_IwF-P7cxUT3eo2YT4aW_UVCY=/720x540/filters:format(webp):quality(85)/2020457513_3_1_251202_063019-w1200-h800",
       "url": "https://www.domain.com.au/cottesloe-wa-6011-2020477521",
       "lat": -31.990401,
-      "lng": 115.756637
+      "lng": 115.756637,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020481079,
@@ -5662,7 +5928,8 @@
       "image": "https://rimh2.domainstatic.com.au/3A8pQzmsKhEgVBvMHF7Rko4DPUA=/720x540/filters:format(webp):quality(85)/2020481079_1_1_251210_071155-w5000-h3077",
       "url": "https://www.domain.com.au/3-eileen-street-cottesloe-wa-6011-2020481079",
       "lat": -31.990808,
-      "lng": 115.753174
+      "lng": 115.753174,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020765284,
@@ -5681,7 +5948,8 @@
       "image": "https://rimh2.domainstatic.com.au/t-H0Iwqu5xG8OYpQtbYG-bfixpU=/720x540/filters:format(webp):quality(85)/2020765284_30_1_260522_032937-w1400-h1050",
       "url": "https://www.domain.com.au/8-110-marine-parade-cottesloe-wa-6011-2020765284",
       "lat": -32.013541,
-      "lng": 115.753037
+      "lng": 115.753037,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020765350,
@@ -5700,7 +5968,8 @@
       "image": "https://rimh2.domainstatic.com.au/M4caTVDFjT9VAX4-xes0xuRp4ac=/720x540/filters:format(webp):quality(85)/2020765350_1_1_260415_093120-w2865-h2149",
       "url": "https://www.domain.com.au/8-110-marine-parade-cottesloe-wa-6011-2020765350",
       "lat": -32.013541,
-      "lng": 115.753037
+      "lng": 115.753037,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020835797,
@@ -5719,7 +5988,8 @@
       "image": "https://rimh2.domainstatic.com.au/drRVJYRlNZgJLVU02DXXWGh_5a0=/720x540/filters:format(webp):quality(85)/2020835797_1_1_260512_084113-w8256-h5504",
       "url": "https://www.domain.com.au/5-henry-road-cottesloe-wa-6011-2020835797",
       "lat": -31.992188,
-      "lng": 115.761032
+      "lng": 115.761032,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020839790,
@@ -5738,7 +6008,8 @@
       "image": "https://rimh2.domainstatic.com.au/c3zxz_8QRoi6uu8PqrYF52geL5Y=/720x540/filters:format(webp):quality(85)/2020839790_1_1_260513_085020-w4000-h2247",
       "url": "https://www.domain.com.au/1-clarendon-street-cottesloe-wa-6011-2020839790",
       "lat": -31.990683,
-      "lng": 115.758032
+      "lng": 115.758032,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020896524,
@@ -5760,7 +6031,8 @@
       "image": "https://rimh2.domainstatic.com.au/jneK7unJe-QX6o-yFoD9L3keKlw=/720x540/filters:format(webp):quality(85)/2020896524_3_1_260605_023446-w6000-h3998",
       "url": "https://www.domain.com.au/11-hamersley-street-cottesloe-wa-6011-2020896524",
       "lat": -31.988692,
-      "lng": 115.754164
+      "lng": 115.754164,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020921507,
@@ -5782,7 +6054,8 @@
       "image": "https://rimh2.domainstatic.com.au/osn4dVXAeGYALcAY2yIwX2X5c_g=/720x540/filters:format(webp):quality(85)/2020921507_2_1_260618_033732-w6000-h4002",
       "url": "https://www.domain.com.au/7-3-rockett-lane-cottesloe-wa-6011-2020921507",
       "lat": -31.99348,
-      "lng": 115.765239
+      "lng": 115.765239,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020936624,
@@ -5804,7 +6077,8 @@
       "image": "https://rimh2.domainstatic.com.au/TnoZEB6Llz16uJJQEFrAaC562Sw=/720x540/filters:format(webp):quality(85)/2020936624_13_1_260625_063232-w6000-h4000",
       "url": "https://www.domain.com.au/44-florence-street-cottesloe-wa-6011-2020936624",
       "lat": -31.988559,
-      "lng": 115.761707
+      "lng": 115.761707,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020938909,
@@ -5823,7 +6097,8 @@
       "image": "https://rimh2.domainstatic.com.au/gtp2umTBMhV-BOI5X4_qxrevfJc=/720x540/filters:format(webp):quality(85)/2020938909_1_1_260624_013238-w1200-h800",
       "url": "https://www.domain.com.au/17-108-broome-street-cottesloe-wa-6011-2020938909",
       "lat": -31.988062,
-      "lng": 115.756178
+      "lng": 115.756178,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020566047,
@@ -5842,7 +6117,8 @@
       "image": "https://rimh2.domainstatic.com.au/eInE7CZo5U3P3JirCLuaLnvx0_8=/720x540/filters:format(webp):quality(85)/2020566047_39_1_260202_065549-w1200-h800",
       "url": "https://www.domain.com.au/47-cromarty-road-floreat-wa-6014-2020566047",
       "lat": -31.927491,
-      "lng": 115.792187
+      "lng": 115.792187,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020619144,
@@ -5861,7 +6137,8 @@
       "image": "https://rimh2.domainstatic.com.au/YbavkSZcO-U6oMDdHTvrE0RFXeM=/720x540/filters:format(webp):quality(85)/2020619144_4_1_260219_025258-w1200-h800",
       "url": "https://www.domain.com.au/4a-champion-crescent-floreat-wa-6014-2020619144",
       "lat": -31.945413,
-      "lng": 115.78877
+      "lng": 115.78877,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020823073,
@@ -5880,7 +6157,8 @@
       "image": "https://rimh2.domainstatic.com.au/3Fezsj2T0iJ7bSzCHRkYcWOd5jA=/720x540/filters:format(webp):quality(85)/2020823073_2_1_260507_030911-w3840-h2560",
       "url": "https://www.domain.com.au/6-2-burvill-drive-floreat-wa-6014-2020823073",
       "lat": -31.947384,
-      "lng": 115.788803
+      "lng": 115.788803,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020823285,
@@ -5899,7 +6177,8 @@
       "image": "https://rimh2.domainstatic.com.au/DdGUcPqZmDFNWlt1wOl3YySv2TI=/720x540/filters:format(webp):quality(85)/2020823285_1_1_260507_034630-w3840-h2560",
       "url": "https://www.domain.com.au/51-orrel-avenue-floreat-wa-6014-2020823285",
       "lat": -31.938786,
-      "lng": 115.798062
+      "lng": 115.798062,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020826302,
@@ -5918,7 +6197,8 @@
       "image": "https://rimh2.domainstatic.com.au/6MdUOYb1Jfg9bPuWV0Jd-tZzgX0=/720x540/filters:format(webp):quality(85)/2020826302_7_1_260508_014309-w1920-h1277",
       "url": "https://www.domain.com.au/5-steeplechase-green-floreat-wa-6014-2020826302",
       "lat": -31.945152,
-      "lng": 115.791074
+      "lng": 115.791074,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020879384,
@@ -5937,7 +6217,8 @@
       "image": "https://rimh2.domainstatic.com.au/K5Nbv3dr9BI3zjcyacDQu5Z8b8w=/720x540/filters:format(webp):quality(85)/2020879384_21_1_260605_024336-w1800-h1200",
       "url": "https://www.domain.com.au/56-newry-street-floreat-wa-6014-2020879384",
       "lat": -31.939792,
-      "lng": 115.799302
+      "lng": 115.799302,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020879537,
@@ -5956,7 +6237,8 @@
       "image": "https://rimh2.domainstatic.com.au/3pQdfnmePn4Kg7mfkzGjU7psoME=/720x540/filters:format(webp):quality(85)/2020879537_1_1_260529_043529-w6000-h4000",
       "url": "https://www.domain.com.au/28-roscommon-road-floreat-wa-6014-2020879537",
       "lat": -31.935087,
-      "lng": 115.784683
+      "lng": 115.784683,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020893035,
@@ -5975,7 +6257,8 @@
       "image": "https://rimh2.domainstatic.com.au/SuWvHIaL1B4eseF7aWU062zfxng=/720x540/filters:format(webp):quality(85)/2020893035_10_1_260604_022051-w1920-h1280",
       "url": "https://www.domain.com.au/39a-evandale-street-floreat-wa-6014-2020893035",
       "lat": -31.943105,
-      "lng": 115.798578
+      "lng": 115.798578,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020911969,
@@ -5994,7 +6277,8 @@
       "image": "https://rimh2.domainstatic.com.au/P7Q4cQP0vgywWlzh9QXecM-kSu4=/720x540/filters:format(webp):quality(85)/2020911969_1_1_260612_020659-w1920-h1280",
       "url": "https://www.domain.com.au/22-destiny-lane-floreat-wa-6014-2020911969",
       "lat": -31.946714,
-      "lng": 115.790932
+      "lng": 115.790932,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020939351,
@@ -6016,7 +6300,8 @@
       "image": "https://rimh2.domainstatic.com.au/8JBRR-6Vk1Vr5lflznnTCPD-KcA=/720x540/filters:format(webp):quality(85)/2020939351_1_1_260624_024936-w1920-h1280",
       "url": "https://www.domain.com.au/12-south-banff-road-floreat-wa-6014-2020939351",
       "lat": -31.932174,
-      "lng": 115.799997
+      "lng": 115.799997,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020940207,
@@ -6038,7 +6323,8 @@
       "image": "https://rimh2.domainstatic.com.au/PgfNWB6tMZ43DsBlCT0o_NDxECI=/720x540/filters:format(webp):quality(85)/2020940207_1_1_260624_045021-w2351-h1567",
       "url": "https://www.domain.com.au/47-evandale-street-floreat-wa-6014-2020940207",
       "lat": -31.943105,
-      "lng": 115.798578
+      "lng": 115.798578,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019877666,
@@ -6057,7 +6343,8 @@
       "image": "https://rimh2.domainstatic.com.au/JVFGE0FQJw49RLz4TsnFlDs43sw=/720x540/filters:format(webp):quality(85)/2019877666_1_1_250320_010143-w1200-h900",
       "url": "https://www.domain.com.au/1-45-boronia-avenue-nedlands-wa-6009-2019877666",
       "lat": -31.975918,
-      "lng": 115.803678
+      "lng": 115.803678,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2019926246,
@@ -6076,7 +6363,8 @@
       "image": "https://rimh2.domainstatic.com.au/vuZcdwZ3M4JRT1an2GonLUfyALI=/720x540/filters:format(webp):quality(85)/2019877666_3_1_250320_010143-w1200-h900",
       "url": "https://www.domain.com.au/8-45-boronia-avenue-nedlands-wa-6009-2019926246",
       "lat": -31.975918,
-      "lng": 115.803678
+      "lng": 115.803678,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020800449,
@@ -6095,7 +6383,8 @@
       "image": "https://rimh2.domainstatic.com.au/anQNkOVi5RxeviRmCdf3MOVBwHo=/720x540/filters:format(webp):quality(85)/2020800449_5_1_260429_081925-w1920-h1280",
       "url": "https://www.domain.com.au/12-loneragan-street-nedlands-wa-6009-2020800449",
       "lat": -31.966366,
-      "lng": 115.806671
+      "lng": 115.806671,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020804387,
@@ -6114,7 +6403,8 @@
       "image": "https://rimh2.domainstatic.com.au/YEEP4_pdQY3gC7yltruCmK7ocz4=/720x540/filters:format(webp):quality(85)/2020804387_1_1_260430_081312-w4000-h2667",
       "url": "https://www.domain.com.au/26-archdeacon-street-nedlands-wa-6009-2020804387",
       "lat": -31.983559,
-      "lng": 115.810049
+      "lng": 115.810049,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020806562,
@@ -6133,7 +6423,8 @@
       "image": "https://rimh2.domainstatic.com.au/XwbchQri8NA7uNzYtezFCJe-fJE=/720x540/filters:format(webp):quality(85)/2020806562_1_1_260501_044736-w1920-h1280",
       "url": "https://www.domain.com.au/78-the-avenue-nedlands-wa-6009-2020806562",
       "lat": -31.990545,
-      "lng": 115.813289
+      "lng": 115.813289,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020811727,
@@ -6152,7 +6443,8 @@
       "image": "https://rimh2.domainstatic.com.au/-Av0h8WvrIEr8Rk9JZJWNLgXy6A=/720x540/filters:format(webp):quality(85)/2020811727_1_1_260508_034847-w2000-h1333",
       "url": "https://www.domain.com.au/17-hillway-nedlands-wa-6009-2020811727",
       "lat": -31.990938,
-      "lng": 115.811314
+      "lng": 115.811314,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020837533,
@@ -6171,7 +6463,8 @@
       "image": "https://rimh2.domainstatic.com.au/JVFGE0FQJw49RLz4TsnFlDs43sw=/720x540/filters:format(webp):quality(85)/2019877666_1_1_250320_010143-w1200-h900",
       "url": "https://www.domain.com.au/7-45-boronia-avenue-nedlands-wa-6009-2020837533",
       "lat": -31.975918,
-      "lng": 115.803678
+      "lng": 115.803678,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020839707,
@@ -6190,7 +6483,8 @@
       "image": "https://rimh2.domainstatic.com.au/JGbGWkJZy0jG8o_4mZ290Jt-2CU=/720x540/filters:format(webp):quality(85)/2020839707_1_1_260513_081641-w6000-h4000",
       "url": "https://www.domain.com.au/36-cooper-street-nedlands-wa-6009-2020839707",
       "lat": -31.978573,
-      "lng": 115.812601
+      "lng": 115.812601,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020880977,
@@ -6209,7 +6503,8 @@
       "image": "https://rimh2.domainstatic.com.au/_vAwURAKSE4FBYrcikW6VR-A9_w=/720x540/filters:format(webp):quality(85)/2020880977_13_1_260530_040518-w1920-h1280",
       "url": "https://www.domain.com.au/13-tareena-street-nedlands-wa-6009-2020880977",
       "lat": -31.973017,
-      "lng": 115.81454
+      "lng": 115.81454,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020893153,
@@ -6228,7 +6523,8 @@
       "image": "https://rimh2.domainstatic.com.au/eg4KpWM25QV5qmvJVHjJPaMubH8=/720x540/filters:format(webp):quality(85)/2020893153_4_1_260604_023259-w2000-h1334",
       "url": "https://www.domain.com.au/14-campsie-street-nedlands-wa-6009-2020893153",
       "lat": -31.966389,
-      "lng": 115.812465
+      "lng": 115.812465,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020906777,
@@ -6247,7 +6543,8 @@
       "image": "https://rimh2.domainstatic.com.au/LqnZk61Cd7vYys48bD05mXTapGM=/720x540/filters:format(webp):quality(85)/2020906777_1_1_260610_065551-w1400-h1050",
       "url": "https://www.domain.com.au/57-stanley-street-nedlands-wa-6009-2020906777",
       "lat": -31.982565,
-      "lng": 115.805149
+      "lng": 115.805149,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020907367,
@@ -6266,7 +6563,8 @@
       "image": "https://rimh2.domainstatic.com.au/NOG1vspai6yIjldgGfL1UTaxEzQ=/720x540/filters:format(webp):quality(85)/2020907367_1_1_260610_110215-w2000-h1333",
       "url": "https://www.domain.com.au/13-loneragan-street-nedlands-wa-6009-2020907367",
       "lat": -31.966366,
-      "lng": 115.806671
+      "lng": 115.806671,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020941560,
@@ -6288,7 +6586,8 @@
       "image": "https://rimh2.domainstatic.com.au/Bvms19PpWYBvr6F28pWqSUWe4JI=/720x540/filters:format(webp):quality(85)/2020941560_1_1_260624_085921-w6000-h4000",
       "url": "https://www.domain.com.au/55-archdeacon-street-nedlands-wa-6009-2020941560",
       "lat": -31.983559,
-      "lng": 115.810049
+      "lng": 115.810049,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944060,
@@ -6307,7 +6606,8 @@
       "image": "https://rimh2.domainstatic.com.au/WjhA08I7UQbfnoYhB26iVgHYFt8=/720x540/filters:format(webp):quality(85)/2020944060_1_1_260625_051944-w1200-h800",
       "url": "https://www.domain.com.au/1-63-napier-street-nedlands-wa-6009-2020944060",
       "lat": -31.978301,
-      "lng": 115.793725
+      "lng": 115.793725,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944102,
@@ -6326,7 +6626,8 @@
       "image": "https://rimh2.domainstatic.com.au/2kCGFrZYDZOyQavsxnh4HQICzo0=/720x540/filters:format(webp):quality(85)/2020944102_1_1_260625_052425-w1200-h800",
       "url": "https://www.domain.com.au/nedlands-wa-6009-2020944102",
       "lat": -31.977696,
-      "lng": 115.812697
+      "lng": 115.812697,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944110,
@@ -6345,7 +6646,8 @@
       "image": "https://rimh2.domainstatic.com.au/a2OZNQpzvB9vvm5n8HTkh4J7LdI=/720x540/filters:format(webp):quality(85)/2020944110_1_1_260625_052518-w1200-h800",
       "url": "https://www.domain.com.au/54-webster-street-nedlands-wa-6009-2020944110",
       "lat": -31.983919,
-      "lng": 115.806429
+      "lng": 115.806429,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020565239,
@@ -6367,7 +6669,8 @@
       "image": "https://rimh2.domainstatic.com.au/z-3r49-nGLxYjJeewT0tSVjmI-4=/720x540/filters:format(webp):quality(85)/2020565239_35_1_260422_032150-w4743-h3162",
       "url": "https://www.domain.com.au/69-beatrice-road-dalkeith-wa-6009-2020565239",
       "lat": -32.000282,
-      "lng": 115.799672
+      "lng": 115.799672,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020586839,
@@ -6386,7 +6689,8 @@
       "image": "https://rimh2.domainstatic.com.au/oJuWZ7o4rGm5MrBITvUhYOcbxWw=/720x540/filters:format(webp):quality(85)/2020586839_2_1_260206_070825-w2000-h1334",
       "url": "https://www.domain.com.au/64-waratah-avenue-dalkeith-wa-6009-2020586839",
       "lat": -31.994782,
-      "lng": 115.792127
+      "lng": 115.792127,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020717850,
@@ -6405,7 +6709,8 @@
       "image": "https://rimh2.domainstatic.com.au/SoYLLV0hiPBk4eFcDuChHNHVGf0=/720x540/filters:format(webp):quality(85)/2020717850_1_1_260327_072630-w6000-h3997",
       "url": "https://www.domain.com.au/6-hotchin-street-dalkeith-wa-6009-2020717850",
       "lat": -31.990802,
-      "lng": 115.7999
+      "lng": 115.7999,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020847957,
@@ -6424,7 +6729,8 @@
       "image": "https://rimh2.domainstatic.com.au/eDAGUty_LvBjyNzogsPvY-O_nKY=/720x540/filters:format(webp):quality(85)/2020847957_4_1_260517_060125-w1920-h1440",
       "url": "https://www.domain.com.au/dalkeith-wa-6009-2020847957",
       "lat": -31.995698,
-      "lng": 115.799943
+      "lng": 115.799943,
+      "dateAdded": "2026-07-03"
     },
     {
       "id": 2020853680,
@@ -6443,7 +6749,8 @@
       "image": "https://rimh2.domainstatic.com.au/1jePeT8iwddeAlKw--VWARn_Qq4=/720x540/filters:format(webp):quality(85)/2020853680_1_1_260519_065145-w2000-h1333",
       "url": "https://www.domain.com.au/16-watkins-road-dalkeith-wa-6009-2020853680",
       "lat": -31.992151,
-      "lng": 115.789188
+      "lng": 115.789188,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020856153,
@@ -6462,7 +6769,8 @@
       "image": "https://rimh2.domainstatic.com.au/sU41VOdeoyoteyyLk4KNWOkUkMI=/720x540/filters:format(webp):quality(85)/2020856153_1_1_260520_045604-w2000-h1333",
       "url": "https://www.domain.com.au/38-browne-avenue-dalkeith-wa-6009-2020856153",
       "lat": -31.996432,
-      "lng": 115.807632
+      "lng": 115.807632,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020870720,
@@ -6481,7 +6789,8 @@
       "image": "https://rimh2.domainstatic.com.au/RPnurblEGpd22tr1mOInvwQr9UE=/720x540/filters:format(webp):quality(85)/2020870720_1_1_260526_071735-w1920-h1280",
       "url": "https://www.domain.com.au/philip-road-dalkeith-wa-6009-2020870720",
       "lat": -31.993517,
-      "lng": 115.793755
+      "lng": 115.793755,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020891159,
@@ -6500,7 +6809,8 @@
       "image": "https://rimh2.domainstatic.com.au/E8RCHrnI7AcBYsssF7-2Vx2V_yc=/720x540/filters:format(webp):quality(85)/2020891159_1_1_260603_103125-w2400-h1600",
       "url": "https://www.domain.com.au/31-watkins-road-dalkeith-wa-6009-2020891159",
       "lat": -31.992146,
-      "lng": 115.787942
+      "lng": 115.787942,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020897098,
@@ -6522,7 +6832,8 @@
       "image": "https://rimh2.domainstatic.com.au/nG03ksjla7VaVjv8Sui1XKTlHJM=/720x540/filters:format(webp):quality(85)/2020897098_2_1_260605_042637-w6000-h4000",
       "url": "https://www.domain.com.au/89-birdwood-parade-dalkeith-wa-6009-2020897098",
       "lat": -31.999592,
-      "lng": 115.808591
+      "lng": 115.808591,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020898431,
@@ -6541,7 +6852,8 @@
       "image": "https://rimh2.domainstatic.com.au/I5GbWHBmUNiKgZDi73plopSxOPM=/720x540/filters:format(webp):quality(85)/2020898431_1_1_260605_092306-w6875-h4583",
       "url": "https://www.domain.com.au/4-bellevue-avenue-dalkeith-wa-6009-2020898431",
       "lat": -31.993725,
-      "lng": 115.806085
+      "lng": 115.806085,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020920166,
@@ -6560,7 +6872,8 @@
       "image": "https://rimh2.domainstatic.com.au/xFtqH9ktme5pGs-B6NYNSjIEEE8=/720x540/filters:format(webp):quality(85)/2020920166_1_1_260616_065618-w2000-h1333",
       "url": "https://www.domain.com.au/57-alexander-road-dalkeith-wa-6009-2020920166",
       "lat": -31.998082,
-      "lng": 115.795598
+      "lng": 115.795598,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020940848,
@@ -6582,7 +6895,8 @@
       "image": "https://rimh2.domainstatic.com.au/-e0tsRQYf3TLFwYGrKb147H6AuM=/720x540/filters:format(webp):quality(85)/2020940848_1_1_260624_062133-w9324-h6216",
       "url": "https://www.domain.com.au/11-hotchin-street-dalkeith-wa-6009-2020940848",
       "lat": -31.990802,
-      "lng": 115.7999
+      "lng": 115.7999,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020943177,
@@ -6604,7 +6918,8 @@
       "image": "https://rimh2.domainstatic.com.au/AtUaIOFN_jkaILY0gEQgx4dTuzE=/720x540/filters:format(webp):quality(85)/2020943177_1_1_260625_030325-w4000-h2667",
       "url": "https://www.domain.com.au/37-browne-avenue-dalkeith-wa-6009-2020943177",
       "lat": -31.996432,
-      "lng": 115.807632
+      "lng": 115.807632,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944104,
@@ -6623,7 +6938,8 @@
       "image": "https://rimh2.domainstatic.com.au/T0gp7PiNtq8tdyGfVZQbUq3rXvQ=/720x540/filters:format(webp):quality(85)/2020944104_1_1_260625_052458-w1200-h800",
       "url": "https://www.domain.com.au/12-robert-street-dalkeith-wa-6009-2020944104",
       "lat": -31.994017,
-      "lng": 115.792323
+      "lng": 115.792323,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944116,
@@ -6642,7 +6958,8 @@
       "image": "https://rimh2.domainstatic.com.au/UgITHwrHGaJ-tOr7DpRdIRmthUE=/720x540/filters:format(webp):quality(85)/2020944116_1_1_260625_052537-w1200-h800",
       "url": "https://www.domain.com.au/30-st-vincents-avenue-wembley-wa-6014-2020944116",
       "lat": -31.93541,
-      "lng": 115.82417
+      "lng": 115.82417,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944121,
@@ -6661,7 +6978,8 @@
       "image": "https://rimh2.domainstatic.com.au/6sOdtqM89KnpRbqI63YwVmCHo0I=/720x540/filters:format(webp):quality(85)/2020944121_1_1_260625_052628-w1200-h800",
       "url": "https://www.domain.com.au/79-pangbourne-street-wembley-wa-6014-2020944121",
       "lat": -31.935872,
-      "lng": 115.812869
+      "lng": 115.812869,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944129,
@@ -6680,7 +6998,8 @@
       "image": "https://rimh2.domainstatic.com.au/YWgtFSmPzetcdmaU1ZS4RorTp6s=/720x540/filters:format(webp):quality(85)/2020944129_1_1_260625_052716-w1200-h808",
       "url": "https://www.domain.com.au/38a-nanson-street-wembley-wa-6014-2020944129",
       "lat": -31.932345,
-      "lng": 115.815318
+      "lng": 115.815318,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020965261,
@@ -6702,7 +7021,8 @@
       "image": "https://rimh2.domainstatic.com.au/SGxe0aeJaMTgd9z4tcnx4x9XUiI=/720x540/filters:format(webp):quality(85)/2020965261_1_1_260702_013429-w4000-h2661",
       "url": "https://www.domain.com.au/2-38-ramsdale-street-doubleview-wa-6018-2020965261",
       "lat": -31.90613,
-      "lng": 115.776677
+      "lng": 115.776677,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020439342,
@@ -6721,7 +7041,8 @@
       "image": "https://rimh2.domainstatic.com.au/DPhg-BflhcMh2WqNdN_EQ7de-FM=/720x540/filters:format(webp):quality(85)/2020439342_8_1_260508_034403-w4000-h2667",
       "url": "https://www.domain.com.au/21-bagot-road-subiaco-wa-6008-2020439342",
       "lat": -31.950708,
-      "lng": 115.832356
+      "lng": 115.832356,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020817418,
@@ -6740,7 +7061,8 @@
       "image": "https://rimh2.domainstatic.com.au/5TdF_jQra4f2z0lmcEFnzovtCJs=/720x540/filters:format(webp):quality(85)/2020817418_1_1_260618_053632-w2000-h1333",
       "url": "https://www.domain.com.au/40-union-street-subiaco-wa-6008-2020817418",
       "lat": -31.955771,
-      "lng": 115.821431
+      "lng": 115.821431,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020818905,
@@ -6759,7 +7081,8 @@
       "image": "https://rimh2.domainstatic.com.au/_HXaQNhJw_7Vb2ZBmdNUz0GknL8=/720x540/filters:format(webp):quality(85)/2020818905_1_1_260506_032321-w600-h900",
       "url": "https://www.domain.com.au/30-mere-view-way-subiaco-wa-6008-2020818905",
       "lat": -31.943802,
-      "lng": 115.815319
+      "lng": 115.815319,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020830460,
@@ -6778,7 +7101,8 @@
       "image": "https://rimh2.domainstatic.com.au/LulTLvP2v6VnL-nEO1vNXjzYEig=/720x540/filters:format(webp):quality(85)/2020830460_1_1_260511_013517-w2000-h1333",
       "url": "https://www.domain.com.au/159-barker-road-subiaco-wa-6008-2020830460",
       "lat": -31.948766,
-      "lng": 115.828651
+      "lng": 115.828651,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020831189,
@@ -6797,7 +7121,8 @@
       "image": "https://rimh2.domainstatic.com.au/n1oQhd6PNsYIty4nm0qBfmOMP9I=/720x540/filters:format(webp):quality(85)/2020831189_12_1_260511_041157-w4000-h2667",
       "url": "https://www.domain.com.au/23-bagot-road-subiaco-wa-6008-2020831189",
       "lat": -31.950449,
-      "lng": 115.82376
+      "lng": 115.82376,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020841969,
@@ -6816,7 +7141,8 @@
       "image": "https://rimh2.domainstatic.com.au/ka2Y1uxbNoRWk_Jsepo1P0suvHc=/720x540/filters:format(webp):quality(85)/2020841969_1_1_260514_040801-w1920-h1280",
       "url": "https://www.domain.com.au/39-coral-tree-avenue-subiaco-wa-6008-2020841969",
       "lat": -31.943003,
-      "lng": 115.816103
+      "lng": 115.816103,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020855906,
@@ -6835,7 +7161,8 @@
       "image": "https://rimh2.domainstatic.com.au/mRr6YV8AHxOGLWZlyMUKJQK3XxU=/720x540/filters:format(webp):quality(85)/2020855906_1_1_260520_041134-w4000-h2667",
       "url": "https://www.domain.com.au/1-220-nicholson-road-subiaco-wa-6008-2020855906",
       "lat": -31.956401,
-      "lng": 115.823264
+      "lng": 115.823264,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020856703,
@@ -6854,7 +7181,8 @@
       "image": "https://rimh2.domainstatic.com.au/SpOeZ58DEjsA86IhunvpOeN3gQI=/720x540/filters:format(webp):quality(85)/2020856703_2_1_260520_060118-w1800-h1200",
       "url": "https://www.domain.com.au/190-park-street-subiaco-wa-6008-2020856703",
       "lat": -31.949405,
-      "lng": 115.825882
+      "lng": 115.825882,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020861787,
@@ -6873,7 +7201,8 @@
       "image": "https://rimh2.domainstatic.com.au/f0iptBENj4RcYV6kIU-kfP7KCTw=/720x540/filters:format(webp):quality(85)/2020861787_2_1_260522_122746-w4000-h2667",
       "url": "https://www.domain.com.au/17-bagot-road-subiaco-wa-6008-2020861787",
       "lat": -31.950482,
-      "lng": 115.830726
+      "lng": 115.830726,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020880425,
@@ -6895,7 +7224,8 @@
       "image": "https://rimh2.domainstatic.com.au/rlHBOiZInuWhsxoX4YWLBbO3x7U=/720x540/filters:format(webp):quality(85)/2020880425_1_1_260529_073919-w6000-h4000",
       "url": "https://www.domain.com.au/22-200-rokeby-road-subiaco-wa-6008-2020880425",
       "lat": -31.947224,
-      "lng": 115.823993
+      "lng": 115.823993,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020913387,
@@ -6917,7 +7247,8 @@
       "image": "https://rimh2.domainstatic.com.au/5U9pED6HkdOEff21Jndbavyw3dE=/720x540/filters:format(webp):quality(85)/2020831189_2_1_260526_042309-w4000-h2667",
       "url": "https://www.domain.com.au/19-bagot-road-subiaco-wa-6008-2020913387",
       "lat": -31.950449,
-      "lng": 115.82376
+      "lng": 115.82376,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020927088,
@@ -6936,7 +7267,8 @@
       "image": "https://rimh2.domainstatic.com.au/ivM54558saOdm2ODlozUr1Sc74U=/720x540/filters:format(webp):quality(85)/2020927088_1_1_260618_085511-w1920-h1280",
       "url": "https://www.domain.com.au/subiaco-wa-6008-2020927088",
       "lat": -31.952393,
-      "lng": 115.822863
+      "lng": 115.822863,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020929461,
@@ -6955,7 +7287,8 @@
       "image": "https://rimh2.domainstatic.com.au/Zk4f04Bzj-vWKGQ-I6PnFuFelbY=/720x540/filters:format(webp):quality(85)/2020929461_1_1_260619_053914-w1920-h1280",
       "url": "https://www.domain.com.au/24-york-street-subiaco-wa-6008-2020929461",
       "lat": -31.946254,
-      "lng": 115.826371
+      "lng": 115.826371,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020937880,
@@ -6977,7 +7310,8 @@
       "image": "https://rimh2.domainstatic.com.au/RofZukcObQp0ArsjtIct9uIQq3s=/720x540/filters:format(webp):quality(85)/2020937880_1_1_260623_082821-w4000-h2667",
       "url": "https://www.domain.com.au/27-york-street-subiaco-wa-6008-2020937880",
       "lat": -31.946569,
-      "lng": 115.834746
+      "lng": 115.834746,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020937887,
@@ -6996,7 +7330,8 @@
       "image": "https://rimh2.domainstatic.com.au/E9voWp8NWjrJCjHkfxrEE3niSqE=/720x540/filters:format(webp):quality(85)/2020937887_1_1_260623_083122-w3840-h2560",
       "url": "https://www.domain.com.au/52-hamersley-road-subiaco-wa-6008-2020937887",
       "lat": -31.952232,
-      "lng": 115.828622
+      "lng": 115.828622,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020943672,
@@ -7015,7 +7350,8 @@
       "image": "https://rimh2.domainstatic.com.au/1jbbNxhRFpDoGr7Db5wdiVn2-Ro=/720x540/filters:format(webp):quality(85)/2020943672_1_1_260625_042550-w4000-h2667",
       "url": "https://www.domain.com.au/19-2-wexford-street-subiaco-wa-6008-2020943672",
       "lat": -31.943047,
-      "lng": 115.824279
+      "lng": 115.824279,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944047,
@@ -7034,7 +7370,8 @@
       "image": "https://rimh2.domainstatic.com.au/CEhuVLOFLXw233yS9HAJzqZ45y0=/720x540/filters:format(webp):quality(85)/2020944047_1_1_260625_051812-w1200-h800",
       "url": "https://www.domain.com.au/56-1-brigid-road-subiaco-wa-6008-2020944047",
       "lat": -31.945131,
-      "lng": 115.82517
+      "lng": 115.82517,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2019906124,
@@ -7053,7 +7390,8 @@
       "image": "https://rimh2.domainstatic.com.au/abCvczpj3NLQJ48wzM_VJRjPFbI=/720x540/filters:format(webp):quality(85)/2019906124_1_1_250402_071236-w1200-h800",
       "url": "https://www.domain.com.au/206-2-goatcher-vista-shenton-park-wa-6008-2019906124",
       "lat": -31.955943,
-      "lng": 115.802704
+      "lng": 115.802704,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020414455,
@@ -7072,7 +7410,8 @@
       "image": "https://rimh2.domainstatic.com.au/ORVG6f3Xn0IiY43tICQia5CRe7o=/720x540/filters:format(webp):quality(85)/2020414455_1_1_251111_090246-w1200-h800",
       "url": "https://www.domain.com.au/88-rosalie-street-shenton-park-wa-6008-2020414455",
       "lat": -31.95898,
-      "lng": 115.82074
+      "lng": 115.82074,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020679751,
@@ -7091,7 +7430,8 @@
       "image": "https://rimh2.domainstatic.com.au/nhdwK_yOfQ1_uGJU_cCh6AKLHUY=/720x540/filters:format(webp):quality(85)/2020679751_1_1_260602_024718-w3840-h2560",
       "url": "https://www.domain.com.au/15-rosalie-street-shenton-park-wa-6008-2020679751",
       "lat": -31.957474,
-      "lng": 115.820537
+      "lng": 115.820537,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020685017,
@@ -7110,7 +7450,8 @@
       "image": "https://rimh2.domainstatic.com.au/XweLYzhCKpVI4QNDpZJV8EzkgKk=/720x540/filters:format(webp):quality(85)/2020685017_1_1_260316_080519-w1200-h800",
       "url": "https://www.domain.com.au/136-herbert-road-shenton-park-wa-6008-2020685017",
       "lat": -31.963323,
-      "lng": 115.810652
+      "lng": 115.810652,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020765295,
@@ -7129,7 +7470,8 @@
       "image": "https://rimh2.domainstatic.com.au/6GOKGuU-jJndvGhJ14YeoAbvJtA=/720x540/filters:format(webp):quality(85)/2020765295_1_1_260415_091012-w5881-h3921",
       "url": "https://www.domain.com.au/4-harvey-road-shenton-park-wa-6008-2020765295",
       "lat": -31.963363,
-      "lng": 115.804647
+      "lng": 115.804647,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020778981,
@@ -7148,7 +7490,8 @@
       "image": "https://rimh2.domainstatic.com.au/msaZMtJ_wTQ8WQ73px2x7pJBBBE=/720x540/filters:format(webp):quality(85)/2020778981_1_1_260421_071011-w1200-h800",
       "url": "https://www.domain.com.au/158-aberdare-road-shenton-park-wa-6008-2020778981",
       "lat": -31.964172,
-      "lng": 115.806114
+      "lng": 115.806114,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020798905,
@@ -7167,7 +7510,8 @@
       "image": "https://rimh2.domainstatic.com.au/FoWSRdA_8JviqV3nTqi5y8yUhCI=/720x540/filters:format(webp):quality(85)/2020798905_2_1_260429_050356-w6000-h4000",
       "url": "https://www.domain.com.au/9-gray-street-shenton-park-wa-6008-2020798905",
       "lat": -31.956965,
-      "lng": 115.808588
+      "lng": 115.808588,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020861290,
@@ -7186,7 +7530,8 @@
       "image": "https://rimh2.domainstatic.com.au/vRGwj-z4C3ICbvQWqh7Sl82hZtk=/720x540/filters:format(webp):quality(85)/2020861290_1_1_260521_092930-w1200-h800",
       "url": "https://www.domain.com.au/421-railway-road-shenton-park-wa-6008-2020861290",
       "lat": -31.962546,
-      "lng": 115.804281
+      "lng": 115.804281,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020867750,
@@ -7205,7 +7550,8 @@
       "image": "https://rimh2.domainstatic.com.au/DTm_cwf8Ww1XupfeGFYoxGf_wJ0=/720x540/filters:format(webp):quality(85)/2020867750_1_1_260525_080529-w4000-h2667",
       "url": "https://www.domain.com.au/12-147-derby-road-shenton-park-wa-6008-2020867750",
       "lat": -31.959309,
-      "lng": 115.814916
+      "lng": 115.814916,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020884964,
@@ -7224,7 +7570,8 @@
       "image": "https://rimh2.domainstatic.com.au/FpcxpTHbl0Oy6A5DgRhHnV-dVZk=/720x540/filters:format(webp):quality(85)/2020884964_1_1_260602_013734-w1800-h1200",
       "url": "https://www.domain.com.au/2-42-violet-grove-shenton-park-wa-6008-2020884964",
       "lat": -31.962746,
-      "lng": 115.813777
+      "lng": 115.813777,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020890289,
@@ -7243,7 +7590,8 @@
       "image": "https://rimh2.domainstatic.com.au/fMixnWSNp81hiU2KY1t4RdiB-EY=/720x540/filters:format(webp):quality(85)/2020890289_1_1_260608_020729-w6000-h4000",
       "url": "https://www.domain.com.au/35-waylen-road-shenton-park-wa-6008-2020890289",
       "lat": -31.95849,
-      "lng": 115.809492
+      "lng": 115.809492,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020916387,
@@ -7262,7 +7610,8 @@
       "image": "https://rimh2.domainstatic.com.au/mRt2jLTMHE8bcCZRtu_sSW0JCVQ=/720x540/filters:format(webp):quality(85)/2020916387_26_1_260617_014546-w1000-h666",
       "url": "https://www.domain.com.au/52-165-derby-road-shenton-park-wa-6008-2020916387",
       "lat": -31.959309,
-      "lng": 115.814916
+      "lng": 115.814916,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020917223,
@@ -7281,7 +7630,8 @@
       "image": "https://rimh2.domainstatic.com.au/rizsfpEUkIg-qDLhdSlIeuYLw10=/720x540/filters:format(webp):quality(85)/2020917223_1_1_260615_073246-w1200-h800",
       "url": "https://www.domain.com.au/283-onslow-road-shenton-park-wa-6008-2020917223",
       "lat": -31.961024,
-      "lng": 115.809302
+      "lng": 115.809302,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020926352,
@@ -7300,7 +7650,8 @@
       "image": "https://rimh2.domainstatic.com.au/SztI9-6rH3p6JnapDbZVR17f3Q0=/720x540/filters:format(webp):quality(85)/2020926352_1_1_260618_054338-w3840-h2560",
       "url": "https://www.domain.com.au/7-10-aberdare-road-shenton-park-wa-6008-2020926352",
       "lat": -31.964393,
-      "lng": 115.802516
+      "lng": 115.802516,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020931094,
@@ -7319,7 +7670,8 @@
       "image": "https://rimh2.domainstatic.com.au/oxICd1OnP0BcVeaOuC770edkagY=/720x540/filters:format(webp):quality(85)/2020463039_7_1_251202_022024-w1920-h1279",
       "url": "https://www.domain.com.au/103-2-goatcher-vista-shenton-park-wa-6008-2020931094",
       "lat": -31.955943,
-      "lng": 115.802704
+      "lng": 115.802704,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020942871,
@@ -7341,7 +7693,8 @@
       "image": "https://rimh2.domainstatic.com.au/AIKdq1JrDQhkwqAfDZ0Y_BhSw4g=/720x540/filters:format(webp):quality(85)/2020942871_1_1_260625_020032-w1920-h1277",
       "url": "https://www.domain.com.au/g8-1-seymour-avenue-shenton-park-wa-6008-2020942871",
       "lat": -31.955246,
-      "lng": 115.804318
+      "lng": 115.804318,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020957879,
@@ -7363,7 +7716,8 @@
       "image": "https://rimh2.domainstatic.com.au/zr4Jghx3nQkMd3RbOROe2q5VuJI=/720x540/filters:format(webp):quality(85)/2020957879_1_1_260630_064530-w1920-h1280",
       "url": "https://www.domain.com.au/38-aberdare-road-shenton-park-wa-6008-2020957879",
       "lat": -31.964179,
-      "lng": 115.812443
+      "lng": 115.812443,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020061770,
@@ -7382,7 +7736,8 @@
       "image": "https://rimh2.domainstatic.com.au/drBiJ2BUIG0JntC889v8wW3vtek=/720x540/filters:format(webp):quality(85)/2020061770_1_1_250924_040040-w1200-h675",
       "url": "https://www.domain.com.au/35-troy-terrace-daglish-wa-6008-2020061770",
       "lat": -31.951077,
-      "lng": 115.810894
+      "lng": 115.810894,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020412294,
@@ -7401,7 +7756,8 @@
       "image": "https://rimh2.domainstatic.com.au/aI8gG7NBL3ttm09sYZlGvVmgiiE=/720x540/filters:format(webp):quality(85)/2020412294_1_1_251111_012953-w1200-h673",
       "url": "https://www.domain.com.au/42-cunningham-terrace-daglish-wa-6008-2020412294",
       "lat": -31.951542,
-      "lng": 115.808594
+      "lng": 115.808594,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020609711,
@@ -7420,7 +7776,8 @@
       "image": "https://rimh2.domainstatic.com.au/1MaA0EJfZ0pQ3KyeRgrRMaIT87w=/720x540/filters:format(webp):quality(85)/2020609711_1_1_260217_044303-w1200-h675",
       "url": "https://www.domain.com.au/42a-cunningham-terrace-daglish-wa-6008-2020609711",
       "lat": -31.954384,
-      "lng": 115.807473
+      "lng": 115.807473,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020715882,
@@ -7439,7 +7796,8 @@
       "image": "https://rimh2.domainstatic.com.au/KVGWzsvguTsgFC7eLJ5BBmp2pjw=/720x540/filters:format(webp):quality(85)/2019800031_1_1_250217_071352-w4000-h2667",
       "url": "https://www.domain.com.au/8-nash-street-daglish-wa-6008-2020715882",
       "lat": -31.956241,
-      "lng": 115.807182
+      "lng": 115.807182,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020859208,
@@ -7458,7 +7816,8 @@
       "image": "https://rimh2.domainstatic.com.au/Tot6r3jg60wfkQbE-SeJ2weQUec=/720x540/filters:format(webp):quality(85)/2020859208_1_1_260521_024510-w1920-h1280",
       "url": "https://www.domain.com.au/1-58-cunningham-terrace-daglish-wa-6008-2020859208",
       "lat": -31.954384,
-      "lng": 115.807473
+      "lng": 115.807473,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020896399,
@@ -7477,7 +7836,8 @@
       "image": "https://rimh2.domainstatic.com.au/aGgm0Iy1cNZUONaHiz6MjQxMdsM=/720x540/filters:format(webp):quality(85)/2020896399_1_1_260605_020426-w1920-h1280",
       "url": "https://www.domain.com.au/9-selby-street-daglish-wa-6008-2020896399",
       "lat": -31.952875,
-      "lng": 115.805434
+      "lng": 115.805434,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020939599,
@@ -7499,7 +7859,8 @@
       "image": "https://rimh2.domainstatic.com.au/6hMCd9xfRlklStUyQXDD2eptfb0=/720x540/filters:format(webp):quality(85)/2020939599_1_1_260624_032230-w4000-h2667",
       "url": "https://www.domain.com.au/p18-125-herdsman-parade-wembley-wa-6014-2020939599",
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020944049,
@@ -7518,7 +7879,8 @@
       "image": "https://rimh2.domainstatic.com.au/-Fyq41gpFLXBBMfoOWCHOa4V3Pk=/720x540/filters:format(webp):quality(85)/2020944049_1_1_260625_051823-w1200-h800",
       "url": "https://www.domain.com.au/56-holland-street-wembley-wa-6014-2020944049",
       "lat": -31.937711,
-      "lng": 115.814074
+      "lng": 115.814074,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2015510819,
@@ -7537,7 +7899,8 @@
       "image": "https://rimh2.domainstatic.com.au/cpRiRSwSOyRv7aRew9vtk2757zA=/720x540/filters:format(webp):quality(85)/2015019230_22_1_190318_125655-w2500-h1668",
       "url": "https://www.domain.com.au/6-tighe-street-jolimont-wa-6014-2015510819",
       "lat": -31.945815,
-      "lng": 115.814333
+      "lng": 115.814333,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2016696062,
@@ -7556,7 +7919,8 @@
       "image": "https://rimh2.domainstatic.com.au/FJ2XCHKjNZCvOGtwc9CtG6yUf9U=/720x540/filters:format(webp):quality(85)/2016502988_6_1_200918_074017-w5000-h3331",
       "url": "https://www.domain.com.au/6-4-currie-street-jolimont-wa-6014-2016696062",
       "lat": -31.948738,
-      "lng": 115.81254
+      "lng": 115.81254,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2019527534,
@@ -7575,7 +7939,8 @@
       "image": "https://rimh2.domainstatic.com.au/oULQhkxkmm3hwg2JqHigCKEnTC8=/720x540/filters:format(webp):quality(85)/2019527534_1_1_240930_062517-w1200-h799",
       "url": "https://www.domain.com.au/4-9-jersey-street-jolimont-wa-6014-2019527534",
       "lat": -31.94742,
-      "lng": 115.811539
+      "lng": 115.811539,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020777004,
@@ -7594,7 +7959,8 @@
       "image": "https://rimh2.domainstatic.com.au/AI_lMvMrHuiljitnRmWXYcBg0_o=/720x540/filters:format(webp):quality(85)/2020777004_3_1_260422_053730-w2480-h3508",
       "url": "https://www.domain.com.au/19-6-tighe-street-jolimont-wa-6014-2020777004",
       "lat": -31.945815,
-      "lng": 115.814333
+      "lng": 115.814333,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020777008,
@@ -7613,7 +7979,8 @@
       "image": "https://rimh2.domainstatic.com.au/9VUrckUJiFrY6SWDlwddB0pz_Xk=/720x540/filters:format(webp):quality(85)/2016715744_1_1_210104_031423-w6068-h3413",
       "url": "https://www.domain.com.au/84-6-tighe-street-jolimont-wa-6014-2020777008",
       "lat": -31.945815,
-      "lng": 115.814333
+      "lng": 115.814333,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020910273,
@@ -7635,7 +8002,8 @@
       "image": "https://rimh2.domainstatic.com.au/SbcDc7j2xt1tXR82h7tYkCMJC98=/720x540/filters:format(webp):quality(85)/2020910273_3_1_260611_062846-w1200-h800",
       "url": "https://www.domain.com.au/19-591-hay-street-jolimont-wa-6014-2020910273",
       "lat": -31.947223,
-      "lng": 115.813942
+      "lng": 115.813942,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020927048,
@@ -7654,7 +8022,8 @@
       "image": "https://rimh2.domainstatic.com.au/JykWlWANgLak3miqruAaRtnirEA=/720x540/filters:format(webp):quality(85)/2020927048_1_1_260618_082023-w4000-h2667",
       "url": "https://www.domain.com.au/8-633-hay-street-jolimont-wa-6014-2020927048",
       "lat": -31.947594,
-      "lng": 115.81219
+      "lng": 115.81219,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020952640,
@@ -7673,7 +8042,8 @@
       "image": "https://rimh2.domainstatic.com.au/MpME5go_AI7rVKOMQo8r1QENTT0=/720x540/filters:format(webp):quality(85)/2020952640_1_1_260629_045354-w4000-h2667",
       "url": "https://www.domain.com.au/38-halesworth-road-jolimont-wa-6014-2020952640",
       "lat": -31.945715,
-      "lng": 115.807348
+      "lng": 115.807348,
+      "dateAdded": "2026-06-30"
     },
     {
       "id": 2020787749,
@@ -7692,7 +8062,8 @@
       "image": "https://rimh2.domainstatic.com.au/oRdFXBcvvDNTWmIo--AsXWpYaWk=/720x540/filters:format(webp):quality(85)/2020787749_1_1_260424_041950-w2000-h1334",
       "url": "https://www.domain.com.au/115-mckenzie-street-wembley-wa-6014-2020787749",
       "lat": -31.937695,
-      "lng": 115.817581
+      "lng": 115.817581,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020795449,
@@ -7714,7 +8085,8 @@
       "image": "https://rimh2.domainstatic.com.au/U6_LDeOLfLG-m3eqQw2NFJw9Q_8=/720x540/filters:format(webp):quality(85)/2020795449_1_1_260428_062936-w2500-h1667",
       "url": "https://www.domain.com.au/4-barrett-street-wembley-wa-6014-2020795449",
       "lat": -31.939705,
-      "lng": 115.823125
+      "lng": 115.823125,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020837971,
@@ -7733,7 +8105,8 @@
       "image": "https://rimh2.domainstatic.com.au/hhdU5kSlS1BsCaHFb-OHmJLcVsk=/720x540/filters:format(webp):quality(85)/2020837971_1_1_260513_042125-w1920-h1280",
       "url": "https://www.domain.com.au/28-409-cambridge-street-wembley-wa-6014-2020837971",
       "lat": -31.940811,
-      "lng": 115.811358
+      "lng": 115.811358,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020872651,
@@ -7752,7 +8125,8 @@
       "image": "https://rimh2.domainstatic.com.au/sEYJM4jCoda-SMebG3lWuDXfGH0=/720x540/filters:format(webp):quality(85)/2020872651_4_1_260527_034541-w6000-h4000",
       "url": "https://www.domain.com.au/2-scaddan-street-wembley-wa-6014-2020872651",
       "lat": -31.930632,
-      "lng": 115.816806
+      "lng": 115.816806,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020877630,
@@ -7771,7 +8145,8 @@
       "image": "https://rimh2.domainstatic.com.au/-rbRun9ZutRw8BehN2edu2J6K88=/720x540/filters:format(webp):quality(85)/2020877630_1_1_260528_065524-w5500-h3674",
       "url": "https://www.domain.com.au/22-99-herdsman-parade-wembley-wa-6014-2020877630",
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020901939,
@@ -7790,7 +8165,8 @@
       "image": "https://rimh2.domainstatic.com.au/0UcPBYWWrVQu5hgoGgU064EWRP8=/720x540/filters:format(webp):quality(85)/2020901939_1_1_260609_030933-w4000-h2667",
       "url": "https://www.domain.com.au/16-115-herdsman-parade-wembley-wa-6014-2020901939",
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020920311,
@@ -7809,7 +8185,8 @@
       "image": "https://rimh2.domainstatic.com.au/dPqe7-DQNagpLRBbVW2I4Srlfgk=/720x540/filters:format(webp):quality(85)/2020920311_3_1_260616_072130-w6000-h4500",
       "url": "https://www.domain.com.au/188-jersey-street-wembley-wa-6014-2020920311",
       "lat": -31.933898,
-      "lng": 115.811729
+      "lng": 115.811729,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020923178,
@@ -7831,7 +8208,8 @@
       "image": "https://rimh2.domainstatic.com.au/cAjCLAsQn7ODY_K1ouZLCV6TV1Q=/720x540/filters:format(webp):quality(85)/2020923178_1_1_260617_062933-w3000-h2000",
       "url": "https://www.domain.com.au/37-connolly-street-wembley-wa-6014-2020923178",
       "lat": -31.940562,
-      "lng": 115.825142
+      "lng": 115.825142,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020925947,
@@ -7850,7 +8228,8 @@
       "image": "https://rimh2.domainstatic.com.au/SfGUomlVJGKgTz2AYt-ETY80UFI=/720x540/filters:format(webp):quality(85)/2020925947_1_1_260618_043235-w4000-h2667",
       "url": "https://www.domain.com.au/46-71-herdsman-parade-wembley-wa-6014-2020925947",
       "lat": -31.925216,
-      "lng": 115.817176
+      "lng": 115.817176,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020936234,
@@ -7869,7 +8248,8 @@
       "image": "https://rimh2.domainstatic.com.au/Rc-ncFn5pNxdFpsE0wcKMyb0veA=/720x540/filters:format(webp):quality(85)/2020936234_1_1_260623_034253-w1200-h800",
       "url": "https://www.domain.com.au/58-99-herdsman-parade-wembley-wa-6014-2020936234",
       "lat": -31.931373,
-      "lng": 115.80939
+      "lng": 115.80939,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 6322,
@@ -7888,7 +8268,8 @@
       "image": "https://rimh2.domainstatic.com.au/k0nCDBt2QThMln7wlKgyweNPPPo=/720x540/filters:format(webp):quality(85)/798c5b52-a235-4003-84f6-62864b9c8a30-w1920-h1080",
       "url": "https://www.domain.com.au/project/6322/west-residences-mount-lawley-wa/",
       "lat": -31.939529,
-      "lng": 115.877672
+      "lng": 115.877672,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 6456,
@@ -7907,7 +8288,8 @@
       "image": "https://rimh2.domainstatic.com.au/6YIx1q8anA1GcO-1h5mXwTsto5U=/720x540/filters:format(webp):quality(85)/6456_1_13_251124_025315-w3889-h2160",
       "url": "https://www.domain.com.au/project/6456/the-coolbinia-coolbinia-wa/",
       "lat": -31.917601,
-      "lng": 115.856157
+      "lng": 115.856157,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 6762,
@@ -7926,7 +8308,8 @@
       "image": "https://rimh2.domainstatic.com.au/r-FXPrGHnlaoTNK7HUrSirJtgaM=/720x540/filters:format(webp):quality(85)/6762_1_13_251121_064433-w2830-h2160",
       "url": "https://www.domain.com.au/project/6762/139-lake-street--perth-perth-wa/",
       "lat": -31.94211,
-      "lng": 115.860425
+      "lng": 115.860425,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020537251,
@@ -7945,7 +8328,8 @@
       "image": "https://rimh2.domainstatic.com.au/O-axqEr_uxO9vTubC8WQ4gWi1OE=/720x540/filters:format(webp):quality(85)/2020537251_1_1_260119_043132-w1920-h1280",
       "url": "https://www.domain.com.au/4-340-stirling-street-highgate-wa-6003-2020537251",
       "lat": -31.940672,
-      "lng": 115.869937
+      "lng": 115.869937,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020744341,
@@ -7964,7 +8348,8 @@
       "image": "https://rimh2.domainstatic.com.au/4UtULpVumrPwkN6sWoiO1YsYpSA=/720x540/filters:format(webp):quality(85)/2020744341_1_1_260408_074626-w2000-h1333",
       "url": "https://www.domain.com.au/50-103-harold-street-highgate-wa-6003-2020744341",
       "lat": -31.93945,
-      "lng": 115.874298
+      "lng": 115.874298,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020841230,
@@ -7983,7 +8368,8 @@
       "image": "https://rimh2.domainstatic.com.au/N40kzwwhi-YwhVqWtl7EO2N9PM4=/720x540/filters:format(webp):quality(85)/2020841230_3_1_260514_015041-w4000-h2667",
       "url": "https://www.domain.com.au/21-131-harold-street-highgate-wa-6003-2020841230",
       "lat": -31.93945,
-      "lng": 115.874298
+      "lng": 115.874298,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020877004,
@@ -8002,7 +8388,8 @@
       "image": "https://rimh2.domainstatic.com.au/ow4klaNfITtQlWRCqGF20CED5-I=/720x540/filters:format(webp):quality(85)/2020877004_1_1_260528_052535-w1920-h1280",
       "url": "https://www.domain.com.au/2-432-beaufort-street-highgate-wa-6003-2020877004",
       "lat": -31.939727,
-      "lng": 115.868797
+      "lng": 115.868797,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020890435,
@@ -8021,7 +8408,8 @@
       "image": "https://rimh2.domainstatic.com.au/Mna4XBwovlJJiuDqNJqBuE_qns0=/720x540/filters:format(webp):quality(85)/2020890435_1_1_260603_070832-w6000-h4000",
       "url": "https://www.domain.com.au/30-34-smith-street-highgate-wa-6003-2020890435",
       "lat": -31.938876,
-      "lng": 115.87276
+      "lng": 115.87276,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020948176,
@@ -8043,7 +8431,8 @@
       "image": "https://rimh2.domainstatic.com.au/fiCOSocMW0eIACn9ElSdKTOdPaU=/720x540/filters:format(webp):quality(85)/2020948176_1_1_260626_063634-w1200-h800",
       "url": "https://www.domain.com.au/53-537-william-street-mount-lawley-wa-6050-2020948176",
       "lat": -31.936201,
-      "lng": 115.866295
+      "lng": 115.866295,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020951885,
@@ -8065,7 +8454,8 @@
       "image": "https://rimh2.domainstatic.com.au/Dj6nD2jXRUB3zR81N4CXI-pnmr0=/720x540/filters:format(webp):quality(85)/2020013414_3_1_250522_115959-w2000-h1333",
       "url": "https://www.domain.com.au/1709-11-barrack-square-perth-wa-6000-2020951885",
       "lat": -31.959705,
-      "lng": 115.858422
+      "lng": 115.858422,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020952301,
@@ -8087,7 +8477,8 @@
       "image": "https://rimh2.domainstatic.com.au/IQ2KbVqek5Js0Xy8mnyXHIX1F20=/720x540/filters:format(webp):quality(85)/35c0im93i1pbn_1_0_260625_101048-w2000-h1336",
       "url": "https://www.domain.com.au/10-571-william-street-mount-lawley-wa-6050-2020952301",
       "lat": -31.930997,
-      "lng": 115.866883
+      "lng": 115.866883,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020965570,
@@ -8109,7 +8500,8 @@
       "image": "https://rimh2.domainstatic.com.au/Jrd7nJfvgN1G7WU6Nqzewj6DznI=/720x540/filters:format(webp):quality(85)/2020965570_1_1_260702_024522-w5312-h3541",
       "url": "https://www.domain.com.au/64-alma-road-mount-lawley-wa-6050-2020965570",
       "lat": -31.932938,
-      "lng": 115.865692
+      "lng": 115.865692,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020788602,
@@ -8128,7 +8520,8 @@
       "image": "https://rimh2.domainstatic.com.au/aL8GVpQEwzKZuLuKwQdIRyeIFCY=/720x540/filters:format(webp):quality(85)/2020788602_12_1_260424_063244-w1200-h800",
       "url": "https://www.domain.com.au/88-first-avenue-mount-lawley-wa-6050-2020788602",
       "lat": -31.92763,
-      "lng": 115.875533
+      "lng": 115.875533,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020788874,
@@ -8147,7 +8540,8 @@
       "image": "https://rimh2.domainstatic.com.au/87jgjCZrZ7T90HV2IoXg48frplw=/720x540/filters:format(webp):quality(85)/2020788874_1_1_260424_070835-w4000-h2667",
       "url": "https://www.domain.com.au/6-544-beaufort-street-mount-lawley-wa-6050-2020788874",
       "lat": -31.928973,
-      "lng": 115.876836
+      "lng": 115.876836,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020799120,
@@ -8166,7 +8560,8 @@
       "image": "https://rimh2.domainstatic.com.au/3iXo1SNgJnmEh_R9HFZIPjbEiD8=/720x540/filters:format(webp):quality(85)/2020799120_1_1_260429_052548-w1200-h800",
       "url": "https://www.domain.com.au/10-fourth-avenue-mount-lawley-wa-6050-2020799120",
       "lat": -31.927645,
-      "lng": 115.881852
+      "lng": 115.881852,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020800266,
@@ -8185,7 +8580,8 @@
       "image": "https://rimh2.domainstatic.com.au/Xfz9bOD8rE7vSagWso7kYA2Mogk=/720x540/filters:format(webp):quality(85)/2020800266_1_1_260429_073348-w1200-h800",
       "url": "https://www.domain.com.au/53c-first-avenue-mount-lawley-wa-6050-2020800266",
       "lat": -31.93426,
-      "lng": 115.883199
+      "lng": 115.883199,
+      "dateAdded": "2026-07-02"
     },
     {
       "id": 2020835654,
@@ -8207,7 +8603,8 @@
       "image": "https://rimh2.domainstatic.com.au/iKtzlEyKtrhKD1P9N5p8ZzjSAgk=/720x540/filters:format(webp):quality(85)/2020835654_1_1_260512_075314-w3000-h2000",
       "url": "https://www.domain.com.au/4-64a-third-avenue-mount-lawley-wa-6050-2020835654",
       "lat": -31.932892,
-      "lng": 115.88536
+      "lng": 115.88536,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 2020898169,
@@ -8226,7 +8623,8 @@
       "image": "https://rimh2.domainstatic.com.au/OFmTMhpXPpj0cXjJ5sS5zO_dxD4=/720x540/filters:format(webp):quality(85)/2020898169_1_1_260605_072730-w1200-h800",
       "url": "https://www.domain.com.au/84-chelmsford-road-mount-lawley-wa-6050-2020898169",
       "lat": -31.935495,
-      "lng": 115.864632
+      "lng": 115.864632,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020902215,
@@ -8245,7 +8643,8 @@
       "image": "https://rimh2.domainstatic.com.au/CuPHZ5YwOimioTT4VzZ_hXKjtcY=/720x540/filters:format(webp):quality(85)/2020902215_1_1_260609_040952-w3000-h2000",
       "url": "https://www.domain.com.au/119-fourth-avenue-mount-lawley-wa-6050-2020902215",
       "lat": -31.922526,
-      "lng": 115.875857
+      "lng": 115.875857,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020905119,
@@ -8264,7 +8663,8 @@
       "image": "https://rimh2.domainstatic.com.au/bG1wb1TjrUYgROKEpi6txye27lA=/720x540/filters:format(webp):quality(85)/2020905119_1_1_260610_030243-w6000-h4002",
       "url": "https://www.domain.com.au/41b-wasley-street-mount-lawley-wa-6050-2020905119",
       "lat": -31.9313,
-      "lng": 115.862807
+      "lng": 115.862807,
+      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020919287,
@@ -8283,7 +8683,8 @@
       "image": "https://rimh2.domainstatic.com.au/k2Dp_Zfz0TUCcqkip2q9kwECkkE=/720x540/filters:format(webp):quality(85)/2020919287_1_1_260616_044545-w3000-h2000",
       "url": "https://www.domain.com.au/27-second-avenue-mount-lawley-wa-6050-2020919287",
       "lat": -31.92604,
-      "lng": 115.875775
+      "lng": 115.875775,
+      "dateAdded": "2026-06-29"
     }
   ]
 }
