@@ -88,6 +88,14 @@ def main():
             print(f"WARNING: {name} shrank {old_n} -> {len(rows)} "
                   f"(partial pull? blocked mid-run?) - writing anyway")
 
+    # add lat/lng for the map view — cached, so only new addresses hit the
+    # network (~1s each); a network failure never blocks the build
+    try:
+        from geocode import geocode_rows
+        geocode_rows(rent + buy, verbose=False)
+    except Exception as e:
+        print(f"WARNING: geocoding skipped ({e})")
+
     now = datetime.now(timezone(timedelta(hours=8)))  # AWST
     out = {
         "generatedAt": now.isoformat(),
