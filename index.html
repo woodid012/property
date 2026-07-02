@@ -219,6 +219,7 @@
         <span class="beds-label">Status</span>
         <div class="chips" id="buy-amen">
           <button class="chip" data-amen="hideuo">🤝 Hide under offer</button>
+          <button class="chip" data-amen="hidefurn">🛋 Hide furnished</button>
         </div>
       </div>
       <div class="ctl-actions">
@@ -401,9 +402,9 @@ function subMatch(item, kind){ return !SUBS[kind].has(item.suburb || 'Other'); }
 
 /* ---------- amenity filters (per-device; pets / courtyard / ground floor) ---------- */
 const AMEN_KEY = "mumPropertyAmen";
-let AMEN = { rent: { pets:false, courtyard:false, ground:false }, buy: { hideuo:false } };
+let AMEN = { rent: { pets:false, courtyard:false, ground:false }, buy: { hideuo:false, hidefurn:true } };
 function loadAmen(){
-  const defs = { rent:{pets:false,courtyard:false,ground:false}, buy:{hideuo:false} };
+  const defs = { rent:{pets:false,courtyard:false,ground:false}, buy:{hideuo:false,hidefurn:true} };
   try { const a = JSON.parse(localStorage.getItem(AMEN_KEY)) || {};
     ['rent','buy'].forEach(k => { AMEN[k] = Object.assign({}, defs[k], a[k]||{}); });
   } catch(e){ AMEN = defs; }
@@ -423,6 +424,7 @@ function setupAmen(kind){
 function amenMatch(item, kind){
   const a = AMEN[kind]; if (!a) return true;
   if (a.hideuo && item.underOffer) return false;   // buy: hide under-offer homes
+  if (a.hidefurn){ const t=((item.price||'')+' '+(item.propertyType||'')).toLowerCase(); if(t.includes('furnished')) return false; }
   if (a.pets && !item.pets) return false;
   if (a.courtyard && !item.courtyard) return false;
   if (a.ground){
