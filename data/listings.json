@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T21:29:47.535647+08:00",
+  "generatedAt": "2026-07-06T07:23:27.127181+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -138,11 +138,11 @@
       },
       "image": "https://rimh2.domainstatic.com.au/A2OEnLdtLjviGEgeyzcWwDPjkmE=/720x540/filters:format(webp):quality(85)/16958605_1_1_240408_104138-w960-h720",
       "url": "https://www.domain.com.au/1-24-lansdowne-street-jolimont-wa-6014-16958605",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.945981,
       "lng": 115.81054,
-      "dateAdded": "2026-06-30"
+      "dateAdded": "2026-06-30",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17934555,
@@ -160,11 +160,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/EMl8hrJcoa4fWhwBEQCtjchkmw0=/720x540/filters:format(webp):quality(85)/17934555_1_1_260112_071549-w1200-h900",
       "url": "https://www.domain.com.au/14-55-herdsman-parade-wembley-wa-6014-17934555",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.925216,
       "lng": 115.817176,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16736042,
@@ -182,11 +182,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Li-F-kLE5xCCZx3q1h203FJlPDY=/720x540/filters:format(webp):quality(85)/16736042_1_1_260702_070229-w2000-h1333",
       "url": "https://www.domain.com.au/3-12-gerald-street-mount-lawley-wa-6050-16736042",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.936324,
       "lng": 115.873422,
-      "dateAdded": "2026-07-03"
+      "dateAdded": "2026-07-03",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17124097,
@@ -204,11 +204,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/fhMjvKHOMEqX1dMcxszK1xPHTEY=/720x540/filters:format(webp):quality(85)/17124097_1_1_240722_053822-w800-h600",
       "url": "https://www.domain.com.au/1e-47-herdsman-parade-wembley-wa-6014-17124097",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931441,
       "lng": 115.809315,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18172214,
@@ -226,11 +226,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_8afd5xrpyCtNSh21KCrrB3SuRc=/720x540/filters:format(webp):quality(85)/16986388_1_1_240426_042001-w1920-h1280",
       "url": "https://www.domain.com.au/28-85-herdsman-parade-wembley-wa-6014-18172214",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.925216,
       "lng": 115.817176,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18195428,
@@ -324,28 +324,6 @@
       "dateAdded": "2026-07-04"
     },
     {
-      "id": 18194556,
-      "address": "4/112 Goderich Street, East Perth WA 6004",
-      "suburb": "East Perth",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Studio",
-      "price": "$550 per week",
-      "priceValue": 550,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/IkNPkarLGgnL7XlDkKTu5J20gl8=/720x540/filters:format(webp):quality(85)/18194556_1_1_260701_125233-w893-h591",
-      "url": "https://www.domain.com.au/4-112-goderich-street-east-perth-wa-6004-18194556",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.957426,
-      "lng": 115.872619,
-      "dateAdded": "2026-07-01"
-    },
-    {
       "id": 18200890,
       "address": "9/564 William Street, Mount Lawley WA 6050",
       "suburb": "Mount Lawley",
@@ -364,11 +342,11 @@
       },
       "image": "https://rimh2.domainstatic.com.au/L1lGho9qahaQgdeLzQtdICQcg-M=/720x540/filters:format(webp):quality(85)/18200890_1_1_260704_032906-w1200-h800",
       "url": "https://www.domain.com.au/9-564-william-street-mount-lawley-wa-6050-18200890",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931002,
       "lng": 115.866765,
-      "dateAdded": "2026-07-04"
+      "dateAdded": "2026-07-04",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18200648,
@@ -455,11 +433,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/KIzzpElAqEfOYR7_SVqdysUKIt4=/720x540/filters:format(webp):quality(85)/18194913_1_1_260701_023125-w4000-h2661",
       "url": "https://www.domain.com.au/8-1-millington-avenue-daglish-wa-6008-18194913",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.953038,
       "lng": 115.808442,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18180689,
@@ -484,6 +462,31 @@
       "dateAdded": "2026-06-26"
     },
     {
+      "id": 18155941,
+      "address": "6/72 Hastings Street, Scarborough WA 6019",
+      "suburb": "Scarborough",
+      "beds": 2,
+      "baths": 1,
+      "cars": null,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$600 per week",
+      "priceValue": 600,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-06T16:40:00",
+        "close": "2026-07-06T17:00:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/gbfDLQO9Jw1aCW6pIyOt94kuT0E=/720x540/filters:format(webp):quality(85)/18155941_17_1_260612_111503-w1920-h1280",
+      "url": "https://www.domain.com.au/6-72-hastings-street-scarborough-wa-6019-18155941",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.900665,
+      "lng": 115.760038,
+      "dateAdded": "2026-06-26"
+    },
+    {
       "id": 18174215,
       "address": "104/583 William Street, Mount Lawley WA 6050",
       "suburb": "Mount Lawley",
@@ -499,11 +502,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/WAoYEtJW3i8zhZl0inds2CDfqok=/720x540/filters:format(webp):quality(85)/18174215_1_1_260617_064541-w1537-h1023",
       "url": "https://www.domain.com.au/104-583-william-street-mount-lawley-wa-6050-18174215",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931002,
       "lng": 115.866765,
-      "dateAdded": "2026-06-30"
+      "dateAdded": "2026-06-30",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18179595,
@@ -521,11 +524,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/9tV3x3clNPWNf6yLg9_jArsSkkE=/720x540/filters:format(webp):quality(85)/18179595_1_1_260622_015151-w2835-h1890",
       "url": "https://www.domain.com.au/206d-25-herdsman-parade-wembley-wa-6014-18179595",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.925216,
       "lng": 115.817176,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18173312,
@@ -587,11 +590,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/LRvGuV17Cs_AfAel0if6_CFs2Ek=/720x540/filters:format(webp):quality(85)/16867749_1_1_240206_010714-w1024-h683",
       "url": "https://www.domain.com.au/35-1-herdsman-parade-wembley-wa-6014-18176319",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931441,
       "lng": 115.809315,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18169081,
@@ -609,11 +612,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/c2p2ItnfoMeG6-Lk3gWqqL3hSQA=/720x540/filters:format(webp):quality(85)/18169081_1_1_260615_041243-w1200-h900",
       "url": "https://www.domain.com.au/11-62-second-avenue-mount-lawley-wa-6050-18169081",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.930624,
       "lng": 115.881069,
-      "dateAdded": "2026-06-30"
+      "dateAdded": "2026-06-30",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17504201,
@@ -631,11 +634,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_PzB_Z0JGrpnfdtAQqFbxa-N_2s=/720x540/filters:format(webp):quality(85)/17504201_1_1_260413_064708-w1352-h865",
       "url": "https://www.domain.com.au/11-7-vincent-st-mount-lawley-wa-6050-17504201",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.936621,
       "lng": 115.870678,
-      "dateAdded": "2026-06-30"
+      "dateAdded": "2026-06-30",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18174508,
@@ -675,11 +678,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/90bqWHICbEe5WlanancCZLWrA9Y=/720x540/filters:format(webp):quality(85)/16118342_1_1_221005_121838-w1920-h1280",
       "url": "https://www.domain.com.au/unit-46-85-herdsman-pde-wembley-wa-6014-18183314",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.933648,
       "lng": 115.814809,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18188029,
@@ -697,11 +700,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/8P7KsVkQ8O15PIPhFuuGpILZPjM=/720x540/filters:format(webp):quality(85)/18188029_1_1_260626_014401-w1536-h1024",
       "url": "https://www.domain.com.au/17-237-cambridge-street-wembley-wa-6014-18188029",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.940742,
       "lng": 115.80991,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18198133,
@@ -719,11 +722,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/EVXuc4O6ch4pJYw9mkUPWu_ofNg=/720x540/filters:format(webp):quality(85)/18198133_1_1_260702_054416-w1179-h769",
       "url": "https://www.domain.com.au/contact-agent-contact-agent-mount-lawley-wa-6050-18198133",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.928198,
       "lng": 115.876771,
-      "dateAdded": "2026-07-03"
+      "dateAdded": "2026-07-03",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18187354,
@@ -741,33 +744,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/hS5CVhSRmpQBbh4jJLVXx928Koo=/720x540/filters:format(webp):quality(85)/18187354_1_1_260625_080517-w800-h533",
       "url": "https://www.domain.com.au/1-3-dodd-street-wembley-wa-6014-18187354",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.924712,
       "lng": 115.819532,
-      "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 13661754,
-      "address": "4/12 Fogerthorpe Crescent, Maylands WA 6051",
-      "suburb": "Maylands",
-      "beds": 3,
-      "baths": 1,
-      "cars": 1,
-      "area": 251,
-      "propertyType": "Villa",
-      "price": "$670 per week",
-      "priceValue": 670,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/GUdn9mxBcW7OmK-BNBZ3yL6T9b4=/720x540/filters:format(webp):quality(85)/13661754_1_1_191111_040530-w640-h480",
-      "url": "https://www.domain.com.au/4-12-fogerthorpe-crescent-maylands-wa-6051-13661754",
+      "dateAdded": "2026-06-26",
       "pets": false,
-      "courtyard": false,
-      "lat": -31.938652,
-      "lng": 115.900813,
-      "dateAdded": "2026-07-04"
+      "courtyard": false
     },
     {
       "id": 14740960,
@@ -780,7 +761,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$675 per week",
       "priceValue": 675,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/rqIsQyaSqLERc4i4DYLuqM2UY54=/720x540/filters:format(webp):quality(85)/14740960_1_1_220916_020954-w800-h533",
@@ -807,11 +788,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/l0g2LGOwDNTa6UWo1ga8yOvOT6k=/720x540/filters:format(webp):quality(85)/17717204_1_1_250815_020911-w1920-h1280",
       "url": "https://www.domain.com.au/3-34-cunningham-terrace-daglish-wa-6008-18180776",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.954384,
       "lng": 115.807473,
-      "dateAdded": "2026-06-30"
+      "dateAdded": "2026-06-30",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18193920,
@@ -829,11 +810,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/9b_5SRdb-hR2xJkPx0Y11a_TFeo=/720x540/filters:format(webp):quality(85)/15836373_1_1_220413_045124-w800-h600",
       "url": "https://www.domain.com.au/8-266-cambridge-street-wembley-wa-6014-18193920",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.940742,
       "lng": 115.80991,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 13875744,
@@ -856,6 +837,28 @@
       "lat": -31.979573,
       "lng": 115.812716,
       "dateAdded": "2026-06-26"
+    },
+    {
+      "id": 18201004,
+      "address": "Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 2,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Villa",
+      "price": "$690 per week",
+      "priceValue": 690,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/pRuFPc5U8l16FOnmSYiZh0AKQEY=/720x540/filters:format(webp):quality(85)/18201004_1_1_260705_032429-w1920-h1440",
+      "url": "https://www.domain.com.au/subiaco-wa-6008-18201004",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.952393,
+      "lng": 115.822863,
+      "dateAdded": "2026-07-06"
     },
     {
       "id": 18176523,
@@ -944,31 +947,6 @@
       "lat": -32.005311,
       "lng": 115.754055,
       "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 18198499,
-      "address": "121/15 Aberdeen Street, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$700 per week",
-      "priceValue": 700,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-06T12:00:00",
-        "close": "2026-07-06T12:15:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/_CPUGPMnRsKQl1y9OTsVbmaWkgM=/720x540/filters:format(webp):quality(85)/18198499_1_1_260702_070905-w1292-h864",
-      "url": "https://www.domain.com.au/121-15-aberdeen-street-perth-wa-6000-18198499",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.947815,
-      "lng": 115.861799,
-      "dateAdded": "2026-07-04"
     },
     {
       "id": 18141067,
@@ -1072,7 +1050,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$750 per week",
       "priceValue": 750,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/OqYhyICCxRHB4qIrMfT8wej_2WE=/720x540/filters:format(webp):quality(85)/16646232_1_1_230907_064036-w3000-h2000",
@@ -1143,55 +1121,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/O5iefLJFrBh-4G1pI3Fr4yqh4Fw=/720x540/filters:format(webp):quality(85)/18183152_1_1_260623_065956-w1200-h750",
       "url": "https://www.domain.com.au/9a-49-herdsman-parade-wembley-wa-6014-18183152",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931373,
       "lng": 115.80939,
-      "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 18167105,
-      "address": "Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/y66s4mJWN8mWoVhbwxFwXyMak6M=/720x540/filters:format(webp):quality(85)/18167105_1_1_260612_061732-w6742-h3792",
-      "url": "https://www.domain.com.au/perth-wa-6000-18167105",
+      "dateAdded": "2026-06-26",
       "pets": false,
-      "courtyard": false,
-      "lat": -31.951806,
-      "lng": 115.859537,
-      "dateAdded": "2026-06-29"
-    },
-    {
-      "id": 18171469,
-      "address": "17/996 Hay Street, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$760 per week",
-      "priceValue": 760,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/LOLvW6TuzSGIIhF7cOqtx_HlAZc=/720x540/filters:format(webp):quality(85)/18171469_1_1_260616_044834-w4000-h2667",
-      "url": "https://www.domain.com.au/17-996-hay-street-perth-wa-6000-18171469",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.951276,
-      "lng": 115.850262,
-      "dateAdded": "2026-06-29"
+      "courtyard": false
     },
     {
       "id": 18168786,
@@ -1238,28 +1172,6 @@
       "dateAdded": "2026-06-26"
     },
     {
-      "id": 18148981,
-      "address": "30/134 Aberdeen St, Northbridge WA 6003",
-      "suburb": "Northbridge",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$780 per week",
-      "priceValue": 780,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/aGzuRIr1-urDRo1JV-BCA1MMm-M=/720x540/filters:format(webp):quality(85)/18148981_1_1_260603_020751-w768-h512",
-      "url": "https://www.domain.com.au/30-134-aberdeen-st-northbridge-wa-6003-18148981",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.946057,
-      "lng": 115.857942,
-      "dateAdded": "2026-06-29"
-    },
-    {
       "id": 18188696,
       "address": "8/6 Field Street, Mount Lawley WA 6050",
       "suburb": "Mount Lawley",
@@ -1275,11 +1187,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/B3FMa51TAjhRXIrQzJlJpagWw70=/720x540/filters:format(webp):quality(85)/18188696_8_1_260626_045427-w2000-h1333",
       "url": "https://www.domain.com.au/8-6-field-street-mount-lawley-wa-6050-18188696",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.932593,
       "lng": 115.872107,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17110996,
@@ -1297,11 +1209,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/UyDEAQ8zy7B8uiDOSykMIoot388=/720x540/filters:format(webp):quality(85)/12810909_9_1_181221_012543-w4000-h2667",
       "url": "https://www.domain.com.au/18-harold-street-mount-lawley-wa-6050-17110996",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.938688,
       "lng": 115.872718,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18164960,
@@ -1363,11 +1275,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/E4UE85-pxQrl-oMh3vNkZ4vjsPM=/720x540/filters:format(webp):quality(85)/18195900_1_1_260702_022239-w950-h633",
       "url": "https://www.domain.com.au/8-263-cambridge-st-wembley-wa-6014-18195900",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.940811,
       "lng": 115.811358,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18194848,
@@ -1390,28 +1302,6 @@
       "lat": -31.943253,
       "lng": 115.821613,
       "dateAdded": "2026-07-01"
-    },
-    {
-      "id": 17422138,
-      "address": "22/2 Mayfair Street, West Perth WA 6005",
-      "suburb": "West Perth",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$825 per week",
-      "priceValue": 825,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/xhvzSlvYnVS-5L7p9FEJp9WX-uw=/720x540/filters:format(webp):quality(85)/17422138_1_1_260616_080700-w1024-h768",
-      "url": "https://www.domain.com.au/22-2-mayfair-street-west-perth-wa-6005-17422138",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.948484,
-      "lng": 115.84331,
-      "dateAdded": "2026-06-26"
     },
     {
       "id": 18179820,
@@ -1536,10 +1426,7 @@
       "priceValue": 850,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:00:00",
-        "close": "2026-07-04T13:20:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/oSxaLkssS_8-ePAT58seiN1oQ00=/720x540/filters:format(webp):quality(85)/18199796_1_1_260703_032114-w1920-h1280",
       "url": "https://www.domain.com.au/1-32-scalby-street-scarborough-wa-6019-18199796",
       "pets": false,
@@ -1586,11 +1473,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kh8Tba1eDDx_nZmDeEjNLO-nCoM=/720x540/filters:format(webp):quality(85)/18198218_1_1_260702_060408-w2351-h1567",
       "url": "https://www.domain.com.au/4-602-beaufort-street-mount-lawley-wa-6050-18198218",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.928973,
       "lng": 115.876836,
-      "dateAdded": "2026-07-03"
+      "dateAdded": "2026-07-03",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18174118,
@@ -1608,33 +1495,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U43gb66JWinN3rUv-7UnH8FixZM=/720x540/filters:format(webp):quality(85)/18157379_1_1_260605_072902-w1200-h900",
       "url": "https://www.domain.com.au/169a-jersey-st-wembley-wa-6014-18174118",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.933898,
       "lng": 115.811729,
-      "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 17644462,
-      "address": "2/492 William Street, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Townhouse",
-      "price": "$895 per week",
-      "priceValue": 895,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/0NZdGsKF6BYewiBjWH89IsWQuSg=/720x540/filters:format(webp):quality(85)/17644462_1_1_250630_022844-w796-h542",
-      "url": "https://www.domain.com.au/2-492-william-street-perth-wa-6000-17644462",
+      "dateAdded": "2026-06-26",
       "pets": false,
-      "courtyard": true,
-      "lat": -31.951862,
-      "lng": 115.857777,
-      "dateAdded": "2026-07-04"
+      "courtyard": false
     },
     {
       "id": 18198337,
@@ -1652,11 +1517,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/L7zGKqXeiFASLvICiITAWPzm3lI=/720x540/filters:format(webp):quality(85)/18198337_1_1_260702_062918-w2000-h1331",
       "url": "https://www.domain.com.au/7-1-fourth-avenue-mount-lawley-wa-6050-18198337",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.927645,
       "lng": 115.881852,
-      "dateAdded": "2026-07-03"
+      "dateAdded": "2026-07-03",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18200107,
@@ -1725,28 +1590,6 @@
       "dateAdded": "2026-06-26"
     },
     {
-      "id": 18198629,
-      "address": "209/2 Wembley Court, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 2,
-      "baths": 2,
-      "cars": 2,
-      "area": 129,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$900 per week",
-      "priceValue": 900,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/pjqvupNwcTVDJS7z5FkD_GDTj_A=/720x540/filters:format(webp):quality(85)/17030480_1_1_240524_015740-w1920-h1280",
-      "url": "https://www.domain.com.au/209-2-wembley-court-subiaco-wa-6008-18198629",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.946406,
-      "lng": 115.817687,
-      "dateAdded": "2026-07-03"
-    },
-    {
       "id": 18188196,
       "address": "38 Nanson Street, Wembley WA 6014",
       "suburb": "Wembley",
@@ -1762,11 +1605,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/U3lQiGigz6N-w6if7kOPVHtxqrk=/720x540/filters:format(webp):quality(85)/18188196_1_1_260626_023816-w2000-h1336",
       "url": "https://www.domain.com.au/38-nanson-street-wembley-wa-6014-18188196",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.939058,
       "lng": 115.815226,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18119849,
@@ -1784,11 +1627,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/CN_mFUJSPDwYV58dYlGtnbnNbMc=/720x540/filters:format(webp):quality(85)/18119849_1_1_260514_051907-w3252-h2160",
       "url": "https://www.domain.com.au/69-mary-street-highgate-wa-6003-18119849",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.938383,
       "lng": 115.869415,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18188856,
@@ -1853,33 +1696,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/_o7u9VRV-ejZAnnSPgFe5GjJ62c=/720x540/filters:format(webp):quality(85)/17130726_1_1_240725_054450-w1920-h1280",
       "url": "https://www.domain.com.au/32-bath-st-wembley-wa-6014-17130726",
-      "pets": true,
-      "courtyard": false,
       "lat": -31.928661,
       "lng": 115.815033,
-      "dateAdded": "2026-07-01"
-    },
-    {
-      "id": 15812724,
-      "address": "607/78 Stirling Street, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$950 per week",
-      "priceValue": 950,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/VmMNXs73tOjaNYDYCxC_5cFCwAE=/720x540/filters:format(webp):quality(85)/15812724_1_1_260624_062034-w2048-h1365",
-      "url": "https://www.domain.com.au/607-78-stirling-street-perth-wa-6000-15812724",
+      "dateAdded": "2026-07-01",
       "pets": true,
-      "courtyard": false,
-      "lat": -31.948147,
-      "lng": 115.865107,
-      "dateAdded": "2026-06-29"
+      "courtyard": false
     },
     {
       "id": 18139108,
@@ -1897,11 +1718,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/DwAwrcibFYsF9yH3UaKmRgVrETA=/720x540/filters:format(webp):quality(85)/16719334_1_1_231029_100755-w1364-h912",
       "url": "https://www.domain.com.au/105-walcott-street-mount-lawley-wa-6050-18139108",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.932598,
       "lng": 115.869988,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 15994852,
@@ -2061,31 +1882,6 @@
       "dateAdded": "2026-07-04"
     },
     {
-      "id": 18193746,
-      "address": "Level 14, 92/22 St Georges Terrace, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$1000 per week",
-      "priceValue": 1000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-07T12:30:00",
-        "close": "2026-07-07T12:45:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/UebMrG_aaZFlaLP4wCBPy_BHYgE=/720x540/filters:format(webp):quality(85)/17624605_1_1_250617_023932-w1000-h751",
-      "url": "https://www.domain.com.au/level-14-92-22-st-georges-terrace-perth-wa-6000-18193746",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.951806,
-      "lng": 115.859537,
-      "dateAdded": "2026-07-01"
-    },
-    {
       "id": 18178626,
       "address": "271 Scarborough Beach Road, Doubleview WA 6018",
       "suburb": "Doubleview",
@@ -2126,11 +1922,11 @@
       },
       "image": "https://rimh2.domainstatic.com.au/lzjjFMAIaGkkIC1LL0oosKuae14=/720x540/filters:format(webp):quality(85)/16965107_4_1_240411_085726-w4000-h2667",
       "url": "https://www.domain.com.au/6-fourth-avenue-mount-lawley-wa-6050-16965107",
-      "pets": true,
-      "courtyard": false,
       "lat": -31.927645,
       "lng": 115.881852,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 18191680,
@@ -2173,11 +1969,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Sga8O6is8xQAxrR3gJ-CVox5Ntc=/720x540/filters:format(webp):quality(85)/18158095_6_1_260608_022143-w1200-h800",
       "url": "https://www.domain.com.au/85-derby-road-shenton-park-wa-6008-18158095",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.958064,
       "lng": 115.814675,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17223445,
@@ -2261,11 +2057,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/gsUHKDxc_zksI7N5ug3LCz7_qlw=/720x540/filters:format(webp):quality(85)/10847129_1_1_231006_081607-w1740-h1145",
       "url": "https://www.domain.com.au/113-fifth-avenue-mount-lawley-wa-6050-10847129",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.927666,
       "lng": 115.883448,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 18189544,
@@ -2327,11 +2123,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/j8OJ32GKdIjz6sMoIh8dIaKel88=/720x540/filters:format(webp):quality(85)/18166851_1_1_260612_052141-w1365-h909",
       "url": "https://www.domain.com.au/96-marlow-street-wembley-wa-6014-18166851",
-      "pets": true,
-      "courtyard": false,
       "lat": -31.931742,
       "lng": 115.807803,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 17769644,
@@ -2586,7 +2382,7 @@
       "propertyType": "House",
       "price": "$1350 per week",
       "priceValue": 1350,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/-0HB_5B3J8gQAk0yoXzivWLxSLs=/720x540/filters:format(webp):quality(85)/18196524_1_1_260701_090124-w1200-h800",
@@ -2726,11 +2522,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/0eZamWnHrXqWgLtbzGuGndTVFg8=/720x540/filters:format(webp):quality(85)/18112762_1_1_260511_025848-w1024-h683",
       "url": "https://www.domain.com.au/113-third-avenue-mount-lawley-wa-6050-18112762",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.931227,
       "lng": 115.883879,
-      "dateAdded": "2026-06-29"
+      "dateAdded": "2026-06-29",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 13713147,
@@ -2787,7 +2583,7 @@
       "propertyType": "House",
       "price": "$1450 per week",
       "priceValue": 1450,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/182-e_IT4wRQgQX7_Fhv-bbix9Y=/720x540/filters:format(webp):quality(85)/16929201_1_1_240318_074120-w1560-h872",
@@ -2834,7 +2630,7 @@
       "isNew": true,
       "underOffer": false,
       "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/f-50V_XFhW16Q1Y64Ay6PSRZP2E=/720x540/filters:format(webp):quality(85)/18200594_1_1_260703_071135-w4000-h2667",
+      "image": "https://rimh2.domainstatic.com.au/tuU4zwrl11sP7uWOUlW-hFwv6GI=/720x540/filters:format(webp):quality(85)/18200594_1_1_260705_011411-w4000-h2667",
       "url": "https://www.domain.com.au/77-evandale-street-floreat-wa-6014-18200594",
       "pets": false,
       "courtyard": false,
@@ -2949,11 +2745,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/G9QNVTCtYFX5WH3wRUe6KZ_NBk0=/720x540/filters:format(webp):quality(85)/18183228_1_1_260623_071904-w2000-h1334",
       "url": "https://www.domain.com.au/38-rosebery-street-jolimont-wa-6014-18183228",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.946356,
       "lng": 115.809473,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 17831475,
@@ -3037,11 +2833,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/K1dCm6WxUQg-4S-a9K6pqAu48xo=/720x540/filters:format(webp):quality(85)/17517115_1_1_250404_073819-w1920-h1280",
       "url": "https://www.domain.com.au/9-essex-st-wembley-wa-6014-17517115",
-      "pets": true,
-      "courtyard": false,
       "lat": -31.937697,
       "lng": 115.816408,
-      "dateAdded": "2026-06-26"
+      "dateAdded": "2026-06-26",
+      "pets": true,
+      "courtyard": false
     },
     {
       "id": 18178217,
@@ -3079,12 +2875,9 @@
       "propertyType": "House",
       "price": "$1900 per week",
       "priceValue": 1900,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T14:15:00",
-        "close": "2026-07-04T14:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/OLOM0ZqfBk50sf1ZHlvld_w5Dlc=/720x540/filters:format(webp):quality(85)/18197714_1_1_260702_035828-w1200-h697",
       "url": "https://www.domain.com.au/20-sherwood-road-dalkeith-wa-6009-18197714",
       "pets": false,
@@ -3153,11 +2946,11 @@
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/TS0X0AcICmfq8pGPhtU_nHgNYNc=/720x540/filters:format(webp):quality(85)/18084420_1_1_260421_071147-w1200-h900",
       "url": "https://www.domain.com.au/24-violet-grove-shenton-park-wa-6008-18084420",
-      "pets": false,
-      "courtyard": false,
       "lat": -31.962746,
       "lng": 115.813777,
-      "dateAdded": "2026-07-01"
+      "dateAdded": "2026-07-01",
+      "pets": false,
+      "courtyard": false
     },
     {
       "id": 16913453,
@@ -3555,26 +3348,6 @@
       "dateAdded": "2026-06-29"
     },
     {
-      "id": 2020922772,
-      "address": "3/27 Adair Parade, Coolbinia WA 6050",
-      "suburb": "Coolbinia",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": 154,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "From $749K",
-      "priceValue": 749000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/Pjk9oFJOjD8oGEgMACwmy9nL8yI=/720x540/filters:format(webp):quality(85)/2020922772_1_1_260617_052836-w4000-h2667",
-      "url": "https://www.domain.com.au/3-27-adair-parade-coolbinia-wa-6050-2020922772",
-      "lat": -31.917601,
-      "lng": 115.856157,
-      "dateAdded": "2026-07-01"
-    },
-    {
       "id": 2020935717,
       "address": "10/48 Austin Street, Shenton Park WA 6008",
       "suburb": "Shenton Park",
@@ -3685,7 +3458,7 @@
       "propertyType": "House",
       "price": "High $1m's",
       "priceValue": 1000000,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/f3SaWUT06GBDJ3H3G_c2KAGVjws=/720x540/filters:format(webp):quality(85)/2020964026_1_1_260701_085918-w1920-h1280",
@@ -3781,29 +3554,6 @@
       "dateAdded": "2026-06-29"
     },
     {
-      "id": 2020964049,
-      "address": "8 Lane Street, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 2,
-      "baths": 1,
-      "cars": null,
-      "area": null,
-      "propertyType": "House",
-      "price": "Offers from $1.275M",
-      "priceValue": 1275000,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T11:00:00",
-        "close": "2026-07-05T11:40:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/fM2tZyktaxT9rVdJLrfO4miDnhs=/720x540/filters:format(webp):quality(85)/2020964049_1_1_260701_090821-w4000-h2667",
-      "url": "https://www.domain.com.au/8-lane-street-perth-wa-6000-2020964049",
-      "lat": -31.942431,
-      "lng": 115.864458,
-      "dateAdded": "2026-07-02"
-    },
-    {
       "id": 2020842192,
       "address": "21/34 Marine Parade, Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -3836,10 +3586,7 @@
       "priceValue": 1595000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:45:00",
-        "close": "2026-07-04T14:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/IX5YtABuylu6__QwhC3GUFbXkoI=/720x540/filters:format(webp):quality(85)/16403511_11_1_260605_062229-w2048-h1368",
       "url": "https://www.domain.com.au/104-denis-street-subiaco-wa-6008-2020900460",
       "lat": -31.950084,
@@ -4059,10 +3806,7 @@
       "priceValue": 2000000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T10:00:00",
-        "close": "2026-07-05T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/A0k99pIesWgK3Efu-B-rDHJolfM=/720x540/filters:format(webp):quality(85)/2020843222_1_1_260514_065338-w1200-h800",
       "url": "https://www.domain.com.au/94-brookdale-street-floreat-wa-6014-2020843222",
       "lat": -31.942671,
@@ -4082,10 +3826,7 @@
       "priceValue": 2000000,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T11:00:00",
-        "close": "2026-07-05T12:00:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YV3s-oXkP0KIo44qIqoi9CWwdkA=/720x540/filters:format(webp):quality(85)/2020957053_1_1_260630_054359-w4096-h2733",
       "url": "https://www.domain.com.au/303-17-19-louise-street-nedlands-wa-6009-2020957053",
       "lat": -31.984308,
@@ -4105,10 +3846,7 @@
       "priceValue": 2000000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:00:00",
-        "close": "2026-07-04T13:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/923bxzKnNiZm2cauWvF2kV2wl3w=/720x540/filters:format(webp):quality(85)/2020692735_7_1_260619_074729-w1800-h1200",
       "url": "https://www.domain.com.au/5-130-waratah-avenue-dalkeith-wa-6009-2020692735",
       "lat": -31.994782,
@@ -4829,12 +4567,9 @@
       "propertyType": "House",
       "price": "FIRST TIME OFFERED",
       "priceValue": null,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T14:30:00",
-        "close": "2026-07-04T15:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/VgzsW9byRv6He0NTSrznBjEQnYE=/720x540/filters:format(webp):quality(85)/2020965916_1_1_260702_040414-w1920-h1111",
       "url": "https://www.domain.com.au/8-kennedia-lane-mount-claremont-wa-6010-2020965916",
       "lat": -31.969435,
@@ -4854,10 +4589,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T11:00:00",
-        "close": "2026-07-05T11:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/V3jyul3WrSRLsDLZXG3aI7lEWsg=/720x540/filters:format(webp):quality(85)/2020966220_1_1_260702_050756-w1920-h1280",
       "url": "https://www.domain.com.au/12-20-sadka-lane-shenton-park-wa-6008-2020966220",
       "lat": -31.953941,
@@ -4877,7 +4609,10 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-07T17:00:00",
+        "close": "2026-07-07T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/yDv47pbBY77VWrZQ-znwfusHpVc=/720x540/filters:format(webp):quality(85)/2020969645_1_1_260703_030139-w6000-h4000",
       "url": "https://www.domain.com.au/11-28-forrest-street-subiaco-wa-6008-2020969645",
       "lat": -31.947877,
@@ -5780,10 +5515,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T14:30:00",
-        "close": "2026-07-04T15:00:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vIDFX5qSiF7tiMwK_MwHAMx09WI=/720x540/filters:format(webp):quality(85)/2020878273_1_1_260528_094014-w1244-h829",
       "url": "https://www.domain.com.au/98a-grant-street-cottesloe-wa-6011-2020878273",
       "lat": -31.986534,
@@ -5803,10 +5535,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T11:00:00",
-        "close": "2026-07-05T11:45:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/TnoZEB6Llz16uJJQEFrAaC562Sw=/720x540/filters:format(webp):quality(85)/2020936624_13_1_260625_063232-w6000-h4000",
       "url": "https://www.domain.com.au/44-florence-street-cottesloe-wa-6011-2020936624",
       "lat": -31.988559,
@@ -6066,10 +5795,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T14:00:00",
-        "close": "2026-07-04T14:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/PgfNWB6tMZ43DsBlCT0o_NDxECI=/720x540/filters:format(webp):quality(85)/2020940207_1_1_260624_045021-w2351-h1567",
       "url": "https://www.domain.com.au/47-evandale-street-floreat-wa-6014-2020940207",
       "lat": -31.943105,
@@ -6089,10 +5815,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-05T12:30:00",
-        "close": "2026-07-05T13:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/XoeRYTRTeeudqXKsC6OKapcxkWU=/720x540/filters:format(webp):quality(85)/2020970364_1_1_260703_062211-w3024-h3186",
       "url": "https://www.domain.com.au/4-12-hazel-avenue-woodlands-wa-6018-2020970364",
       "lat": -31.9011,
@@ -6332,10 +6055,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:45:00",
-        "close": "2026-07-04T14:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/Bvms19PpWYBvr6F28pWqSUWe4JI=/720x540/filters:format(webp):quality(85)/2020941560_1_1_260624_085921-w6000-h4000",
       "url": "https://www.domain.com.au/55-archdeacon-street-nedlands-wa-6009-2020941560",
       "lat": -31.983559,
@@ -6555,10 +6275,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:30:00",
-        "close": "2026-07-04T14:00:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/nG03ksjla7VaVjv8Sui1XKTlHJM=/720x540/filters:format(webp):quality(85)/2020897098_2_1_260605_042637-w6000-h4000",
       "url": "https://www.domain.com.au/89-birdwood-parade-dalkeith-wa-6009-2020897098",
       "lat": -31.999592,
@@ -6614,11 +6331,14 @@
       "cars": 2,
       "area": 802,
       "propertyType": "House",
-      "price": "AUCTION ON SITE SAT 25TH JUL 9AM",
+      "price": "AUCTION ON SITE SAT 11TH JUL 10AM",
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-08T17:15:00",
+        "close": "2026-07-08T18:00:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/-e0tsRQYf3TLFwYGrKb147H6AuM=/720x540/filters:format(webp):quality(85)/2020940848_1_1_260624_062133-w9324-h6216",
       "url": "https://www.domain.com.au/11-hotchin-street-dalkeith-wa-6009-2020940848",
       "lat": -31.990802,
@@ -6639,8 +6359,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-04T13:00:00",
-        "close": "2026-07-04T13:40:00"
+        "open": "2026-07-06T17:15:00",
+        "close": "2026-07-06T18:00:00"
       },
       "image": "https://rimh2.domainstatic.com.au/AtUaIOFN_jkaILY0gEQgx4dTuzE=/720x540/filters:format(webp):quality(85)/2020943177_1_1_260625_030325-w4000-h2667",
       "url": "https://www.domain.com.au/37-browne-avenue-dalkeith-wa-6009-2020943177",
@@ -6901,10 +6621,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:00:00",
-        "close": "2026-07-04T14:00:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/RofZukcObQp0ArsjtIct9uIQq3s=/720x540/filters:format(webp):quality(85)/2020937880_1_1_260623_082821-w4000-h2667",
       "url": "https://www.domain.com.au/27-york-street-subiaco-wa-6008-2020937880",
       "lat": -31.946569,
@@ -6924,10 +6641,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-04T13:15:00",
-        "close": "2026-07-04T13:45:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/E9voWp8NWjrJCjHkfxrEE3niSqE=/720x540/filters:format(webp):quality(85)/2020937887_1_1_260623_083122-w3840-h2560",
       "url": "https://www.domain.com.au/52-hamersley-road-subiaco-wa-6008-2020937887",
       "lat": -31.952232,
@@ -7958,26 +7672,6 @@
       "url": "https://www.domain.com.au/30-34-smith-street-highgate-wa-6003-2020890435",
       "lat": -31.938876,
       "lng": 115.87276,
-      "dateAdded": "2026-06-29"
-    },
-    {
-      "id": 2020951885,
-      "address": "1709/11 Barrack Square, Perth WA 6000",
-      "suburb": "Perth",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": 78,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "UNDER OFFER BY BRENDON HABAK & SURIN KAUR",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": true,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/Dj6nD2jXRUB3zR81N4CXI-pnmr0=/720x540/filters:format(webp):quality(85)/2020013414_3_1_250522_115959-w2000-h1333",
-      "url": "https://www.domain.com.au/1709-11-barrack-square-perth-wa-6000-2020951885",
-      "lat": -31.959705,
-      "lng": 115.858422,
       "dateAdded": "2026-06-29"
     },
     {
