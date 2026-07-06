@@ -14,9 +14,7 @@
     { "suburb": "Shenton Park",    "postCode": "6008", "state": "WA" },
     { "suburb": "Daglish",         "postCode": "6008", "state": "WA" },
     { "suburb": "Jolimont",        "postCode": "6014", "state": "WA" },
-    { "suburb": "Wembley",         "postCode": "6014", "state": "WA" },
-    { "suburb": "Highgate",        "postCode": "6003", "state": "WA" },
-    { "suburb": "Mount Lawley",    "postCode": "6050", "state": "WA" }
+    { "suburb": "Wembley",         "postCode": "6014", "state": "WA" }
   ],
   "includeSurroundingSuburbs": false,
   "minRent": 500,

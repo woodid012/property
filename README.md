@@ -2,8 +2,8 @@
 
 A small website for browsing **rentals and homes for sale** around
 Lake Claremont / Mount Claremont, WA — Claremont, Swanbourne, Cottesloe, Floreat,
-Nedlands, Dalkeith, Subiaco, Shenton Park, Daglish, Jolimont, Wembley, plus
-Highgate and Mount Lawley. Built to share with family.
+Nedlands, Dalkeith, Subiaco, Shenton Park, Daglish, Jolimont, Wembley. Built to
+share with family.
 
 Rentals are filtered to a minimum weekly rent and **exclude furnished homes**
 (see `minRent` / `excludeFurnished` in `config.json`). The same suburb list is
