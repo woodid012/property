@@ -1,5 +1,13 @@
 {
   "rewrites": [
     { "source": "/(rent|buy|map|favourites|favorites|favs|hidden)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/data/listings.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
   ]
 }

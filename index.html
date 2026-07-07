@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4f5f8">
+<link rel="preconnect" href="https://rimh2.domainstatic.com.au">
 <title>Mum's Property Search — Mount Claremont &amp; Nearby</title>
 <style>
   :root {
@@ -25,6 +27,12 @@
 
   .tabs { display: flex; gap: 6px; margin: 16px 0 12px; flex-wrap: wrap;
     position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 8px 0; }
+  @media (max-width: 640px){
+    /* one scrollable row on phones instead of a two-row wrap under the sticky bar */
+    .tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab { flex: 0 0 auto; }
+  }
   .tab {
     flex: 1 1 auto; min-width: 86px; padding: 11px 10px; border: none; border-radius: 12px;
     background: #e9ebf1; color: #3a4252; font-size: 0.95rem; font-weight: 600; cursor: pointer;
@@ -48,6 +56,14 @@
     font-size: 0.88rem; font-weight: 600; color: #3a4252; cursor: pointer;
     font-family: inherit; -webkit-appearance: none; appearance: none;
   }
+  .search {
+    padding: 9px 14px; border: 1px solid #d5dae4; border-radius: 999px; background: #fff;
+    font-size: 0.88rem; color: var(--ink); font-family: inherit; width: 170px;
+    -webkit-appearance: none; appearance: none;
+  }
+  .search:focus { outline: 2px solid var(--rent); outline-offset: -1px; }
+  .buy .search:focus { outline-color: var(--buy); }
+  @media (max-width: 640px){ .search { width: 100%; order: -1; } }
   .filters-toggle {
     display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px;
     border: 1px solid #d5dae4; border-radius: 999px; background: #fff;
@@ -107,10 +123,12 @@
     display: flex; flex-direction: column;
     box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 4px rgba(16,24,40,.08);
     transition: box-shadow .15s, transform .15s;
+    content-visibility: auto; contain-intrinsic-size: auto 340px;
   }
   .card:hover { box-shadow: 0 10px 28px rgba(16,24,40,.14); transform: translateY(-2px); }
   .cardlink { display: block; text-decoration: none; color: inherit; }
-  .photo { position: relative; height: 190px; background-size: cover; background-position: center; background-color: #e7ebf2; }
+  .photo { position: relative; aspect-ratio: 3 / 2; max-height: 230px; background: #e7ebf2; overflow: hidden; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .photo.ph { display: flex; align-items: center; justify-content: center;
     background: linear-gradient(135deg, #dfe6f0, #eef1f6); }
   .photo.ph .ico { font-size: 2.6rem; opacity: .5; }
@@ -195,6 +213,7 @@
     <div class="bar">
       <span class="resultcount" id="rent-resultcount"></span>
       <span class="bar-actions">
+        <input class="search" type="search" data-q="rent" placeholder="🔍 Street or suburb" aria-label="Search rentals">
         <select class="sortsel" data-sort="rent" aria-label="Sort rentals">
           <option value="new">Newest added</option>
           <option value="priceup">Price ↑</option>
@@ -249,6 +268,7 @@
     <div class="bar">
       <span class="resultcount" id="buy-resultcount"></span>
       <span class="bar-actions">
+        <input class="search" type="search" data-q="buy" placeholder="🔍 Street or suburb" aria-label="Search listings">
         <select class="sortsel" data-sort="buy" aria-label="Sort listings">
           <option value="new">Newest added</option>
           <option value="priceup">Price ↑</option>
@@ -476,6 +496,13 @@ function setupSubs(kind){
 }
 
 function subMatch(item, kind){ return !SUBS[kind].has(item.suburb || 'Other'); }
+
+/* ---------- quick search (instant, per-tab, not saved) ---------- */
+const Q = { rent: '', buy: '' };
+function qMatch(item, kind){
+  const q = Q[kind]; if (!q) return true;
+  return ((item.address||'') + ' ' + (item.propertyType||'')).toLowerCase().includes(q);
+}
 
 /* ---------- amenity filters (per-device; pets / courtyard / ground floor) ---------- */
 const AMEN_KEY = "mumPropertyAmen";
@@ -707,8 +734,9 @@ function card(item, context){
   const id = item._id;
   const kind = item._kind;
   const hiddenCtx = context === 'hidden';
+  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
   const photo = item.image
-    ? '<div class="photo" style="background-image:url(\''+item.image+'\')">'
+    ? '<div class="photo"><img loading="lazy" decoding="async" src="'+esc(item.image)+'" alt="'+esc(item.address||'')+'">'
     : '<div class="photo ph"><span class="ico">🏡</span>';
   const ptag = '<span class="pricetag '+(kind==="buy"?"buy":"")+'">'+item.price+'</span></div>';
 
@@ -750,7 +778,7 @@ function card(item, context){
 
 function render(kind){
   const r = RANGES[kind];
-  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind) && subMatch(x, kind) && amenMatch(x, kind));
+  const all = (DATA[kind] || []).filter(x => !isHidden(x._id) && bedsMatch(x, kind) && subMatch(x, kind) && amenMatch(x, kind) && qMatch(x, kind));
   const inRange = all.filter(x => x.priceValue != null && x.priceValue >= r.min && x.priceValue <= r.max);
   const noPrice = all.filter(x => x.priceValue == null);
   const shown = sortRows(inRange.concat(noPrice), SORT[kind]);
@@ -923,9 +951,10 @@ function paintUpdated(){
     " at " + d.toLocaleTimeString('en-AU',{hour:'numeric',minute:'2-digit'}) + " · tap any photo for the live listing";
 }
 
-async function loadData(){
-  const res = await fetch((location.protocol === 'file:' ? './' : '/') + 'data/listings.json?t=' + Date.now());
-  DATA = await res.json();
+const DATA_CACHE_KEY = "mumPropertyDataCache";   // last-fetched listings, for instant paint
+
+function bootData(json){
+  DATA = json;
   ['rent','buy'].forEach(k => (DATA[k]||[]).forEach(x => { x._kind = k; x._id = lid(x); }));
   SUBURB_SLUGS.length = 0; FOCUS.clear();
   ((DATA.config && DATA.config.locations) || []).forEach(l => {
@@ -941,9 +970,30 @@ async function loadData(){
   ['rent','buy'].forEach(setupSubs);
   loadAmen();
   ['rent','buy'].forEach(setupAmen);
+  renderAll();
+}
+
+let stateLoaded = false;
+async function loadStateOnce(){
+  if (stateLoaded) return;
+  stateLoaded = true;
   await loadState();
   backfillSnaps();   // capture snapshots for any pre-existing favourites still live
   renderAll();
+}
+
+async function loadData(){
+  // 1. paint instantly from the copy cached on the last visit (if any)
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(DATA_CACHE_KEY)); } catch(e){}
+  if (cached && cached.rent){ bootData(cached); loadStateOnce(); }
+
+  // 2. revalidate — no cache-buster, so an unchanged file is a cheap 304
+  const res = await fetch((location.protocol === 'file:' ? './' : '/') + 'data/listings.json', { cache: 'no-cache' });
+  const fresh = await res.json();
+  try { localStorage.setItem(DATA_CACHE_KEY, JSON.stringify(fresh)); } catch(e){}
+  if (!cached || fresh.generatedAt !== DATA.generatedAt) bootData(fresh);
+  await loadStateOnce();
 }
 
 /* ---------- undo toast ---------- */
@@ -1017,6 +1067,11 @@ document.querySelectorAll('[data-ftoggle]').forEach(b => b.addEventListener('cli
 document.querySelectorAll('[data-sort]').forEach(s => s.addEventListener('change', () => {
   SORT[s.dataset.sort] = s.value;
   render(s.dataset.sort);
+}));
+// instant search — filters as you type (address / property type)
+document.querySelectorAll('[data-q]').forEach(i => i.addEventListener('input', () => {
+  Q[i.dataset.q] = i.value.trim().toLowerCase();
+  render(i.dataset.q);
 }));
 document.querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click', () => {
   const kind = b.dataset.reset, d = defaults(kind);
