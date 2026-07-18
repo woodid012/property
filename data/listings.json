@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T13:02:03.180441+08:00",
+  "generatedAt": "2026-07-18T11:25:17.801902+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -154,28 +154,6 @@
       "courtyard": false
     },
     {
-      "id": 18195428,
-      "address": "7/3 Cullen Street, Shenton Park WA 6008",
-      "suburb": "Shenton Park",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$530 per week",
-      "priceValue": 530,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/iDR4BtP3OPYg9mfaoEuV1ueTwK0=/720x540/filters:format(webp):quality(85)/18195428_1_1_260701_044643-w900-h600",
-      "url": "https://www.domain.com.au/7-3-cullen-street-shenton-park-wa-6008-18195428",
-      "lat": -31.959759,
-      "lng": 115.818644,
-      "dateAdded": "2026-07-02",
-      "pets": false,
-      "courtyard": false
-    },
-    {
       "id": 15704103,
       "address": "3/159 Fairway, Crawley WA 6009",
       "suburb": "Crawley",
@@ -188,10 +166,7 @@
       "priceValue": 550,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/mnUQkPnLTNCwUZO4x62kq5ikDT8=/720x540/filters:format(webp):quality(85)/15704103_2_1_220206_061520-w2048-h1536",
       "url": "https://www.domain.com.au/3-159-fairway-crawley-wa-6009-15704103",
       "pets": false,
@@ -515,6 +490,31 @@
       "courtyard": false
     },
     {
+      "id": 18221828,
+      "address": "8/633 Hay Street, Jolimont WA 6014",
+      "suburb": "Jolimont",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "House",
+      "price": "$675 per week",
+      "priceValue": 675,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-22T17:15:00",
+        "close": "2026-07-22T17:30:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/tonchfpiSIzxQRahyf8rlwbQPeI=/720x540/filters:format(webp):quality(85)/18221828_1_1_260717_070857-w1920-h1280",
+      "url": "https://www.domain.com.au/8-633-hay-street-jolimont-wa-6014-18221828",
+      "pets": true,
+      "courtyard": false,
+      "lat": -31.947594,
+      "lng": 115.81219,
+      "dateAdded": "2026-07-18"
+    },
+    {
       "id": 15851840,
       "address": "5/20 Subiaco Road, Subiaco WA 6008",
       "suburb": "Subiaco",
@@ -537,31 +537,6 @@
       "courtyard": false,
       "lat": -31.943871,
       "lng": 115.828677,
-      "dateAdded": "2026-07-17"
-    },
-    {
-      "id": 18218769,
-      "address": "417/26 Hood Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$680 per week",
-      "priceValue": 680,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-21T16:15:00",
-        "close": "2026-07-21T16:30:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/jq4Xn8fJndYW8S7qATis0ZuZTug=/720x540/filters:format(webp):quality(85)/18218769_1_1_260716_020831-w1200-h800",
-      "url": "https://www.domain.com.au/417-26-hood-street-subiaco-wa-6008-18218769",
-      "pets": true,
-      "courtyard": false,
-      "lat": -31.944254,
-      "lng": 115.82198,
       "dateAdded": "2026-07-17"
     },
     {
@@ -785,28 +760,6 @@
       "dateAdded": "2026-06-26"
     },
     {
-      "id": 18181947,
-      "address": "5/24 Freshwater Parade, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$750 per week",
-      "priceValue": 750,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/VUb82eq0Oajw_SW6IaTteNVN9HY=/720x540/filters:format(webp):quality(85)/2020755240_12_1_260413_030014-w1200-h800",
-      "url": "https://www.domain.com.au/5-24-freshwater-parade-claremont-wa-6010-18181947",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.98541,
-      "lng": 115.779886,
-      "dateAdded": "2026-06-26"
-    },
-    {
       "id": 18204266,
       "address": "5/8 Lilacdale Road, Innaloo WA 6018",
       "suburb": "Innaloo",
@@ -886,16 +839,16 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$750 per week",
       "priceValue": 750,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/olXF4PTMkSpTiRoTYMUMzJu0Bl4=/720x540/filters:format(webp):quality(85)/18203758_1_1_260707_013620-w1200-h800",
+      "image": "https://rimh2.domainstatic.com.au/Zx37fs4A0WydQnCNPESnnfY8PYU=/720x540/filters:format(webp):quality(85)/18203758_1_1_260716_100453-w1659-h1106",
       "url": "https://www.domain.com.au/14a-143-onslow-road-shenton-park-wa-6008-18203758",
+      "pets": false,
+      "courtyard": false,
       "lat": -31.960954,
       "lng": 115.820167,
-      "dateAdded": "2026-07-08",
-      "pets": false,
-      "courtyard": false
+      "dateAdded": "2026-07-08"
     },
     {
       "id": 18201909,
@@ -948,6 +901,78 @@
       "courtyard": false
     },
     {
+      "id": 18222010,
+      "address": "7/13 Ventnor Street, Scarborough WA 6019",
+      "suburb": "Scarborough",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$775 per week",
+      "priceValue": 775,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/I5iompjhXHfMOr7h9TnBox3fQDI=/720x540/filters:format(webp):quality(85)/18222010_1_1_260717_095823-w1600-h1064",
+      "url": "https://www.domain.com.au/7-13-ventnor-street-scarborough-wa-6019-18222010",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.904201,
+      "lng": 115.764456,
+      "dateAdded": "2026-07-18"
+    },
+    {
+      "id": 17422138,
+      "address": "22/2 Mayfair Street, West Perth WA 6005",
+      "suburb": "West Perth",
+      "beds": 2,
+      "baths": 2,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$795 per week",
+      "priceValue": 795,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-21T10:30:00",
+        "close": "2026-07-21T10:45:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/DFWlMYeWcP8PSno93PYJI5tjBsw=/720x540/filters:format(webp):quality(85)/17422138_15_1_260616_080700-w1024-h768",
+      "url": "https://www.domain.com.au/22-2-mayfair-street-west-perth-wa-6005-17422138",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.948484,
+      "lng": 115.84331,
+      "dateAdded": "2026-06-26"
+    },
+    {
+      "id": 18221961,
+      "address": "5/136 Subiaco Road, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": 119,
+      "propertyType": "Townhouse",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-21T17:00:00",
+        "close": "2026-07-21T17:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/c6tlRBswvyHVFAOyoEsr7N2HE4I=/720x540/filters:format(webp):quality(85)/18221961_27_1_260717_084148-w4000-h2667",
+      "url": "https://www.domain.com.au/5-136-subiaco-road-subiaco-wa-6008-18221961",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.943871,
+      "lng": 115.828677,
+      "dateAdded": "2026-07-18"
+    },
+    {
       "id": 18207249,
       "address": "214/5 Shenton Road, Claremont WA 6010",
       "suburb": "Claremont",
@@ -971,28 +996,6 @@
       "lat": -31.980126,
       "lng": 115.781429,
       "dateAdded": "2026-07-11"
-    },
-    {
-      "id": 14285314,
-      "address": "504/6 Baumea Way, Innaloo WA 6018",
-      "suburb": "Innaloo",
-      "beds": 2,
-      "baths": 2,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$800 per week",
-      "priceValue": 800,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/9HVQR9YQEeVM4xUcBHpfq6JavO0=/720x540/filters:format(webp):quality(85)/14285314_1_1_200603_033456-w1440-h960",
-      "url": "https://www.domain.com.au/504-6-baumea-way-innaloo-wa-6018-14285314",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.895316,
-      "lng": 115.80274,
-      "dateAdded": "2026-07-17"
     },
     {
       "id": 18194848,
@@ -1211,10 +1214,7 @@
       "priceValue": 860,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/bXD89XpcPupSV_Ylx6YDf8ChdHY=/720x540/filters:format(webp):quality(85)/18023193_2_1_260506_123319-w1920-h1280",
       "url": "https://www.domain.com.au/2-22-hastings-street-scarborough-wa-6019-18206258",
       "pets": false,
@@ -1591,28 +1591,6 @@
       "dateAdded": "2026-07-11"
     },
     {
-      "id": 18199751,
-      "address": "78 Pearl Parade, Scarborough WA 6019",
-      "suburb": "Scarborough",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": 265,
-      "propertyType": "House",
-      "price": "$1000 per week",
-      "priceValue": 1000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/-u2yirTAVouT8R8R8k3VD0wLViY=/720x540/filters:format(webp):quality(85)/18199751_2_1_260703_030319-w1200-h802",
-      "url": "https://www.domain.com.au/78-pearl-parade-scarborough-wa-6019-18199751",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.887811,
-      "lng": 115.759624,
-      "dateAdded": "2026-07-04"
-    },
-    {
       "id": 18215527,
       "address": "10 Duke Street, Subiaco WA 6008",
       "suburb": "Subiaco",
@@ -1623,7 +1601,7 @@
       "propertyType": "House",
       "price": "$1050 per week",
       "priceValue": 1050,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/mQijqpFdUop9Tfy0Atlx2FoK9mM=/720x540/filters:format(webp):quality(85)/18215527_1_1_260714_062033-w1200-h798",
@@ -1655,28 +1633,6 @@
       "lat": -31.955166,
       "lng": 115.819,
       "dateAdded": "2026-07-17"
-    },
-    {
-      "id": 18191680,
-      "address": "73 Holland Street, Wembley WA 6014",
-      "suburb": "Wembley",
-      "beds": 4,
-      "baths": 1,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$1100 per week",
-      "priceValue": 1100,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/3yrPjCTcgZ7yhO3bgj7d87FJesY=/720x540/filters:format(webp):quality(85)/18191680_1_1_260629_073654-w1200-h800",
-      "url": "https://www.domain.com.au/73-holland-street-wembley-wa-6014-18191680",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.937711,
-      "lng": 115.814074,
-      "dateAdded": "2026-06-30"
     },
     {
       "id": 18218673,
@@ -1726,6 +1682,28 @@
       "dateAdded": "2026-06-26"
     },
     {
+      "id": 18191680,
+      "address": "73 Holland Street, Wembley WA 6014",
+      "suburb": "Wembley",
+      "beds": 4,
+      "baths": 1,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1100 per week",
+      "priceValue": 1100,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/3yrPjCTcgZ7yhO3bgj7d87FJesY=/720x540/filters:format(webp):quality(85)/18191680_1_1_260629_073654-w1200-h800",
+      "url": "https://www.domain.com.au/73-holland-street-wembley-wa-6014-18191680",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.937711,
+      "lng": 115.814074,
+      "dateAdded": "2026-06-30"
+    },
+    {
       "id": 18208202,
       "address": "10/24 Davies Road, Claremont WA 6010",
       "suburb": "Claremont",
@@ -1760,7 +1738,10 @@
       "priceValue": 1150,
       "isNew": false,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-18T13:00:00",
+        "close": "2026-07-18T13:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/OXnSh5vRBxYn27XGj-8Regzc7k4=/720x540/filters:format(webp):quality(85)/17223445_1_1_260402_122013-w1500-h1125",
       "url": "https://www.domain.com.au/2-81-davies-road-claremont-wa-6010-17223445",
       "pets": false,
@@ -1837,6 +1818,28 @@
       "lat": -31.975614,
       "lng": 115.808115,
       "dateAdded": "2026-06-26"
+    },
+    {
+      "id": 17968876,
+      "address": "2/2 Airlie Street, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1200 per week",
+      "priceValue": 1200,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/J5Q4dT1T53ljjuldH1S380-LCo0=/720x540/filters:format(webp):quality(85)/17968876_1_1_260203_121250-w2000-h1333",
+      "url": "https://www.domain.com.au/2-2-airlie-street-claremont-wa-6010-17968876",
+      "pets": false,
+      "courtyard": true,
+      "lat": -31.992411,
+      "lng": 115.769286,
+      "dateAdded": "2026-07-18"
     },
     {
       "id": 17769644,
@@ -1918,8 +1921,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:45:00",
-        "close": "2026-07-18T11:15:00"
+        "open": "2026-07-20T17:00:00",
+        "close": "2026-07-20T17:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/o2LXeQwIePgaK-0o2SZGwDP-Mac=/720x540/filters:format(webp):quality(85)/18126225_2_1_260519_040448-w1920-h1280",
       "url": "https://www.domain.com.au/16b-tyrell-st-nedlands-wa-6009-18126225",
@@ -1943,8 +1946,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:45:00",
-        "close": "2026-07-18T11:15:00"
+        "open": "2026-07-20T17:00:00",
+        "close": "2026-07-20T17:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/fHr3CDgeaOfdBUgw6ONAa3LYbKg=/720x540/filters:format(webp):quality(85)/18188657_1_1_260626_044433-w4000-h2667",
       "url": "https://www.domain.com.au/16c-tyrell-street-nedlands-wa-6009-18188657",
@@ -2012,8 +2015,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:45:00",
-        "close": "2026-07-18T11:15:00"
+        "open": "2026-07-20T17:00:00",
+        "close": "2026-07-20T17:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/XyqvMjWthFlYOfv8t57Ja9C-4JI=/720x540/filters:format(webp):quality(85)/18126221_3_1_260519_040355-w1920-h1280",
       "url": "https://www.domain.com.au/16a-tyrell-st-nedlands-wa-6009-18126221",
@@ -2325,10 +2328,7 @@
       "priceValue": 1500,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-17T14:00:00",
-        "close": "2026-07-17T14:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/N_Q4l5bfSiPI5U_yRHXBfNppoC4=/720x540/filters:format(webp):quality(85)/2020728452_3_1_260401_071231-w5943-h3962",
       "url": "https://www.domain.com.au/12-bulimba-road-nedlands-wa-6009-18183219",
       "pets": false,
@@ -2336,28 +2336,6 @@
       "lat": -31.98361,
       "lng": 115.794036,
       "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 17973071,
-      "address": "22 Rankin Road, Shenton Park WA 6008",
-      "suburb": "Shenton Park",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": 350,
-      "propertyType": "House",
-      "price": "$1500 per week",
-      "priceValue": 1500,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/Flgag5sjk2zGBvPx4VEKHlYliEw=/720x540/filters:format(webp):quality(85)/17973071_1_1_260204_082322-w1920-h1280",
-      "url": "https://www.domain.com.au/22-rankin-road-shenton-park-wa-6008-17973071",
-      "lat": -31.957361,
-      "lng": 115.807883,
-      "dateAdded": "2026-06-26",
-      "pets": false,
-      "courtyard": false
     },
     {
       "id": 17624970,
@@ -2438,10 +2416,7 @@
       "priceValue": 1750,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-17T13:00:00",
-        "close": "2026-07-17T13:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YSzrrSJAOzHZYmP80Hx3Xgvtjx4=/720x540/filters:format(webp):quality(85)/18178217_2_1_260619_061326-w1200-h800",
       "url": "https://www.domain.com.au/103-victoria-avenue-dalkeith-wa-6009-18178217",
       "pets": false,
@@ -2476,6 +2451,31 @@
       "dateAdded": "2026-07-17"
     },
     {
+      "id": 18221948,
+      "address": "6 Columba Place, Peppermint Grove WA 6011",
+      "suburb": "Peppermint Grove",
+      "beds": 5,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "$1800 per week",
+      "priceValue": 1800,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-23T16:30:00",
+        "close": "2026-07-23T16:50:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/vxcQolp87d3qaUB6ioUCHPbqT98=/720x540/filters:format(webp):quality(85)/18221948_1_1_260717_080723-w2368-h1566",
+      "url": "https://www.domain.com.au/6-columba-place-peppermint-grove-wa-6011-18221948",
+      "pets": false,
+      "courtyard": false,
+      "lat": -32.002613,
+      "lng": 115.76277,
+      "dateAdded": "2026-07-18"
+    },
+    {
       "id": 17001673,
       "address": "17 Archdeacon St, Nedlands WA 6009",
       "suburb": "Nedlands",
@@ -2489,8 +2489,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:15:00"
+        "open": "2026-07-22T16:00:00",
+        "close": "2026-07-22T16:15:00"
       },
       "image": "https://rimh2.domainstatic.com.au/G3k0VdySOXBjStpe1hL4-ZoaM_4=/720x540/filters:format(webp):quality(85)/17001673_13_1_240507_020631-w2592-h1728",
       "url": "https://www.domain.com.au/17-archdeacon-st-nedlands-wa-6009-17001673",
@@ -2555,7 +2555,7 @@
       "propertyType": "House",
       "price": "$1975 per week",
       "priceValue": 1975,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/bE_qDSh_i0oyVHSEcpuErvXmgdU=/720x540/filters:format(webp):quality(85)/18215785_1_1_260716_060046-w800-h425",
@@ -2565,50 +2565,6 @@
       "lat": -31.990241,
       "lng": 115.787196,
       "dateAdded": "2026-07-17"
-    },
-    {
-      "id": 18202816,
-      "address": "16 Cross Street, Swanbourne WA 6010",
-      "suburb": "Swanbourne",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": 322,
-      "propertyType": "House",
-      "price": "$2000 per week",
-      "priceValue": 2000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/58YnbC5nK7-sE_BvDEW7bQASDK0=/720x540/filters:format(webp):quality(85)/18202816_1_1_260706_064130-w2000-h1334",
-      "url": "https://www.domain.com.au/16-cross-street-swanbourne-wa-6010-18202816",
-      "pets": false,
-      "courtyard": true,
-      "lat": -31.980506,
-      "lng": 115.763232,
-      "dateAdded": "2026-07-07"
-    },
-    {
-      "id": 18084420,
-      "address": "24 Violet Grove, Shenton Park WA 6008",
-      "suburb": "Shenton Park",
-      "beds": 4,
-      "baths": 3,
-      "cars": 2,
-      "area": null,
-      "propertyType": "House",
-      "price": "$2100 per week",
-      "priceValue": 2100,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/TS0X0AcICmfq8pGPhtU_nHgNYNc=/720x540/filters:format(webp):quality(85)/18084420_1_1_260421_071147-w1200-h900",
-      "url": "https://www.domain.com.au/24-violet-grove-shenton-park-wa-6008-18084420",
-      "lat": -31.962746,
-      "lng": 115.813777,
-      "dateAdded": "2026-07-01",
-      "pets": false,
-      "courtyard": false
     },
     {
       "id": 17356955,
@@ -2845,10 +2801,7 @@
       "priceValue": 800000,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:45:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vY__1pe0gnCSMYx9Ryj0chI50Ck=/720x540/filters:format(webp):quality(85)/2021002506_1_1_260716_074759-w4000-h2667",
       "url": "https://www.domain.com.au/206-19-olive-street-subiaco-wa-6008-2021002510",
       "lat": -31.948013,
@@ -2869,8 +2822,8 @@
       "isNew": true,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T09:00:00",
-        "close": "2026-07-18T09:30:00"
+        "open": "2026-07-18T15:00:00",
+        "close": "2026-07-18T15:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/-KpNEgiZBHmWrA3UWWkA-xh68Wk=/720x540/filters:format(webp):quality(85)/2021003756_1_1_260717_021933-w1920-h1280",
       "url": "https://www.domain.com.au/3-218-ewen-street-woodlands-wa-6018-2021003756",
@@ -2954,10 +2907,7 @@
       "priceValue": 1000000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T12:00:00",
-        "close": "2026-07-18T12:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/f3SaWUT06GBDJ3H3G_c2KAGVjws=/720x540/filters:format(webp):quality(85)/2020964026_1_1_260701_085918-w1920-h1280",
       "url": "https://www.domain.com.au/109-grantham-street-floreat-wa-6014-2020964026",
       "lat": -31.934288,
@@ -3083,10 +3033,7 @@
       "priceValue": 1750000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:40:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/VzwM3CyFLXgKLKTZZc1-7quHpI0=/720x540/filters:format(webp):quality(85)/16512875_33_1_260430_081620-w4000-h2667",
       "url": "https://www.domain.com.au/6-6-john-street-claremont-wa-6010-2020804434",
       "lat": -31.983109,
@@ -3126,10 +3073,7 @@
       "priceValue": 1900000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T09:00:00",
-        "close": "2026-07-18T09:40:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/ykxn8-EMnI77SxO22srBAjaA_AQ=/720x540/filters:format(webp):quality(85)/2020860421_1_1_260521_055553-w4000-h2665",
       "url": "https://www.domain.com.au/swanbourne-wa-6010-2020860421",
       "lat": -31.972904,
@@ -3160,6 +3104,26 @@
       "dateAdded": "2026-06-26"
     },
     {
+      "id": 2020845772,
+      "address": "703/2 Bovell Lane, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "Shore | By Negotiation From $2M",
+      "priceValue": 2000000,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/wqe-q_wuQAIKQF_6KVz64rx3Oqs=/720x540/filters:format(webp):quality(85)/2020845772_1_1_260529_074501-w1600-h1066",
+      "url": "https://www.domain.com.au/703-2-bovell-lane-claremont-wa-6010-2020845772",
+      "lat": -31.982845,
+      "lng": 115.778143,
+      "dateAdded": "2026-06-26"
+    },
+    {
       "id": 2020843222,
       "address": "94 Brookdale Street, Floreat WA 6014",
       "suburb": "Floreat",
@@ -3181,6 +3145,26 @@
       "lat": -31.942671,
       "lng": 115.791798,
       "dateAdded": "2026-06-26"
+    },
+    {
+      "id": 2021005943,
+      "address": "248A Herbert Street, Doubleview WA 6018",
+      "suburb": "Doubleview",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": 314,
+      "propertyType": "House",
+      "price": "Early $2millions",
+      "priceValue": 2000000,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/P9yNYZlRQzaCX9CryGxEraCDv3k=/720x540/filters:format(webp):quality(85)/2021005943_1_1_260718_015740-w1920-h1280",
+      "url": "https://www.domain.com.au/248a-herbert-street-doubleview-wa-6018-2021005943",
+      "lat": -31.889345,
+      "lng": 115.777762,
+      "dateAdded": "2026-07-18"
     },
     {
       "id": 2020692735,
@@ -3218,10 +3202,7 @@
       "priceValue": 2000000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T09:00:00",
-        "close": "2026-07-18T09:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/yRWb3yJZjaT37m9UfyNMcEtzEKY=/720x540/filters:format(webp):quality(85)/2020985804_3_1_260710_011217-w1200-h800",
       "url": "https://www.domain.com.au/242-heytesbury-road-subiaco-wa-6008-2020985804",
       "lat": -31.953996,
@@ -3290,6 +3271,26 @@
       "lat": -31.984308,
       "lng": 115.800072,
       "dateAdded": "2026-07-01"
+    },
+    {
+      "id": 2020806036,
+      "address": "23 Clive Road, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 4,
+      "baths": 3,
+      "cars": 2,
+      "area": 240,
+      "propertyType": "House",
+      "price": "From $2.6m",
+      "priceValue": 2600000,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/IE3useoDNdWDRBu5MVdEfBAmB2g=/720x540/filters:format(webp):quality(85)/2020806036_1_1_260520_032040-w1400-h1189",
+      "url": "https://www.domain.com.au/23-clive-road-cottesloe-wa-6011-2020806036",
+      "lat": -31.988006,
+      "lng": 115.768818,
+      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020825078,
@@ -3364,10 +3365,7 @@
       "priceValue": 2900000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/PrlAsvQ_-RQsYl5n5iaEPNW8Pq8=/720x540/filters:format(webp):quality(85)/2020771668_11_1_260417_052437-w6000-h4003",
       "url": "https://www.domain.com.au/6-64-gallop-road-dalkeith-wa-6009-2020771668",
       "lat": -31.992799,
@@ -3498,29 +3496,6 @@
       "dateAdded": "2026-06-26"
     },
     {
-      "id": 2020890232,
-      "address": "26 Lillian Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 3,
-      "cars": 2,
-      "area": 612,
-      "propertyType": "House",
-      "price": "Offers From $4.85m",
-      "priceValue": 4850000,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T12:00:00",
-        "close": "2026-07-18T12:40:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/6k4uIm7lkoU3KlQXqQG9M43AS4A=/720x540/filters:format(webp):quality(85)/2020890232_36_1_260605_055431-w6000-h4002",
-      "url": "https://www.domain.com.au/26-lillian-street-cottesloe-wa-6011-2020890232",
-      "lat": -32.003019,
-      "lng": 115.757731,
-      "dateAdded": "2026-06-26"
-    },
-    {
       "id": 2020856253,
       "address": "2 Robert Street, Dalkeith WA 6009",
       "suburb": "Dalkeith",
@@ -3534,8 +3509,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:15:00",
-        "close": "2026-07-18T11:00:00"
+        "open": "2026-07-18T12:15:00",
+        "close": "2026-07-18T13:00:00"
       },
       "image": "https://rimh2.domainstatic.com.au/UEm1UH9__uE5HW8SXXLwE6EUQXU=/720x540/filters:format(webp):quality(85)/2020856253_3_1_260520_051134-w1920-h1280",
       "url": "https://www.domain.com.au/2-robert-street-dalkeith-wa-6009-2020856253",
@@ -3903,8 +3878,8 @@
       "isNew": true,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
+        "open": "2026-07-18T13:00:00",
+        "close": "2026-07-18T13:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/XvVVqdnFSUbFUSURBRHhlSpSRCw=/720x540/filters:format(webp):quality(85)/2021001042_1_1_260716_033559-w1920-h1280",
       "url": "https://www.domain.com.au/2-27-troy-terrace-daglish-wa-6008-2021001042",
@@ -3921,7 +3896,7 @@
       "cars": 2,
       "area": 529,
       "propertyType": "House",
-      "price": "Contact Agent",
+      "price": "FRESH TO MARKET",
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
@@ -3948,10 +3923,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:45:00",
-        "close": "2026-07-18T11:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/zxeN8b9F5Vh_kFTK-ZcHHCNAx3E=/720x540/filters:format(webp):quality(85)/2021002482_1_1_260716_073913-w6000-h4002",
       "url": "https://www.domain.com.au/22-browne-street-subiaco-wa-6008-2021002482",
       "lat": -31.953867,
@@ -3971,10 +3943,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:45:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/vY__1pe0gnCSMYx9Ryj0chI50Ck=/720x540/filters:format(webp):quality(85)/2021002506_1_1_260716_074759-w4000-h2667",
       "url": "https://www.domain.com.au/414-19-olive-street-subiaco-wa-6008-2021002506",
       "lat": -31.948013,
@@ -3994,35 +3963,12 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:45:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/eNzG9g5JB36AnrZXb6mts3Y2fhk=/720x540/filters:format(webp):quality(85)/2021002507_1_1_260716_074825-w4000-h2667",
       "url": "https://www.domain.com.au/511-19-olive-street-subiaco-wa-6008-2021002507",
       "lat": -31.948017,
       "lng": 115.830157,
       "dateAdded": "2026-07-17"
-    },
-    {
-      "id": 2020641803,
-      "address": "27/1 Freshwater Parade, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "UNDER OFFER",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": true,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/opE4UhKVGvCj6Q5EGgtyAqagAfs=/720x540/filters:format(webp):quality(85)/2020641803_9_1_260227_025741-w6000-h4000",
-      "url": "https://www.domain.com.au/27-1-freshwater-parade-claremont-wa-6010-2020641803",
-      "lat": -31.98541,
-      "lng": 115.779886,
-      "dateAdded": "2026-06-29"
     },
     {
       "id": 2020652524,
@@ -4045,6 +3991,26 @@
       "dateAdded": "2026-07-01"
     },
     {
+      "id": 2020699564,
+      "address": "9/20 Richardson Avenue, Claremont WA 6010",
+      "suburb": "Claremont",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "CONTACT GIOVANNI NOTTE",
+      "priceValue": null,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/ILOedURuJ_NMSAYL_HaLBGKanlU=/720x540/filters:format(webp):quality(85)/2020699564_1_1_260320_082325-w6000-h4000",
+      "url": "https://www.domain.com.au/9-20-richardson-avenue-claremont-wa-6010-2020699564",
+      "lat": -31.989646,
+      "lng": 115.771922,
+      "dateAdded": "2026-07-04"
+    },
+    {
       "id": 2020795858,
       "address": "211/40 St Quentin Avenue, Claremont WA 6010",
       "suburb": "Claremont",
@@ -4057,10 +4023,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/QP7T0TdnGfxRj-OeqBp8mn0pUQQ=/720x540/filters:format(webp):quality(85)/2020529970_8_1_260425_083705-w1920-h1280",
       "url": "https://www.domain.com.au/211-40-st-quentin-avenue-claremont-wa-6010-2020795858",
       "lat": -31.983167,
@@ -4086,26 +4049,6 @@
       "lat": -31.98816,
       "lng": 115.780734,
       "dateAdded": "2026-07-03"
-    },
-    {
-      "id": 2020850934,
-      "address": "7 Corry Lynn Road, Claremont WA 6010",
-      "suburb": "Claremont",
-      "beds": 4,
-      "baths": 2,
-      "cars": 2,
-      "area": 1196,
-      "propertyType": "House",
-      "price": "HOME OPEN CANCELLED",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": true,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/5Hw-RRsj3L4gahxNg7WJBaWkWoE=/720x540/filters:format(webp):quality(85)/2020850934_1_1_260518_094508-w2000-h1333",
-      "url": "https://www.domain.com.au/7-corry-lynn-road-claremont-wa-6010-2020850934",
-      "lat": -31.986538,
-      "lng": 115.774038,
-      "dateAdded": "2026-06-26"
     },
     {
       "id": 2020870889,
@@ -4180,10 +4123,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/av0CE7xunek_-aDbiI6H5H77LJ0=/720x540/filters:format(webp):quality(85)/17178922_1_1_240826_084532-w1920-h1440",
       "url": "https://www.domain.com.au/319-1-kyle-way-claremont-wa-6010-2020912253",
       "lat": -31.97701,
@@ -4709,26 +4649,6 @@
       "dateAdded": "2026-07-03"
     },
     {
-      "id": 2020471927,
-      "address": "11/30 Jarrad Street, Cottesloe WA 6011",
-      "suburb": "Cottesloe",
-      "beds": 3,
-      "baths": 2,
-      "cars": 2,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "Offers",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/LjWs5i4QL-slTcX8ejJ2emv9Np0=/720x540/filters:format(webp):quality(85)/2020471927_1_1_260430_011849-w1200-h800",
-      "url": "https://www.domain.com.au/11-30-jarrad-street-cottesloe-wa-6011-2020471927",
-      "lat": -31.999,
-      "lng": 115.760396,
-      "dateAdded": "2026-06-29"
-    },
-    {
       "id": 2020477521,
       "address": "Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -4789,6 +4709,26 @@
       "dateAdded": "2026-07-01"
     },
     {
+      "id": 2020623058,
+      "address": "34 Forrest Street, Cottesloe WA 6011",
+      "suburb": "Cottesloe",
+      "beds": 7,
+      "baths": 3,
+      "cars": null,
+      "area": 1274,
+      "propertyType": "House",
+      "price": "UNDER OFFER BY JUSTIN DAVIES",
+      "priceValue": null,
+      "isNew": false,
+      "underOffer": true,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/2mnOYSjQa6-JfweMGYYgMJ49cfo=/720x540/filters:format(webp):quality(85)/2020623058_1_1_260220_035350-w1920-h1280",
+      "url": "https://www.domain.com.au/34-forrest-street-cottesloe-wa-6011-2020623058",
+      "lat": -31.995673,
+      "lng": 115.755073,
+      "dateAdded": "2026-06-26"
+    },
+    {
       "id": 2020765350,
       "address": "8/110 Marine Parade, Cottesloe WA 6011",
       "suburb": "Cottesloe",
@@ -4844,10 +4784,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:45:00",
-        "close": "2026-07-18T11:15:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/jneK7unJe-QX6o-yFoD9L3keKlw=/720x540/filters:format(webp):quality(85)/2020896524_3_1_260605_023446-w6000-h3998",
       "url": "https://www.domain.com.au/11-hamersley-street-cottesloe-wa-6011-2020896524",
       "lat": -31.988692,
@@ -4961,26 +4898,6 @@
       "dateAdded": "2026-06-26"
     },
     {
-      "id": 2020823073,
-      "address": "6/2 Burvill Drive, Floreat WA 6014",
-      "suburb": "Floreat",
-      "beds": 2,
-      "baths": 2,
-      "cars": 2,
-      "area": 127,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "UNDER OFFER BY MATHEW ST GUILLAUME",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": true,
-      "inspect": null,
-      "image": "https://rimh2.domainstatic.com.au/3Fezsj2T0iJ7bSzCHRkYcWOd5jA=/720x540/filters:format(webp):quality(85)/2020823073_2_1_260507_030911-w3840-h2560",
-      "url": "https://www.domain.com.au/6-2-burvill-drive-floreat-wa-6014-2020823073",
-      "lat": -31.947384,
-      "lng": 115.788803,
-      "dateAdded": "2026-06-26"
-    },
-    {
       "id": 2020879384,
       "address": "56 Newry Street, Floreat WA 6014",
       "suburb": "Floreat",
@@ -5069,14 +4986,11 @@
       "cars": 3,
       "area": 999,
       "propertyType": "House",
-      "price": "Please Call For Details",
+      "price": "Under Offer by Michael Mort",
       "priceValue": null,
       "isNew": false,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T11:30:00",
-        "close": "2026-07-18T12:00:00"
-      },
+      "underOffer": true,
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/PgfNWB6tMZ43DsBlCT0o_NDxECI=/720x540/filters:format(webp):quality(85)/2020940207_1_1_260624_045021-w2351-h1567",
       "url": "https://www.domain.com.au/47-evandale-street-floreat-wa-6014-2020940207",
       "lat": -31.943105,
@@ -5097,8 +5011,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:00:00",
-        "close": "2026-07-18T10:30:00"
+        "open": "2026-07-18T12:15:00",
+        "close": "2026-07-18T12:45:00"
       },
       "image": "https://rimh2.domainstatic.com.au/5HpPMEjqnfpk8eX8U2LGxsUU54c=/720x540/filters:format(webp):quality(85)/2020986535_1_1_260710_043054-w2000-h1333",
       "url": "https://www.domain.com.au/62-meagher-drive-floreat-wa-6014-2020986535",
@@ -5171,6 +5085,29 @@
       "lat": -31.898058,
       "lng": 115.771781,
       "dateAdded": "2026-07-17"
+    },
+    {
+      "id": 2021005054,
+      "address": "137B Hale Road, Wembley Downs WA 6019",
+      "suburb": "Wembley Downs",
+      "beds": 4,
+      "baths": 2,
+      "cars": 2,
+      "area": 568,
+      "propertyType": "House",
+      "price": "CONTACT EMMA",
+      "priceValue": null,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-18T13:00:00",
+        "close": "2026-07-18T13:30:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/j4_TJIjXUDjjSOA4D_wpFc-xubc=/720x540/filters:format(webp):quality(85)/2021005054_1_1_260717_072102-w2000-h1333",
+      "url": "https://www.domain.com.au/137b-hale-road-wembley-downs-wa-6019-2021005054",
+      "lat": -31.915772,
+      "lng": 115.784239,
+      "dateAdded": "2026-07-18"
     },
     {
       "id": 2019877666,
@@ -5366,8 +5303,8 @@
       "isNew": false,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-18T10:15:00",
-        "close": "2026-07-18T10:45:00"
+        "open": "2026-07-18T15:45:00",
+        "close": "2026-07-18T16:15:00"
       },
       "image": "https://rimh2.domainstatic.com.au/Bvms19PpWYBvr6F28pWqSUWe4JI=/720x540/filters:format(webp):quality(85)/2020941560_1_1_260624_085921-w6000-h4000",
       "url": "https://www.domain.com.au/55-archdeacon-street-nedlands-wa-6009-2020941560",
@@ -5439,29 +5376,6 @@
       "dateAdded": "2026-07-08"
     },
     {
-      "id": 2020985248,
-      "address": "7/61 Stirling Highway, Nedlands WA 6009",
-      "suburb": "Nedlands",
-      "beds": 2,
-      "baths": 1,
-      "cars": 2,
-      "area": 209,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "Low to Mid $700's",
-      "priceValue": null,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-18T10:30:00",
-        "close": "2026-07-18T11:00:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/i9ImMQoYzFKJ5jrzEvjz7B3Etno=/720x540/filters:format(webp):quality(85)/2020985248_1_1_260709_122850-w1200-h800",
-      "url": "https://www.domain.com.au/7-61-stirling-highway-nedlands-wa-6009-2020985248",
-      "lat": -31.977712,
-      "lng": 115.811444,
-      "dateAdded": "2026-07-13"
-    },
-    {
       "id": 2020992646,
       "address": "3/2 Monash Avenue, Nedlands WA 6009",
       "suburb": "Nedlands",
@@ -5474,12 +5388,38 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-18T11:45:00",
+        "close": "2026-07-18T12:15:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/_nr3jkLAC73rIGAeNXzjTKNvWW0=/720x540/filters:format(webp):quality(85)/2020992646_1_1_260713_084311-w6000-h4000",
       "url": "https://www.domain.com.au/3-2-monash-avenue-nedlands-wa-6009-2020992646",
       "lat": -31.970546,
       "lng": 115.808636,
       "dateAdded": "2026-07-14"
+    },
+    {
+      "id": 2021005222,
+      "address": "8 Edward Street, Nedlands WA 6009",
+      "suburb": "Nedlands",
+      "beds": 3,
+      "baths": 2,
+      "cars": 2,
+      "area": null,
+      "propertyType": "House",
+      "price": "EXCLUSIVE SNEAK PREVIEW",
+      "priceValue": null,
+      "isNew": true,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-18T14:50:00",
+        "close": "2026-07-18T15:20:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/FrhXGQWJGyhJSH8uqMyrVYib7TU=/720x540/filters:format(webp):quality(85)/2021005222_1_1_260717_080232-w5950-h3967",
+      "url": "https://www.domain.com.au/8-edward-street-nedlands-wa-6009-2021005222",
+      "lat": -31.98059,
+      "lng": 115.812662,
+      "dateAdded": "2026-07-18"
     },
     {
       "id": 2020565239,
