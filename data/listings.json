@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T05:40:59.370386+08:00",
+  "generatedAt": "2026-07-19T12:43:09.584301+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -368,7 +368,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$600 per week",
       "priceValue": 600,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/b1l8S3mTn7KuObrEx-nkWfIOexs=/720x540/filters:format(webp):quality(85)/18218909_1_1_260716_025157-w1920-h1280",
@@ -400,6 +400,28 @@
       "dateAdded": "2026-06-26",
       "pets": false,
       "courtyard": false
+    },
+    {
+      "id": 14740960,
+      "address": "109/15 Roydhouse Street, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 1,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$650 per week",
+      "priceValue": 650,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": null,
+      "image": "https://rimh2.domainstatic.com.au/rqIsQyaSqLERc4i4DYLuqM2UY54=/720x540/filters:format(webp):quality(85)/14740960_1_1_220916_020954-w800-h533",
+      "url": "https://www.domain.com.au/109-15-roydhouse-street-subiaco-wa-6008-14740960",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.943253,
+      "lng": 115.821613,
+      "dateAdded": "2026-07-01"
     },
     {
       "id": 18174508,
@@ -537,31 +559,6 @@
       "courtyard": false,
       "lat": -31.943871,
       "lng": 115.828677,
-      "dateAdded": "2026-07-17"
-    },
-    {
-      "id": 18218769,
-      "address": "417/26 Hood Street, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 1,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$680 per week",
-      "priceValue": 680,
-      "isNew": true,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-21T16:15:00",
-        "close": "2026-07-21T16:30:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/jq4Xn8fJndYW8S7qATis0ZuZTug=/720x540/filters:format(webp):quality(85)/18218769_1_1_260716_020831-w1200-h800",
-      "url": "https://www.domain.com.au/417-26-hood-street-subiaco-wa-6008-18218769",
-      "pets": true,
-      "courtyard": false,
-      "lat": -31.944254,
-      "lng": 115.82198,
       "dateAdded": "2026-07-17"
     },
     {
@@ -1039,6 +1036,31 @@
       "dateAdded": "2026-07-13"
     },
     {
+      "id": 18218076,
+      "address": "14/172 Bagot Road, Subiaco WA 6008",
+      "suburb": "Subiaco",
+      "beds": 2,
+      "baths": 1,
+      "cars": 1,
+      "area": null,
+      "propertyType": "Apartment / Unit / Flat",
+      "price": "$800 per week",
+      "priceValue": 800,
+      "isNew": false,
+      "underOffer": false,
+      "inspect": {
+        "open": "2026-07-25T11:30:00",
+        "close": "2026-07-25T12:15:00"
+      },
+      "image": "https://rimh2.domainstatic.com.au/D3zhE5HhOswf8gj7cAN7ujLPjjE=/720x540/filters:format(webp):quality(85)/18218076_1_1_260719_042810-w8160-h6120",
+      "url": "https://www.domain.com.au/14-172-bagot-road-subiaco-wa-6008-18218076",
+      "pets": false,
+      "courtyard": false,
+      "lat": -31.950384,
+      "lng": 115.82347,
+      "dateAdded": "2026-07-17"
+    },
+    {
       "id": 18195900,
       "address": "8/263 Cambridge St, Wembley WA 6014",
       "suburb": "Wembley",
@@ -1081,31 +1103,6 @@
       "lat": -31.98816,
       "lng": 115.780734,
       "dateAdded": "2026-06-26"
-    },
-    {
-      "id": 18218076,
-      "address": "14/172 Bagot Road, Subiaco WA 6008",
-      "suburb": "Subiaco",
-      "beds": 2,
-      "baths": 1,
-      "cars": 1,
-      "area": null,
-      "propertyType": "Apartment / Unit / Flat",
-      "price": "$825 per week",
-      "priceValue": 825,
-      "isNew": false,
-      "underOffer": false,
-      "inspect": {
-        "open": "2026-07-25T15:00:00",
-        "close": "2026-07-25T15:30:00"
-      },
-      "image": "https://rimh2.domainstatic.com.au/qGhPEk_NqkDTJbjHTOi3WP44jM0=/720x540/filters:format(webp):quality(85)/18218076_2_1_260715_094708-w1440-h1920",
-      "url": "https://www.domain.com.au/14-172-bagot-road-subiaco-wa-6008-18218076",
-      "pets": false,
-      "courtyard": false,
-      "lat": -31.950384,
-      "lng": 115.82347,
-      "dateAdded": "2026-07-17"
     },
     {
       "id": 18188196,
@@ -1272,7 +1269,7 @@
       "propertyType": "House",
       "price": "$875 per week",
       "priceValue": 875,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/KE9z3KnJn0pd6wlYhnATvnIRKHQ=/720x540/filters:format(webp):quality(85)/18218689_1_1_260716_014659-w807-h539",
@@ -1432,7 +1429,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "$950 per week",
       "priceValue": 950,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": {
         "open": "2026-07-20T15:45:00",
@@ -1611,7 +1608,7 @@
       "propertyType": "Townhouse",
       "price": "$1100 per week",
       "priceValue": 1100,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": {
         "open": "2026-07-26T11:00:00",
@@ -2399,7 +2396,7 @@
       "propertyType": "House",
       "price": "$1800 per week",
       "priceValue": 1800,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": {
         "open": "2026-07-21T16:00:00",
@@ -2776,8 +2773,8 @@
       "isNew": true,
       "underOffer": false,
       "inspect": {
-        "open": "2026-07-19T09:00:00",
-        "close": "2026-07-19T09:30:00"
+        "open": "2026-07-19T15:00:00",
+        "close": "2026-07-19T15:30:00"
       },
       "image": "https://rimh2.domainstatic.com.au/-KpNEgiZBHmWrA3UWWkA-xh68Wk=/720x540/filters:format(webp):quality(85)/2021003756_1_1_260717_021933-w1920-h1280",
       "url": "https://www.domain.com.au/3-218-ewen-street-woodlands-wa-6018-2021003756",
@@ -3061,10 +3058,7 @@
       "priceValue": 2000000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T10:00:00",
-        "close": "2026-07-19T10:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/A0k99pIesWgK3Efu-B-rDHJolfM=/720x540/filters:format(webp):quality(85)/2020843222_1_1_260514_065338-w1200-h800",
       "url": "https://www.domain.com.au/94-brookdale-street-floreat-wa-6014-2020843222",
       "lat": -31.942671,
@@ -3184,10 +3178,7 @@
       "priceValue": 2349000,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T12:00:00",
-        "close": "2026-07-19T12:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/YV3s-oXkP0KIo44qIqoi9CWwdkA=/720x540/filters:format(webp):quality(85)/2020957053_1_1_260630_054359-w4096-h2733",
       "url": "https://www.domain.com.au/303-17-19-louise-street-nedlands-wa-6009-2020957053",
       "lat": -31.984308,
@@ -3767,10 +3758,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T11:30:00",
-        "close": "2026-07-19T12:00:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/GGPMXX9dcic3BZ49_GBTGzLY530=/720x540/filters:format(webp):quality(85)/2021000226_1_1_260716_011202-w1800-h1200",
       "url": "https://www.domain.com.au/24-arenga-court-mount-claremont-wa-6010-2021000226",
       "lat": -31.968266,
@@ -3790,10 +3778,7 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T11:00:00",
-        "close": "2026-07-19T11:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/XvVVqdnFSUbFUSURBRHhlSpSRCw=/720x540/filters:format(webp):quality(85)/2021001042_1_1_260716_033559-w1920-h1280",
       "url": "https://www.domain.com.au/2-27-troy-terrace-daglish-wa-6008-2021001042",
       "lat": -31.953885,
@@ -3833,7 +3818,10 @@
       "priceValue": null,
       "isNew": true,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-22T17:00:00",
+        "close": "2026-07-22T17:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/zxeN8b9F5Vh_kFTK-ZcHHCNAx3E=/720x540/filters:format(webp):quality(85)/2021002482_1_1_260716_073913-w6000-h4002",
       "url": "https://www.domain.com.au/22-browne-street-subiaco-wa-6008-2021002482",
       "lat": -31.953867,
@@ -4133,10 +4121,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T11:00:00",
-        "close": "2026-07-19T11:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/yB6MQeXNE6B7E3dTCobOaA7X0wQ=/720x540/filters:format(webp):quality(85)/2020983864_1_1_260709_041323-w6000-h4000",
       "url": "https://www.domain.com.au/8b-airlie-street-claremont-wa-6010-2020983864",
       "lat": -31.992411,
@@ -4696,10 +4681,7 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": {
-        "open": "2026-07-19T12:00:00",
-        "close": "2026-07-19T12:30:00"
-      },
+      "inspect": null,
       "image": "https://rimh2.domainstatic.com.au/kDpfJRdZ9AkTVbfgtUqDohklgxI=/720x540/filters:format(webp):quality(85)/2020936624_17_1_260625_063232-w6000-h4000",
       "url": "https://www.domain.com.au/44-florence-street-cottesloe-wa-6011-2020936624",
       "lat": -31.988559,
@@ -4937,7 +4919,7 @@
       "propertyType": "Apartment / Unit / Flat",
       "price": "End Date Sale",
       "priceValue": null,
-      "isNew": true,
+      "isNew": false,
       "underOffer": false,
       "inspect": {
         "open": "2026-07-19T13:30:00",
