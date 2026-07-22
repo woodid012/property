@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T05:37:44.066886+08:00",
+  "generatedAt": "2026-07-23T06:54:37.002842+08:00",
   "config": {
     "_comment": "Edit this to change the search. The scraper and the website both read it.",
     "minBedrooms": 1,
@@ -4833,7 +4833,10 @@
       "priceValue": null,
       "isNew": false,
       "underOffer": false,
-      "inspect": null,
+      "inspect": {
+        "open": "2026-07-25T13:00:00",
+        "close": "2026-07-25T13:30:00"
+      },
       "image": "https://rimh2.domainstatic.com.au/5HpPMEjqnfpk8eX8U2LGxsUU54c=/720x540/filters:format(webp):quality(85)/2020986535_1_1_260710_043054-w2000-h1333",
       "url": "https://www.domain.com.au/62-meagher-drive-floreat-wa-6014-2020986535",
       "lat": -31.945725,
